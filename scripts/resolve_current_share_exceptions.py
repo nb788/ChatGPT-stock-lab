@@ -79,17 +79,24 @@ def is_generic_common_member(s):
     parts=[p.strip() for p in str(s or '').split('|') if p.strip()]
     return any(p.split(':')[-1].lower()=='commonstockmember' for p in parts)
 
+def soup_for_doc(raw):
+    head=bytes(raw[:1024]).lstrip().lower(); is_xml=head.startswith(b'<?xml') or b'<xbrl' in head or b'<xbrli:xbrl' in head
+    return BeautifulSoup(raw,'xml' if is_xml else 'lxml'),is_xml
+
+def is_dei_share_tag(tag):
+    return str(tag.attrs.get('name','')).lower().endswith('entitycommonstocksharesoutstanding') or str(tag.name or '').lower().endswith('entitycommonstocksharesoutstanding')
+
 def parse_filing(html,cik,accn,symbols):
-    soup=BeautifulSoup(html,'lxml'); facts=[]
+    soup,_=soup_for_doc(html); facts=[]
     for tag in soup.find_all(True):
-        if not str(tag.attrs.get('name','')).lower().endswith('entitycommonstocksharesoutstanding'): continue
+        if not is_dei_share_tag(tag): continue
         val=numeric_fact(tag)
         if val is None or val<=0: continue
         cref=tag.attrs.get('contextref') or tag.attrs.get('contextRef'); context=soup.find(id=cref) if cref else None
         instant=None; members=[]
         if context:
             for child in context.find_all(True):
-                lname=child.name.lower() if child.name else ''
+                lname=str(child.name or '').lower()
                 if lname.endswith('instant'): instant=child.get_text(' ',strip=True)
                 if lname.endswith('explicitmember') or lname.endswith('typedmember'): members.append(child.get_text(' ',strip=True))
         member='|'.join(sorted(set(members)))
@@ -135,7 +142,7 @@ def main():
                 elif reason=='NO_VALID_FILING_DEI_FACT': reason='MULTIPLE_LATEST_DEI_VALUES_SINGLE_TICKER'
         resolved.append({'symbol':symbol,'cik':cik,'name':row['name'],'listing_security_name':listing,'bulk_has_dei':bool(row.get('has_unambiguous_dei',False)),'bulk_fact_age_days':row.get('fact_age_days'),'fallback_status':status,'fallback_shares':shares,'fallback_fact_date':fact_date,'dimension_members':member,'reason':reason})
     res=pd.DataFrame(resolved); res.to_csv(DATA/'qa_current_filing_resolution.csv',index=False)
-    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'audit_asof_utc':ASOF.isoformat(),'exception_symbols':int(len(exc)),'exception_ciks':int(len(target)),'latest_filings_found':int(len(filings)),'filing_fetch_failures':int(len(fetch_fail)),'filing_dei_fact_rows':int(len(facts)),'future_or_post_acceptance_facts_quarantined':int(len(bad)),'listing_name_matches_found':int(exc.listing_security_name.notna().sum()),'resolved_exception_symbols':int(res.fallback_status.str.startswith('RESOLVED').sum()),'unresolved_exception_symbols':int((~res.fallback_status.str.startswith('RESOLVED')).sum()),'rule':'Filing-level DEI fallback with hard timing cutoff + official listing identity. No guessing.'}
+    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'audit_asof_utc':ASOF.isoformat(),'exception_symbols':int(len(exc)),'exception_ciks':int(len(target)),'latest_filings_found':int(len(filings)),'filing_fetch_failures':int(len(fetch_fail)),'filing_dei_fact_rows':int(len(facts)),'future_or_post_acceptance_facts_quarantined':int(len(bad)),'listing_name_matches_found':int(exc.listing_security_name.notna().sum()),'resolved_exception_symbols':int(res.fallback_status.str.startswith('RESOLVED').sum()),'unresolved_exception_symbols':int((~res.fallback_status.str.startswith('RESOLVED')).sum()),'rule':'Filing-level DEI fallback with hard timing cutoff + official listing identity. Supports inline and native XML XBRL. No guessing.'}
     (DATA/'qa_current_filing_summary.json').write_text(json.dumps(summary,indent=2)); print(json.dumps(summary,indent=2))
 
 if __name__=='__main__': main()
