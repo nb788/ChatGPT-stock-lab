@@ -85,17 +85,24 @@ def numeric(tag):
     if (tag.attrs.get('sign') or tag.attrs.get('Sign'))=='-' or neg: v=-abs(v)
     return v
 
+def soup_for_doc(raw):
+    head=bytes(raw[:1024]).lstrip().lower(); is_xml=head.startswith(b'<?xml') or b'<xbrl' in head or b'<xbrli:xbrl' in head
+    return BeautifulSoup(raw,'xml' if is_xml else 'lxml'),is_xml
+
+def is_dei_share_tag(tag):
+    return str(tag.attrs.get('name','')).lower().endswith('entitycommonstocksharesoutstanding') or str(tag.name or '').lower().endswith('entitycommonstocksharesoutstanding')
+
 def parse(html,c,acc):
-    soup=BeautifulSoup(html,'lxml'); out=[]
+    soup,_=soup_for_doc(html); out=[]
     for tag in soup.find_all(True):
-        if not str(tag.attrs.get('name','')).lower().endswith('entitycommonstocksharesoutstanding'): continue
+        if not is_dei_share_tag(tag): continue
         v=numeric(tag)
         if v is None or v<=0: continue
         cr=tag.attrs.get('contextref') or tag.attrs.get('contextRef'); ctx=soup.find(id=cr) if cr else None
         instant=None; members=[]
         if ctx:
             for ch in ctx.find_all(True):
-                ln=ch.name.lower() if ch.name else ''
+                ln=str(ch.name or '').lower()
                 if ln.endswith('instant'): instant=ch.get_text(' ',strip=True)
                 if ln.endswith('explicitmember') or ln.endswith('typedmember'): members.append(ch.get_text(' ',strip=True))
         mem='|'.join(sorted(set(members)))
@@ -158,7 +165,7 @@ def main():
         rows.append({'symbol':r.symbol,'cik':r.cik,'name':r['name'],'listing_security_name':r.get('listing_security_name'),'status':status,'shares':shares,'fact_date':fd,'dimension_members':mem,'reason':reason})
     res=pd.DataFrame(rows); res.to_csv(DATA/'qa_all_current_resolution.csv',index=False)
     total=len(res); solved=int(res.status.str.startswith('RESOLVED').sum()); unresolved=total-solved
-    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'audit_asof_utc':ASOF.isoformat(),'current_constituent_rows':int(total),'unique_current_ciks':int(cur.cik.nunique()),'latest_filings_found':int(len(filings)),'future_periodic_filings_quarantined':int(len(future_filings)),'unmapped_periodic_filing_acceptance_quarantined':int(len(unmapped_filings)),'fetch_failures':int(len(fails)),'filing_dei_fact_rows_raw':int(len(f)),'future_or_post_acceptance_fact_rows_quarantined':int(len(badfacts)),'filing_dei_fact_rows_valid':int(len(validf)),'resolved_rows':solved,'resolved_pct':round(100*solved/total,4) if total else None,'unresolved_rows':unresolved,'rule':'All-current filing-level DEI audit with hard acceptance/fact-date cutoffs. Explicit class identity > exact generic CommonStockMember > one-current-ticker/one-value. No guessing.'}
+    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'audit_asof_utc':ASOF.isoformat(),'current_constituent_rows':int(total),'unique_current_ciks':int(cur.cik.nunique()),'latest_filings_found':int(len(filings)),'future_periodic_filings_quarantined':int(len(future_filings)),'unmapped_periodic_filing_acceptance_quarantined':int(len(unmapped_filings)),'fetch_failures':int(len(fails)),'filing_dei_fact_rows_raw':int(len(f)),'future_or_post_acceptance_fact_rows_quarantined':int(len(badfacts)),'filing_dei_fact_rows_valid':int(len(validf)),'resolved_rows':solved,'resolved_pct':round(100*solved/total,4) if total else None,'unresolved_rows':unresolved,'rule':'All-current filing-level DEI audit with hard acceptance/fact-date cutoffs. Supports inline and native XML XBRL. Explicit class identity > exact generic CommonStockMember > one-current-ticker/one-value. No guessing.'}
     (DATA/'qa_all_current_summary.json').write_text(json.dumps(summary,indent=2)); print(json.dumps(summary,indent=2))
 
 if __name__=='__main__': main()
