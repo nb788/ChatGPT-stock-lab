@@ -39,10 +39,8 @@ def listing_security_names():
             parts=ln.split('|')
             if len(parts)!=len(header): continue
             d=dict(zip(header,parts))
-            if kind=='NASDAQ':
-                sym=d.get('Symbol'); name=d.get('Security Name')
-            else:
-                sym=d.get('ACT Symbol'); name=d.get('Security Name')
+            sym=d.get('Symbol') if kind=='NASDAQ' else d.get('ACT Symbol')
+            name=d.get('Security Name')
             if sym and name: rows.append({'symbol':norm_symbol(sym),'listing_security_name':name,'listing_source':kind})
     out=pd.DataFrame(rows).drop_duplicates('symbol') if rows else pd.DataFrame(columns=['symbol','listing_security_name','listing_source'])
     out.to_csv(DATA/'qa_listing_security_names.csv',index=False)
@@ -111,8 +109,10 @@ def expected_class(symbol,index_name,listing_name):
 
 
 def is_generic_common_member(s):
-    t=str(s or '').lower()
-    return ('commonstockmember' in t and 'class' not in t) or t.endswith(':commonstockmember')
+    # Deliberately strict: only the exact XBRL member local-name CommonStockMember.
+    # NonvotingCommonStockMember, ConvertibleCommonStockMember, etc. are NOT generic.
+    parts=[p.strip() for p in str(s or '').split('|') if p.strip()]
+    return any(p.split(':')[-1].lower()=='commonstockmember' for p in parts)
 
 
 def parse_filing(html,cik,accn,symbols):
@@ -190,7 +190,7 @@ def main():
                 mf=cf[cf['generic_common_member'].eq(True)]
                 vals=mf['shares'].dropna().unique()
                 if len(vals)==1:
-                    status='RESOLVED_GENERIC_LISTED_COMMON'; shares=float(vals[0]); reason='OFFICIAL_LISTING_COMMON_STOCK_MATCHES_GENERIC_COMMON_MEMBER'
+                    status='RESOLVED_GENERIC_LISTED_COMMON'; shares=float(vals[0]); reason='OFFICIAL_LISTING_COMMON_STOCK_MATCHES_EXACT_COMMONSTOCKMEMBER'
                     fact_date=str(maxdt.date()) if pd.notna(maxdt) else None
                     member='|'.join(sorted(set(mf['dimension_members'].fillna('').astype(str))))
             if status=='UNRESOLVED' and len(symbols)==1:
@@ -215,7 +215,7 @@ def main():
       'listing_name_matches_found':int(exc['listing_security_name'].notna().sum()),
       'resolved_exception_symbols':int(res['fallback_status'].str.startswith('RESOLVED').sum()),
       'unresolved_exception_symbols':int((~res['fallback_status'].str.startswith('RESOLVED')).sum()),
-      'rule':'Filing-level DEI fallback + official listing security-name class identity. Resolution requires explicit class match, generic-listed-common match, or one-current-ticker/one-value. No guessing.'
+      'rule':'Filing-level DEI fallback + official listing security-name class identity. Generic matching is exact CommonStockMember only. No guessing.'
     }
     (DATA/'qa_current_filing_summary.json').write_text(json.dumps(summary,indent=2))
     print(json.dumps(summary,indent=2))
