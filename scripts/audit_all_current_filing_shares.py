@@ -13,6 +13,7 @@ UA=os.environ.get('SEC_USER_AGENT','').strip()
 if not UA: raise SystemExit('SEC_USER_AGENT required')
 HEAD={'User-Agent':UA,'Accept-Encoding':'gzip, deflate'}
 FORMS={'10-Q','10-K','20-F','40-F'}
+ASOF=pd.Timestamp.now(tz='UTC')
 
 def get(url,sec=True):
     r=requests.get(url,headers=(HEAD if sec else {'User-Agent':'Mozilla/5.0'}),timeout=120)
@@ -53,7 +54,7 @@ def submission_rows(obj,c):
     return out
 
 def latest_filings(sub_bytes,current_ciks):
-    out=[]
+    out=[]; future=[]; unmapped=[]
     with zipfile.ZipFile(io.BytesIO(sub_bytes)) as z:
         names=set(z.namelist())
         for c in sorted(current_ciks):
@@ -64,8 +65,14 @@ def latest_filings(sub_bytes,current_ciks):
             df=df[df.form.isin(FORMS)].copy()
             if df.empty: continue
             df['adt']=pd.to_datetime(df.acceptance_datetime,errors='coerce',utc=True)
+            bad_na=df[df.adt.isna()]
+            if len(bad_na): unmapped.extend(bad_na.drop(columns='adt').to_dict('records'))
+            bad_future=df[df.adt.notna() & (df.adt>ASOF)]
+            if len(bad_future): future.extend(bad_future.drop(columns='adt').to_dict('records'))
+            df=df[df.adt.notna() & (df.adt<=ASOF)]
+            if df.empty: continue
             out.extend(df.sort_values(['adt','filing_date']).tail(1).drop(columns='adt').to_dict('records'))
-    return pd.DataFrame(out)
+    return pd.DataFrame(out),pd.DataFrame(future),pd.DataFrame(unmapped)
 
 def numeric(tag):
     txt=re.sub(r'[^0-9.\-()]','',tag.get_text(' ',strip=True).replace(',','').replace('$',''))
@@ -104,7 +111,10 @@ def expected(symbol,index_name,listing_name):
 def main():
     cur=pd.read_csv(DATA/'sp500_current_source.csv',dtype={'cik':str}); cur['cik']=cur.cik.map(cik); cur['symbol_norm']=cur.symbol.map(sym)
     ln=listing_names(); cur=cur.merge(ln,on='symbol_norm',how='left')
-    sub=get(SEC_SUB,True); filings=latest_filings(sub,set(cur.cik)); filings.to_csv(DATA/'qa_all_current_latest_filings.csv',index=False)
+    sub=get(SEC_SUB,True); filings,future_filings,unmapped_filings=latest_filings(sub,set(cur.cik))
+    filings.to_csv(DATA/'qa_all_current_latest_filings.csv',index=False)
+    future_filings.to_csv(DATA/'qa_all_current_future_filings_quarantined.csv',index=False)
+    unmapped_filings.to_csv(DATA/'qa_all_current_unmapped_filing_acceptance.csv',index=False)
     facts=[]; fails=[]
     for _,r in filings.iterrows():
         c=r.cik; acc=str(r.accn); doc=str(r.primary_document)
@@ -116,12 +126,23 @@ def main():
                 pf['acceptance_datetime']=r.acceptance_datetime; pf['form']=r.form; pf['filing_url']=url; facts.append(pf)
         except Exception as e: fails.append({'cik':c,'symbol':'|'.join(cur[cur.cik.eq(c)].symbol.tolist()),'url':url,'error':repr(e)})
         time.sleep(0.11)
-    f=pd.concat(facts,ignore_index=True) if facts else pd.DataFrame(); f.to_csv(DATA/'qa_all_current_filing_dei_facts.csv',index=False); pd.DataFrame(fails).to_csv(DATA/'qa_all_current_fetch_failures.csv',index=False)
+    f=pd.concat(facts,ignore_index=True) if facts else pd.DataFrame(); pd.DataFrame(fails).to_csv(DATA/'qa_all_current_fetch_failures.csv',index=False)
+    if len(f):
+        f['fact_dt']=pd.to_datetime(f.fact_date,errors='coerce',utc=True)
+        f['acceptance_ts']=pd.to_datetime(f.acceptance_datetime,errors='coerce',utc=True)
+        f['future_vs_asof']=f.fact_dt.notna() & (f.fact_dt>ASOF)
+        f['future_vs_acceptance_day']=f.fact_dt.notna() & f.acceptance_ts.notna() & (f.fact_dt.dt.normalize()>f.acceptance_ts.dt.normalize())
+    else:
+        f['future_vs_asof']=[]; f['future_vs_acceptance_day']=[]
+    badfacts=f[f.future_vs_asof | f.future_vs_acceptance_day].copy() if len(f) else pd.DataFrame()
+    badfacts.to_csv(DATA/'qa_all_current_future_facts_quarantined.csv',index=False)
+    validf=f[~(f.future_vs_asof | f.future_vs_acceptance_day)].copy() if len(f) else f
+    validf.to_csv(DATA/'qa_all_current_filing_dei_facts.csv',index=False)
     symbols_by_cik=cur.groupby('cik').symbol.apply(list).to_dict(); rows=[]
     for _,r in cur.iterrows():
-        cf=f[f.cik.eq(r.cik)].copy() if len(f) else pd.DataFrame(); status='UNRESOLVED'; shares=None; fd=None; mem=None; reason='NO_LATEST_FILING_DEI'
+        cf=validf[validf.cik.eq(r.cik)].copy() if len(validf) else pd.DataFrame(); status='UNRESOLVED'; shares=None; fd=None; mem=None; reason='NO_VALID_LATEST_FILING_DEI'
         if len(cf):
-            cf['dt']=pd.to_datetime(cf.fact_date,errors='coerce'); mx=cf.dt.max(); cf=cf[cf.dt.eq(mx)] if pd.notna(mx) else cf
+            mx=cf.fact_dt.max(); cf=cf[cf.fact_dt.eq(mx)] if pd.notna(mx) else cf
             ex=expected(r.symbol,r['name'],r.get('listing_security_name')); syms=symbols_by_cik.get(r.cik,[])
             if ex:
                 z=cf[cf.class_letter.eq(ex)]; vals=z.shares.dropna().unique()
@@ -133,11 +154,11 @@ def main():
             if status=='UNRESOLVED' and len(syms)==1:
                 vals=cf.shares.dropna().unique()
                 if len(vals)==1: status='RESOLVED_ONE_VALUE'; shares=float(vals[0]); fd=str(mx.date()) if pd.notna(mx) else None; mem='|'.join(sorted(set(cf.dimension_members.fillna('').astype(str)))); reason='ONE_CURRENT_TICKER_ONE_LATEST_DEI_VALUE'
-                elif reason=='NO_LATEST_FILING_DEI': reason='MULTIPLE_LATEST_DEI_VALUES'
+                elif reason=='NO_VALID_LATEST_FILING_DEI': reason='MULTIPLE_LATEST_DEI_VALUES'
         rows.append({'symbol':r.symbol,'cik':r.cik,'name':r['name'],'listing_security_name':r.get('listing_security_name'),'status':status,'shares':shares,'fact_date':fd,'dimension_members':mem,'reason':reason})
     res=pd.DataFrame(rows); res.to_csv(DATA/'qa_all_current_resolution.csv',index=False)
     total=len(res); solved=int(res.status.str.startswith('RESOLVED').sum()); unresolved=total-solved
-    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'current_constituent_rows':int(total),'unique_current_ciks':int(cur.cik.nunique()),'latest_filings_found':int(len(filings)),'fetch_failures':int(len(fails)),'filing_dei_fact_rows':int(len(f)),'resolved_rows':solved,'resolved_pct':round(100*solved/total,4) if total else None,'unresolved_rows':unresolved,'rule':'All-current filing-level DEI audit. Explicit class identity > exact generic CommonStockMember > one-current-ticker/one-value. No guessing.'}
+    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'audit_asof_utc':ASOF.isoformat(),'current_constituent_rows':int(total),'unique_current_ciks':int(cur.cik.nunique()),'latest_filings_found':int(len(filings)),'future_periodic_filings_quarantined':int(len(future_filings)),'unmapped_periodic_filing_acceptance_quarantined':int(len(unmapped_filings)),'fetch_failures':int(len(fails)),'filing_dei_fact_rows_raw':int(len(f)),'future_or_post_acceptance_fact_rows_quarantined':int(len(badfacts)),'filing_dei_fact_rows_valid':int(len(validf)),'resolved_rows':solved,'resolved_pct':round(100*solved/total,4) if total else None,'unresolved_rows':unresolved,'rule':'All-current filing-level DEI audit with hard acceptance/fact-date cutoffs. Explicit class identity > exact generic CommonStockMember > one-current-ticker/one-value. No guessing.'}
     (DATA/'qa_all_current_summary.json').write_text(json.dumps(summary,indent=2)); print(json.dumps(summary,indent=2))
 
 if __name__=='__main__': main()
