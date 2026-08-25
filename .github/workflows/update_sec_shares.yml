@@ -9,6 +9,7 @@ on:
       - "scripts/build_sec_shares.py"
       - "scripts/audit_sec_shares.py"
       - "scripts/resolve_current_share_exceptions.py"
+      - "scripts/audit_all_current_filing_shares.py"
       - ".github/workflows/update_sec_shares.yml"
 
 permissions:
@@ -35,6 +36,10 @@ jobs:
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: python scripts/resolve_current_share_exceptions.py
+      - name: Audit all current constituents at filing level
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python scripts/audit_all_current_filing_shares.py
       - name: Commit updated public-data outputs
         run: |
           git config user.name "sec-shares-bot"
