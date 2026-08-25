@@ -11,6 +11,7 @@ on:
       - "scripts/resolve_current_share_exceptions.py"
       - "scripts/audit_all_current_filing_shares.py"
       - "scripts/build_current_share_events.py"
+      - "tests/validate_strategy_data.py"
       - ".github/workflows/update_sec_shares.yml"
 
 concurrency:
@@ -49,6 +50,8 @@ jobs:
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: python scripts/build_current_share_events.py
+      - name: Run adversarial architecture and failure-injection tests
+        run: python tests/validate_strategy_data.py
       - name: Commit updated public-data outputs
         run: |
           git config user.name "sec-shares-bot"
