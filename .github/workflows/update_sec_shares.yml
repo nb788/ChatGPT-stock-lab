@@ -58,5 +58,6 @@ jobs:
             echo "No data changes."
           else
             git commit -m "Update SEC share facts and QA $(date -u +%F)"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
