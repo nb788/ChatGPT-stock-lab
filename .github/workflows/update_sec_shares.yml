@@ -13,6 +13,10 @@ on:
       - "scripts/build_current_share_events.py"
       - ".github/workflows/update_sec_shares.yml"
 
+concurrency:
+  group: sec-share-bridge-main
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
