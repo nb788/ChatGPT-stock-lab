@@ -8,6 +8,7 @@ on:
     paths:
       - "scripts/build_sec_shares.py"
       - "scripts/audit_sec_shares.py"
+      - "scripts/resolve_current_share_exceptions.py"
       - ".github/workflows/update_sec_shares.yml"
 
 permissions:
@@ -23,13 +24,17 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install dependencies
-        run: pip install pandas requests
+        run: pip install pandas requests beautifulsoup4 lxml
       - name: Build compact SEC share-facts dataset
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: python scripts/build_sec_shares.py
       - name: Audit SEC share-facts dataset
         run: python scripts/audit_sec_shares.py
+      - name: Resolve current share exceptions from filing-level XBRL
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: python scripts/resolve_current_share_exceptions.py
       - name: Commit updated public-data outputs
         run: |
           git config user.name "sec-shares-bot"
