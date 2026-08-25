@@ -7,6 +7,10 @@ on:
     # the Lab consumes only the check appropriate to the current NY offset and newest successful result.
     - cron: "15 20 * * 1-5"
     - cron: "15 21 * * 1-5"
+  push:
+    paths:
+      - "scripts/build_live_sec_delta.py"
+      - ".github/workflows/check_sec_live_delta.yml"
 
 concurrency:
   group: sec-live-delta-main
