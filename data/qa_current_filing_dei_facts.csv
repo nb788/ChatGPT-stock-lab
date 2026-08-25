@@ -1,8 +1,8 @@
 cik,accn,context_ref,fact_date,shares,dimension_members,class_letter,generic_common_member,symbols_for_cik,filing_url,form,acceptance_datetime
 0000014693,0000014693-26-000024,c-7,2026-06-09,168480849.0,us-gaap:CommonClassAMember,A,False,BF.B,https://www.sec.gov/Archives/edgar/data/14693/000001469326000024/bfb-20260430.htm,10-K,2026-06-12T20:01:49.000Z
-0000014693,0000014693-26-000024,c-8,2026-06-09,290383416.0,us-gaap:NonvotingCommonStockMember,,True,BF.B,https://www.sec.gov/Archives/edgar/data/14693/000001469326000024/bfb-20260430.htm,10-K,2026-06-12T20:01:49.000Z
+0000014693,0000014693-26-000024,c-8,2026-06-09,290383416.0,us-gaap:NonvotingCommonStockMember,,False,BF.B,https://www.sec.gov/Archives/edgar/data/14693/000001469326000024/bfb-20260430.htm,10-K,2026-06-12T20:01:49.000Z
 0000016918,0000016918-26-000029,c-2,2026-06-26,170752511.0,us-gaap:CommonClassAMember,A,False,STZ,https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/stz-20260531.htm,10-Q,2026-07-01T18:00:45.000Z
-0000016918,0000016918-26-000029,c-3,2026-06-26,25923.0,us-gaap:ConvertibleCommonStockMember,,True,STZ,https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/stz-20260531.htm,10-Q,2026-07-01T18:00:45.000Z
+0000016918,0000016918-26-000029,c-3,2026-06-26,25923.0,us-gaap:ConvertibleCommonStockMember,,False,STZ,https://www.sec.gov/Archives/edgar/data/16918/000001691826000029/stz-20260531.htm,10-Q,2026-07-01T18:00:45.000Z
 0000024545,0000024545-26-000071,c-6,2026-07-30,2563034.0,us-gaap:CommonClassAMember,A,False,TAP,https://www.sec.gov/Archives/edgar/data/24545/000002454526000071/tap-20260630.htm,10-Q,2026-08-06T12:47:17.000Z
 0000024545,0000024545-26-000071,c-7,2026-07-30,174117990.0,us-gaap:CommonClassBMember,B,False,TAP,https://www.sec.gov/Archives/edgar/data/24545/000002454526000071/tap-20260630.htm,10-Q,2026-08-06T12:47:17.000Z
 0000037996,0000037996-26-000156,c-6,2026-07-24,3916743591.0,us-gaap:CommonStockMember,,True,F,https://www.sec.gov/Archives/edgar/data/37996/000003799626000156/f-20260630.htm,10-Q,2026-07-28T23:29:21.000Z
@@ -11,7 +11,7 @@ cik,accn,context_ref,fact_date,shares,dimension_members,class_letter,generic_com
 0000047111,0001628280-26-050900,c-3,2026-07-27,54613514.0,us-gaap:CommonClassBMember,B,False,HSY,https://www.sec.gov/Archives/edgar/data/47111/000162828026050900/hsy-20260628.htm,10-Q,2026-07-30T14:32:59.000Z
 0000048465,0000048465-26-000026,c-2,2026-05-24,550314959.0,us-gaap:CommonStockMember,,True,HRL,https://www.sec.gov/Archives/edgar/data/48465/000004846526000026/hrl-20260426.htm,10-Q,2026-05-28T18:14:57.000Z
 0000063754,0000063754-26-000274,c-4,2026-05-31,14796402.0,us-gaap:CommonStockMember,,True,MKC,https://www.sec.gov/Archives/edgar/data/63754/000006375426000274/mkc-20260531.htm,10-Q,2026-06-25T20:37:02.000Z
-0000063754,0000063754-26-000274,c-5,2026-05-31,254055150.0,us-gaap:NonvotingCommonStockMember,,True,MKC,https://www.sec.gov/Archives/edgar/data/63754/000006375426000274/mkc-20260531.htm,10-Q,2026-06-25T20:37:02.000Z
+0000063754,0000063754-26-000274,c-5,2026-05-31,254055150.0,us-gaap:NonvotingCommonStockMember,,False,MKC,https://www.sec.gov/Archives/edgar/data/63754/000006375426000274/mkc-20260531.htm,10-Q,2026-06-25T20:37:02.000Z
 0000091142,0000091142-26-000098,c-2,2026-07-28,25861359.0,us-gaap:CommonClassAMember,A,False,AOS,https://www.sec.gov/Archives/edgar/data/91142/000009114226000098/aos-20260630.htm,10-Q,2026-07-30T20:07:23.000Z
 0000091142,0000091142-26-000098,c-3,2026-07-28,110047214.0,aos:CommonStockClassUndefinedMember,,False,AOS,https://www.sec.gov/Archives/edgar/data/91142/000009114226000098/aos-20260630.htm,10-Q,2026-07-30T20:07:23.000Z
 0000100493,0000100493-26-000058,c-2,2026-06-27,281792507.0,us-gaap:CommonClassAMember,A,False,TSN,https://www.sec.gov/Archives/edgar/data/100493/000010049326000058/tsn-20260627.htm,10-Q,2026-08-03T11:39:02.000Z
@@ -51,7 +51,7 @@ cik,accn,context_ref,fact_date,shares,dimension_members,class_letter,generic_com
 0001166691,0001628280-26-049360,c-15,2026-07-15,3539192198.0,us-gaap:CommonClassAMember,A,False,CMCSA,https://www.sec.gov/Archives/edgar/data/1166691/000162828026049360/cmcsa-20260630.htm,10-Q,2026-07-23T19:11:20.000Z
 0001166691,0001628280-26-049360,c-16,2026-07-15,9444375.0,us-gaap:CommonClassBMember,B,False,CMCSA,https://www.sec.gov/Archives/edgar/data/1166691/000162828026049360/cmcsa-20260630.htm,10-Q,2026-07-23T19:11:20.000Z
 0001176948,0001628280-26-054538,c-4,2026-08-03,223957742.0,us-gaap:CommonClassAMember,A,False,ARES,https://www.sec.gov/Archives/edgar/data/1176948/000162828026054538/ares-20260630.htm,10-Q,2026-08-07T01:06:32.000Z
-0001176948,0001628280-26-054538,c-5,2026-08-03,3489911.0,us-gaap:NonvotingCommonStockMember,,True,ARES,https://www.sec.gov/Archives/edgar/data/1176948/000162828026054538/ares-20260630.htm,10-Q,2026-08-07T01:06:32.000Z
+0001176948,0001628280-26-054538,c-5,2026-08-03,3489911.0,us-gaap:NonvotingCommonStockMember,,False,ARES,https://www.sec.gov/Archives/edgar/data/1176948/000162828026054538/ares-20260630.htm,10-Q,2026-08-07T01:06:32.000Z
 0001176948,0001628280-26-054538,c-6,2026-08-03,1000.0,us-gaap:CommonClassBMember,B,False,ARES,https://www.sec.gov/Archives/edgar/data/1176948/000162828026054538/ares-20260630.htm,10-Q,2026-08-07T01:06:32.000Z
 0001176948,0001628280-26-054538,c-7,2026-08-03,102828576.0,us-gaap:CommonClassCMember,C,False,ARES,https://www.sec.gov/Archives/edgar/data/1176948/000162828026054538/ares-20260630.htm,10-Q,2026-08-07T01:06:32.000Z
 0001176948,0001628280-26-054538,c-8,2026-08-03,30000000.0,ares:SeriesBMandatoryConvertiblePreferredStockMember,,False,ARES,https://www.sec.gov/Archives/edgar/data/1176948/000162828026054538/ares-20260630.htm,10-Q,2026-08-07T01:06:32.000Z

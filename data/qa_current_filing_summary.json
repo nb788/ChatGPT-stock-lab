@@ -1,5 +1,5 @@
 {
-  "audited_at_utc": "2026-08-25T23:11:16.099541+00:00",
+  "audited_at_utc": "2026-08-25T23:16:35.312455+00:00",
   "exception_symbols": 53,
   "exception_ciks": 50,
   "latest_filings_found": 50,
@@ -7,7 +7,7 @@
   "filing_dei_fact_rows": 114,
   "filing_dei_fact_ciks": 50,
   "listing_name_matches_found": 53,
-  "resolved_exception_symbols": 40,
-  "unresolved_exception_symbols": 13,
-  "rule": "Filing-level DEI fallback + official listing security-name class identity. Resolution requires explicit class match, generic-listed-common match, or one-current-ticker/one-value. No guessing."
+  "resolved_exception_symbols": 39,
+  "unresolved_exception_symbols": 14,
+  "rule": "Filing-level DEI fallback + official listing security-name class identity. Generic matching is exact CommonStockMember only. No guessing."
 }

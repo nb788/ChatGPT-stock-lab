@@ -1,5 +1,5 @@
 {
-  "built_at_utc": "2026-08-25T23:10:20.782674+00:00",
+  "built_at_utc": "2026-08-25T23:14:58.204127+00:00",
   "source_companyfacts": "https://www.sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip",
   "source_submissions": "https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip",
   "source_sp500_history": "https://raw.githubusercontent.com/lawcal/sp500-components-history/main/data/components_history.csv",
