@@ -1,0 +1,29 @@
+{
+  "audited_at_utc": "2026-08-25T23:02:14.885450+00:00",
+  "raw_rows": 96380,
+  "unique_ciks_in_raw": 821,
+  "first_fact_end": "2006-12-31",
+  "last_fact_end": "2027-07-17",
+  "acceptance_mapped_rows": 96374,
+  "acceptance_unmapped_rows": 6,
+  "exact_duplicate_rows": 0,
+  "dei_conflict_groups": 0,
+  "dei_conflict_ciks": 0,
+  "dei_gaap_disagreement_groups": 1130,
+  "dei_gaap_disagreement_ciks": 118,
+  "current_constituent_rows": 503,
+  "current_unambiguous_dei_coverage_count": 472,
+  "current_unambiguous_dei_coverage_pct": 93.837,
+  "current_multi_value_ambiguity_count": 0,
+  "current_stale_gt_180d_count": 22,
+  "latest_current_share_value_quantiles": {
+    "0.0": 1.0,
+    "0.001": 1.0,
+    "0.01": 18960309.84,
+    "0.5": 319338361.0,
+    "0.99": 7118259531.540009,
+    "0.999": 19675658779.999966,
+    "1.0": 24200000000.0
+  },
+  "hard_interpretation": "QA only. Coverage does not make a denominator production-valid until share-class identity, split propagation, signal-cutoff timing, and corporate-action reconciliation pass."
+}
