@@ -4,6 +4,11 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "30 10 * * 1-6"
+  push:
+    paths:
+      - "scripts/build_sec_shares.py"
+      - "scripts/audit_sec_shares.py"
+      - ".github/workflows/update_sec_shares.yml"
 
 permissions:
   contents: write
@@ -23,6 +28,8 @@ jobs:
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: python scripts/build_sec_shares.py
+      - name: Audit SEC share-facts dataset
+        run: python scripts/audit_sec_shares.py
       - name: Commit updated public-data outputs
         run: |
           git config user.name "sec-shares-bot"
@@ -31,6 +38,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data changes."
           else
-            git commit -m "Update SEC share facts $(date -u +%F)"
+            git commit -m "Update SEC share facts and QA $(date -u +%F)"
             git push
           fi
