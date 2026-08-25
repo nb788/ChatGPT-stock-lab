@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import json, math
+import json
 from pathlib import Path
 from datetime import datetime, timezone
 import pandas as pd
 
 DATA=Path('data')
 OUT=DATA/'qa_strategy_validation_summary.json'
-
 class ValidationFailure(AssertionError): pass
 
 def req(cond,msg):
@@ -33,7 +32,6 @@ def split_only_price(raw, date, splits, analysis_end):
     return x
 
 def qualify(df):
-    # same-date eligible universe; inclusive >= 90th percentile as frozen rule states
     r=df.R21.quantile(.90); t=df.turnover.quantile(.90)
     return set(df.loc[(df.R21>=r)&(df.turnover>=t),'symbol'])
 
@@ -55,15 +53,19 @@ def main():
         req(propagated_shares(1_000_000_000,'2020-08-28','2020-08-28',splits)==1_000_000_000,'pre-split shares changed early')
         req(propagated_shares(1_000_000_000,'2020-08-28','2020-08-31',splits)==4_000_000_000,'post-split shares not propagated')
         req(abs(split_only_price(499.23,'2020-08-28',splits,'2020-08-31')-124.8075)<1e-9,'split-only price continuity wrong')
-        pre_turn=40_000_000/1_000_000_000; post_turn=160_000_000/4_000_000_000
-        req(abs(pre_turn-post_turn)<1e-12,'volume/share units inconsistent across split')
-    run('split_price_and_share_unit_consistency',t_split_units)
+        req(abs((40_000_000/1_000_000_000)-(160_000_000/4_000_000_000))<1e-12,'turnover units inconsistent')
+    run('forward_split_price_and_share_units',t_split_units)
+
+    def t_reverse_split():
+        splits=[('2026-01-05',0.1)]
+        req(propagated_shares(1_000_000_000,'2026-01-02','2026-01-05',splits)==100_000_000,'reverse split shares wrong')
+        req(abs(split_only_price(2.0,'2026-01-02',splits,'2026-01-05')-20.0)<1e-12,'reverse split price continuity wrong')
+        req(abs((50_000_000/1_000_000_000)-(5_000_000/100_000_000))<1e-12,'reverse split turnover units inconsistent')
+    run('reverse_split_price_and_share_units',t_reverse_split)
 
     def t_future_fact():
         acceptance=pd.Timestamp('2026-08-25 20:00:00+00:00'); fact=pd.Timestamp('2026-08-26',tz='UTC')
-        req(fact.normalize()>acceptance.normalize(),'fixture invalid')
-        valid=not (fact.normalize()>acceptance.normalize())
-        req(valid is False,'future/post-acceptance fact was accepted')
+        req(not (fact.normalize()<=acceptance.normalize()),'future/post-acceptance fact was accepted')
     run('future_fact_quarantine',t_future_fact)
 
     def t_class_guard():
@@ -71,66 +73,53 @@ def main():
             parts=[p.strip() for p in member.split('|') if p.strip()]
             return any(p.split(':')[-1].lower()=='commonstockmember' for p in parts)
         req(exact_generic('us-gaap:CommonStockMember'),'exact generic common not recognized')
-        req(not exact_generic('abc:NonvotingCommonStockMember'),'nonvoting class false-positive')
-        req(not exact_generic('abc:ConvertibleCommonStockMember'),'convertible class false-positive')
+        req(not exact_generic('abc:NonvotingCommonStockMember'),'nonvoting false-positive')
+        req(not exact_generic('abc:ConvertibleCommonStockMember'),'convertible false-positive')
     run('strict_share_class_guard',t_class_guard)
 
     def t_missing_no_impute():
-        vals=[0.02,None,0.03]
-        req(any(v is None for v in vals),'fixture invalid')
-        eligible=all(v is not None for v in vals)
-        req(not eligible,'missing denominator should make window ineligible')
+        req(not all(v is not None for v in [0.02,None,0.03]),'missing denominator should make window ineligible')
     run('missing_denominator_no_imputation',t_missing_no_impute)
 
     def t_lineage_guard():
         a={'symbol':'X','cusip':'111','cik':'1'}; b={'symbol':'X','cusip':'222','cik':'2'}
-        continuity=(a['symbol']==b['symbol'] and a['cusip']==b['cusip'] and a['cik']==b['cik'])
-        req(not continuity,'ticker equality incorrectly implied security continuity')
+        req(not (a['symbol']==b['symbol'] and a['cusip']==b['cusip'] and a['cik']==b['cik']),'ticker equality implied continuity')
     run('security_lineage_not_ticker_only',t_lineage_guard)
 
     def t_determinism():
         d=pd.DataFrame({'symbol':[f'S{i:03}' for i in range(100)],'R21':[i/100 for i in range(100)],'turnover':[(99-i)/100 for i in range(100)]})
-        a=qualify(d.copy()); b=qualify(d.sample(frac=1,random_state=17).reset_index(drop=True))
-        req(a==b,'qualification depends on row order')
+        req(qualify(d.copy())==qualify(d.sample(frac=1,random_state=17).reset_index(drop=True)),'qualification depends on row order')
     run('deterministic_cross_sectional_screen',t_determinism)
 
     def t_percentile_inclusive():
         d=pd.DataFrame({'symbol':[f'S{i}' for i in range(10)],'R21':range(10),'turnover':range(10)})
-        q=qualify(d)
-        req('S9' in q,'top joint name excluded')
+        req('S9' in qualify(d),'top joint name excluded')
     run('inclusive_90th_percentile_semantics',t_percentile_inclusive)
 
-    # Real-output invariants: intentionally strict on logic, cautious on coverage.
     def t_raw_metadata():
         p=DATA/'build_metadata.json'; req(p.exists(),'build_metadata missing')
-        m=json.loads(p.read_text()); req(m.get('share_fact_rows',0)>0,'no SEC share facts')
-        mapped=m.get('acceptance_timestamp_mapped_count',0); total=m.get('share_fact_rows',0)
-        req(mapped<=total,'mapped acceptance exceeds rows'); req(mapped/total>.99,'acceptance mapping below 99%')
+        m=json.loads(p.read_text()); total=m.get('share_fact_rows',0); mapped=m.get('acceptance_timestamp_mapped_count',0)
+        req(total>0,'no SEC share facts'); req(mapped<=total,'mapped acceptance exceeds rows'); req(mapped/total>.99,'acceptance mapping below 99%')
     run('real_sec_metadata_invariants',t_raw_metadata)
 
     def t_current_rows():
-        p=DATA/'sp500_current_source.csv'; req(p.exists(),'current S&P source missing')
-        d=pd.read_csv(p,dtype={'cik':str}); req(490<=len(d)<=520,'implausible current security-row count')
-        req(d.symbol.notna().all() and d.cik.notna().all(),'missing current symbol/CIK')
-        req(d.symbol.nunique()==len(d),'duplicate current ticker rows')
+        d=pd.read_csv(DATA/'sp500_current_source.csv',dtype={'cik':str}); req(490<=len(d)<=520,'implausible current security-row count')
+        req(d.symbol.notna().all() and d.cik.notna().all(),'missing current symbol/CIK'); req(d.symbol.nunique()==len(d),'duplicate ticker rows')
     run('current_universe_structural_invariants',t_current_rows)
 
     def t_event_invariants():
-        p=DATA/'sec_current_share_events.csv'
-        if not p.exists(): raise ValidationFailure('share-event output not yet published')
+        p=DATA/'sec_current_share_events.csv'; req(p.exists(),'share-event output not yet published')
         e=pd.read_csv(p,dtype={'cik':str}); req(len(e)>0,'empty share-event output')
         a=pd.to_datetime(e.acceptance_datetime,errors='coerce',utc=True); f=pd.to_datetime(e.fact_date,errors='coerce',utc=True)
-        req(a.notna().all(),'event missing acceptance time'); req(f.notna().all(),'event missing fact date')
-        req((f.dt.normalize()<=a.dt.normalize()).all(),'event fact date after acceptance day')
-        req((e.shares_reported>0).all(),'non-positive shares event')
-        allowed=('CLASS_','EXACT_COMMONSTOCKMEMBER','ONE_CURRENT_TICKER_ONE_VALUE')
-        req(e.mapping_method.fillna('').map(lambda x:any(str(x).startswith(z) for z in allowed)).all(),'unknown mapping method')
+        req(a.notna().all() and f.notna().all(),'event missing time'); req((f.dt.normalize()<=a.dt.normalize()).all(),'event fact after acceptance day'); req((e.shares_reported>0).all(),'non-positive shares')
+        allowed=('CLASS_','EXACT_COMMONSTOCKMEMBER','ONE_CURRENT_TICKER_ONE_VALUE'); req(e.mapping_method.fillna('').map(lambda x:any(str(x).startswith(z) for z in allowed)).all(),'unknown mapping method')
         req(not e.duplicated(['symbol','acceptance_datetime','shares_reported','accn']).any(),'duplicate share event keys')
-    run('real_share_event_invariants',t_event_invariants)
+        one=e.mapping_method.eq('ONE_CURRENT_TICKER_ONE_VALUE')
+        if one.any(): req(e.loc[one,'dimension_members'].fillna('').astype(str).str.strip().eq('').all(),'one-value fallback accepted explicit XBRL dimension')
+    run('real_share_event_invariants_and_dimensional_fallback',t_event_invariants)
 
     passed=sum(x['status']=='PASS' for x in tests); failed=len(tests)-passed
-    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'tests':len(tests),'passed':passed,'failed':failed,'results':tests,
-             'interpretation':'Executable data-architecture invariants and failure-injection fixtures. Passing does not prove model alpha or historical completeness.'}
+    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'tests':len(tests),'passed':passed,'failed':failed,'results':tests,'interpretation':'Executable invariants/failure injections; passing does not prove alpha or historical completeness.'}
     OUT.write_text(json.dumps(summary,indent=2)); print(json.dumps(summary,indent=2))
     if failed: raise SystemExit(f'{failed} validation tests failed')
 
