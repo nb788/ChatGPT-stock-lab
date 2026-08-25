@@ -22,18 +22,17 @@ def main():
     cur["cik"] = cur["cik"].map(norm_cik)
     for c in ["filed", "fact_end"]:
         x[c] = pd.to_datetime(x[c], errors="coerce")
-    x["acceptance_ts"] = pd.to_datetime(x["acceptance_datetime"], errors="coerce")
+    # SEC acceptance times are timezone-aware when parsed. Keep them UTC-aware
+    # for cutoff comparisons; do not strip timezone information.
+    x["acceptance_ts"] = pd.to_datetime(x["acceptance_datetime"], errors="coerce", utc=True)
     x["shares"] = pd.to_numeric(x["shares"], errors="coerce")
 
-    # 1. Acceptance timestamp exceptions.
     unmapped = x[x["acceptance_ts"].isna()].copy()
     unmapped_cols = ["cik","entity_name","taxonomy","tag","fact_end","filed","shares","form","accn"]
     unmapped[unmapped_cols].to_csv(DATA / "qa_unmapped_acceptance.csv", index=False)
 
-    # 2. Exact duplicate rows are harmless but should already have been removed.
     exact_dup_count = int(x.duplicated().sum())
 
-    # 3. Conflicting DEI facts for same filing/accession + fact date.
     dei = x[x["taxonomy"].eq("dei")].copy()
     grp_cols = ["cik","accn","filed","fact_end"]
     dei_conf = (dei.groupby(grp_cols, dropna=False)["shares"]
@@ -42,7 +41,6 @@ def main():
     dei_conf = dei_conf[dei_conf["n_values"] > 1].copy()
     dei_conf.to_csv(DATA / "qa_dei_conflicts.csv", index=False)
 
-    # 4. DEI vs us-gaap exact-date/accession disagreements.
     g = x[x["taxonomy"].eq("us-gaap")].copy()
     dvals = dei.groupby(grp_cols, dropna=False)["shares"].agg(list).reset_index(name="dei_values")
     gvals = g.groupby(grp_cols, dropna=False)["shares"].agg(list).reset_index(name="gaap_values")
@@ -59,38 +57,33 @@ def main():
         gaap_conf = cross.copy()
     gaap_conf.to_csv(DATA / "qa_dei_gaap_disagreements.csv", index=False)
 
-    # 5. Multi-class ambiguity proxy. CompanyFacts does not expose dimensional
-    # context in this flattened table, so multiple distinct DEI values for the
-    # same accession/fact date are treated as an ambiguity flag, not resolved.
+    # Flattened CompanyFacts does not retain explicit dimensional contexts here.
+    # Multiple DEI values for the same accession/fact date are therefore a
+    # conservative share-class/context ambiguity flag, never auto-resolved.
     ambiguous_ciks = set(dei_conf["cik"].astype(str))
 
-    # 6. Current-universe point-in-time coverage as of build time, before any
-    # split propagation. This is a source-availability test, not a production denominator.
-    build_now = pd.Timestamp.now(tz="UTC").tz_localize(None)
+    build_now_utc = pd.Timestamp.now(tz="UTC")
+    build_now_naive = build_now_utc.tz_localize(None)
     valid_dei = dei[(dei["acceptance_ts"].notna()) &
-                    (dei["acceptance_ts"] <= build_now) &
+                    (dei["acceptance_ts"] <= build_now_utc) &
                     (dei["fact_end"].notna()) &
-                    (dei["fact_end"] <= build_now)].copy()
+                    (dei["fact_end"] <= build_now_naive)].copy()
     valid_dei = valid_dei[~valid_dei["cik"].isin(ambiguous_ciks)]
     latest = (valid_dei.sort_values(["cik","acceptance_ts","fact_end"])
               .groupby("cik", as_index=False).tail(1))
     latest = latest[["cik","entity_name","fact_end","filed","acceptance_datetime","shares","form","accn"]]
     coverage = cur.merge(latest, on="cik", how="left")
     coverage["has_unambiguous_dei"] = coverage["shares"].notna()
-    coverage["fact_age_days"] = (build_now - pd.to_datetime(coverage["fact_end"], errors="coerce")).dt.days
+    coverage["fact_age_days"] = (build_now_naive - pd.to_datetime(coverage["fact_end"], errors="coerce")).dt.days
     coverage["stale_gt_180d"] = coverage["fact_age_days"] > 180
     coverage.to_csv(DATA / "qa_current_coverage.csv", index=False)
 
-    # Compact list of current-universe failures/risks for ChatGPT inspection.
     exceptions = coverage[(~coverage["has_unambiguous_dei"]) | coverage["stale_gt_180d"]].copy()
     exceptions.to_csv(DATA / "qa_current_exceptions.csv", index=False)
 
-    # 7. Basic scale/outlier diagnostics on latest current values. Ratios are
-    # intentionally descriptive only; no automatic correction is applied.
     vals = coverage.loc[coverage["shares"].notna(), "shares"].astype(float)
     q = vals.quantile([0,.001,.01,.5,.99,.999,1]).to_dict() if len(vals) else {}
 
-    # 8. Form distribution and temporal coverage.
     first_fact = x["fact_end"].min()
     last_fact = x["fact_end"].max()
     current_count = int(len(cur))
