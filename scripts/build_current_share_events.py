@@ -43,7 +43,7 @@ def subrows(obj,c):
         out.append({'cik':c,'accn':a,'form':v('form'),'filing_date':v('filingDate'),'acceptance_datetime':v('acceptanceDateTime'),'primary_document':v('primaryDocument')})
     return out
 
-def recent_filings(sub_bytes,ciks,n_per_cik=6):
+def recent_filings(sub_bytes,ciks,n_per_cik=2):
     out=[]; quarantined=[]
     with zipfile.ZipFile(io.BytesIO(sub_bytes)) as z:
         names=set(z.namelist())
@@ -70,16 +70,26 @@ def numeric(tag):
     if (tag.attrs.get('sign') or tag.attrs.get('Sign'))=='-' or neg: v=-abs(v)
     return v
 
+def soup_for_doc(raw):
+    head=bytes(raw[:1024]).lstrip().lower()
+    is_xml=head.startswith(b'<?xml') or b'<xbrl' in head or b'<xbrli:xbrl' in head
+    return BeautifulSoup(raw,'xml' if is_xml else 'lxml'),is_xml
+
+def is_dei_share_tag(tag):
+    attr=str(tag.attrs.get('name','')).lower()
+    tname=str(tag.name or '').lower()
+    return attr.endswith('entitycommonstocksharesoutstanding') or tname.endswith('entitycommonstocksharesoutstanding')
+
 def parse(html,c,acc):
-    soup=BeautifulSoup(html,'lxml'); out=[]
+    soup,_=soup_for_doc(html); out=[]
     for tag in soup.find_all(True):
-        if not str(tag.attrs.get('name','')).lower().endswith('entitycommonstocksharesoutstanding'): continue
+        if not is_dei_share_tag(tag): continue
         v=numeric(tag)
         if v is None or v<=0: continue
         cr=tag.attrs.get('contextref') or tag.attrs.get('contextRef'); ctx=soup.find(id=cr) if cr else None; instant=None; members=[]
         if ctx:
             for ch in ctx.find_all(True):
-                ln=ch.name.lower() if ch.name else ''
+                ln=str(ch.name or '').lower()
                 if ln.endswith('instant'): instant=ch.get_text(' ',strip=True)
                 if ln.endswith('explicitmember') or ln.endswith('typedmember'): members.append(ch.get_text(' ',strip=True))
         mem='|'.join(sorted(set(members)))
@@ -133,7 +143,7 @@ def main():
         z=ev[ev.symbol.eq(r.symbol)].copy() if len(ev) else pd.DataFrame(); ats=pd.to_datetime(z.acceptance_datetime,errors='coerce',utc=True) if len(z) else pd.Series([],dtype='datetime64[ns, UTC]')
         cov.append({'symbol':r.symbol,'cik':r.cik,'event_count':int(len(z)),'has_any_event':bool(len(z)),'has_anchor_before_45d':bool(len(z) and (ats<=anchor_cut).any()),'latest_acceptance':str(ats.max()) if len(z) else None})
     cv=pd.DataFrame(cov); cv.to_csv(DATA/'qa_share_event_coverage.csv',index=False)
-    summary={'built_at_utc':datetime.now(timezone.utc).isoformat(),'asof_utc':ASOF.isoformat(),'current_rows':int(len(cur)),'periodic_filings_parsed':int(len(filings)),'quarantined_filing_rows':int(len(qfil)),'fetch_failures':int(len(fails)),'raw_dei_facts_valid':int(len(f)),'quarantined_fact_rows':int(len(bad)),'mapped_share_events':int(len(ev)),'symbols_with_any_event':int(cv.has_any_event.sum()),'symbols_with_anchor_before_45d':int(cv.has_anchor_before_45d.sum()),'rule':'Events preserve acceptance time. Daily turnover must as-of join latest event known by each trading day, then apply only intervening split factors. No backfill.'}
+    summary={'built_at_utc':datetime.now(timezone.utc).isoformat(),'asof_utc':ASOF.isoformat(),'current_rows':int(len(cur)),'periodic_filings_parsed':int(len(filings)),'filings_per_cik_target':2,'quarantined_filing_rows':int(len(qfil)),'fetch_failures':int(len(fails)),'raw_dei_facts_valid':int(len(f)),'quarantined_fact_rows':int(len(bad)),'mapped_share_events':int(len(ev)),'symbols_with_any_event':int(cv.has_any_event.sum()),'symbols_with_anchor_before_45d':int(cv.has_anchor_before_45d.sum()),'rule':'Events preserve acceptance time. Daily turnover must as-of join latest event known by each trading day, then apply only intervening split factors. No backfill.'}
     (DATA/'qa_share_event_summary.json').write_text(json.dumps(summary,indent=2)); print(json.dumps(summary,indent=2))
 
 if __name__=='__main__': main()
