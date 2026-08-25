@@ -1,0 +1,12 @@
+{
+  "audited_at_utc": "2026-08-25T23:07:01.579729+00:00",
+  "exception_symbols": 53,
+  "exception_ciks": 50,
+  "latest_filings_found": 50,
+  "filing_fetch_failures": 0,
+  "filing_dei_fact_rows": 114,
+  "filing_dei_fact_ciks": 50,
+  "resolved_exception_symbols": 8,
+  "unresolved_exception_symbols": 45,
+  "rule": "Filing-level DEI fallback only; class mapping requires one-current-ticker/one-value or explicit class-letter dimension match. No guessing."
+}
