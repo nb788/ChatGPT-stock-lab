@@ -1,0 +1,44 @@
+name: Check live SEC close delta
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 16:15 New York in EDT and EST respectively. Running both is intentional;
+    # the Lab consumes only the check appropriate to the current NY offset and newest successful result.
+    - cron: "15 20 * * 1-5"
+    - cron: "15 21 * * 1-5"
+
+concurrency:
+  group: sec-live-delta-main
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  delta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install pandas requests beautifulsoup4 lxml
+      - name: Check and parse live SEC filings since bulk snapshot
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: PYTHONPATH=scripts python scripts/build_live_sec_delta.py
+      - name: Commit freshness outputs
+        run: |
+          git config user.name "sec-shares-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sec_live_delta_filings.csv data/sec_live_share_events.csv data/qa_live_delta_*.csv data/qa_live_delta_summary.json
+          if git diff --cached --quiet; then
+            echo "No live-delta changes."
+          else
+            git commit -m "Update live SEC delta $(date -u +%FT%H:%MZ)"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
