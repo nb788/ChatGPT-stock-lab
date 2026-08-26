@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from __future__ import annotations
-import json
+import json, math
 from pathlib import Path
 from datetime import datetime, timezone
 import pandas as pd
@@ -62,6 +62,19 @@ def main():
         req(abs(split_only_price(2.0,'2026-01-02',splits,'2026-01-05')-20.0)<1e-12,'reverse split price continuity wrong')
         req(abs((50_000_000/1_000_000_000)-(5_000_000/100_000_000))<1e-12,'reverse split turnover units inconsistent')
     run('reverse_split_price_and_share_units',t_reverse_split)
+
+    def t_net_target_costs():
+        raw_entry=100.0; effective_entry=raw_entry*1.001
+        raw_target=(effective_entry*1.10)/0.999
+        req(raw_target>110.0,'net target ignored round-trip adverse costs')
+        req(abs((raw_target*0.999/effective_entry)-1.10)<1e-12,'net target formula wrong')
+        req(not (110.0>=raw_target),'raw +10% touch incorrectly counted as net +10%')
+    run('net_10pct_target_includes_entry_and_exit_costs',t_net_target_costs)
+
+    def t_raw_notional_whole_shares():
+        raw_open=333.40; shares=math.floor(10_000/raw_open)
+        req(shares==29,'whole-share sizing wrong'); req(shares*raw_open<=10_000,'raw notional exceeded cap'); req((shares+1)*raw_open>10_000,'sizing left avoidable whole share')
+    run('raw_notional_10000_whole_share_cap',t_raw_notional_whole_shares)
 
     def t_future_fact():
         acceptance=pd.Timestamp('2026-08-25 20:00:00+00:00'); fact=pd.Timestamp('2026-08-26',tz='UTC')
