@@ -71,14 +71,11 @@ def numeric(tag):
     return v
 
 def soup_for_doc(raw):
-    head=bytes(raw[:1024]).lstrip().lower()
-    is_xml=head.startswith(b'<?xml') or b'<xbrl' in head or b'<xbrli:xbrl' in head
+    head=bytes(raw[:1024]).lstrip().lower(); is_xml=head.startswith(b'<?xml') or b'<xbrl' in head or b'<xbrli:xbrl' in head
     return BeautifulSoup(raw,'xml' if is_xml else 'lxml'),is_xml
 
 def is_dei_share_tag(tag):
-    attr=str(tag.attrs.get('name','')).lower()
-    tname=str(tag.name or '').lower()
-    return attr.endswith('entitycommonstocksharesoutstanding') or tname.endswith('entitycommonstocksharesoutstanding')
+    return str(tag.attrs.get('name','')).lower().endswith('entitycommonstocksharesoutstanding') or str(tag.name or '').lower().endswith('entitycommonstocksharesoutstanding')
 
 def parse(html,c,acc):
     soup,_=soup_for_doc(html); out=[]
@@ -132,8 +129,8 @@ def main():
                 z=g[g.generic_common_member.eq(True)]; vals=z.shares.dropna().unique()
                 if len(vals)==1: method='EXACT_COMMONSTOCKMEMBER'; val=float(vals[0]); mem='|'.join(sorted(set(z.dimension_members.fillna('').astype(str))))
             if val is None and len(syms)==1:
-                vals=g.shares.dropna().unique()
-                if len(vals)==1: method='ONE_CURRENT_TICKER_ONE_VALUE'; val=float(vals[0]); mem='|'.join(sorted(set(g.dimension_members.fillna('').astype(str))))
+                z=g[g.dimension_members.fillna('').astype(str).str.strip().eq('')]; vals=z.shares.dropna().unique()
+                if len(vals)==1: method='ONE_CURRENT_TICKER_ONE_VALUE'; val=float(vals[0]); mem=''
             if val is not None: events.append({'symbol':r.symbol,'cik':r.cik,'acceptance_datetime':ats,'fact_date':str(mx.date()) if pd.notna(mx) else None,'shares_reported':val,'mapping_method':method,'dimension_members':mem,'accn':acc})
     ev=pd.DataFrame(events)
     if len(ev): ev['acceptance_ts']=pd.to_datetime(ev.acceptance_datetime,errors='coerce',utc=True); ev=ev.sort_values(['symbol','acceptance_ts','fact_date']).drop_duplicates(['symbol','acceptance_datetime','shares_reported','accn'])
@@ -143,7 +140,7 @@ def main():
         z=ev[ev.symbol.eq(r.symbol)].copy() if len(ev) else pd.DataFrame(); ats=pd.to_datetime(z.acceptance_datetime,errors='coerce',utc=True) if len(z) else pd.Series([],dtype='datetime64[ns, UTC]')
         cov.append({'symbol':r.symbol,'cik':r.cik,'event_count':int(len(z)),'has_any_event':bool(len(z)),'has_anchor_before_45d':bool(len(z) and (ats<=anchor_cut).any()),'latest_acceptance':str(ats.max()) if len(z) else None})
     cv=pd.DataFrame(cov); cv.to_csv(DATA/'qa_share_event_coverage.csv',index=False)
-    summary={'built_at_utc':datetime.now(timezone.utc).isoformat(),'asof_utc':ASOF.isoformat(),'current_rows':int(len(cur)),'periodic_filings_parsed':int(len(filings)),'filings_per_cik_target':2,'quarantined_filing_rows':int(len(qfil)),'fetch_failures':int(len(fails)),'raw_dei_facts_valid':int(len(f)),'quarantined_fact_rows':int(len(bad)),'mapped_share_events':int(len(ev)),'symbols_with_any_event':int(cv.has_any_event.sum()),'symbols_with_anchor_before_45d':int(cv.has_anchor_before_45d.sum()),'rule':'Events preserve acceptance time. Daily turnover must as-of join latest event known by each trading day, then apply only intervening split factors. No backfill.'}
+    summary={'built_at_utc':datetime.now(timezone.utc).isoformat(),'asof_utc':ASOF.isoformat(),'current_rows':int(len(cur)),'periodic_filings_parsed':int(len(filings)),'filings_per_cik_target':2,'quarantined_filing_rows':int(len(qfil)),'fetch_failures':int(len(fails)),'raw_dei_facts_valid':int(len(f)),'quarantined_fact_rows':int(len(bad)),'mapped_share_events':int(len(ev)),'symbols_with_any_event':int(cv.has_any_event.sum()),'symbols_with_anchor_before_45d':int(cv.has_anchor_before_45d.sum()),'rule':'Events preserve acceptance time. Daily turnover as-of joins latest known same-class event; one-value fallback only for non-dimensional facts; then apply intervening splits. No backfill.'}
     (DATA/'qa_share_event_summary.json').write_text(json.dumps(summary,indent=2)); print(json.dumps(summary,indent=2))
 
 if __name__=='__main__': main()
