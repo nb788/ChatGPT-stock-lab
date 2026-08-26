@@ -3,10 +3,11 @@ name: Check live SEC close delta
 on:
   workflow_dispatch:
   schedule:
-    # 16:15 New York in EDT and EST respectively. Running both is intentional;
-    # the Lab consumes only the check appropriate to the current NY offset and newest successful result.
-    - cron: "15 20 * * 1-5"
-    - cron: "15 21 * * 1-5"
+    # Approximately 16:27 New York in EDT and EST respectively. Both UTC slots run;
+    # the Lab consumes only the newest successful result appropriate to the current NY offset.
+    # If the correct-offset run is delayed or not complete before the Lab's close cutoff, new entries remain on VALIDATION HOLD.
+    - cron: "27 20 * * 1-5"
+    - cron: "27 21 * * 1-5"
   push:
     paths:
       - "scripts/build_live_sec_delta.py"
