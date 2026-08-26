@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-08-26T00:00:51.144942+00:00",
+  "checked_at_utc": "2026-08-26T00:08:48.490084+00:00",
   "bulk_built_at_utc": "2026-08-25T23:14:58.204127+00:00",
   "current_ciks_checked": 500,
   "api_failures": 0,
@@ -8,5 +8,6 @@
   "filing_fetch_failures": 0,
   "quarantined_fact_rows": 0,
   "mapped_live_share_events": 0,
-  "production_rule": "Combine valid live events with nightly event history by acceptance time; any affected filing that cannot be fetched/mapped makes its ticker ineligible for the close screen."
+  "unresolved_affected_events": 0,
+  "production_rule": "Combine valid live events with nightly history by acceptance time. New affected filings without deterministic same-class mapping make affected ticker ineligible."
 }
