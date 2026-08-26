@@ -53,7 +53,7 @@ def latest_filings(sub_bytes,ciks):
             if n not in names: continue
             df=pd.DataFrame(rows_from_submission(json.loads(z.read(n)),cik))
             if df.empty: continue
-            df=df[df['form'].isin(FORMS)].copy(); df['adt']=pd.to_datetime(df['acceptanceDateTime'],errors='coerce',utc=True)
+            df=df[df.form.isin(FORMS)].copy(); df['adt']=pd.to_datetime(df.acceptanceDateTime,errors='coerce',utc=True)
             df=df[df.adt.notna() & (df.adt<=ASOF)]
             if len(df): out.extend(df.sort_values(['adt','filingDate']).tail(1).drop(columns='adt').to_dict('records'))
     return pd.DataFrame(out)
@@ -106,7 +106,7 @@ def parse_filing(html,cik,accn,symbols):
 def main():
     exc=pd.read_csv(DATA/'qa_current_exceptions.csv',dtype={'cik':str}); cur=pd.read_csv(DATA/'sp500_current_source.csv',dtype={'cik':str})
     exc['cik']=exc.cik.map(norm_cik); cur['cik']=cur.cik.map(norm_cik); cur['symbol_norm']=cur.symbol.map(norm_symbol); exc['symbol_norm']=exc.symbol.map(norm_symbol)
-    listings=listing_security_names(); exc=exc.merge(listings,left_on='symbol_norm',right_on='symbol',how='left',suffixes=('','_listing')).drop(columns=['symbol_listing'],errors='ignore')
+    exc=exc.merge(listing_security_names(),left_on='symbol_norm',right_on='symbol',how='left',suffixes=('','_listing')).drop(columns=['symbol_listing'],errors='ignore')
     target=set(exc.cik); filings=latest_filings(get(SEC_SUB,True),target); filings.to_csv(DATA/'qa_current_exception_latest_filings.csv',index=False)
     allfacts=[]; fetch_fail=[]; symbol_map=cur.groupby('cik').symbol.apply(list).to_dict()
     for _,r in filings.iterrows():
@@ -137,12 +137,12 @@ def main():
                 mf=cf[cf.generic_common_member.eq(True)]; vals=mf.shares.dropna().unique()
                 if len(vals)==1: status='RESOLVED_GENERIC_LISTED_COMMON'; shares=float(vals[0]); reason='OFFICIAL_LISTING_COMMON_STOCK_MATCHES_EXACT_COMMONSTOCKMEMBER'; fact_date=str(mx.date()); member='|'.join(sorted(set(mf.dimension_members.fillna('').astype(str))))
             if status=='UNRESOLVED' and len(symbols)==1:
-                vals=cf.shares.dropna().unique()
-                if len(vals)==1: status='RESOLVED_SINGLE_SYMBOL'; shares=float(vals[0]); reason='ONE_CURRENT_TICKER_ONE_LATEST_DEI_VALUE'; fact_date=str(mx.date()); member='|'.join(sorted(set(cf.dimension_members.fillna('').astype(str))))
-                elif reason=='NO_VALID_FILING_DEI_FACT': reason='MULTIPLE_LATEST_DEI_VALUES_SINGLE_TICKER'
+                mf=cf[cf.dimension_members.fillna('').astype(str).str.strip().eq('')]; vals=mf.shares.dropna().unique()
+                if len(vals)==1: status='RESOLVED_SINGLE_SYMBOL'; shares=float(vals[0]); reason='ONE_CURRENT_TICKER_ONE_NON_DIMENSIONAL_LATEST_DEI_VALUE'; fact_date=str(mx.date()); member=''
+                elif reason=='NO_VALID_FILING_DEI_FACT': reason='NO_UNIQUE_NON_DIMENSIONAL_LATEST_DEI_VALUE_SINGLE_TICKER'
         resolved.append({'symbol':symbol,'cik':cik,'name':row['name'],'listing_security_name':listing,'bulk_has_dei':bool(row.get('has_unambiguous_dei',False)),'bulk_fact_age_days':row.get('fact_age_days'),'fallback_status':status,'fallback_shares':shares,'fallback_fact_date':fact_date,'dimension_members':member,'reason':reason})
     res=pd.DataFrame(resolved); res.to_csv(DATA/'qa_current_filing_resolution.csv',index=False)
-    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'audit_asof_utc':ASOF.isoformat(),'exception_symbols':int(len(exc)),'exception_ciks':int(len(target)),'latest_filings_found':int(len(filings)),'filing_fetch_failures':int(len(fetch_fail)),'filing_dei_fact_rows':int(len(facts)),'future_or_post_acceptance_facts_quarantined':int(len(bad)),'listing_name_matches_found':int(exc.listing_security_name.notna().sum()),'resolved_exception_symbols':int(res.fallback_status.str.startswith('RESOLVED').sum()),'unresolved_exception_symbols':int((~res.fallback_status.str.startswith('RESOLVED')).sum()),'rule':'Filing-level DEI fallback with hard timing cutoff + official listing identity. Supports inline and native XML XBRL. No guessing.'}
+    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'audit_asof_utc':ASOF.isoformat(),'exception_symbols':int(len(exc)),'exception_ciks':int(len(target)),'latest_filings_found':int(len(filings)),'filing_fetch_failures':int(len(fetch_fail)),'filing_dei_fact_rows':int(len(facts)),'future_or_post_acceptance_facts_quarantined':int(len(bad)),'listing_name_matches_found':int(exc.listing_security_name.notna().sum()),'resolved_exception_symbols':int(res.fallback_status.str.startswith('RESOLVED').sum()),'unresolved_exception_symbols':int((~res.fallback_status.str.startswith('RESOLVED')).sum()),'rule':'Filing-level DEI fallback with hard timing cutoff + official listing identity. Inline/native XML supported. Single-symbol one-value fallback requires non-dimensional fact. No guessing.'}
     (DATA/'qa_current_filing_summary.json').write_text(json.dumps(summary,indent=2)); print(json.dumps(summary,indent=2))
 
 if __name__=='__main__': main()
