@@ -16,8 +16,7 @@ FORMS={'10-Q','10-K','20-F','40-F'}
 ASOF=pd.Timestamp.now(tz='UTC')
 
 def get(url,sec=True):
-    r=requests.get(url,headers=(HEAD if sec else {'User-Agent':'Mozilla/5.0'}),timeout=120)
-    r.raise_for_status(); return r.content
+    r=requests.get(url,headers=(HEAD if sec else {'User-Agent':'Mozilla/5.0'}),timeout=120); r.raise_for_status(); return r.content
 
 def cik(x): return str(x).replace('.0','').strip().zfill(10)
 def sym(x): return str(x).upper().replace('-','.').strip()
@@ -108,7 +107,8 @@ def parse(html,c,acc):
     return pd.DataFrame(out).drop_duplicates() if out else pd.DataFrame()
 
 def expected(symbol,index_name,listing_name):
-    for s in (index_name,listing_name):
+    # Official exchange listing identity outranks the derivative index label.
+    for s in (listing_name,index_name):
         c=class_letter(s)
         if c: return c
     m=re.search(r'\.([A-Z])$',str(symbol).upper()); return m.group(1) if m else None
@@ -154,7 +154,7 @@ def main():
         rows.append({'symbol':r.symbol,'cik':r.cik,'name':r['name'],'listing_security_name':r.get('listing_security_name'),'status':status,'shares':shares,'fact_date':fd,'dimension_members':mem,'reason':reason})
     res=pd.DataFrame(rows); res.to_csv(DATA/'qa_all_current_resolution.csv',index=False)
     total=len(res); solved=int(res.status.str.startswith('RESOLVED').sum()); unresolved=total-solved
-    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'audit_asof_utc':ASOF.isoformat(),'current_constituent_rows':int(total),'unique_current_ciks':int(cur.cik.nunique()),'latest_filings_found':int(len(filings)),'future_periodic_filings_quarantined':int(len(future_filings)),'unmapped_periodic_filing_acceptance_quarantined':int(len(unmapped_filings)),'fetch_failures':int(len(fails)),'filing_dei_fact_rows_raw':int(len(f)),'future_or_post_acceptance_fact_rows_quarantined':int(len(badfacts)),'filing_dei_fact_rows_valid':int(len(validf)),'resolved_rows':solved,'resolved_pct':round(100*solved/total,4) if total else None,'unresolved_rows':unresolved,'rule':'Hard timing cutoffs; inline/native XML XBRL; explicit class > exact CommonStockMember > single-ticker unique NON-DIMENSIONAL value only. No guessing.'}
+    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'audit_asof_utc':ASOF.isoformat(),'current_constituent_rows':int(total),'unique_current_ciks':int(cur.cik.nunique()),'latest_filings_found':int(len(filings)),'future_periodic_filings_quarantined':int(len(future_filings)),'unmapped_periodic_filing_acceptance_quarantined':int(len(unmapped_filings)),'fetch_failures':int(len(fails)),'filing_dei_fact_rows_raw':int(len(f)),'future_or_post_acceptance_fact_rows_quarantined':int(len(badfacts)),'filing_dei_fact_rows_valid':int(len(validf)),'resolved_rows':solved,'resolved_pct':round(100*solved/total,4) if total else None,'unresolved_rows':unresolved,'rule':'Official exchange listing identity precedes derivative index labels; hard timing cutoffs; inline/native XML XBRL; explicit class > exact CommonStockMember > single-ticker unique NON-DIMENSIONAL value only. No guessing.'}
     (DATA/'qa_all_current_summary.json').write_text(json.dumps(summary,indent=2)); print(json.dumps(summary,indent=2))
 
 if __name__=='__main__': main()
