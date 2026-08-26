@@ -100,21 +100,15 @@ def build_share_rows(cf_bytes, target_ciks, amap):
     return x[cols].sort_values(["cik","filed","fact_end","taxonomy","shares"])
 
 def main():
-    ciks=build_target_ciks()
-    cf=fetch(SEC_CF, sec=True)
-    sub=fetch(SEC_SUB, sec=True)
-    amap=build_acceptance_map(sub,ciks)
-    shares=build_share_rows(cf,ciks,amap)
-    shares.to_csv(OUT/"sec_sp500_share_facts.csv", index=False)
+    ciks=build_target_ciks(); cf=fetch(SEC_CF, sec=True); sub=fetch(SEC_SUB, sec=True); amap=build_acceptance_map(sub,ciks)
+    shares=build_share_rows(cf,ciks,amap); shares.to_csv(OUT/"sec_sp500_share_facts.csv", index=False)
     if not shares.empty:
-        filed=pd.to_datetime(shares["filed"], errors="coerce")
-        cutoff=pd.Timestamp.now(tz="UTC").tz_localize(None)-pd.Timedelta(days=550)
+        filed=pd.to_datetime(shares["filed"], errors="coerce"); cutoff=pd.Timestamp.now(tz="UTC").tz_localize(None)-pd.Timedelta(days=550)
         shares[filed >= cutoff].to_csv(OUT/"sec_sp500_share_facts_recent.csv", index=False)
-    meta={"built_at_utc":datetime.now(timezone.utc).isoformat(),"source_companyfacts":SEC_CF,
-          "source_submissions":SEC_SUB,"source_sp500_history":SP_HIST,"target_cik_count":len(ciks),
+    meta={"built_at_utc":datetime.now(timezone.utc).isoformat(),"generator_git_sha":os.environ.get("GITHUB_SHA"),"generator_run_id":os.environ.get("GITHUB_RUN_ID"),"generator_run_attempt":os.environ.get("GITHUB_RUN_ATTEMPT"),"source_companyfacts":SEC_CF,
+          "source_submissions":SEC_SUB,"source_sp500_history":SP_HIST,"source_sp500_current":SP_CUR,"target_cik_count":len(ciks),
           "share_fact_rows":int(len(shares)),"acceptance_timestamp_mapped_count":int(shares["acceptance_datetime"].notna().sum()) if not shares.empty else 0,
-          "rule":"Raw relevant facts only; no imputation, favorable conflict resolution, or share-class guessing."}
-    (OUT/"build_metadata.json").write_text(json.dumps(meta, indent=2))
-    print(json.dumps(meta, indent=2))
+          "rule":"Raw relevant facts only; no imputation, favorable conflict resolution, or share-class guessing. Generator revision recorded for stale-methodology rejection."}
+    (OUT/"build_metadata.json").write_text(json.dumps(meta, indent=2)); print(json.dumps(meta, indent=2))
 
 if __name__ == "__main__": main()
