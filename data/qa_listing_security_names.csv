@@ -796,7 +796,6 @@ BRTMU,B&R Technology Merger Corp. - Units,NASDAQ
 BRTR,iShares Total Return Active ETF,NASDAQ
 BRTX,"BioRestorative Therapies, Inc. - Common Stock",NASDAQ
 BRUN,Boost Run Inc. - Class A Common Stock,NASDAQ
-BRUNW,Boost Run Inc. - Warrant,NASDAQ
 BRVE,"Braveheart Bio, Inc. - Common Stock",NASDAQ
 BRZE,"Braze, Inc. - Class A Common Stock",NASDAQ
 BSAA,BEST SPAC I Acquisition Corp. - Class A Ordinary Shares,NASDAQ
@@ -1872,7 +1871,6 @@ FLXS,"Flexsteel Industries, Inc. - Common Stock",NASDAQ
 FLY,Firefly Aerospace Inc. - Common Stock,NASDAQ
 FLYE,"Fly-E Group, Inc. - Common Stock",NASDAQ
 FLYW,Flywire Corporation - Voting Common Stock,NASDAQ
-FLZH,"Flash Sports & Media Holdings, Inc. - Common Stock",NASDAQ
 FMAC,Future Money Acquisition Corporation - Ordinary Shares,NASDAQ
 FMACR,Future Money Acquisition Corporation - Rights,NASDAQ
 FMACU,Future Money Acquisition Corporation - Units,NASDAQ
@@ -2046,7 +2044,6 @@ GCT,GigaCloud Technology Inc - Class A Ordinary Shares,NASDAQ
 GCTK,"GlucoTrack, Inc. - Common Stock",NASDAQ
 GDC,GD Culture Group Limited - Common Stock,NASDAQ
 GDEV,GDEV Inc. - Ordinary Shares,NASDAQ
-GDEVW,GDEV Inc. - Warrant,NASDAQ
 GDHG,Golden Heaven Group Holdings Ltd.  - Class A Ordinary Shares,NASDAQ
 GDRX,"GoodRx Holdings, Inc. - Class A Common Stock",NASDAQ
 GDS,GDS Holdings Limited - American Depositary Shares,NASDAQ
@@ -2395,7 +2392,6 @@ HUDI,"Huadi International Group Co., Ltd. - Ordinary Shares",NASDAQ
 HUHU,HUHUTECH International Group Inc. - Ordinary Shares,NASDAQ
 HUIZ,Huize Holding Limited - American Depositary Shares,NASDAQ
 HUMA,"Humacyte, Inc. - Common Stock",NASDAQ
-HUMAW,"Humacyte, Inc. - Warrant",NASDAQ
 HURA,"TuHURA Biosciences, Inc. - Common Stock",NASDAQ
 HURC,"Hurco Companies, Inc. - Common Stock",NASDAQ
 HURN,Huron Consulting Group Inc. - Common Stock,NASDAQ
@@ -3720,8 +3716,6 @@ OSPN,OneSpan Inc. - Common Stock,NASDAQ
 OSPR,Osprey Acquisition Corp. III - Class A Ordinary Shares,NASDAQ
 OSPRU,Osprey Acquisition Corp. III - Units,NASDAQ
 OSPRW,Osprey Acquisition Corp. III - Warrants,NASDAQ
-OSRH,"OSR Health, Inc. - Common Stock",NASDAQ
-OSRHW,"OSR Health, Inc. - Warrant",NASDAQ
 OSS,"One Stop Systems, Inc. - Common Stock",NASDAQ
 OST,"Ostin Technology Group Co., Ltd. - Class A Ordinary Shares",NASDAQ
 OSUR,"OraSure Technologies, Inc. - Common Stock",NASDAQ
@@ -6661,6 +6655,7 @@ CANE,Teucrium Sugar Fund ETV,OTHER
 CANF,"Can-Fite Biopharma Ltd American Depositary Shares, each representing two (2) Ordinary Shares",OTHER
 CANG,Cango Inc. Class A Ordinary Shares,OTHER
 CAOS,Alpha Architect Tail Risk ETF,OTHER
+CAPA,Defiance AI Capacitors Leaders ETF,OTHER
 CAPE,DoubleLine Shiller CAPE U.S. Equities ETF,OTHER
 CAPL,CrossAmerica Partners LP Common Units representing limited partner interests,OTHER
 CARD,MAX Auto Industry -3x Inverse Leveraged ETN,OTHER
@@ -10101,7 +10096,11 @@ MUNA,Northern Trust 2030 Tax-Exempt Distributing Ladder ETF,OTHER
 MUNB,Northern Trust 2035 Tax-Exempt Distributing Ladder ETF,OTHER
 MUNC,Northern Trust 2045 Tax-Exempt Distributing Ladder ETF,OTHER
 MUND,Northern Trust 2055 Tax-Exempt Distributing Ladder ETF,OTHER
+MUNF,Northern Trust 2036 Tax-Exempt Distributing Ladder ETF,OTHER
+MUNG,Northern Trust 2046 Tax-Exempt Distributing Ladder ETF,OTHER
+MUNH,Northern Trust 2056 Tax-Exempt Distributing Ladder ETF,OTHER
 MUNI,PIMCO Intermediate Municipal Bond Active Exchange-Traded Fund,OTHER
+MUNJ,Northern Trust 2031 Tax-Exempt Distributing Ladder ETF,OTHER
 MUNX,AMG GW&K Muni Income ETF,OTHER
 MUNY,Vanguard New York Tax-Exempt Bond ETF,OTHER
 MUR,Murphy Oil Corporation Common Stock,OTHER
@@ -10560,6 +10559,7 @@ OSTX,OS Therapies Incorporated Common Stock,OTHER
 OTAI,Starlink AI Acquisition Corporation Ordinary Shares,OTHER
 OTAI.R,"Starlink AI Acquisition Corporation Rights, each entitling the holder to receive one-fourth (1/4) of one ordinary share",OTHER
 OTAI.U,"Starlink AI Acquisition Corporation Units, each consisting of one Ordinary Share, and one Right to receive one-fourth (1/4) of one ordinary share",OTHER
+OTAX,Optimal Tax Managed Equity ETF,OTHER
 OTF,Blue Owl Technology Finance Corp. Common Stock,OTHER
 OTIS,Otis Worldwide Corporation Common Stock ,OTHER
 OUNZ,VanEck Merk Gold ETF,OTHER
@@ -10947,6 +10947,7 @@ PSMO,Pacer Swan SOS Moderate (October) ETF,OTHER
 PSMR,Pacer Swan SOS Moderate (April) ETF,OTHER
 PSN,Parsons Corporation Common Stock,OTHER
 PSO,"Pearson, Plc Common Stock",OTHER
+PSOX,Tema MLCC & PowerSemi ETF,OTHER
 PSP,Invesco Global Listed Private Equity ETF,OTHER
 PSQ,ProShares Short QQQ,OTHER
 PSQA,Palmer Square CLO Senior Debt ETF,OTHER
@@ -11601,7 +11602,6 @@ SHYG,iShares 0-5 Year High Yield Corporate Bond ETF,OTHER
 SHYL,Xtrackers Short Duration High Yield Bond ETF,OTHER
 SHYM,iShares Short Duration High Yield Muni Active ETF,OTHER
 SI,"Shoulder Innovations, Inc. Common Stock",OTHER
-SIC,Tema Power Semiconductor ETF,OTHER
 SID,Companhia Siderurgica Nacional S.A. Common Stock,OTHER
 SIF,"SIFCO Industries, Inc. Common Stock",OTHER
 SIFI,Harbor Ares Systematic Multi-Sector Income ETF,OTHER
@@ -12154,6 +12154,10 @@ TIPA,Northern Trust 2030 Inflation-Linked Distributing Ladder ETF,OTHER
 TIPB,Northern Trust 2035 Inflation-Linked Distributing Ladder ETF,OTHER
 TIPC,Northern Trust 2045 Inflation-Linked Distributing Ladder ETF,OTHER
 TIPD,Northern Trust 2055 Inflation-Linked Distributing Ladder ETF,OTHER
+TIPE,Northern Trust 2031 Inflation-Linked Distributing Ladder ETF,OTHER
+TIPF,Northern Trust 2036 Inflation-Linked Distributing Ladder ETF,OTHER
+TIPG,Northern Trust 2046 Inflation-Linked Distributing Ladder ETF,OTHER
+TIPH,Northern Trust 2056 Inflation-Linked Distributing Ladder ETF,OTHER
 TIPX,State Street SPDR Bloomberg 1a??10 Year TIPS ETF,OTHER
 TIPZ,PIMCO Broad U.S. TIPS Index Exchange-Traded Fund,OTHER
 TISI,"Team, Inc. Common Stock",OTHER
@@ -13060,6 +13064,7 @@ XUSP,Innovator Uncapped Accelerated U.S. Equity ETF,OTHER
 XV,Simplify Target 15 Distribution ETF,OTHER
 XVAP,FT Vest AAPL & Target Income ETF,OTHER
 XVNV,FT Vest NVDA & Target Income ETF,OTHER
+XVSP,FT Vest SPCX & Target Income ETF,OTHER
 XVTS,FT Vest TSLA & Target Income ETF,OTHER
 XVV,iShares ESG Select Screened S&P 500 ETF,OTHER
 XW,Corgi Ex-U.S. Equities 2x Daily ETF,OTHER
