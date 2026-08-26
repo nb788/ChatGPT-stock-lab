@@ -3,11 +3,10 @@ name: Check live SEC close delta
 on:
   workflow_dispatch:
   schedule:
-    # Approximately 16:27 New York in EDT and EST respectively. Both UTC slots run;
-    # the Lab consumes only the newest successful result appropriate to the current NY offset.
-    # If the correct-offset run is delayed or not complete before the Lab's close cutoff, new entries remain on VALIDATION HOLD.
-    - cron: "27 20 * * 1-5"
-    - cron: "27 21 * * 1-5"
+    # 16:10 New York in EDT and EST respectively. Both UTC slots exist for DST.
+    # A local-time guard below skips the wrong-offset scheduled run.
+    - cron: "10 20 * * 1-5"
+    - cron: "10 21 * * 1-5"
   push:
     paths:
       - "scripts/build_live_sec_delta.py"
@@ -22,20 +21,39 @@ permissions:
 
 jobs:
   delta:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
-          python-version: "3.12"
-      - name: Install dependencies
-        run: pip install pandas requests beautifulsoup4 lxml
+          python-version: "3.12.14"
+      - name: Determine whether scheduled UTC slot is the 16:10 New York slot
+        id: slot
+        shell: bash
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import datetime, timezone
+          from zoneinfo import ZoneInfo
+          event=os.environ.get('GITHUB_EVENT_NAME','')
+          ny=datetime.now(timezone.utc).astimezone(ZoneInfo('America/New_York'))
+          ok=(event!='schedule') or (ny.hour==16)
+          with open(os.environ['GITHUB_OUTPUT'],'a') as f:
+              f.write(f"run_delta={'true' if ok else 'false'}\n")
+              f.write(f"ny_time={ny.isoformat()}\n")
+          print({'event':event,'ny_time':ny.isoformat(),'run_delta':ok})
+          PY
+      - name: Install pinned dependencies
+        if: steps.slot.outputs.run_delta == 'true'
+        run: pip install pandas==3.0.5 numpy==2.5.2 requests==2.34.2 beautifulsoup4==4.15.0 lxml==6.1.2
       - name: Check and parse live SEC filings since bulk snapshot
+        if: steps.slot.outputs.run_delta == 'true'
         env:
           SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
         run: PYTHONPATH=scripts python scripts/build_live_sec_delta.py
       - name: Commit freshness outputs
+        if: steps.slot.outputs.run_delta == 'true'
         run: |
           git config user.name "sec-shares-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
