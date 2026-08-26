@@ -21,10 +21,8 @@ def get(url,sec=True):
 
 def cik(x): return str(x).replace('.0','').strip().zfill(10)
 def sym(x): return str(x).upper().replace('-','.').strip()
-
 def class_letter(s):
-    m=re.search(r'class\s*([abc])',str(s or ''),re.I)
-    return m.group(1).upper() if m else None
+    m=re.search(r'class\s*([abc])',str(s or ''),re.I); return m.group(1).upper() if m else None
 
 def generic_common(s):
     parts=[p.strip() for p in str(s or '').split('|') if p.strip()]
@@ -117,11 +115,9 @@ def expected(symbol,index_name,listing_name):
 
 def main():
     cur=pd.read_csv(DATA/'sp500_current_source.csv',dtype={'cik':str}); cur['cik']=cur.cik.map(cik); cur['symbol_norm']=cur.symbol.map(sym)
-    ln=listing_names(); cur=cur.merge(ln,on='symbol_norm',how='left')
-    sub=get(SEC_SUB,True); filings,future_filings,unmapped_filings=latest_filings(sub,set(cur.cik))
-    filings.to_csv(DATA/'qa_all_current_latest_filings.csv',index=False)
-    future_filings.to_csv(DATA/'qa_all_current_future_filings_quarantined.csv',index=False)
-    unmapped_filings.to_csv(DATA/'qa_all_current_unmapped_filing_acceptance.csv',index=False)
+    cur=cur.merge(listing_names(),on='symbol_norm',how='left')
+    filings,future_filings,unmapped_filings=latest_filings(get(SEC_SUB,True),set(cur.cik))
+    filings.to_csv(DATA/'qa_all_current_latest_filings.csv',index=False); future_filings.to_csv(DATA/'qa_all_current_future_filings_quarantined.csv',index=False); unmapped_filings.to_csv(DATA/'qa_all_current_unmapped_filing_acceptance.csv',index=False)
     facts=[]; fails=[]
     for _,r in filings.iterrows():
         c=r.cik; acc=str(r.accn); doc=str(r.primary_document)
@@ -129,43 +125,36 @@ def main():
         url=f"https://www.sec.gov/Archives/edgar/data/{int(c)}/{acc.replace('-','')}/{doc}"
         try:
             pf=parse(get(url,True),c,acc)
-            if len(pf):
-                pf['acceptance_datetime']=r.acceptance_datetime; pf['form']=r.form; pf['filing_url']=url; facts.append(pf)
+            if len(pf): pf['acceptance_datetime']=r.acceptance_datetime; pf['form']=r.form; pf['filing_url']=url; facts.append(pf)
         except Exception as e: fails.append({'cik':c,'symbol':'|'.join(cur[cur.cik.eq(c)].symbol.tolist()),'url':url,'error':repr(e)})
         time.sleep(0.11)
     f=pd.concat(facts,ignore_index=True) if facts else pd.DataFrame(); pd.DataFrame(fails).to_csv(DATA/'qa_all_current_fetch_failures.csv',index=False)
     if len(f):
-        f['fact_dt']=pd.to_datetime(f.fact_date,errors='coerce',utc=True)
-        f['acceptance_ts']=pd.to_datetime(f.acceptance_datetime,errors='coerce',utc=True)
-        f['future_vs_asof']=f.fact_dt.notna() & (f.fact_dt>ASOF)
-        f['future_vs_acceptance_day']=f.fact_dt.notna() & f.acceptance_ts.notna() & (f.fact_dt.dt.normalize()>f.acceptance_ts.dt.normalize())
-    else:
-        f['future_vs_asof']=[]; f['future_vs_acceptance_day']=[]
-    badfacts=f[f.future_vs_asof | f.future_vs_acceptance_day].copy() if len(f) else pd.DataFrame()
-    badfacts.to_csv(DATA/'qa_all_current_future_facts_quarantined.csv',index=False)
-    validf=f[~(f.future_vs_asof | f.future_vs_acceptance_day)].copy() if len(f) else f
-    validf.to_csv(DATA/'qa_all_current_filing_dei_facts.csv',index=False)
+        f['fact_dt']=pd.to_datetime(f.fact_date,errors='coerce',utc=True); f['acceptance_ts']=pd.to_datetime(f.acceptance_datetime,errors='coerce',utc=True)
+        f['future_vs_asof']=f.fact_dt.notna() & (f.fact_dt>ASOF); f['future_vs_acceptance_day']=f.fact_dt.notna() & f.acceptance_ts.notna() & (f.fact_dt.dt.normalize()>f.acceptance_ts.dt.normalize())
+    else: f['future_vs_asof']=[]; f['future_vs_acceptance_day']=[]
+    badfacts=f[f.future_vs_asof | f.future_vs_acceptance_day].copy() if len(f) else pd.DataFrame(); badfacts.to_csv(DATA/'qa_all_current_future_facts_quarantined.csv',index=False)
+    validf=f[~(f.future_vs_asof | f.future_vs_acceptance_day)].copy() if len(f) else f; validf.to_csv(DATA/'qa_all_current_filing_dei_facts.csv',index=False)
     symbols_by_cik=cur.groupby('cik').symbol.apply(list).to_dict(); rows=[]
     for _,r in cur.iterrows():
         cf=validf[validf.cik.eq(r.cik)].copy() if len(validf) else pd.DataFrame(); status='UNRESOLVED'; shares=None; fd=None; mem=None; reason='NO_VALID_LATEST_FILING_DEI'
         if len(cf):
-            mx=cf.fact_dt.max(); cf=cf[cf.fact_dt.eq(mx)] if pd.notna(mx) else cf
-            ex=expected(r.symbol,r['name'],r.get('listing_security_name')); syms=symbols_by_cik.get(r.cik,[])
+            mx=cf.fact_dt.max(); cf=cf[cf.fact_dt.eq(mx)] if pd.notna(mx) else cf; ex=expected(r.symbol,r['name'],r.get('listing_security_name')); syms=symbols_by_cik.get(r.cik,[])
             if ex:
                 z=cf[cf.class_letter.eq(ex)]; vals=z.shares.dropna().unique()
-                if len(vals)==1: status='RESOLVED_CLASS_MATCH'; shares=float(vals[0]); fd=str(mx.date()) if pd.notna(mx) else None; mem='|'.join(sorted(set(z.dimension_members.fillna('').astype(str)))); reason=f'CLASS_{ex}_OFFICIAL_IDENTITY_MATCH'
+                if len(vals)==1: status='RESOLVED_CLASS_MATCH'; shares=float(vals[0]); fd=str(mx.date()); mem='|'.join(sorted(set(z.dimension_members.fillna('').astype(str)))); reason=f'CLASS_{ex}_OFFICIAL_IDENTITY_MATCH'
                 else: reason=f'NO_UNIQUE_CLASS_{ex}_MATCH'
             if status=='UNRESOLVED' and len(syms)==1 and isinstance(r.get('listing_security_name'),str) and 'common stock' in r.listing_security_name.lower():
                 z=cf[cf.generic_common_member.eq(True)]; vals=z.shares.dropna().unique()
-                if len(vals)==1: status='RESOLVED_EXACT_GENERIC_COMMON'; shares=float(vals[0]); fd=str(mx.date()) if pd.notna(mx) else None; mem='|'.join(sorted(set(z.dimension_members.fillna('').astype(str)))); reason='OFFICIAL_LISTING_COMMON_STOCK_PLUS_EXACT_COMMONSTOCKMEMBER'
+                if len(vals)==1: status='RESOLVED_EXACT_GENERIC_COMMON'; shares=float(vals[0]); fd=str(mx.date()); mem='|'.join(sorted(set(z.dimension_members.fillna('').astype(str)))); reason='OFFICIAL_LISTING_COMMON_STOCK_PLUS_EXACT_COMMONSTOCKMEMBER'
             if status=='UNRESOLVED' and len(syms)==1:
-                vals=cf.shares.dropna().unique()
-                if len(vals)==1: status='RESOLVED_ONE_VALUE'; shares=float(vals[0]); fd=str(mx.date()) if pd.notna(mx) else None; mem='|'.join(sorted(set(cf.dimension_members.fillna('').astype(str)))); reason='ONE_CURRENT_TICKER_ONE_LATEST_DEI_VALUE'
-                elif reason=='NO_VALID_LATEST_FILING_DEI': reason='MULTIPLE_LATEST_DEI_VALUES'
+                z=cf[cf.dimension_members.fillna('').astype(str).str.strip().eq('')]; vals=z.shares.dropna().unique()
+                if len(vals)==1: status='RESOLVED_ONE_VALUE'; shares=float(vals[0]); fd=str(mx.date()); mem=''; reason='ONE_CURRENT_TICKER_ONE_NON_DIMENSIONAL_LATEST_DEI_VALUE'
+                elif reason=='NO_VALID_LATEST_FILING_DEI': reason='NO_UNIQUE_NON_DIMENSIONAL_LATEST_DEI_VALUE'
         rows.append({'symbol':r.symbol,'cik':r.cik,'name':r['name'],'listing_security_name':r.get('listing_security_name'),'status':status,'shares':shares,'fact_date':fd,'dimension_members':mem,'reason':reason})
     res=pd.DataFrame(rows); res.to_csv(DATA/'qa_all_current_resolution.csv',index=False)
     total=len(res); solved=int(res.status.str.startswith('RESOLVED').sum()); unresolved=total-solved
-    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'audit_asof_utc':ASOF.isoformat(),'current_constituent_rows':int(total),'unique_current_ciks':int(cur.cik.nunique()),'latest_filings_found':int(len(filings)),'future_periodic_filings_quarantined':int(len(future_filings)),'unmapped_periodic_filing_acceptance_quarantined':int(len(unmapped_filings)),'fetch_failures':int(len(fails)),'filing_dei_fact_rows_raw':int(len(f)),'future_or_post_acceptance_fact_rows_quarantined':int(len(badfacts)),'filing_dei_fact_rows_valid':int(len(validf)),'resolved_rows':solved,'resolved_pct':round(100*solved/total,4) if total else None,'unresolved_rows':unresolved,'rule':'All-current filing-level DEI audit with hard acceptance/fact-date cutoffs. Supports inline and native XML XBRL. Explicit class identity > exact generic CommonStockMember > one-current-ticker/one-value. No guessing.'}
+    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'audit_asof_utc':ASOF.isoformat(),'current_constituent_rows':int(total),'unique_current_ciks':int(cur.cik.nunique()),'latest_filings_found':int(len(filings)),'future_periodic_filings_quarantined':int(len(future_filings)),'unmapped_periodic_filing_acceptance_quarantined':int(len(unmapped_filings)),'fetch_failures':int(len(fails)),'filing_dei_fact_rows_raw':int(len(f)),'future_or_post_acceptance_fact_rows_quarantined':int(len(badfacts)),'filing_dei_fact_rows_valid':int(len(validf)),'resolved_rows':solved,'resolved_pct':round(100*solved/total,4) if total else None,'unresolved_rows':unresolved,'rule':'Hard timing cutoffs; inline/native XML XBRL; explicit class > exact CommonStockMember > single-ticker unique NON-DIMENSIONAL value only. No guessing.'}
     (DATA/'qa_all_current_summary.json').write_text(json.dumps(summary,indent=2)); print(json.dumps(summary,indent=2))
 
 if __name__=='__main__': main()
