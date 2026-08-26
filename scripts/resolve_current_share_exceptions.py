@@ -70,7 +70,8 @@ def numeric_fact(tag):
     return val
 
 def expected_class(symbol,index_name,listing_name):
-    for s in (index_name,listing_name):
+    # Official exchange listing identity outranks the derivative index label.
+    for s in (listing_name,index_name):
         c=class_letter(s)
         if c: return c
     m=re.search(r'\.([A-Z])$',str(symbol).upper()); return m.group(1) if m else None
@@ -142,7 +143,7 @@ def main():
                 elif reason=='NO_VALID_FILING_DEI_FACT': reason='NO_UNIQUE_NON_DIMENSIONAL_LATEST_DEI_VALUE_SINGLE_TICKER'
         resolved.append({'symbol':symbol,'cik':cik,'name':row['name'],'listing_security_name':listing,'bulk_has_dei':bool(row.get('has_unambiguous_dei',False)),'bulk_fact_age_days':row.get('fact_age_days'),'fallback_status':status,'fallback_shares':shares,'fallback_fact_date':fact_date,'dimension_members':member,'reason':reason})
     res=pd.DataFrame(resolved); res.to_csv(DATA/'qa_current_filing_resolution.csv',index=False)
-    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'audit_asof_utc':ASOF.isoformat(),'exception_symbols':int(len(exc)),'exception_ciks':int(len(target)),'latest_filings_found':int(len(filings)),'filing_fetch_failures':int(len(fetch_fail)),'filing_dei_fact_rows':int(len(facts)),'future_or_post_acceptance_facts_quarantined':int(len(bad)),'listing_name_matches_found':int(exc.listing_security_name.notna().sum()),'resolved_exception_symbols':int(res.fallback_status.str.startswith('RESOLVED').sum()),'unresolved_exception_symbols':int((~res.fallback_status.str.startswith('RESOLVED')).sum()),'rule':'Filing-level DEI fallback with hard timing cutoff + official listing identity. Inline/native XML supported. Single-symbol one-value fallback requires non-dimensional fact. No guessing.'}
+    summary={'audited_at_utc':datetime.now(timezone.utc).isoformat(),'audit_asof_utc':ASOF.isoformat(),'exception_symbols':int(len(exc)),'exception_ciks':int(len(target)),'latest_filings_found':int(len(filings)),'filing_fetch_failures':int(len(fetch_fail)),'filing_dei_fact_rows':int(len(facts)),'future_or_post_acceptance_facts_quarantined':int(len(bad)),'listing_name_matches_found':int(exc.listing_security_name.notna().sum()),'resolved_exception_symbols':int(res.fallback_status.str.startswith('RESOLVED').sum()),'unresolved_exception_symbols':int((~res.fallback_status.str.startswith('RESOLVED')).sum()),'rule':'Official exchange listing identity precedes derivative index labels; filing-level DEI hard timing cutoff; inline/native XML supported; one-value fallback requires non-dimensional fact. No guessing.'}
     (DATA/'qa_current_filing_summary.json').write_text(json.dumps(summary,indent=2)); print(json.dumps(summary,indent=2))
 
 if __name__=='__main__': main()
