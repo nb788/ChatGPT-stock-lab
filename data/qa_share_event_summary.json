@@ -1,0 +1,15 @@
+{
+  "built_at_utc": "2026-08-26T00:47:31.375085+00:00",
+  "asof_utc": "2026-08-26T00:32:12.440246+00:00",
+  "current_rows": 503,
+  "periodic_filings_parsed": 997,
+  "filings_per_cik_target": 2,
+  "quarantined_filing_rows": 0,
+  "fetch_failures": 0,
+  "raw_dei_facts_valid": 1213,
+  "quarantined_fact_rows": 0,
+  "mapped_share_events": 975,
+  "symbols_with_any_event": 489,
+  "symbols_with_anchor_before_45d": 486,
+  "rule": "Official listing identity has precedence over derivative index labels. Events preserve acceptance time; one-value fallback only non-dimensional; daily turnover as-of joins latest known same-class event then applies intervening splits. No backfill."
+}

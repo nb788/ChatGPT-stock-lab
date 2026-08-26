@@ -1,10 +1,18 @@
 {
-  "built_at_utc": "2026-08-25T23:14:58.204127+00:00",
+  "built_at_utc": "2026-08-26T00:22:33.472394+00:00",
+  "generator_git_sha": "75caa10bea2bbc47a2e791aef06b4dcf6f9718c8",
+  "generator_run_id": "32914698773",
+  "generator_run_attempt": "1",
   "source_companyfacts": "https://www.sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip",
+  "source_companyfacts_sha256": "7966706838dfa052aed75cdcb727821285baa43d7b662f10d558bd5d4ffe7c78",
   "source_submissions": "https://www.sec.gov/Archives/edgar/daily-index/bulkdata/submissions.zip",
+  "source_submissions_sha256": "1fcf82c2ed301481d7892743ad87c242db8a78be2bc5594387112603ad50cc6d",
   "source_sp500_history": "https://raw.githubusercontent.com/lawcal/sp500-components-history/main/data/components_history.csv",
+  "source_sp500_history_sha256": "0c248c94e708f33a6235688c47aadfccc0d7779c545fd65c6c8b698dcf964c1b",
+  "source_sp500_current": "https://raw.githubusercontent.com/lawcal/sp500-components-history/main/data/sp500_components.csv",
+  "source_sp500_current_sha256": "d4ed12c7d92e7b537d24e7a3438ae7d59c160f100d0d0fa8c4ff4ab83f485729",
   "target_cik_count": 894,
   "share_fact_rows": 96380,
   "acceptance_timestamp_mapped_count": 96374,
-  "rule": "Raw relevant facts only; no imputation, favorable conflict resolution, or share-class guessing."
+  "rule": "Raw relevant facts only; no imputation, favorable conflict resolution, or share-class guessing. Generator revision and source-content hashes recorded for stale/revised-input detection."
 }

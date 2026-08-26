@@ -1,0 +1,65 @@
+{
+  "audited_at_utc": "2026-08-26T00:47:31.788962+00:00",
+  "tests": 14,
+  "passed": 14,
+  "failed": 0,
+  "results": [
+    {
+      "test": "acceptance_asof_no_backfill",
+      "status": "PASS"
+    },
+    {
+      "test": "forward_split_price_and_share_units",
+      "status": "PASS"
+    },
+    {
+      "test": "reverse_split_price_and_share_units",
+      "status": "PASS"
+    },
+    {
+      "test": "net_10pct_target_includes_entry_and_exit_costs",
+      "status": "PASS"
+    },
+    {
+      "test": "raw_notional_10000_whole_share_cap",
+      "status": "PASS"
+    },
+    {
+      "test": "future_fact_quarantine",
+      "status": "PASS"
+    },
+    {
+      "test": "strict_share_class_guard",
+      "status": "PASS"
+    },
+    {
+      "test": "missing_denominator_no_imputation",
+      "status": "PASS"
+    },
+    {
+      "test": "security_lineage_not_ticker_only",
+      "status": "PASS"
+    },
+    {
+      "test": "deterministic_cross_sectional_screen",
+      "status": "PASS"
+    },
+    {
+      "test": "inclusive_90th_percentile_semantics",
+      "status": "PASS"
+    },
+    {
+      "test": "real_sec_metadata_invariants",
+      "status": "PASS"
+    },
+    {
+      "test": "current_universe_structural_invariants",
+      "status": "PASS"
+    },
+    {
+      "test": "real_share_event_invariants_and_dimensional_fallback",
+      "status": "PASS"
+    }
+  ],
+  "interpretation": "Executable invariants/failure injections; passing does not prove alpha or historical completeness."
+}

@@ -1,13 +1,14 @@
 {
-  "audited_at_utc": "2026-08-25T23:16:35.312455+00:00",
+  "audited_at_utc": "2026-08-26T00:23:40.604474+00:00",
+  "audit_asof_utc": "2026-08-26T00:22:38.277046+00:00",
   "exception_symbols": 53,
   "exception_ciks": 50,
   "latest_filings_found": 50,
   "filing_fetch_failures": 0,
   "filing_dei_fact_rows": 114,
-  "filing_dei_fact_ciks": 50,
+  "future_or_post_acceptance_facts_quarantined": 0,
   "listing_name_matches_found": 53,
   "resolved_exception_symbols": 39,
   "unresolved_exception_symbols": 14,
-  "rule": "Filing-level DEI fallback + official listing security-name class identity. Generic matching is exact CommonStockMember only. No guessing."
+  "rule": "Official exchange listing identity precedes derivative index labels; filing-level DEI hard timing cutoff; inline/native XML supported; one-value fallback requires non-dimensional fact. No guessing."
 }

@@ -1,0 +1,17 @@
+{
+  "audited_at_utc": "2026-08-26T00:32:11.948234+00:00",
+  "audit_asof_utc": "2026-08-26T00:23:41.176705+00:00",
+  "current_constituent_rows": 503,
+  "unique_current_ciks": 500,
+  "latest_filings_found": 500,
+  "future_periodic_filings_quarantined": 0,
+  "unmapped_periodic_filing_acceptance_quarantined": 0,
+  "fetch_failures": 0,
+  "filing_dei_fact_rows_raw": 608,
+  "future_or_post_acceptance_fact_rows_quarantined": 0,
+  "filing_dei_fact_rows_valid": 608,
+  "resolved_rows": 489,
+  "resolved_pct": 97.2167,
+  "unresolved_rows": 14,
+  "rule": "Official exchange listing identity precedes derivative index labels; hard timing cutoffs; inline/native XML XBRL; explicit class > exact CommonStockMember > single-ticker unique NON-DIMENSIONAL value only. No guessing."
+}
