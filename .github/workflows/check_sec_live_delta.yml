@@ -3,9 +3,9 @@ name: Check live SEC close delta
 on:
   workflow_dispatch:
   schedule:
-    # Redundant close-window slots mitigate GitHub schedule delays. A New York
-    # local-time guard below rejects irrelevant UTC/DST slots.
-    - cron: "*/15 20-22 * * 1-5"
+    # A non-peak UTC minute reduces GitHub schedule congestion while remaining
+    # after the 16:30 ET cutoff in both daylight and standard time.
+    - cron: "53 21 * * 1-5"
   push:
     paths:
       - "scripts/build_live_sec_delta.py"
@@ -40,8 +40,8 @@ jobs:
           ny=datetime.now(timezone.utc).astimezone(ZoneInfo('America/New_York'))
           mins=ny.hour*60+ny.minute
           # Push/dispatch is the deterministic close-task trigger. Scheduled
-          # redundancy is accepted only during the post-close maintenance window.
-          ok=(event!='schedule') or (ny.weekday()<5 and 16*60+15 <= mins <= 18*60)
+          # fallback is accepted only after the strategy's 16:30 ET cutoff.
+          ok=(event!='schedule') or (ny.weekday()<5 and 16*60+30 <= mins <= 18*60+30)
           with open(os.environ['GITHUB_OUTPUT'],'a') as f:
               f.write(f"run_delta={'true' if ok else 'false'}\n")
               f.write(f"ny_time={ny.isoformat()}\n")
