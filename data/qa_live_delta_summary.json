@@ -1,13 +1,27 @@
 {
-  "checked_at_utc": "2026-08-26T00:37:55.408158+00:00",
-  "bulk_built_at_utc": "2026-08-25T23:14:58.204127+00:00",
+  "checked_at_utc": "2026-08-27T20:42:32.820169+00:00",
+  "bulk_built_at_utc": "2026-08-26T11:02:11.056028+00:00",
   "current_ciks_checked": 500,
   "api_failures": 0,
-  "new_periodic_filings_since_bulk": 0,
-  "affected_ciks": [],
+  "new_periodic_filings_since_bulk": 13,
+  "affected_ciks": [
+    "0000029534",
+    "0000047217",
+    "0000048465",
+    "0000091419",
+    "0000315189",
+    "0000883241",
+    "0000935703",
+    "0001045810",
+    "0001108524",
+    "0001327811",
+    "0001393052",
+    "0001403568",
+    "0001535527"
+  ],
   "filing_fetch_failures": 0,
   "quarantined_fact_rows": 0,
-  "mapped_live_share_events": 0,
+  "mapped_live_share_events": 13,
   "unresolved_affected_events": 0,
   "production_rule": "Combine valid live events with nightly history by acceptance time. New affected filings without deterministic same-class mapping make affected ticker ineligible."
 }
