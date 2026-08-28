@@ -1,5 +1,5 @@
 {
-  "signal_date": "2026-08-27",
-  "requested_at_utc": "2026-08-27T20:40:00Z",
-  "purpose": "close_data_freshness_repair"
+  "signal_date": "2026-08-28",
+  "requested_at_utc": "2026-08-28T20:32:26.582Z",
+  "purpose": "prospective_close_run"
 }
