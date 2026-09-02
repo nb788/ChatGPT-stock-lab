@@ -1,5 +1,11 @@
 # ChatGPT Short-Term Stock Lab Data Bridge
 
+> **Project research gate: `BLOCKED_PREWORK`.** This public bridge may continue
+> source acquisition, parsing, and QA, but its outputs may not be used for new
+> stock backtests, indicator searches, challenger tuning, holdout access, or
+> promotion until the authoritative runtime gate reports `OPEN`. See
+> `PROJECT_RESEARCH_RESUME_GATE.md` and `data/research_resume_gate_status.json`.
+
 This public repository is a data-engineering bridge for the Short-Term Stock Strategy Lab. It is infrastructure only; the frozen trading model and private Lab state do not live here.
 
 ## Primary roles
