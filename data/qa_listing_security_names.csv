@@ -1241,7 +1241,6 @@ CRMT,"America's Car-Mart, Inc. - Common Stock",NASDAQ
 CRMU,Leverage Shares 2x Long CRML Daily ETF,NASDAQ
 CRNC,Cerence Inc. - Common Stock,NASDAQ
 CRNT,Ceragon Networks Ltd. - Ordinary Shares,NASDAQ
-CRNX,"Crinetics Pharmaceuticals, Inc. - Common Stock",NASDAQ
 CROB,Defiance China Robotics ETF,NASDAQ
 CRON,Cronos Group Inc. - Common Share,NASDAQ
 CROX,"Crocs, Inc. - Common Stock",NASDAQ
@@ -3376,7 +3375,6 @@ NCPB,Nuveen Core Plus Bond ETF,NASDAQ
 NCPL,Netcapital Inc. - Common Stock,NASDAQ
 NCPLW,Netcapital Inc. - warrants,NASDAQ
 NCRA,"Nocera, Inc. - common stock",NASDAQ
-NCSM,"NCS Multistage Holdings, Inc. - Common Stock",NASDAQ
 NCT,Intercont (Cayman) Limited - Class A Ordinary shares,NASDAQ
 NCTY,The9 Limited - American Depository Shares,NASDAQ
 NDAA,Ned Davis Research 360 Dynamic Allocation ETF,NASDAQ
@@ -3483,7 +3481,10 @@ NRIX,"Nurix Therapeutics, Inc. - Common stock",NASDAQ
 NRSN,NeuroSense Therapeutics Ltd. - Ordinary Shares,NASDAQ
 NRSNW,NeuroSense Therapeutics Ltd. - Warrant,NASDAQ
 NRXP,"NRX Pharmaceuticals, Inc. - Common Stock",NASDAQ
+NSAI,NorthStrive Acquisition Corp I. - Class A Ordinary Shares,NASDAQ
+NSAIR,NorthStrive Acquisition Corp I. - Rights,NASDAQ
 NSAIU,NorthStrive Acquisition Corp I. - Units,NASDAQ
+NSAIW,NorthStrive Acquisition Corp I. - Warrants,NASDAQ
 NSI,National Security Emerging Markets Index ETF,NASDAQ
 NSIT,"Insight Enterprises, Inc. - Common Stock",NASDAQ
 NSLR,Neostellar Capital Corp. - Closed End Fund,NASDAQ
@@ -5513,6 +5514,7 @@ YDDL,One and One Green Technologies. INC - Class A Ordinary Shares,NASDAQ
 YDES,YD Bio Limited - Ordinary Shares,NASDAQ
 YDESW,YD Bio Limited - Warrants,NASDAQ
 YDKG,Yueda Digital Holding - Class A Ordinary Share,NASDAQ
+YFOR,YYForce Inc. - Class A Ordinary Shares,NASDAQ
 YHC,LQR House Inc. - Common Stock,NASDAQ
 YHGJ,Yunhong Green CTI Ltd. - Common Stock,NASDAQ
 YHNA,YHN Acquisition I Limited - Ordinary Shares,NASDAQ
@@ -5542,7 +5544,6 @@ YSXT,"YSX Tech. Co., Ltd  - Class A Ordinary Shares",NASDAQ
 YTRA,"Yatra Online, Inc. - Ordinary Shares",NASDAQ
 YXT,YXT.COM GROUP HOLDING LIMITED - American Depository Shares,NASDAQ
 YYAI,AiRWA Inc. - Common Stock,NASDAQ
-YYGH,YY Group Holding Limited - Class A Ordinary Shares,NASDAQ
 Z,"Zillow Group, Inc. - Class C Capital Stock",NASDAQ
 ZAP,Global X U.S. Electrification ETF,NASDAQ
 ZAZZT,Tick Pilot Test Stock Class A Common Stock,NASDAQ
@@ -5578,7 +5579,6 @@ ZOOZW,ZOOZ Strategy Ltd. - Warrant,NASDAQ
 ZS,"Zscaler, Inc. - Common Stock",NASDAQ
 ZSQR,Z Squared Inc. - Common Stock,NASDAQ
 ZSTK,ZeroStack Corp. - Common Stock,NASDAQ
-ZTEK,Zentek Ltd. - common stock,NASDAQ
 ZTEN,F/m 10-Year Investment Grade Corporate Bond ETF,NASDAQ
 ZTG,Zenta Group Company Limited - Class A Ordinary Shares,NASDAQ
 ZTOP,F/m High Yield 100 ETF,NASDAQ
@@ -7353,6 +7353,7 @@ DIV,Global X Super Dividend ETF,OTHER
 DIVB,iShares Core Dividend ETF,OTHER
 DIVE,Dana Concentrated Dividend ETF,OTHER
 DIVG,Invesco S&P 500 High Dividend Growers ETF,OTHER
+DIVH,Integrity Dividend Harvest ETF,OTHER
 DIVI,Franklin International Core Dividend Tilt Index ETF,OTHER
 DIVL,Madison Dividend Value ETF,OTHER
 DIVN,Horizon Dividend Income ETF,OTHER
@@ -8736,7 +8737,6 @@ HLIO,"Helios Technologies, Inc. Common Stock",OTHER
 HLLY,Holley Inc. Common Stock,OTHER
 HLN,Haleon plc American Depositary Shares (Each representing two Ordinary Shares),OTHER
 HLT,Hilton Worldwide Holdings Inc. Common Stock ,OTHER
-HLX,"Helix Energy Solutions Group, Inc. Common Stock",OTHER
 HMAY,Corgi U.S. Equities 100% Structured Buffer ETF - May Series,OTHER
 HMC,"Honda Motor Company, Ltd. Common Stock",OTHER
 HMN,Horace Mann Educators Corporation Common Stock,OTHER
@@ -8754,6 +8754,7 @@ HONG,Leverage Shares 2X Long HON Daily ETF,OTHER
 HOOC,Corgi HOOD 2x Daily ETF,OTHER
 HOOW,Roundhill HOOD WeeklyPay ETF,OTHER
 HOOY,YieldMax HOOD Option Income Strategy ETF,OTHER
+HOS,"Hornbeck Offshore Services, Inc. Common Stock",OTHER
 HOV,"Hovnanian Enterprises, Inc. Class A Common Stock",OTHER
 HP,"Helmerich & Payne, Inc. Common Stock",OTHER
 HPE,Hewlett Packard Enterprise Company Common Stock,OTHER
@@ -11648,6 +11649,7 @@ SKF,ProShares UltraShort Financials,OTHER
 SKHA,Tradr 2X Long SK hynix Daily ETF,OTHER
 SKHL,Direxion Daily SK Hynix Bull 2X ETF,OTHER
 SKHN,Tradr 2X Short SK hynix Daily ETF,OTHER
+SKHQ,Leverage Shares 2X Short Sk Hynix Daily ETF,OTHER
 SKHU,ProShares Ultra SK hynix,OTHER
 SKHX,Leverage Shares 2X Long SK Hynix Daily ETF,OTHER
 SKHZ,Leverage Shares 1X Short SK Hynix Daily ETF,OTHER
@@ -12402,6 +12404,7 @@ UBR,ProShares Ultra MSCI Brazil Capped,OTHER
 UBS,UBS Group AG Registered Ordinary Shares,OTHER
 UBT,ProShares Ultra 20+ Year Treasury,OTHER
 UCB,"United Community Banks, Inc. Common Stock",OTHER
+UCBG,State Street SPDR UC Investments 90/10 Endowment Strategy Index ETF,OTHER
 UCC,ProShares Ultra Consumer Discretionary,OTHER
 UCIB,"ETRACS UBS Bloomberg Constant Maturity Commodity Index (CMCI) Total Return ETN Series B due April 5, 2038",OTHER
 UCO,ProShares Ultra Bloomberg Crude Oil,OTHER
@@ -12689,6 +12692,7 @@ VOE,Vanguard Morningstar Mid-Cap Value ETF,OTHER
 VOO,Vanguard S&P 500 ETF,OTHER
 VOOG,Vanguard S&P 500 Growth ETF,OTHER
 VOOV,Vanguard S&P 500 Value ETF,OTHER
+VOOY,XFUNDS Large Cap Income ETF,OTHER
 VOT,Vanguard Morningstar Mid-Cap Growth ETF,OTHER
 VOX,Vanguard Communication Services  ETF,OTHER
 VOXP,Vox Populi ETF,OTHER
