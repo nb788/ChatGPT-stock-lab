@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0",
+  "architecture_id": "STOCK-STRATEGY-LAB-OVERARCHING-v2.7",
+  "gate_id": "STOCK-PROJECT-PREWORK-GATE-v1",
+  "gate_status": "BLOCKED_PREWORK",
+  "authoritative_runtime_repository": "nb788/stock-lab-runtime",
+  "authoritative_state_path": "research_only/project_resume_gate_v1.json",
+  "runtime_commit_or_pr": "runtime main 35e4fe2b0dfbc9e2f35fda431d5030b782ff067d plus research-control PR #1 pending merge",
+  "updated_at_utc": "2026-09-02T22:45:00Z",
+  "infrastructure_may_continue": true,
+  "research_may_continue": false,
+  "no_order_authority": true,
+  "bridge_scope": "Public source acquisition, transport, parsing, QA, and canonical export may continue. New backtests, indicator searches, challenger tuning, holdout access, and promotion may not use bridge outputs until the authoritative runtime gate reports OPEN.",
+  "required_first_action_for_research": "Validate the authoritative runtime gate before consuming bridge data for research.",
+  "production_effect": "NONE"
+}
