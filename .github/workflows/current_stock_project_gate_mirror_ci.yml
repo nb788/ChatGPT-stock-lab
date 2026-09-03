@@ -1,0 +1,60 @@
+name: Current stock project gate mirror CI
+
+on:
+  pull_request:
+    paths:
+      - "STOCK_PROJECT_GATE_CURRENT.md"
+      - "data/research_resume_gate_status_current.json"
+      - ".github/workflows/current_stock_project_gate_mirror_ci.yml"
+  push:
+    branches: [main]
+    paths:
+      - "STOCK_PROJECT_GATE_CURRENT.md"
+      - "data/research_resume_gate_status_current.json"
+      - ".github/workflows/current_stock_project_gate_mirror_ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12.14"
+      - name: Validate fail-closed project mirror
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          status=json.loads(Path('data/research_resume_gate_status_current.json').read_text())
+          text=Path('STOCK_PROJECT_GATE_CURRENT.md').read_text()
+          assert status['architecture_id']=='STOCK-STRATEGY-LAB-OVERARCHING-v2.7'
+          assert status['gate_id']=='STOCK-PROJECT-PREWORK-GATE-v1'
+          assert status['mirror_status']=='BLOCKED_PREWORK'
+          assert status['no_manual_bypass'] is True
+          assert status['applies_to_all_stock_project_chats_and_work_sessions'] is True
+          assert status['scheduled_components']==[
+              'OPENING_RUN','CLOSING_RUN','WEEKLY_ENGINEERING_REVIEW'
+          ]
+          assert status['broker_reconciliation']['status']=='PASS'
+          assert status['broker_reconciliation']['managed_entry_count']==0
+          assert status['broker_reconciliation']['managed_exit_count']==0
+          assert status['broker_reconciliation']['open_order_count']==0
+          assert status['broker_reconciliation']['position_count']==0
+          assert status['broker_reconciliation']['automatic_actions_taken']==[]
+          assert status['broker_reconciliation']['may_authorize_orders'] is False
+          assert status['broker_reconciliation']['activates_execution_contract'] is False
+          assert status['broker_reconciliation']['opens_research_gate'] is False
+          assert status['holdout_opened'] is False
+          assert status['production_change_authorized'] is False
+          assert status['order_authority_granted'] is False
+          assert status['remaining_prerequisites']
+          assert 'No stock-project chat or Work session may resume historical research' in text
+          assert 'return of Work data does **not** itself open the gate' in text
+          assert 'It is not a fourth scheduled task' in text
+          PY
