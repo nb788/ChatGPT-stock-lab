@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "project_id": "STOCK-STRATEGY-LAB-OVERARCHING-v2.7",
   "state": "HOLD_REMEDIATION_ONLY",
   "classification": "PROJECT_GOVERNANCE_MIRROR",
@@ -9,7 +9,19 @@
   "authoritative_gate": {
     "repository": "nb788/stock-lab-runtime",
     "branch": "main",
-    "path": "PROJECT_RESEARCH_RESUME_GATE.json"
+    "path": "research_only/project_resume_gate_v1.json",
+    "verified_commit": "2b01a4d22e746ff71f5fa61a2cc5fa9dbbe88c04",
+    "gate_id": "STOCK-PROJECT-PREWORK-GATE-v1",
+    "gate_status": "BLOCKED_PREWORK"
+  },
+  "latest_verified_progress": {
+    "broker_reconciliation_prerequisite": "PASS",
+    "broker_snapshot_as_of_utc": "2026-09-02T23:02:30.768086Z",
+    "managed_entries": 0,
+    "managed_exits": 0,
+    "open_orders": 0,
+    "positions": 0,
+    "research_gate_open": false
   },
   "applies_to": [
     "all historical market-data acquisition",
@@ -20,16 +32,20 @@
   ],
   "fallback_behavior": "HOLD",
   "startup_protocol": [
-    "Verify the authoritative runtime-repository gate before beginning research.",
-    "If the authoritative gate cannot be fetched, parsed, and hash-recorded, remain on HOLD.",
+    "Fetch and hash the authoritative runtime-repository gate before beginning research.",
+    "Verify the authoritative path is research_only/project_resume_gate_v1.json at the recorded or newer main commit.",
+    "If the authoritative gate cannot be fetched, parsed, hash-verified, or reports anything other than OPEN, remain on HOLD.",
     "Restored Work-data capacity does not change readiness.",
+    "Complete remediation prerequisites before recording the restored Work allowance or attempting WD-01.",
     "Only the committed authoritative gate may permit READY_FOR_WORK_DATA or READY_FOR_VALIDATION.",
-    "Record the authoritative commit and file SHA-256 in every resumed job artifact."
+    "Record the authoritative commit and gate state SHA-256 in every resumed job artifact."
   ],
   "allowed_while_held": [
     "data-integrity remediation that does not consume validation evidence",
     "documentation and preregistration",
     "test and adapter implementation",
+    "canonical import and dependency-lineage construction",
+    "scheduler and Weekly Engineering Review binding",
     "Weekly Engineering Review remediation"
   ],
   "prohibited_while_held": [
