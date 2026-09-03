@@ -1,16 +1,42 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "architecture_id": "STOCK-STRATEGY-LAB-OVERARCHING-v2.7",
   "gate_id": "STOCK-PROJECT-PREWORK-GATE-v1",
   "gate_status": "BLOCKED_PREWORK",
   "authoritative_runtime_repository": "nb788/stock-lab-runtime",
   "authoritative_state_path": "research_only/project_resume_gate_v1.json",
-  "runtime_commit_or_pr": "runtime main 002acb0cfca7631e7954bd1652eda57bb03f9f34",
-  "updated_at_utc": "2026-09-02T22:52:00Z",
+  "runtime_commit_or_pr": "runtime main 2b01a4d22e746ff71f5fa61a2cc5fa9dbbe88c04",
+  "updated_at_utc": "2026-09-03T00:53:19Z",
   "infrastructure_may_continue": true,
   "research_may_continue": false,
   "no_order_authority": true,
+  "passed_prerequisites": [
+    "PRE-01-RUNTIME-FAIL-CLOSED-TRANSITION-INSTALLED",
+    "PRE-02-RESEARCH-CONTROLS-MERGED",
+    "PRE-03-BROKER-STATE-RECONCILED",
+    "PRE-11-WORK-PACKETS-FROZEN",
+    "PRE-13-PUBLIC-BRIDGE-DIRECTIVE-PUBLISHED"
+  ],
+  "remaining_required_prerequisites": [
+    "PRE-04-CANONICAL-STATE-IMPORTED",
+    "PRE-05-REAL-DEPENDENCY-GRAPH-POPULATED",
+    "PRE-06-EXTERNAL-LEDGER-ANCHOR-CONFIGURED",
+    "PRE-07-ORCHESTRATION-IDENTITIES-PINNED",
+    "PRE-08-WEEKLY-REVIEW-BINDING-VERIFIED",
+    "PRE-09-COMBINED-REGRESSION-AND-FAULTS-PASS",
+    "PRE-10-SEED-REGISTRIES-IMPORTED",
+    "PRE-12-WORK-DATA-QUOTAS-RECORDED"
+  ],
+  "latest_broker_reconciliation": {
+    "as_of_utc": "2026-09-02T23:02:30.768086Z",
+    "status": "PASS",
+    "managed_entry_count": 0,
+    "managed_exit_count": 0,
+    "retrieved_open_order_count": 0,
+    "position_count": 0,
+    "report_payload_sha256": "d7b7599723933a74ce3c6608a5a87eb36468ae171237a77e3df124df00af98d3"
+  },
   "bridge_scope": "Public source acquisition, transport, parsing, QA, and canonical export may continue. New backtests, indicator searches, challenger tuning, holdout access, and promotion may not use bridge outputs until the authoritative runtime gate reports OPEN.",
-  "required_first_action_for_research": "Validate the authoritative runtime gate before consuming bridge data for research.",
+  "required_first_action_for_research": "Fetch and validate the authoritative runtime gate. Restored Work data does not permit research while BLOCKED_PREWORK remains.",
   "production_effect": "NONE"
 }
