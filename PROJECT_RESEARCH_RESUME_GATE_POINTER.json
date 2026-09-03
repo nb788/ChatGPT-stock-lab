@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "project_id": "STOCK-STRATEGY-LAB-OVERARCHING-v2.7",
+  "state": "HOLD_REMEDIATION_ONLY",
+  "classification": "PROJECT_GOVERNANCE_MIRROR",
+  "production_impact": "NONE",
+  "automatic_unlock": false,
+  "may_authorize_orders": false,
+  "authoritative_gate": {
+    "repository": "nb788/stock-lab-runtime",
+    "branch": "main",
+    "path": "PROJECT_RESEARCH_RESUME_GATE.json"
+  },
+  "applies_to": [
+    "all historical market-data acquisition",
+    "all feature and label materialization",
+    "all backtesting and challenger work",
+    "all validation and holdout access",
+    "all Work-data jobs launched from this repository or any Stock project chat"
+  ],
+  "fallback_behavior": "HOLD",
+  "startup_protocol": [
+    "Verify the authoritative runtime-repository gate before beginning research.",
+    "If the authoritative gate cannot be fetched, parsed, and hash-recorded, remain on HOLD.",
+    "Restored Work-data capacity does not change readiness.",
+    "Only the committed authoritative gate may permit READY_FOR_WORK_DATA or READY_FOR_VALIDATION.",
+    "Record the authoritative commit and file SHA-256 in every resumed job artifact."
+  ],
+  "allowed_while_held": [
+    "data-integrity remediation that does not consume validation evidence",
+    "documentation and preregistration",
+    "test and adapter implementation",
+    "Weekly Engineering Review remediation"
+  ],
+  "prohibited_while_held": [
+    "new historical strategy research",
+    "new feature or model searches",
+    "new challenger work",
+    "validation or holdout access",
+    "large Work-data acquisition or compute"
+  ]
+}
