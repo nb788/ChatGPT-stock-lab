@@ -397,7 +397,6 @@ ARMY,Tema International Defense ETF,NASDAQ
 AROW,Arrow Financial Corporation - Common Stock,NASDAQ
 ARQ,"Arq, Inc. - Common Stock",NASDAQ
 ARQQ,Arqit Quantum Inc. - Ordinary Shares,NASDAQ
-ARQQW,Arqit Quantum Inc. - Warrants,NASDAQ
 ARQT,"Arcutis Biotherapeutics, Inc. - Common stock",NASDAQ
 ARRY,"Array Technologies, Inc. - Common Stock",NASDAQ
 ARTC,Art Technology Acquisition Corp. - Class A Ordinary Shares,NASDAQ
@@ -2701,6 +2700,8 @@ JLHL,Julong Holding Limited - Class A Ordinary Shares,NASDAQ
 JLVP,JPMorgan U.S. Large Cap Value Plus ETF,NASDAQ
 JMID,Janus Henderson Mid Cap Growth Alpha ETF,NASDAQ
 JMSB,"John Marshall Bancorp, Inc. - Common Stock",NASDAQ
+JONE,Jones Ventures INTL Acquisition1 Corp - Class A Ordinary Shares,NASDAQ
+JONER,Jones Ventures INTL Acquisition1 Corp - Rights,NASDAQ
 JONEU,Jones Ventures INTL Acquisition1 Corp - Units,NASDAQ
 JOUT,Johnson Outdoors Inc. - Class A Common Stock,NASDAQ
 JOYT,JPMorgan Equity and Options Total Return ETF,NASDAQ
@@ -4184,7 +4185,6 @@ RCBC,River City Bank - Common stock,NASDAQ
 RCEL,"Avita Medical, Inc. - Common Stock",NASDAQ
 RCGE,RockCreek Global Equality ETF,NASDAQ
 RCKT,"Rocket Pharmaceuticals, Inc. - Common Stock",NASDAQ
-RCKTW,"Rocket Pharmaceuticals, Inc. - Warrant",NASDAQ
 RCKY,"Rocky Brands, Inc. - Common Stock",NASDAQ
 RCMT,"RCM Technologies, Inc. - Common Stock",NASDAQ
 RCON,"Recon Technology, Ltd. - Class A Ordinary Shares",NASDAQ
@@ -10778,6 +10778,7 @@ PJFM,PGIM Jennison Focused Mid-Cap ETF,OTHER
 PJFV,PGIM Jennison Focused Value ETF,OTHER
 PJIO,PGIM Jennison Focused International Equity ETF,OTHER
 PJP,Invesco Pharmaceuticals ETF,OTHER
+PJSM,PGIM Jennison Small-Mid Cap Core Equity ETF,OTHER
 PJT,PJT Partners Inc. Class A Common Stock,OTHER
 PJUL,Innovator U.S. Equity Power Buffer ETF - July,OTHER
 PJUN,Innovator U.S. Equity Power Buffer ETF - June,OTHER
@@ -10901,7 +10902,6 @@ PRT,PermRock Royalty Trust Units of Beneficial Interest,OTHER
 PRTO,RCN Pareto Strategic Allocation ETF,OTHER
 PRU,"Prudential Financial, Inc. Common Stock",OTHER
 PRVS,Parnassus Value Select ETF,OTHER
-PRVT,Tema Alternative Asset Managers ETF,OTHER
 PRXG,Praxis Impact Large Cap Growth ETF,OTHER
 PRXI,Praxis Impact International ETF,OTHER
 PRXV,Praxis Impact Large Cap Value ETF,OTHER
@@ -12307,6 +12307,7 @@ TRV,"The Travelers Companies, Inc. Common Stock",OTHER
 TRX,TRX Gold Corporation Common Stock,OTHER
 TS,Tenaris S.A. American Depositary Shares,OTHER
 TSCV,Thrivent Small Cap Value ETF,OTHER
+TSCZ,T. Rowe Price Securitized Income ETF,OTHER
 TSEC,Touchstone Securitized Income ETF,OTHER
 TSEG,Leverage Shares 2X Long TSEM Daily ETF,OTHER
 TSEP,FT Vest Emerging Market Buffer ETF - September,OTHER

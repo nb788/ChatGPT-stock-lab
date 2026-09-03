@@ -1,16 +1,16 @@
 symbol,cik,name,sector,entity_name,fact_end,filed,acceptance_datetime,shares,form,accn,has_unambiguous_dei,fact_age_days,stale_gt_180d
 ABNB,0001559720,Airbnb,consumer_discretionary,,,,,,,,False,,False
-ACN,0001467373,Accenture,information_technology,Accenture plc,2010-03-19,2010-03-26,2010-03-26T20:04:45.000Z,637016143.0,10-Q,0001193125-10-068566,True,6011.0,True
-AOS,0000091142,A. O. Smith,industrials,A. O. Smith Corporation,2015-08-05,2015-08-10,2015-08-10T18:23:55.000Z,75732188.0,10-Q,0001193125-15-284570,True,4046.0,True
+ACN,0001467373,Accenture,information_technology,Accenture plc,2010-03-19,2010-03-26,2010-03-26T20:04:45.000Z,637016143.0,10-Q,0001193125-10-068566,True,6012.0,True
+AOS,0000091142,A. O. Smith,industrials,A. O. Smith Corporation,2015-08-05,2015-08-10,2015-08-10T18:23:55.000Z,75732188.0,10-Q,0001193125-15-284570,True,4047.0,True
 APP,0001751008,AppLovin,communication_services,,,,,,,,False,,False
-ARES,0001176948,Ares Management,financials,ARES MANAGEMENT CORPORATION,2019-04-29,2019-05-06,2019-05-06T21:14:09.000Z,103332418.0,10-Q,0001628280-19-005931,True,2683.0,True
+ARES,0001176948,Ares Management,financials,ARES MANAGEMENT CORPORATION,2019-04-29,2019-05-06,2019-05-06T21:14:09.000Z,103332418.0,10-Q,0001628280-19-005931,True,2684.0,True
 BF.B,0000014693,Brown–Forman,consumer_staples,,,,,,,,False,,False
-BLK,0002012383,BlackRock,financials,"BlackRock, Inc.",2025-04-30,2025-05-07,2025-05-07T20:51:08.000Z,154926181.0,10-Q,0000950170-25-065838,True,490.0,True
-BRK.B,0001067983,Berkshire Hathaway,financials,BERKSHIRE HATHAWAY INC,2011-04-29,2011-05-06,2011-05-06T21:15:49.000Z,941481.0,10-Q,0001157523-11-002891,True,5605.0,True
-C,0000831001,Citigroup,financials,Citigroup Inc,2026-01-31,2026-02-20,2026-02-20T22:06:54.000Z,1749319009.0,10-K,0000831001-26-000011,True,214.0,True
-CHTR,0001091667,Charter Communications,communication_services,"Charter Communications, Inc.",2016-06-30,2016-08-09,2016-08-09T11:09:59.000Z,270927828.0,10-Q,0001091667-16-000549,True,3716.0,True
-CMCSA,0001166691,Comcast,communication_services,COMCAST CORPORATION,2009-12-31,2010-02-23,2010-02-23T20:47:53.000Z,2063073161.0,10-K,0001193125-10-037551,True,6089.0,True
-CME,0001156375,CME Group,financials,CME GROUP INC.,2010-02-17,2010-02-26,2010-02-26T22:26:57.000Z,66643583.0,10-K,0001193125-10-043180,True,6041.0,True
+BLK,0002012383,BlackRock,financials,"BlackRock, Inc.",2025-04-30,2025-05-07,2025-05-07T20:51:08.000Z,154926181.0,10-Q,0000950170-25-065838,True,491.0,True
+BRK.B,0001067983,Berkshire Hathaway,financials,BERKSHIRE HATHAWAY INC,2011-04-29,2011-05-06,2011-05-06T21:15:49.000Z,941481.0,10-Q,0001157523-11-002891,True,5606.0,True
+C,0000831001,Citigroup,financials,Citigroup Inc,2026-01-31,2026-02-20,2026-02-20T22:06:54.000Z,1749319009.0,10-K,0000831001-26-000011,True,215.0,True
+CHTR,0001091667,Charter Communications,communication_services,"Charter Communications, Inc.",2016-06-30,2016-08-09,2016-08-09T11:09:59.000Z,270927828.0,10-Q,0001091667-16-000549,True,3717.0,True
+CMCSA,0001166691,Comcast,communication_services,COMCAST CORPORATION,2009-12-31,2010-02-23,2010-02-23T20:47:53.000Z,2063073161.0,10-K,0001193125-10-037551,True,6090.0,True
+CME,0001156375,CME Group,financials,CME GROUP INC.,2010-02-17,2010-02-26,2010-02-26T22:26:57.000Z,66643583.0,10-K,0001193125-10-043180,True,6042.0,True
 COIN,0001679788,Coinbase,financials,,,,,,,,False,,False
 CVNA,0001690820,Carvana,consumer_discretionary,,,,,,,,False,,False
 DASH,0001792789,DoorDash,consumer_discretionary,,,,,,,,False,,False
@@ -20,35 +20,35 @@ ECHO,0001415404,EchoStar,communication_services,,,,,,,,False,,False
 EL,0001001250,Estée Lauder Companies (The),consumer_staples,,,,,,,,False,,False
 ERIE,0000922621,Erie Indemnity,financials,,,,,,,,False,,False
 EXPE,0001324424,Expedia Group,consumer_discretionary,,,,,,,,False,,False
-F,0000037996,Ford Motor Company,consumer_discretionary,Ford Motor Co,2011-04-28,2011-05-10,2011-05-10T20:46:52.000Z,3727332952.0,10-Q,0001157523-11-002989,True,5606.0,True
-FOX,0001754301,Fox Corporation (Class B),communication_services,Fox Corp,2019-03-18,2019-03-18,2019-03-18T20:41:05.000Z,1.0,10-Q,0001564590-19-008308,True,2725.0,True
-FOXA,0001754301,Fox Corporation (Class A),communication_services,Fox Corp,2019-03-18,2019-03-18,2019-03-18T20:41:05.000Z,1.0,10-Q,0001564590-19-008308,True,2725.0,True
+F,0000037996,Ford Motor Company,consumer_discretionary,Ford Motor Co,2011-04-28,2011-05-10,2011-05-10T20:46:52.000Z,3727332952.0,10-Q,0001157523-11-002989,True,5607.0,True
+FOX,0001754301,Fox Corporation (Class B),communication_services,Fox Corp,2019-03-18,2019-03-18,2019-03-18T20:41:05.000Z,1.0,10-Q,0001564590-19-008308,True,2726.0,True
+FOXA,0001754301,Fox Corporation (Class A),communication_services,Fox Corp,2019-03-18,2019-03-18,2019-03-18T20:41:05.000Z,1.0,10-Q,0001564590-19-008308,True,2726.0,True
 GOOG,0001652044,Alphabet Inc. (Class C),communication_services,,,,,,,,False,,False
 GOOGL,0001652044,Alphabet Inc. (Class A),communication_services,,,,,,,,False,,False
 HOOD,0001783879,Robinhood Markets,financials,,,,,,,,False,,False
 HRL,0000048465,Hormel Foods,consumer_staples,,,,,,,,False,,False
-HSY,0000047111,Hershey Company (The),consumer_staples,HERSHEY CO,2014-02-07,2014-02-21,2014-02-21T14:10:06.000Z,223805223.0,10-K,0000047111-14-000006,True,4590.0,True
-IBKR,0001381197,Interactive Brokers,financials,"INTERACTIVE BROKERS GROUP, INC.",2011-05-06,2011-05-06,2011-05-05T22:26:19.000Z,42231651.0,10-Q,0001381197-11-000019,True,5598.0,True
+HSY,0000047111,Hershey Company (The),consumer_staples,HERSHEY CO,2014-02-07,2014-02-21,2014-02-21T14:10:06.000Z,223805223.0,10-K,0000047111-14-000006,True,4591.0,True
+IBKR,0001381197,Interactive Brokers,financials,"INTERACTIVE BROKERS GROUP, INC.",2011-05-06,2011-05-06,2011-05-05T22:26:19.000Z,42231651.0,10-Q,0001381197-11-000019,True,5599.0,True
 LEN,0000920760,Lennar,consumer_discretionary,,,,,,,,False,,False
-MA,0001141391,Mastercard,financials,Mastercard Incorporated,2010-10-27,2010-11-02,2010-11-02T16:19:52.000Z,122530193.0,10-Q,0001193125-10-243917,True,5789.0,True
+MA,0001141391,Mastercard,financials,Mastercard Incorporated,2010-10-27,2010-11-02,2010-11-02T16:19:52.000Z,122530193.0,10-Q,0001193125-10-243917,True,5790.0,True
 META,0001326801,Meta Platforms,communication_services,,,,,,,,False,,False
 MKC,0000063754,McCormick & Company,consumer_staples,,,,,,,,False,,False
-NKE,0000320187,"Nike, Inc.",consumer_discretionary,"NIKE, Inc.",2015-07-17,2015-07-23,2015-07-23T21:26:50.000Z,855351589.0,10-K,0000320187-15-000113,True,4065.0,True
+NKE,0000320187,"Nike, Inc.",consumer_discretionary,"NIKE, Inc.",2015-07-17,2015-07-23,2015-07-23T21:26:50.000Z,855351589.0,10-K,0000320187-15-000113,True,4066.0,True
 NWS,0001564708,News Corp (Class B),communication_services,,,,,,,,False,,False
 NWSA,0001564708,News Corp (Class A),communication_services,,,,,,,,False,,False
 PLTR,0001321655,Palantir Technologies,information_technology,,,,,,,,False,,False
-PSKY,0002041610,Paramount Skydance Corporation,communication_services,Paramount Skydance Corporation,2025-11-05,2025-11-10,2025-11-10T21:20:38.000Z,1071666977.0,10-Q,0002041610-25-000044,True,301.0,True
+PSKY,0002041610,Paramount Skydance Corporation,communication_services,Paramount Skydance Corporation,2025-11-05,2025-11-10,2025-11-10T21:20:38.000Z,1071666977.0,10-Q,0002041610-25-000044,True,302.0,True
 RDDT,0001713445,Reddit,communication_services,,,,,,,,False,,False
-REGN,0000872589,Regeneron Pharmaceuticals,health_care,"REGENERON PHARMACEUTICALS, INC.",2012-07-13,2012-07-25,2012-07-25T11:00:24.000Z,93955110.0,10-Q,0001206774-12-003062,True,5164.0,True
+REGN,0000872589,Regeneron Pharmaceuticals,health_care,"REGENERON PHARMACEUTICALS, INC.",2012-07-13,2012-07-25,2012-07-25T11:00:24.000Z,93955110.0,10-Q,0001206774-12-003062,True,5165.0,True
 RL,0001037038,Ralph Lauren Corporation,consumer_discretionary,,,,,,,,False,,False
-SPG,0001063761,Simon Property Group,real_estate,"SIMON PROPERTY GROUP, INC.",2009-09-30,2009-11-05,2009-11-05T20:08:43.000Z,283301181.0,10-Q,0001047469-09-009591,True,6181.0,True
+SPG,0001063761,Simon Property Group,real_estate,"SIMON PROPERTY GROUP, INC.",2009-09-30,2009-11-05,2009-11-05T20:08:43.000Z,283301181.0,10-Q,0001047469-09-009591,True,6182.0,True
 STZ,0000016918,Constellation Brands,consumer_staples,,,,,,,,False,,False
 TAP,0000024545,Molson Coors Beverage Company,consumer_staples,,,,,,,,False,,False
 TKO,0001973266,TKO Group Holdings,communication_services,,,,,,,,False,,False
 TSN,0000100493,Tyson Foods,consumer_staples,,,,,,,,False,,False
 TTD,0001671933,Trade Desk (The),communication_services,,,,,,,,False,,False
 UHS,0000352915,Universal Health Services,health_care,,,,,,,,False,,False
-UPS,0001090727,United Parcel Service,industrials,UNITED PARCEL SERVICE INC,2010-02-17,2010-02-26,2010-02-26T21:12:48.000Z,713924267.0,10-K,0001193125-10-042908,True,6041.0,True
-V,0001403161,Visa Inc.,financials,VISA INC.,2010-01-27,2010-02-03,2010-02-03T21:32:45.000Z,469280842.0,10-Q,0001193125-10-020834,True,6062.0,True
-WDAY,0001327811,"Workday, Inc.",information_technology,"WORKDAY, INC.",2018-11-30,2018-12-03,2018-12-03T22:23:52.000Z,220000000.0,10-Q,0001327811-18-000058,True,2833.0,True
+UPS,0001090727,United Parcel Service,industrials,UNITED PARCEL SERVICE INC,2010-02-17,2010-02-26,2010-02-26T21:12:48.000Z,713924267.0,10-K,0001193125-10-042908,True,6042.0,True
+V,0001403161,Visa Inc.,financials,VISA INC.,2010-01-27,2010-02-03,2010-02-03T21:32:45.000Z,469280842.0,10-Q,0001193125-10-020834,True,6063.0,True
+WDAY,0001327811,"Workday, Inc.",information_technology,"WORKDAY, INC.",2018-11-30,2018-12-03,2018-12-03T22:23:52.000Z,220000000.0,10-Q,0001327811-18-000058,True,2834.0,True
 XYZ,0001512673,"Block, Inc.",financials,,,,,,,,False,,False
