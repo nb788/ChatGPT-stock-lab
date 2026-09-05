@@ -339,7 +339,6 @@ APACR,StoneBridge Acquisition II Corporation - Rights,NASDAQ
 APACU,StoneBridge Acquisition II Corporation - Units,NASDAQ
 APC,ARKO Petroleum Corp. - Class A Common Stock,NASDAQ
 APEI,"American Public Education, Inc. - Common Stock",NASDAQ
-APGE,"Apogee Therapeutics, Inc. - Common Stock",NASDAQ
 API,"Agora, Inc. - ADS",NASDAQ
 APLD,Applied Digital Corporation - Common Stock,NASDAQ
 APLM,Apollomics Inc. - Class A Ordinary Shares,NASDAQ
@@ -852,7 +851,6 @@ BTGD,STKd 100% Bitcoin & 100% Gold ETF,NASDAQ
 BTLN,"Brightline Interactive, Inc. - Common Stock",NASDAQ
 BTMD,Biote Corp. - Class A common stock,NASDAQ
 BTOC,Armlogi Holding Corp. - common stock,NASDAQ
-BTOG,Bit Origin Limited - Class A Ordinary Shares,NASDAQ
 BTQ,BTQ Technologies Corp. - Common Stock,NASDAQ
 BTSG,"BrightSpring Health Services, Inc. - Common Stock",NASDAQ
 BTSGU,"BrightSpring Health Services, Inc. - Tangible Equity Unit",NASDAQ
@@ -2336,6 +2334,7 @@ HPAI,Helport AI Limited - Ordinary Shares,NASDAQ
 HPAIW,Helport AI Limited - Warrants,NASDAQ
 HPK,"HighPeak Energy, Inc. - Common Stock",NASDAQ
 HQ,Horizon Quantum Holdings Ltd. - Class A Ordinary Shares,NASDAQ
+HQDG,Raub Brock Dividend Growth ETF,NASDAQ
 HQGO,Hartford US Quality Growth ETF,NASDAQ
 HQI,"HireQuest, Inc. - Common Stock",NASDAQ
 HQWWW,Horizon Quantum Holdings Ltd. - Warrant,NASDAQ
@@ -2686,7 +2685,6 @@ JEM,707 Cayman Holdings Limited - Ordinary Shares,NASDAQ
 JEMA,JPMorgan ActiveBuilders Emerging Markets Equity ETF,NASDAQ
 JEPQ,JPMorgan Nasdaq Equity Premium Income ETF,NASDAQ
 JF,J and Friends Holdings Limited - American Depositary Shares,NASDAQ
-JFB,JFB Construction Holdings - Class A Common Stock,NASDAQ
 JFIN,Jiayin Group Inc. - American Depositary Shares,NASDAQ
 JFU,9F Inc. - American Depositary Shares,NASDAQ
 JG,Aurora Mobile Limited - American Depositary Shares,NASDAQ
@@ -3424,7 +3422,6 @@ NHIV,NewHold Investment Corp IV - Class A Ordinary Shares,NASDAQ
 NHIVU,NewHold Investment Corp IV - Units,NASDAQ
 NHIVW,NewHold Investment Corp IV - Warrants,NASDAQ
 NHP,"National Healthcare Properties, Inc. - Class A Common Stock",NASDAQ
-NHPAP,"National Healthcare Properties, Inc. - 7.375% Series A Cumulative Redeemable Perpetual Preferred Stock",NASDAQ
 NHPBP,"National Healthcare Properties, Inc. - 7.125% Series B Cumulative Redeemable Perpetual Preferred Stock",NASDAQ
 NHTC,Natural Health Trends Corp. - Common Stock,NASDAQ
 NICE,NICE Ltd - American Depositary Shares each representing one Ordinary Share,NASDAQ
@@ -4483,6 +4480,7 @@ SGLY,Singularity Future Technology Ltd. - Common Stock,NASDAQ
 SGML,Sigma Lithium Corporation - common shares,NASDAQ
 SGMT,Sagimet Biosciences Inc. - Series A Common Stock,NASDAQ
 SGP,"SpyGlass Pharma, Inc. - Common Stock",NASDAQ
+SGRX,SANGRIX INC. - Class A Ordinary Shares,NASDAQ
 SGRY,"Surgery Partners, Inc. - Common Stock",NASDAQ
 SGVA,F/m Accumulator Ultrashort Treasury Fund,NASDAQ
 SHAZ,"SharonAI Holdings, Inc. - Class A Common Stock",NASDAQ
@@ -6827,7 +6825,7 @@ CIFU,T-REX 2X Long CIFR Daily Target ETF,OTHER
 CIG,Comp En De Mn Cemig ADS American Depositary Shares,OTHER
 CIG.C,Comp En De Mn Cemig ADS American Depositary Receipts,OTHER
 CII,"BlackRock Enhanced Large Cap Core Fund, Inc. Common Stock",OTHER
-CIK,"Credit Suisse Asset Management Income Fund, Inc. Common Stock",OTHER
+CIK,"UBS Asset Management Income Fund, Inc. Common Stock",OTHER
 CIM,Chimera Investment Corporation Common Stock,OTHER
 CIM$A,Chimera Investment Corporation 8.00% Series A Cumulative Redeemable Preferred Stock,OTHER
 CIM$B,Chimera Investment Corporation 8.00% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock,OTHER
@@ -7333,7 +7331,7 @@ DHS,WisdomTree U.S. High Dividend Fund,OTHER
 DHSB,Day Hagan Smart Buffer ETF,OTHER
 DHT,"DHT Holdings, Inc.",OTHER
 DHX,"DHI Group, Inc. Common Stock",OTHER
-DHY,Credit Suisse High Yield Credit Fund Common Stock,OTHER
+DHY,UBS Asset Management High Yield Credit Fund Common Stock,OTHER
 DIA,State Street SPDR Dow Jones Industrial Average ETF Trust,OTHER
 DIAL,Columbia Diversified Fixed Income Allocation ETF,OTHER
 DIEM,Franklin Emerging Market Core Dividend Tilt Index ETF,OTHER
@@ -10275,6 +10273,7 @@ NMAY,Innovator Growth-100 Power Buffer ETF - May,OTHER
 NMB,Simplify National Muni Bond ETF,OTHER
 NMBL,NovaTide Flexible Allocation ETF,OTHER
 NMCO,Nuveen Municipal Credit Opportunities Fund Common Shares,OTHER
+NMCO.V,"Nuveen Municipal Credit Opportunities Fund Rights (expiring October 7, 2026) Rights when issued",OTHER
 NMG,Nouveau Monde Graphite Inc. Common Shares,OTHER
 NMI,"Nuveen Municipal Income Fund, Inc. Common Stock",OTHER
 NML,Neuberger Energy Infrastructure and Income Fund Inc. Common Stock,OTHER
@@ -10776,6 +10775,7 @@ PJAN,Innovator U.S. Equity Power Buffer ETF - January,OTHER
 PJFG,PGIM Jennison Focused Growth ETF,OTHER
 PJFM,PGIM Jennison Focused Mid-Cap ETF,OTHER
 PJFV,PGIM Jennison Focused Value ETF,OTHER
+PJIN,PGIM Jennison International Core Equity ETF,OTHER
 PJIO,PGIM Jennison Focused International Equity ETF,OTHER
 PJP,Invesco Pharmaceuticals ETF,OTHER
 PJSM,PGIM Jennison Small-Mid Cap Core Equity ETF,OTHER
@@ -11238,7 +11238,7 @@ RITM$E,Rithm Capital Corp. 8.75% Series E Fixed-Rate Cumulative Redeemable Prefe
 RITM$F,Rithm Capital Corp. 8.750% Series F Fixed-Rate Reset Cumulative Redeemable Preferred Stock,OTHER
 RIV,"RiverNorth Opportunities Fund, Inc. Common Stock",OTHER
 RIV$A,"RiverNorth Opportunities Fund, Inc. 6.00% Series A Perpetual Preferred Stock",OTHER
-RIV.V,"RiverNorth Opportunities Fund, Inc. Rights (expiring September 23, 2026) Rights when issued",OTHER
+RIV.R,"RiverNorth Opportunities Fund, Inc. Rights (expiring September 23, 2026) Rights",OTHER
 RIVC,Corgi RIVN 2x Daily ETF,OTHER
 RIZE,Principal Inflation Protection ETF,OTHER
 RJCA,RJ ClariVest Capital Appreciation ETF,OTHER
@@ -13063,6 +13063,7 @@ XTJA,Innovator U.S. Equity Accelerated Plus ETF - January,OTHER
 XTJL,Innovator U.S. Equity Accelerated Plus ETF - July,OTHER
 XTL,State Street SPDR S&P Telecom ETF,OTHER
 XTN,State Street SPDR S&P Transportation ETF,OTHER
+XTND,"Xtend AI Robotics, Inc. Common Stock",OTHER
 XTNT,"Xtant Medical Holdings, Inc. Common Stock",OTHER
 XTOC,Innovator U.S. Equity Accelerated Plus ETF - October,OTHER
 XTR,Global X S&P 500 Tail Risk ETF,OTHER
