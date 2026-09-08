@@ -251,7 +251,7 @@ ALOV,"Aldabra 4 Liquidity Opportunity Vehicle, Inc. - Class A Ordinary Shares",N
 ALOVU,"Aldabra 4 Liquidity Opportunity Vehicle, Inc. - Units",NASDAQ
 ALOVW,"Aldabra 4 Liquidity Opportunity Vehicle, Inc. - Warrants",NASDAQ
 ALOY,REalloys Inc. - Common Stock,NASDAQ
-ALP,Alpha Compute Corp  - Common Stock,NASDAQ
+ALP,Alpha Compute Corp  - Ordinary Shares,NASDAQ
 ALPS,ALPS Group Inc - Ordinary Share,NASDAQ
 ALPX,Alpex Acquisition Corporation - Class A Ordinary Shares,NASDAQ
 ALPXR,Alpex Acquisition Corporation - Rights,NASDAQ
@@ -268,7 +268,9 @@ ALVOW,Alvotech - Warrant,NASDAQ
 ALXO,ALX Oncology Holdings Inc. - Common Stock,NASDAQ
 ALZN,"Alzamend Neuro, Inc. - Common Stock",NASDAQ
 AMA,Defiance Daily Target 2X Long AMAT ETF,NASDAQ
+AMAC,AMR Resources Acquisition Corp - Class A Ordinary Shares,NASDAQ
 AMACU,AMR Resources Acquisition Corp - Units,NASDAQ
+AMACW,AMR Resources Acquisition Corp - Warrants,NASDAQ
 AMAL,Amalgamated Financial Corp. - Common Stock,NASDAQ
 AMAN,Amanat Acquisition Corp - Class A Ordinary Shares,NASDAQ
 AMAT,"Applied Materials, Inc. - Common Stock",NASDAQ
@@ -838,7 +840,6 @@ BSTV,Invesco BulletShares 2031 Treasury Bond ETF,NASDAQ
 BSVN,Bank7 Corp. - Common stock,NASDAQ
 BSVO,EA Bridgeway Omni Small-Cap Value ETF,NASDAQ
 BSY,"Bentley Systems, Incorporated - Class B Common Stock",NASDAQ
-BTAI,"BioXcel Therapeutics, Inc. - Common Stock",NASDAQ
 BTBD,"BT Brands, Inc. - Common Stock",NASDAQ
 BTBDW,"BT Brands, Inc. - Warrant",NASDAQ
 BTBT,"Bit Digital, Inc. - Ordinary Share",NASDAQ
@@ -1040,6 +1041,7 @@ CGPT,VegaShares AI Inference ETF,NASDAQ
 CGTL,Creative Global Technology Holdings Limited - Class A Ordinary Shares,NASDAQ
 CGTX,"Cognition Therapeutics, Inc. - Common Stock",NASDAQ
 CHA,"Chagee Holdings Limited - American Depositary Shares, each representing 1 Class A ordinary share",NASDAQ
+CHAD,DeFi Development Corp. - Variable Rate Series C Perpetual Preferred Stock,NASDAQ
 CHAI,"Core AI Holdings, Inc. - Common Shares",NASDAQ
 CHAR,Charlton Aria Acquisition Corporation - Class A Ordinary Shares,NASDAQ
 CHARR,Charlton Aria Acquisition Corporation - Rights,NASDAQ
@@ -2074,7 +2076,6 @@ GILT,Gilat Satellite Networks Ltd. - Ordinary Shares,NASDAQ
 GIND,Goldman Sachs India Equity ETF,NASDAQ
 GINX,SGI Enhanced Global Income ETF,NASDAQ
 GIPR,Generation Income Properties Inc. - Common stock,NASDAQ
-GIPRW,Generation Income Properties Inc. - Warrant,NASDAQ
 GITS,"Global Interactive Technologies, Inc. Common Stock - Common Stock",NASDAQ
 GIW,GigCapital8 Corp. - Class A Ordinary Shares,NASDAQ
 GIWWR,GigCapital8 Corp. - Rights,NASDAQ
@@ -2976,7 +2977,6 @@ LPCV,Launchpad Cadenza Acquisition Corp I - Class A Ordinary Share,NASDAQ
 LPCVU,Launchpad Cadenza Acquisition Corp I - Unit,NASDAQ
 LPCVW,Launchpad Cadenza Acquisition Corp I - Warrant,NASDAQ
 LPLA,LPL Financial Holdings Inc. - Common Stock,NASDAQ
-LPSN,"LivePerson, Inc. - Common Stock",NASDAQ
 LPTH,"LightPath Technologies, Inc. - Class A Common Stock",NASDAQ
 LQ,Simplify Tax Aware Alternatives ETF,NASDAQ
 LQDA,Liquidia Corporation - Common Stock,NASDAQ
@@ -6067,6 +6067,7 @@ AUNA,Auna SA Class A Ordinary Shares,OTHER
 AUSF,Global X Adaptive U.S. Factor ETF,OTHER
 AUSM,Allspring Ultra Short Municipal ETF,OTHER
 AUST,Austin Gold Corp. Common Shares,OTHER
+AUXX,Gold X2 Mining Inc. Common Shares,OTHER
 AV,Corgi Aerospace & Commercial Aviation ETF,OTHER
 AVA,Avista Corporation Common Stock,OTHER
 AVAL,Grupo Aval Acciones y Valores S.A. ADR (Each representing 20 preferred shares),OTHER
