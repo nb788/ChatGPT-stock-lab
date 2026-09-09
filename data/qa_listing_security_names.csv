@@ -411,8 +411,8 @@ ARVN,"Arvinas, Inc. - Common Stock",NASDAQ
 ARVR,First Trust Indxx Metaverse ETF,NASDAQ
 ARWR,"Arrowhead Pharmaceuticals, Inc. - Common Stock",NASDAQ
 ARXS,"Arxis, Inc. - Class A Common Stock",NASDAQ
-ASBP,"Aspire Biopharma Holdings, Inc.  - Common Stock",NASDAQ
-ASBPW,"Aspire Biopharma Holdings, Inc.  - Warrant",NASDAQ
+ASBP,"Aspire-Lakewood Holdings, Inc. - Common Stock",NASDAQ
+ASBPW,"Aspire-Lakewood Holdings, Inc. - Warrant",NASDAQ
 ASCI,abrdn International Small Cap Active ETF,NASDAQ
 ASD,Defiance Autism Impact ETF,NASDAQ
 ASEC,American Century Securitized Credit ETF,NASDAQ
@@ -781,7 +781,6 @@ BRKU,Direxion Daily BRKB Bull 2X ETF,NASDAQ
 BRLS,Borealis Foods Inc. - Class A Common Shares,NASDAQ
 BRLSW,Borealis Foods Inc. - Warrant,NASDAQ
 BRLT,"Brilliant Earth Group, Inc. - Class A Common Stock",NASDAQ
-BRNS,Barinthus Biotherapeutics plc - American Depositary Shares,NASDAQ
 BRNX,BrenX Ltd. - Ordinary Shares,NASDAQ
 BRNY,Burney U.S. Factor Rotation ETF,NASDAQ
 BRR,"ProCap Financial, Inc. - Common Stock",NASDAQ
@@ -967,6 +966,7 @@ CCII,Cohen Circle Acquisition Corp. II - Class A Ordinary Shares,NASDAQ
 CCIIU,Cohen Circle Acquisition Corp. II - Unit,NASDAQ
 CCIIW,Cohen Circle Acquisition Corp. II - Warrant,NASDAQ
 CCLD,"CareCloud, Inc. - Common Stock",NASDAQ
+CCML,Roundhill MLCC & Electronic Components ETF,NASDAQ
 CCNE,CNB Financial Corporation - Common Stock,NASDAQ
 CCNEP,"CNB Financial Corporation - Depositary shares, each representing a 1/40th ownership interest in a share of 7.125% Series A Fixed- Rate Non-Cumulative Perpetual Preferred Stock",NASDAQ
 CCNR,ALPS/CoreCommodity Natural Resources ETF,NASDAQ
@@ -1321,7 +1321,6 @@ CXIIU,Churchill Capital Corp XII - Units,NASDAQ
 CXIIW,Churchill Capital Corp XII - Warrants,NASDAQ
 CXSE,WisdomTree China ex-State-Owned Enterprises Fund,NASDAQ
 CYAB,"Cyabra, Inc. - Common Stock",NASDAQ
-CYCN,"Cyclerion Therapeutics, Inc. - Common Stock",NASDAQ
 CYCU,"Cycurion, Inc. - Common Stock",NASDAQ
 CYCUW,"Cycurion, Inc. - Warrants",NASDAQ
 CYN,Cyngn Inc. - Common stock,NASDAQ
@@ -2811,6 +2810,7 @@ KRNY,Kearny Financial - Common Stock,NASDAQ
 KROP,Global X AgTech & Food Innovation ETF,NASDAQ
 KROS,"Keros Therapeutics, Inc. - common stock",NASDAQ
 KRRO,"Korro Bio, Inc. - Common Stock",NASDAQ
+KRSA,"Korsana Biosciences, Inc. - Common Stock",NASDAQ
 KRT,Karat Packaging Inc. - Common Stock,NASDAQ
 KRUS,"Kura Sushi USA, Inc. - Class A Common Stock",NASDAQ
 KRYS,"Krystal Biotech, Inc. - Common Stock",NASDAQ
@@ -2827,8 +2827,6 @@ KTWOU,K2 Capital Acquisition Corporation - Units,NASDAQ
 KURA,"Kura Oncology, Inc. - Common Stock",NASDAQ
 KUST,"Kustom Entertainment, Inc. - Common Stock",NASDAQ
 KVHI,"KVH Industries, Inc. - Common Stock",NASDAQ
-KWM,"K Wave Media, Ltd. - Ordinary Shares",NASDAQ
-KWMWW,"K Wave Media, Ltd. - Warrant",NASDAQ
 KXIN,Kaixin Holdings - Ordinary Shares,NASDAQ
 KYIV,Kyivstar Group Ltd. - Common Shares,NASDAQ
 KYIVW,Kyivstar Group Ltd. - Warrant,NASDAQ
@@ -3551,6 +3549,8 @@ NWPX,"NWPX Infrastructure, Inc. - Common Stock",NASDAQ
 NWS,News Corporation - Class B Common Stock,NASDAQ
 NWSA,News Corporation - Class A Common Stock,NASDAQ
 NWTG,"Newton Golf Company, Inc. - Common Stock",NASDAQ
+NXAT,Nexus Advanced Technologies Inc. - Ordinary Shares,NASDAQ
+NXATW,Nexus Advanced Technologies Inc. - Warrant,NASDAQ
 NXGL,"NexGel, Inc - Common Stock",NASDAQ
 NXGLW,"NexGel, Inc - Warrant",NASDAQ
 NXH,"Neighborhood Intelligence, Inc.  - Common Stock",NASDAQ
@@ -4287,6 +4287,7 @@ RMCF,"Rocky Mountain Chocolate Factory, Inc. - Common Stock",NASDAQ
 RMCO,Royalty Management Holding Corporation - Class A Common Stock,NASDAQ
 RMCOW,Royalty Management Holding Corporation - Warrant,NASDAQ
 RMIX,"Suncrete, Inc. - Class A Common Stock",NASDAQ
+RML,Resolution Minerals Ltd - American Depositary Shares,NASDAQ
 RMNI,"Rimini Street, Inc. - Common Stock",NASDAQ
 RMR,The RMR Group Inc. - Class A Common Stock,NASDAQ
 RMSG,Real Messenger Corporation - Ordinary Shares,NASDAQ
@@ -7335,6 +7336,7 @@ DHX,"DHI Group, Inc. Common Stock",OTHER
 DHY,UBS Asset Management High Yield Credit Fund Common Stock,OTHER
 DIA,State Street SPDR Dow Jones Industrial Average ETF Trust,OTHER
 DIAL,Columbia Diversified Fixed Income Allocation ETF,OTHER
+DICE,Tema Trading & Prediction Markets ETF,OTHER
 DIEM,Franklin Emerging Market Core Dividend Tilt Index ETF,OTHER
 DIG,ProShares Ultra Energy,OTHER
 DIHP,Dimensional International High Profitability ETF,OTHER
@@ -9394,6 +9396,7 @@ KAMO,Kensington Credit Opportunities ETF,OTHER
 KAPA,"Kairos Pharma, Ltd. Common Stock",OTHER
 KAPR,Innovator U.S. Small Cap Power Buffer ETF - April,OTHER
 KARS,KraneShares Electric Vehicles and Future Mobility Index ETF,OTHER
+KATT,T-REX 2X Long PURR Daily Target ETF,OTHER
 KAUG,Innovator US Small Cap Power Buffer ETF - August,OTHER
 KB,KB Financial Group Inc,OTHER
 KBA,KraneShares Bosera MSCI China A 50 Connect Index ETF,OTHER
@@ -10746,7 +10749,7 @@ PH,Parker-Hannifin Corporation Common Stock,OTHER
 PHDG,Invesco S&P 500 Downside Hedged ETF,OTHER
 PHEQ,Parametric Hedged Equity ETF,OTHER
 PHG,Koninklijke Philips N.V. NY Registry Shares,OTHER
-PHGE,BiomX Inc. COmmon Stock,OTHER
+PHGE,BiomX Inc. Common Stock,OTHER
 PHI,PLDT Inc. Sponsored ADR,OTHER
 PHIN,PHINIA Inc. Common Stock,OTHER
 PHK,Pimco High Income Fund,OTHER
@@ -12306,6 +12309,7 @@ TRTY,Cambria Trinity ETF,OTHER
 TRU,TransUnion Common Stock,OTHER
 TRV,"The Travelers Companies, Inc. Common Stock",OTHER
 TRX,TRX Gold Corporation Common Stock,OTHER
+TRXS,Canary Staked TRX ETF,OTHER
 TS,Tenaris S.A. American Depositary Shares,OTHER
 TSCV,Thrivent Small Cap Value ETF,OTHER
 TSCZ,T. Rowe Price Securitized Income ETF,OTHER
