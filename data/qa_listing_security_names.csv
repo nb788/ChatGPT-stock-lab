@@ -49,6 +49,8 @@ ACAAU,Averin Capital Acquisition Corp. - Units,NASDAQ
 ACAAW,Averin Capital Acquisition Corp. - Warrants,NASDAQ
 ACAD,ACADIA Pharmaceuticals Inc. - Common Stock,NASDAQ
 ACB,Aurora Cannabis Inc. - Common Shares,NASDAQ
+ACBE,Pacer Metaurus Enhanced Core Income Autocallable ETF ,NASDAQ
+ACBH,Pacer Metaurus High Income Autocallable ETF ,NASDAQ
 ACCL,Acco Group Holdings Limited - Class A Ordinary Shares,NASDAQ
 ACDC,ProFrac Holding Corp. - Class A Common Stock,NASDAQ
 ACEP,ARS Core Equity Portfolio ETF,NASDAQ
@@ -181,12 +183,14 @@ AIFA,"All In FutureTech Alliance, Inc. - Common Stock",NASDAQ
 AIFC,AI Financial Corporation - Common Stock,NASDAQ
 AIFD,TCW Artificial Intelligence ETF,NASDAQ
 AIFF,"Firefly Neuroscience, Inc.  - Common Stock",NASDAQ
+AIFR,Defiance Global Foundries ETF,NASDAQ
 AIFU,AIFU Inc. - Class A Ordinary Share,NASDAQ
 AIIO,Robo.ai Inc. - Class B Ordinary Shares,NASDAQ
 AIIOW,Robo.ai Inc. - Warrant,NASDAQ
 AIIR,Air Global PLC - Ordinary shares,NASDAQ
 AIMD,"Ainos, Inc. - Common Stock",NASDAQ
 AIMDW,"Ainos, Inc. - warrants",NASDAQ
+AIMG,Defiance AI Magnificent 10 ETF,NASDAQ
 AIMS,Acuitas Small Cap Active ETF,NASDAQ
 AINF,Defiance Inference AI Chip ETF,NASDAQ
 AIOS,AIOS Tech Inc. - Class A Common Shares,NASDAQ
@@ -472,6 +476,7 @@ ATRA,"Atara Biotherapeutics, Inc. - Common Stock",NASDAQ
 ATRC,"AtriCure, Inc. - Common Stock",NASDAQ
 ATRO,Astronics Corporation - Common Stock,NASDAQ
 ATTO,"Attovia Therapeutics, Inc. - Common Stock",NASDAQ
+ATTT,Atlas Trinity Tech Limited - Ordinary Shares,NASDAQ
 ATXG,Addentax Group Corp. - Common Stock,NASDAQ
 ATYR,"aTyr Pharma, Inc. - Common Stock",NASDAQ
 AUBN,"Auburn National Bancorporation, Inc. - Common Stock",NASDAQ
@@ -786,7 +791,9 @@ BRNY,Burney U.S. Factor Rotation ETF,NASDAQ
 BRR,"ProCap Financial, Inc. - Common Stock",NASDAQ
 BRRR,Coinshares Bitcoin ETF,NASDAQ
 BRRWW,"ProCap Financial, Inc. - Warrant.",NASDAQ
+BRTM,B&R Technology Merger Corp. - Class A Ordinary Shares,NASDAQ
 BRTMU,B&R Technology Merger Corp. - Units,NASDAQ
+BRTMW,B&R Technology Merger Corp. - Warrants,NASDAQ
 BRTR,iShares Total Return Active ETF,NASDAQ
 BRTX,"BioRestorative Therapies, Inc. - Common Stock",NASDAQ
 BRUN,Boost Run Inc. - Class A Common Stock,NASDAQ
@@ -1213,6 +1220,7 @@ CRACR,Crown Reserve Acquisition Corp. I - Rights,NASDAQ
 CRACU,Crown Reserve Acquisition Corp. I - Unit,NASDAQ
 CRACW,Crown Reserve Acquisition Corp. I - Warrant,NASDAQ
 CRAI,"CRA International,Inc. - Common Stock",NASDAQ
+CRAM,Defiance China Memory ETF,NASDAQ
 CRAN,Crane Harbor Acquisition Corp. II - Class A Ordinary Shares,NASDAQ
 CRANR,Crane Harbor Acquisition Corp. II - Rights,NASDAQ
 CRANU,Crane Harbor Acquisition Corp. II - Units,NASDAQ
@@ -1611,6 +1619,7 @@ ENTX,Entera Bio Ltd. - Ordinary Shares,NASDAQ
 ENVB,"Enveric Biosciences, Inc.  - Common Stock",NASDAQ
 ENVX,Enovix Corporation - Common Stock,NASDAQ
 ENZL,iShares MSCI New Zealand ETF,NASDAQ
+EOCN,Eocene Ltd. - Ordinary Shares,NASDAQ
 EOLS,"Evolus, Inc. - Common Stock",NASDAQ
 EOSE,"Eos Energy Enterprises, Inc. - Common Stock",NASDAQ
 EOSEW,"Eos Energy Enterprises, Inc. - Warrant",NASDAQ
@@ -2094,7 +2103,6 @@ GLE,Global Engine Group Holding Limited - Class A Ordinary Shares,NASDAQ
 GLGG,Leverage Shares 2X Long GLXY Daily ETF,NASDAQ
 GLIBA,Liberty Capital Corporation - Series A GCI Group Common Stock,NASDAQ
 GLIBK,Liberty Capital Corporation - Series C GCI Group Common Stock,NASDAQ
-GLMD,Galmed Pharmaceuticals Ltd. - Ordinary Shares,NASDAQ
 GLND,Greenland Energy Company - Common Stock,NASDAQ
 GLNDW,Greenland Energy Company - Warrant,NASDAQ
 GLNG,Golar LNG Limited - Common Shares,NASDAQ
@@ -3907,7 +3915,7 @@ PLUT,Plutus Financial Group Limited - Ordinary Shares,NASDAQ
 PLXS,Plexus Corp. - Common Stock,NASDAQ
 PLYX,"Polaryx Therapeutics, Inc. - Common Stock",NASDAQ
 PLYY,GraniteShares YieldBOOST PLTR ETF,NASDAQ
-PMA,Ming Shing Group Holdings Limited - Ordinary Shares,NASDAQ
+PMA,PMA Graphene Technology Group Inc. - Class A Ordinary Shares,NASDAQ
 PMAX,Powell Max Limited - Class A Ordinary Shares,NASDAQ
 PMBS,PIMCO Mortgage-Backed Securities Active Exchange-Traded Fund,NASDAQ
 PMCB,"PharmaCyte  Biotech, Inc. - Common Stock",NASDAQ
@@ -4168,7 +4176,6 @@ RAPP,"Rapport Therapeutics, Inc. - Common Stock",NASDAQ
 RARE,Ultragenyx Pharmaceutical Inc. - Common Stock,NASDAQ
 RAUS,RACWI US ETF,NASDAQ
 RAVE,"Rave Restaurant Group, Inc. - Common Stock",NASDAQ
-RAY,Raytech Holding Limited - Ordinary Shares,NASDAQ
 RAYA,Erayak Power Solution Group Inc. - Class A Ordinary Shares,NASDAQ
 RBB,RBB Bancorp - Common Stock,NASDAQ
 RBBN,Ribbon Communications Inc.  - Common Stock,NASDAQ
@@ -4774,6 +4781,7 @@ SWKHL,SWK Holdings Corporation - 9.00% Senior Notes due 2027,NASDAQ
 SWKS,"Skyworks Solutions, Inc. - Common Stock",NASDAQ
 SWMR,"Swarmer, Inc - common stock",NASDAQ
 SWP,SWP Growth & Income ETF,NASDAQ
+SWRD,Stewards Inc - Common Stock,NASDAQ
 SWVL,Swvl Holdings Corp - Ordinary Shares,NASDAQ
 SWVLW,Swvl Holdings Corp - Warrant,NASDAQ
 SXTC,"China SXT Pharmaceuticals, Inc. - Class A Ordinary Shares",NASDAQ
@@ -4921,7 +4929,6 @@ TMB,Thornburg Multi Sector Bond ETF,NASDAQ
 TMC,TMC the metals company Inc. - Common Stock,NASDAQ
 TMCI,"Treace Medical Concepts, Inc. - Common Stock",NASDAQ
 TMCR,The Metals Royalty Company Inc. - Common Stock,NASDAQ
-TMCWW,TMC the metals company Inc. - Warrant,NASDAQ
 TMDX,"TransMedics Group, Inc. - Common Stock",NASDAQ
 TMED,T. Rowe Price Health Care ETF,NASDAQ
 TMNL,T. Rowe Price Long Municipal Income ETF,NASDAQ
@@ -5202,6 +5209,7 @@ VECO,Veeco Instruments Inc. - Common Stock,NASDAQ
 VEEA,Veea Inc. - Common Stock,NASDAQ
 VEEAW,Veea Inc. - Warrant,NASDAQ
 VEEE,Twin Vee PowerCats Co. - Common Stock,NASDAQ
+VEEM,VanEck MSCI EM Analyst Sentiment ETF,NASDAQ
 VEFA,VanEck MSCI EAFE Analyst Sentiment ETF,NASDAQ
 VELO,"Velo3D, Inc. - Common stock",NASDAQ
 VEON,VEON Ltd. - American Depositary Shares,NASDAQ
@@ -9858,10 +9866,12 @@ MFEM,PIMCO RAFI Dynamic Multi-Factor Emerging Markets Equity ETF,OTHER
 MFG,"Mizuho Financial Group, Inc. Sponosred ADR (Japan)",OTHER
 MFM,Aberdeen Municipal Income Fund Common Shares of Beneficial Interest,OTHER
 MFSB,MFS Active Core Plus Bond ETF,OTHER
+MFSD,MFS Active Short Duration Income ETF,OTHER
 MFSG,MFS Active Growth ETF,OTHER
 MFSI,MFS Active International ETF,OTHER
 MFSM,MFS Active Intermediate Muni Bond ETF,OTHER
 MFSV,MFS Active Value ETF,OTHER
+MFSX,MFS Active Short Muni Bond ETF,OTHER
 MFUL,Mindful Conservative ETF,OTHER
 MFUS,PIMCO RAFI Dynamic Multi-Factor U.S. Equity ETF,OTHER
 MFUT,Cambria Chesapeake Pure Trend ETF,OTHER
@@ -10277,7 +10287,7 @@ NMAY,Innovator Growth-100 Power Buffer ETF - May,OTHER
 NMB,Simplify National Muni Bond ETF,OTHER
 NMBL,NovaTide Flexible Allocation ETF,OTHER
 NMCO,Nuveen Municipal Credit Opportunities Fund Common Shares,OTHER
-NMCO.V,"Nuveen Municipal Credit Opportunities Fund Rights (expiring October 7, 2026) Rights when issued",OTHER
+NMCO.R,"Nuveen Municipal Credit Opportunities Fund Rights (expiring October 7, 2026) Rights",OTHER
 NMG,Nouveau Monde Graphite Inc. Common Shares,OTHER
 NMI,"Nuveen Municipal Income Fund, Inc. Common Stock",OTHER
 NML,Neuberger Energy Infrastructure and Income Fund Inc. Common Stock,OTHER
@@ -10320,6 +10330,7 @@ NPV,Nuveen Virginia Quality Municipal Income Fund Common Stock,OTHER
 NPWR,NET Power Inc. Class A Common Stock,OTHER
 NPWR.W,"NET Power Inc. Redeemable warrants, each whole warrant exercisable for one share of Class A Common Stock at an exercise price of $11.50",OTHER
 NQLT,Neuberger Quality Select ETF,OTHER
+NRAM,Yorkville America Next Generation Memory Index ETF,OTHER
 NRDY,Nerdy Inc. Class A Common Stock,OTHER
 NREF,"NexPoint Real Estate Finance, Inc. Common Stock",OTHER
 NREF$A,"NexPoint Real Estate Finance, Inc. 8.50% Series A Cumulative Redeemable Preferred Stock",OTHER
@@ -12613,6 +12624,7 @@ VEEV,Veeva Systems Inc. Class A Common Stock,OTHER
 VEGA,AdvisorShares STAR Global Buy-Write ETF,OTHER
 VEGI,iShares MSCI Agriculture Producers ETF,OTHER
 VEGN,US Vegan Climate ETF,OTHER
+VEGX,International Vegan Climate ETF,OTHER
 VEL,"Velocity Financial, Inc. Common Stock",OTHER
 VELL,Defiance Daily Target 2X Long VELO ETF,OTHER
 VEM,Virtus Emerging Markets Dividend ETF,OTHER
@@ -12977,7 +12989,9 @@ XLB,State Street Materials Select Sector SPDR ETF,OTHER
 XLBI,State Street Materials Select Sector SPDR Premium Income ETF,OTHER
 XLBX,Corgi U.S. Materials 2x Daily ETF,OTHER
 XLC,State Street Communication Services Select Sector SPDR ETF,OTHER
+XLCD,MicroSectors -3x Short Communication Services (XLC) ETNs,OTHER
 XLCI,State Street Communication Services Select Sector SPDR Premium Income ETF,OTHER
+XLCU,MicroSectors 3x Long Communication Services (XLC) ETNs,OTHER
 XLE,State Street Energy Select Sector SPDR ETF,OTHER
 XLEI,State Street Energy Select Sector SPDR Premium Income ETF,OTHER
 XLEX,Corgi U.S. Energy 2x Daily ETF,OTHER
@@ -12992,6 +13006,8 @@ XLK,State Street Technology Select Sector SPDR ETF,OTHER
 XLKI,State Street Technology Select Sector SPDR Premium Income ETF,OTHER
 XLKX,Corgi U.S. Technology 2x Daily ETF,OTHER
 XLP,State Street Consumer Staples Select Sector SPDR ETF,OTHER
+XLPD,MicroSectors -3x Short Consumer Staples (XLP) ETNs,OTHER
+XLPU,MicroSectors 3x Long Consumer Staples (XLP) ETNs,OTHER
 XLPX,Corgi U.S. Consumer Staples 2x Daily ETF,OTHER
 XLRE,State Street Real Estate Select Sector SPDR ETF,OTHER
 XLRI,State Street Real Estate Select Sector SPDR Premium Income ETF,OTHER
