@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "architecture_id": "STOCK-STRATEGY-LAB-OVERARCHING-v2.7",
+  "authoritative_private_gate_id": "STOCK-PROJECT-PREWORK-GATE-v1",
+  "classification": "PUBLIC_CONSERVATIVE_MIRROR",
+  "production_impact": "NONE",
+  "may_authorize_orders": false,
+  "automatic_method_adoption": false,
+  "opens_holdouts": false,
+  "status": "BLOCKED_PREWORK",
+  "no_manual_bypass": true,
+  "as_of_utc": "2026-09-02T23:02:30Z",
+  "scope": "Every Stock Strategy project chat, backup chat, Work session, historical research process, research data acquisition process, challenger process, and model advancement decision.",
+  "scheduled_components": [
+    "OPENING_RUN",
+    "CLOSING_RUN",
+    "WEEKLY_ENGINEERING_REVIEW"
+  ],
+  "allowed_while_blocked": [
+    "REMEDIATION",
+    "TESTING",
+    "DETERMINISTIC_REPLAY_OF_EXISTING_CONTRACTS",
+    "CANONICAL_IMPORT",
+    "BROKER_RECONCILIATION_READ_ONLY",
+    "ORCHESTRATION_RECONCILIATION",
+    "DOCUMENTATION",
+    "GATE_MAINTENANCE"
+  ],
+  "prohibited_while_blocked": [
+    "HISTORICAL_RESEARCH",
+    "RESEARCH_DATA_ACQUISITION",
+    "NEW_BACKTEST",
+    "BACKTEST_EXTENSION",
+    "INDICATOR_SEARCH",
+    "PARAMETER_SWEEP",
+    "CHALLENGER_FITTING",
+    "CHALLENGER_TUNING",
+    "CHALLENGER_SELECTION",
+    "PROSPECTIVE_CHALLENGER",
+    "HOLDOUT_ACCESS",
+    "MODEL_PROMOTION"
+  ],
+  "start_of_work_rule": "A stock-project process must check the authoritative private gate when available and this mirror otherwise. Any missing, stale, contradictory, unreadable, or non-OPEN result blocks research consumption.",
+  "work_capacity_rule": "Restored Work capacity and provider quotas are necessary but not sufficient. They do not open the project without a current OPEN result from the authoritative gate.",
+  "mirror_rule": "This public mirror may lag only in the conservative direction and must never report a more permissive state than the authoritative private gate.",
+  "known_prerequisite_summary": {
+    "PASS": [
+      "PRE-01-RUNTIME-FAIL-CLOSED-TRANSITION-INSTALLED",
+      "PRE-02-RESEARCH-CONTROLS-MERGED",
+      "PRE-03-BROKER-STATE-RECONCILED",
+      "PRE-11-WORK-PACKETS-FROZEN",
+      "PRE-13-PUBLIC-BRIDGE-DIRECTIVE-PUBLISHED"
+    ],
+    "NOT_PASS": [
+      "PRE-04-CANONICAL-STATE-IMPORTED",
+      "PRE-05-REAL-DEPENDENCY-GRAPH-POPULATED",
+      "PRE-06-EXTERNAL-LEDGER-ANCHOR-CONFIGURED",
+      "PRE-07-ORCHESTRATION-IDENTITIES-PINNED",
+      "PRE-08-WEEKLY-REVIEW-BINDING-VERIFIED",
+      "PRE-09-COMBINED-REGRESSION-AND-FAULTS-PASS",
+      "PRE-10-SEED-REGISTRIES-IMPORTED",
+      "PRE-12-WORK-DATA-QUOTAS-RECORDED"
+    ]
+  },
+  "latest_broker_reconciliation": {
+    "as_of_utc": "2026-09-02T23:02:30.768086Z",
+    "status": "PASS",
+    "managed_entry_count": 0,
+    "managed_exit_count": 0,
+    "open_order_count": 0,
+    "position_count": 0,
+    "report_file_sha256": "30b41d50fbc8f4e70fdca079892dd7656cb18b15b5e49b1aacc5de5bd4230c20",
+    "report_payload_sha256": "d7b7599723933a74ce3c6608a5a87eb36468ae171237a77e3df124df00af98d3",
+    "effect": "Closes only the broker-state prerequisite. It does not open research or activate execution."
+  }
+}
