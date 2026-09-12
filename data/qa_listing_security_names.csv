@@ -49,8 +49,8 @@ ACAAU,Averin Capital Acquisition Corp. - Units,NASDAQ
 ACAAW,Averin Capital Acquisition Corp. - Warrants,NASDAQ
 ACAD,ACADIA Pharmaceuticals Inc. - Common Stock,NASDAQ
 ACB,Aurora Cannabis Inc. - Common Shares,NASDAQ
-ACBE,Pacer Metaurus Enhanced Core Income Autocallable ETF ,NASDAQ
-ACBH,Pacer Metaurus High Income Autocallable ETF ,NASDAQ
+ACBE,Pacer Metaurus Enhanced Core Income Autocallable ETF,NASDAQ
+ACBH,Pacer Metaurus High Income Autocallable ETF,NASDAQ
 ACCL,Acco Group Holdings Limited - Class A Ordinary Shares,NASDAQ
 ACDC,ProFrac Holding Corp. - Class A Common Stock,NASDAQ
 ACEP,ARS Core Equity Portfolio ETF,NASDAQ
@@ -2045,6 +2045,7 @@ GELS,Gelteq Limited - Ordinary Shares,NASDAQ
 GEME,Pacific North of South EM Equity Active ETF,NASDAQ
 GEMG,Leverage Shares 2X Long GEMI Daily ETF,NASDAQ
 GEMI,"Gemini Space Station, Inc. - Class A Common Stock",NASDAQ
+GEMQ,Goldman Sachs Data Enhanced Emerging Markets Equity ETF,NASDAQ
 GEN,Gen Digital Inc. - Common Stock,NASDAQ
 GENB,"Generate Biomedicines, Inc. - Common Stock",NASDAQ
 GENK,"GEN Restaurant Group, Inc. - Class A Common Stock",NASDAQ
@@ -3596,7 +3597,10 @@ OCCIN,"OFS Credit Company, Inc. - 5.25% Series E Term Preferred Stock Due 2026",
 OCFC,OceanFirst Financial Corp. - Common Stock,NASDAQ
 OCG,Oriental Culture Holding LTD - Ordinary Shares,NASDAQ
 OCGN,"Ocugen, Inc. - Common Stock",NASDAQ
+OCLT,OceanLight Acquisition Corporation - Ordinary Shares,NASDAQ
+OCLTR,OceanLight Acquisition Corporation - Rights,NASDAQ
 OCLTU,OceanLight Acquisition Corporation - Units,NASDAQ
+OCLTW,OceanLight Acquisition Corporation - Warrants,NASDAQ
 OCS,Oculis Holding AG - Ordinary shares,NASDAQ
 OCSAW,Oculis Holding AG - Warrants,NASDAQ
 OCSL,Oaktree Specialty Lending Corporation - Closed End Fund,NASDAQ
@@ -8745,6 +8749,7 @@ HLI,"Houlihan Lokey, Inc. Class A Common Stock",OTHER
 HLIO,"Helios Technologies, Inc. Common Stock",OTHER
 HLLY,Holley Inc. Common Stock,OTHER
 HLN,Haleon plc American Depositary Shares (Each representing two Ordinary Shares),OTHER
+HLSQ,Tessera Defense and Homeland Security Inc. Common Stock,OTHER
 HLT,Hilton Worldwide Holdings Inc. Common Stock ,OTHER
 HMAY,Corgi U.S. Equities 100% Structured Buffer ETF - May Series,OTHER
 HMC,"Honda Motor Company, Ltd. Common Stock",OTHER
@@ -9939,6 +9944,7 @@ MKC.V,"McCormick & Company, Incorporated Common Stock",OTHER
 MKL,Markel Group Inc. Common Stock,OTHER
 MKOR,Matthews Korea Active ETF,OTHER
 MKTN,Federated Hermes MDT Market Neutral ETF,OTHER
+MLCC,Global X MLCC & Electronic Components ETF,OTHER
 MLDR,Global X Intermediate-Term Treasury Ladder ETF,OTHER
 MLI,"Mueller Industries, Inc. Common Stock",OTHER
 MLM,"Martin Marietta Materials, Inc. Common Stock",OTHER
@@ -10760,7 +10766,6 @@ PH,Parker-Hannifin Corporation Common Stock,OTHER
 PHDG,Invesco S&P 500 Downside Hedged ETF,OTHER
 PHEQ,Parametric Hedged Equity ETF,OTHER
 PHG,Koninklijke Philips N.V. NY Registry Shares,OTHER
-PHGE,BiomX Inc. Common Stock,OTHER
 PHI,PLDT Inc. Sponsored ADR,OTHER
 PHIN,PHINIA Inc. Common Stock,OTHER
 PHK,Pimco High Income Fund,OTHER
