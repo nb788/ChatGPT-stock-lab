@@ -140,6 +140,8 @@ AESPW,Aeon Acquisition I Corp. - Warrants,NASDAQ
 AEVA,"Aeva Technologies, Inc. - Common Stock",NASDAQ
 AEYE,"AudioEye, Inc. - Common Stock",NASDAQ
 AFCG,Advanced Flower Capital Inc. - Common Stock,NASDAQ
+AFDM,First Trust Active Factor International ETF,NASDAQ
+AFEM,First Trust Active Factor Emerging Markets ETF,NASDAQ
 AFJK,"Aimei Health Technology Co., Ltd - Ordinary Share",NASDAQ
 AFJKR,"Aimei Health Technology Co., Ltd - Right",NASDAQ
 AFJKU,"Aimei Health Technology Co., Ltd - Unit",NASDAQ
@@ -445,7 +447,6 @@ ASTLW,Algoma Steel Group Inc. - Warrant,NASDAQ
 ASTS,"AST SpaceMobile, Inc. - Class A Common Stock",NASDAQ
 ASUR,Asure Software Inc - Common Stock,NASDAQ
 ASYS,"Amtech Systems, Inc. - Common Stock",NASDAQ
-ATAI,AtaiBeckley Inc. - Common Stock,NASDAQ
 ATAT,Atour Lifestyle Holdings Limited - American Depositary Shares,NASDAQ
 ATC,GraniteShares Autocallable COIN ETF,NASDAQ
 ATCX,Atlas Critical Minerals Corporation - Common Stock,NASDAQ
@@ -2772,7 +2773,6 @@ KFIIR,K&F Growth Acquisition Corp. II - Rights,NASDAQ
 KFIIU,K&F Growth Acquisition Corp. II - Unit,NASDAQ
 KG,"Kestrel Group, Ltd. - Common Stock",NASDAQ
 KGEI,Kolibri Global Energy Inc. - Common stock,NASDAQ
-KHC,The Kraft Heinz Company - Common Stock,NASDAQ
 KIDS,OrthoPediatrics Corp. - Common Stock,NASDAQ
 KIDZ,KIDZ AI Inc. - Class B Common Stock,NASDAQ
 KIDZW,KIDZ AI Inc. - Warrants,NASDAQ
@@ -3414,6 +3414,7 @@ NEXR,Nexera Technologies Ltd - Ordinary Shares,NASDAQ
 NEXRW,Nexera Technologies Ltd - Warrant,NASDAQ
 NEXT,NextDecade Corporation - Common Stock,NASDAQ
 NFE,New Fortress Energy Inc. - Class A Common Stock,NASDAQ
+NFEGP,New Fortress Energy Inc. - Series A Mandatorily Convertible Preferred Stock,NASDAQ
 NFLX,"Netflix, Inc. - Common Stock",NASDAQ
 NFRX,Harrison Street Infrastructure Active ETF,NASDAQ
 NFTY,First Trust India Nifty 50 Equal Weight ETF,NASDAQ
@@ -4247,8 +4248,6 @@ RFAIU,RF Acquisition Corp II - Unit,NASDAQ
 RFAM,RF Acquisition Corp III - Ordinary Shares,NASDAQ
 RFAMR,RF Acquisition Corp III - Rights,NASDAQ
 RFAMU,RF Acquisition Corp III - Units,NASDAQ
-RFDI,First Trust RiverFront Dynamic Developed International ETF,NASDAQ
-RFEM,First Trust RiverFront Dynamic Emerging Markets ETF,NASDAQ
 RFIL,"RF Industries, Ltd. - Common Stock",NASDAQ
 RGC,Regencell Bioscience Holdings Limited - Ordinary Shares,NASDAQ
 RGCO,RGC Resources Inc. - Common Stock,NASDAQ
@@ -5639,6 +5638,7 @@ ABLD,Abacus FCF Real Assets Leaders ETF,OTHER
 ABLG,Abacus FCF International Leaders ETF,OTHER
 ABLS,Abacus FCF Small Cap Leaders ETF,OTHER
 ABM,ABM Industries Incorporated Common Stock,OTHER
+ABND,American Century Core Plus Income ETF,OTHER
 ABOT,Abacus FCF Innovation Leaders ETF,OTHER
 ABR,Arbor Realty Trust Common Stock,OTHER
 ABR$D,"Arbor Realty Trust 6.375% Series D Cumulative Redeemable Preferred Stock, Liquidation Preference $25.00 per Share",OTHER
@@ -6604,6 +6604,7 @@ BUL,Pacer US Cash Cows Growth ETF,OTHER
 BULZ,MicroSectors FANG & Innovation 3x Leveraged ETN,OTHER
 BUR,Burford Capital Limited Ordinary Shares,OTHER
 BURL,"Burlington Stores, Inc. Common Stock",OTHER
+BURU,"Nuburu, Inc. Common Stock",OTHER
 BUSA,Brandes U.S. Value ETF,OTHER
 BUSM,EA Bridgeway Ultra-Small Company Market ETF,OTHER
 BUXX,Strive Enhanced Income Short Maturity ETF,OTHER
@@ -6670,7 +6671,7 @@ CANE,Teucrium Sugar Fund ETV,OTHER
 CANF,"Can-Fite Biopharma Ltd American Depositary Shares, each representing two (2) Ordinary Shares",OTHER
 CANG,Cango Inc. Class A Ordinary Shares,OTHER
 CAOS,Alpha Architect Tail Risk ETF,OTHER
-CAPA,Defiance AI Capacitors Leaders ETF,OTHER
+CAPA,Defiance AI Capacitors & MLCC ETF,OTHER
 CAPE,DoubleLine Shiller CAPE U.S. Equities ETF,OTHER
 CAPL,CrossAmerica Partners LP Common Units representing limited partner interests,OTHER
 CARD,MAX Auto Industry -3x Inverse Leveraged ETN,OTHER
@@ -7410,6 +7411,7 @@ DMBS,DoubleLine Mortgage ETF,OTHER
 DMC,Del Monte Corporation Ordinary Shares,OTHER
 DMO,Western Asset Mortgage Opportunity Fund Inc. Common Stock,OTHER
 DMX,DoubleLine Multi-Sector Income ETF,OTHER
+DMXU,Xtrackers Bloomberg Developed Markets ex US Equity ETF,OTHER
 DNA,"Ginkgo Bioworks Holdings, Inc. Class A Common Stock",OTHER
 DNL,WisdomTree Global ex-U.S. Quality Growth Fund,OTHER
 DNN,Denison Mines Corp Ordinary Shares (Canada),OTHER
@@ -7536,7 +7538,6 @@ EAI,"Entergy Arkansas, LLC First Mortgage Bonds, 4.875% Series Due September 1, 
 EALT,Innovator U.S. Equity 5 to 15 Buffer ETF - Quarterly,OTHER
 EAPR,Innovator Emerging Markets Power Buffer ETF April,OTHER
 EARN,Ellington Credit Company Common Shares of Beneficial Interest,OTHER
-EASG,Xtrackers MSCI EAFE Selection Equity ETF,OTHER
 EAT,"Brinker International, Inc. Common Stock",OTHER
 EBF,"Ennis, Inc. Common Stock",OTHER
 EBIT,Harbor AlphaEdge Small Cap Earners ETF,OTHER
@@ -8277,7 +8278,7 @@ FUMB,First Trust Ultra Short Duration Municipal ETF,OTHER
 FUN,Six Flags Entertainment Corporation Common Stock New,OTHER
 FURY,Fury Gold Mines Limited Common Shares,OTHER
 FUSD,Federated Hermes Ultrashort Bond ETF,OTHER
-FUSI,American Century Multisector Floating Income ETF,OTHER
+FUSI,American Century Ultrashort Income ETF,OTHER
 FUTY,Fidelity MSCI Utilities Index ETF,OTHER
 FVAL,Fidelity Value Factor ETF,OTHER
 FVD,First Trust VL Dividend,OTHER
@@ -8395,7 +8396,6 @@ GFF,Griffon Corporation Common Stock,OTHER
 GFI,Gold Fields Limited American Depositary Shares,OTHER
 GFL,"GFL Environmental Inc. Subordinate voting shares, no par value",OTHER
 GFR,Greenfire Resources Ltd. Common Shares,OTHER
-GFR.R,"Greenfire Resources Ltd. Rights (expiring September 15, 2026) Rights",OTHER
 GFSG,Leverage Shares 2X Long GFS Daily ETF,OTHER
 GGB,Gerdau S.A. Common Stock,OTHER
 GGG,Graco Inc. Common Stock,OTHER
@@ -8847,7 +8847,7 @@ HYLN,Hyliion Holdings Corp. Class A Common Stock,OTHER
 HYMB,State Street SPDR Nuveen ICE High Yield Municipal Bond ETF,OTHER
 HYNX,T-REX 2X Long SKHY Daily Target ETF,OTHER
 HYS,PIMCO 0-5 Year High Yield Corporat Bond Index Exchange-Traded Fund,OTHER
-HYSA,BondBloxx USD High Yield Bond Sector Rotation ETF,OTHER
+HYSA,BondBloxx High Yield Income ETF,OTHER
 HYSD,Columbia Short Duration High Yield ETF,OTHER
 HYT,"Blackrock Corporate High Yield Fund, Inc. Common Stock",OTHER
 HYTI,FT Vest High Yield & Target Income ETF,OTHER
@@ -9455,6 +9455,7 @@ KGC,Kinross Gold Corporation Common Stock,OTHER
 KGLD,Kurv Gold Enhanced Income ETF,OTHER
 KGRN,KraneShares MSCI China Clean Technology Index ETF,OTHER
 KGS,"Kodiak Gas Services, Inc. Common Stock",OTHER
+KHC,The Kraft Heinz Company Common Stock,OTHER
 KHPI,Kensington Hedged Premium Income ETF,OTHER
 KHYB,KraneShares Asia Pacific High Income USD Bond ETF,OTHER
 KIE,State Street SPDR S&P Insurance ETF,OTHER
@@ -10128,7 +10129,6 @@ MUNY,Vanguard New York Tax-Exempt Bond ETF,OTHER
 MUR,Murphy Oil Corporation Common Stock,OTHER
 MUSA,Murphy USA Inc. Common Stock,OTHER
 MUSE,TCW Multisector Credit Income ETF,OTHER
-MUSI,American Century Multisector Income ETF,OTHER
 MUSQ,MUSQ Global Music Industry Index ETF,OTHER
 MUST,Columbia Multi-Sector Municipal Income ETF,OTHER
 MUX,McEwen Inc. Common Stock,OTHER
@@ -10892,7 +10892,7 @@ PQXV,PGIM S&P 500 Quarterly Buffer 15 ETF,OTHER
 PQXX,PGIM S&P 500 Quarterly Buffer 20 ETF,OTHER
 PR,Permian Resources Corporation Class A Common Stock,OTHER
 PRAB,State Street IG Public & Private ABS ETF,OTHER
-PRAE,PlanRock Alternative Growth ETF,OTHER
+PRAE,PlanRock Equity Plus Alternatives ETF,OTHER
 PRAM,Defiance Memory & Photonics ETF,OTHER
 PRAY,FIS Christian Stock Fund,OTHER
 PRCS,Parnassus Core Select ETF,OTHER
@@ -12118,7 +12118,7 @@ TESL,Simplify Volt TSLA Revolution ETF,OTHER
 TEST,YieldMax TSLA Performance & Distribution Target 25 ETF,OTHER
 TETH,21Shares Ethereum ETF,OTHER
 TEUP,T-REX 2X Long TE Daily Target ETF,OTHER
-TEVA,Teva Pharmaceutical Industries Limited American Depositary Shares,OTHER
+TEVA,Teva Pharmaceutical Industries Limited Ordinary Shares,OTHER
 TEX,Terex Corporation Common Stock,OTHER
 TEXU,Direxion Daily Energy Top 5 Bull 2X ETF,OTHER
 TFC,Truist Financial Corporation Common Stock,OTHER
@@ -12189,6 +12189,7 @@ TIPH,Northern Trust 2056 Inflation-Linked Distributing Ladder ETF,OTHER
 TIPX,State Street SPDR Bloomberg 1a??10 Year TIPS ETF,OTHER
 TIPZ,PIMCO Broad U.S. TIPS Index Exchange-Traded Fund,OTHER
 TISI,"Team, Inc. Common Stock",OTHER
+TIZE,TCW Securitized Income ETF,OTHER
 TJAN,Innovator Equity Defined Protection ETF - 2 Yr to January 2027,OTHER
 TJUL,Innovator Equity Defined Protection ETF - 2 Yr to July 2027,OTHER
 TJUN,FT Vest Emerging Markets Buffer ETF - June,OTHER
@@ -13213,3 +13214,8 @@ ZVOL,Volatility Premium Plus ETF,OTHER
 ZVV,NYSE ARCA test stock,OTHER
 ZWS,Zurn Elkay Water Solutions Corporation Common Stock,OTHER
 ZXIET,IEX Test Company Test Symbol Three for IEX,OTHER
+ZZZTA,TXSE Test Stk 1 Common Stock,OTHER
+ZZZTE,TXSE Test Stk 2 ETF,OTHER
+ZZZTS,TXSE Test Stk 3 Common Stock,OTHER
+ZZZTT,ETF,OTHER
+ZZZTX,TXSE Test Stk 5 Common Stock,OTHER
