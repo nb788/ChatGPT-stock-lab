@@ -3526,6 +3526,7 @@ NUCL,Eagle Nuclear Energy Corp. - Common stock,NASDAQ
 NUCLW,Eagle Nuclear Energy Corp. - Warrants,NASDAQ
 NUG,Leverage Shares 2X Long NU Daily ETF,NASDAQ
 NUGY,GraniteShares YieldBOOST Gold Miners ETF,NASDAQ
+NUIB,Nuveen Impact Bond ETF,NASDAQ
 NUIF,Nuveen US Infrastructure ETF,NASDAQ
 NUR,Nuran Wireless Inc. - Common Shares,NASDAQ
 NUSB,Nuveen Ultra Short Income ETF,NASDAQ
@@ -4305,7 +4306,9 @@ RMSGW,Real Messenger Corporation - Warrants,NASDAQ
 RMTI,"Rockwell Medical, Inc. - Common Stock",NASDAQ
 RNA,"Atrium Therapeutics, Inc. - Common Stock",NASDAQ
 RNAC,"Cartesian Therapeutics, Inc. - Common Stock",NASDAQ
+RNAQ,Rainier Acquisition Corporation - Class A Ordinary Shares,NASDAQ
 RNAQU,Rainier Acquisition Corporation - Units,NASDAQ
+RNAQW,Rainier Acquisition Corporation - Warrants,NASDAQ
 RNAZ,"TransCode Therapeutics, Inc. - Common Stock",NASDAQ
 RNEM,Emerging Markets Equity Select ETF,NASDAQ
 RNGT,Range Capital Acquisition Corp II - Class A Ordinary Shares,NASDAQ
@@ -5511,6 +5514,7 @@ XTERU,Karman Line Acquisition Corp. - Units,NASDAQ
 XTERW,Karman Line Acquisition Corp. - Warrants,NASDAQ
 XTIA,"XTI Aerospace, Inc. Common Stock  - Common Stock",NASDAQ
 XTLB,XTL Biopharmaceuticals Ltd. - American Depositary Shares,NASDAQ
+XUSM,MarketDesk International Momentum ETF,NASDAQ
 XWEL,"XWELL, Inc. - Common Stock",NASDAQ
 XXII,"22nd Century Group, Inc - Common Stock",NASDAQ
 XXX,CYBER HORNET S&P 500 and XRP 75/25 Strategy ETF,NASDAQ
@@ -5659,7 +5663,6 @@ ACGO,Hartford Alpha Capture Growth ETF,OTHER
 ACGR,American Century Large Cap Growth ETF,OTHER
 ACH,"Accendra Health, Inc. Common Stock",OTHER
 ACHR,Archer Aviation Inc. Class A Common Stock,OTHER
-ACHR.W,"Archer Aviation Inc. Redeemable Warrants, each whole warrant exercisable for one Class A common stock at an exercise price of $11.50",OTHER
 ACHX,Corgi ACHR 2x Daily ETF,OTHER
 ACI,"Albertsons Companies, Inc. Class A Common Stock",OTHER
 ACII,Innovator Index Autocallable Income Strategy ETF,OTHER
@@ -6042,6 +6045,7 @@ ASTX,Tradr 2X Long ASTS Daily ETF,OTHER
 ASTY,Defiance Daily Target 2X Long ASTS ETF,OTHER
 ASUP,T-REX 2X Long ASTS Daily Target ETF,OTHER
 ASX,"ASE Technology Holding Co., Ltd. American Depositary Shares (each representing Two Common Shares) ",OTHER
+AT,Defiance Robotics Actuators ETF,OTHER
 ATCH,"AtlasClear Holdings, Inc. Common Stock",OTHER
 ATCL,REX Autocallable Income ETF,OTHER
 ATEN,"A10 Networks, Inc. Common Stock",OTHER
@@ -7070,6 +7074,7 @@ CRWX,Corgi CRWV 2x Daily ETF,OTHER
 CRXP,Columbia Core Plus Bond ETF,OTHER
 CSAN,Cosan S.A. ADS,OTHER
 CSD,Invesco S&P Spin-Off ETF,OTHER
+CSEP,Corgi U.S. Equities 15% Structured Buffer ETF - September Series,OTHER
 CSEX,Tradr 2X Long CLS Daily ETF,OTHER
 CSHI,NEOS Enhanced Income 1-3 Month T-Bill ETF,OTHER
 CSHP,iShares Dynamic Short-Term Active ETF,OTHER
@@ -7117,6 +7122,7 @@ CTOS,"Custom Truck One Source, Inc. Common Stock",OTHER
 CTRE,"CareTrust REIT, Inc. Common Stock",OTHER
 CTRI,"Centuri Holdings, Inc. Common Stock",OTHER
 CTS,CTS Corporation Common Stock,OTHER
+CTSE,Corgi U.S. Equities 30% Structured Buffer ETF - September Series,OTHER
 CTVA,"Corteva, Inc. Common Stock ",OTHER
 CTWO,Common units,OTHER
 CUBB,"Customers Bancorp, Inc 5.375% Subordinated Notes Due 2034",OTHER
@@ -7694,6 +7700,7 @@ EMP,"Entergy Mississippi, LLC First Mortgage Bonds, 4.90% Series Due October 1, 
 EMPB,Efficient Market Portfolio Plus ETF,OTHER
 EMQQ,EMQQ The Emerging Markets Internet ETF,OTHER
 EMR,Emerson Electric Company Common Stock,OTHER
+EMSE,Corgi Emerging Markets Equities 15% Structured Buffer ETF - September Series,OTHER
 EMSF,Matthews Emerging Markets Sustainable Future Active ETF,OTHER
 EMTY,ProShares Decline of the Retail Store ETF,OTHER
 EMXX,Corgi Emerging Markets 2x Daily ETF,OTHER
@@ -8791,6 +8798,7 @@ HRTG,"Heritage Insurance Holdings, Inc. Common Stock",OTHER
 HSBC,"HSBC Holdings, plc. Common Stock",OTHER
 HSBH,HSBC Holdings plc ADRhedged,OTHER
 HSCZ,iShares Currency Hedged MSCI EAFE Small-Cap ETF,OTHER
+HSEP,Corgi U.S. Equities 100% Structured Buffer ETF - September Series,OTHER
 HSHP,Himalaya Shipping Ltd. Common Shares,OTHER
 HSLV,Highlander Silver Corp. Common Shares,OTHER
 HSMV,First Trust Horizon Managed Volatility Small/Mid ETF,OTHER
@@ -8950,6 +8958,7 @@ IDNA,iShares Genomics Immunology and Healthcare ETF,OTHER
 IDOG,ALPS International Sector Dividend Dogs ETF,OTHER
 IDR,"Idaho Strategic Resources, Inc. Common Stock",OTHER
 IDRV,iShares Self-Driving EV and Tech ETF,OTHER
+IDSE,Corgi International Developed Equities 15% Structured Buffer ETF - September Series,OTHER
 IDT,IDT Corporation Class B Common Stock,OTHER
 IDU,iShares U.S. Utilities ETF,OTHER
 IDUB,Aptus International Enhanced Yield ETF,OTHER
@@ -9425,6 +9434,7 @@ KCAC.W,"Kensington Capital Acquisition Corp. VI Class 1 redeemable warrants, eac
 KCAI,KraneShares China Alpha Index ETF,OTHER
 KCCA,KraneShares California Carbon Allowance Strategy ETF,OTHER
 KCE,State Street SPDR S&P Capital Markets ETF,OTHER
+KCHP,KICK Korea Semiconductor Index ETF,OTHER
 KCOP,Kurv Copper & Mining Enhanced Income ETF,OTHER
 KCSH,KraneShares Sustainable Ultra Short Duration Index ETF,OTHER
 KD,"Kyndryl Holdings, Inc. Common Stock",OTHER
@@ -9690,6 +9700,7 @@ LPA,Logistic Properties of the Americas Ordinary Shares,OTHER
 LPG,Dorian LPG Ltd. Common Stock,OTHER
 LPL,"LG Display Co, Ltd AMERICAN DEPOSITORY SHARES",OTHER
 LPRE,Long Pond Real Estate Select ETF,OTHER
+LPSV,Lone Peak SMID Value ETF,OTHER
 LPX,Louisiana-Pacific Corporation Common Stock,OTHER
 LQAI,LG QRAFT AI-Powered U.S. Large Cap Core ETF,OTHER
 LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,OTHER
@@ -10696,6 +10707,7 @@ PCM,"PCM Fund, Inc. Common Stock",OTHER
 PCN,Pimco Corporate & Income Strategy Fund Common Stock,OTHER
 PCOR,"Procore Technologies, Inc. Common Stock",OTHER
 PCOV,Principal Equity Premium Income ETF,OTHER
+PCPC,Porter & Company Property & Casualty Index ETF,OTHER
 PCPP,Porter & Company Porter Portfolio Index ETF,OTHER
 PCQ,PIMCO California Municipal Income Fund Common Stock,OTHER
 PCR,Simplify VettaFi Private Credit Strategy ETF,OTHER
@@ -11097,9 +11109,11 @@ QQJN,Corgi Growth & Technology 15% Structured Buffer ETF - June Series,OTHER
 QQMY,Corgi Growth & Technology 15% Structured Buffer ETF - May Series,OTHER
 QQQD,Direxion Daily Magnificent 7 Bear 1X ETF,OTHER
 QQQU,Direxion Daily Magnificent 7 Bull 2X ETF,OTHER
+QQSE,Corgi Growth & Technology 15% Structured Buffer ETF - September Series,OTHER
 QRED,QuasarEdge Acquisition Corporation Ordinary Shares,OTHER
 QRED.R,QuasarEdge Acquisition Corporation Rights to receive one-fourth (1/4) of one Ordinary Share,OTHER
 QRED.U,"QuasarEdge Acquisition Corporation Units, each consisting of one Ordinary Share and one right entitling the holder to receive one-fourth (1/4) of one Ordinary Share",OTHER
+QSE,Corgi Growth & Technology 10% Structured Buffer ETF - September Series,OTHER
 QSIG,WisdomTree U.S. Short Term Corporate Bond Fund,OTHER
 QSOL,Invesco Galaxy Solana ETF,OTHER
 QSPT,FT Vest Nasdaq-100 Buffer ETF - September,OTHER
@@ -11425,6 +11439,7 @@ SAGU.U,"Shreya Acquisition Group Units, each consisting of one Class A Ordinary 
 SAGU.W,"Shreya Acquisition Group Redeemable warrants, entitling the holder to purchase one Class A Ordinary Share at $11.50 per share",OTHER
 SAH,"Sonic Automotive, Inc. Common Stock",OTHER
 SAJ,Saratoga Investment Corp 8.00% Notes due 2027,OTHER
+SALI,Schroders US Autocallable Ladder Income ETF,OTHER
 SAM,"Boston Beer Company, Inc. (The) Common Stock",OTHER
 SAMM,Strategas Macro Momentum ETF,OTHER
 SAMO,Samos Energy Acquisition Corporation Class A Ordinary Shares,OTHER
@@ -11525,6 +11540,7 @@ SCO,ProShares UltraShort Bloomberg Crude Oil,OTHER
 SCOP,Sprott Physical Copper Trust Units,OTHER
 SCOW,Pacer S&P SmallCap 600 Quality FCF Aristocrats ETF,OTHER
 SCSB,Sterling Capital Short Duration Bond ETF,OTHER
+SCSE,Corgi U.S. Small-Cap 15% Structured Buffer ETF - September Series,OTHER
 SCUB,Sterling Capital Ultra Short Bond ETF,OTHER
 SCUS,Schwab Ultra-Short Income ETF,OTHER
 SCYB,Schwab High Yield Bond ETF,OTHER
@@ -11566,6 +11582,7 @@ SEIX,Virtus Seix Senior Loan ETF,OTHER
 SELV,SEI Enhanced Low Volatility U.S. Large Cap ETF,OTHER
 SEMG,Suncoast Select Growth ETF,OTHER
 SEMI,Columbia Select Technology ETF,OTHER
+SEPC,Corgi U.S. Equities 10% Structured Buffer ETF - September Series,OTHER
 SEPI,Shelton Equity Premium Income ETF,OTHER
 SEPM,FT Vest U.S. Equity Max Buffer ETF - September,OTHER
 SEPP,PGIM S&P 500 Buffer 12 ETF - September,OTHER
