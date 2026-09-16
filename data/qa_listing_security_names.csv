@@ -180,6 +180,7 @@ AHMA,Ambitions Enterprise Management Co. L.L.C - Class A Ordinary Shares,NASDAQ
 AIA,iShares Asia 50 ETF,NASDAQ
 AIAI,AIAI Holdings Corporation - Class A common stock,NASDAQ
 AIBZ,Bitzero Holdings Inc. - Common Shares,NASDAQ
+AICH,China AI ETF,NASDAQ
 AIDX,"20/20 Biolabs, Inc. - Common Stock",NASDAQ
 AIFA,"All In FutureTech Alliance, Inc. - Common Stock",NASDAQ
 AIFC,AI Financial Corporation - Common Stock,NASDAQ
@@ -829,6 +830,7 @@ BSJV,Invesco BulletShares 2031 High Yield Corporate Bond ETF,NASDAQ
 BSJW,Invesco BulletShares 2032 High Yield Corporate Bond ETF,NASDAQ
 BSJX,Invesco BulletShares 2033 High Yield Corporate Bond ETF,NASDAQ
 BSJY,Invesco BulletShares 2034 High Yield Corporate Bond ETF,NASDAQ
+BSMA,Invesco BulletShares 2036 Municipal Bond ETF,NASDAQ
 BSMQ,Invesco BulletShares 2026 Municipal Bond ETF,NASDAQ
 BSMR,Invesco BulletShares 2027 Municipal Bond ETF,NASDAQ
 BSMS,Invesco BulletShares 2028 Municipal Bond ETF,NASDAQ
@@ -1779,7 +1781,6 @@ FDTX,Fidelity Disruptive Technology ETF,NASDAQ
 FDUS,Fidus Investment Corporation - Closed End Fund,NASDAQ
 FEAM,"5E Advanced Materials, Inc. - Common Stock",NASDAQ
 FEBO,Fenbo Holdings Limited - Class A Ordinary Shares,NASDAQ
-FEED,"ENvue Medical, Inc. - Common Stock",NASDAQ
 FEIM,"Frequency Electronics, Inc. - Common Stock",NASDAQ
 FELE,"Franklin Electric Co., Inc. - Common Stock",NASDAQ
 FEM,First Trust Emerging Markets AlphaDEX Fund,NASDAQ
@@ -2617,6 +2618,7 @@ IPXG,Inection Point Acquisition Corp. VII  - Class A Ordinary Shares,NASDAQ
 IPXGU,Inection Point Acquisition Corp. VII  - Unit,NASDAQ
 IPXGW,Inection Point Acquisition Corp. VII  - Warrant,NASDAQ
 IQ,"iQIYI, Inc. - American Depositary Shares",NASDAQ
+IQGR,Astoria International Quality Growth Kings ETF,NASDAQ
 IQMX,IQM Quantum Computers Oyj - American Depositary Shares,NASDAQ
 IQMXW,IQM Quantum Computers Oyj - Warrants to purchase American Depositary Shares,NASDAQ
 IQQ,iShares Nasdaq 100 ETF,NASDAQ
@@ -2700,6 +2702,7 @@ JFU,9F Inc. - American Depositary Shares,NASDAQ
 JG,Aurora Mobile Limited - American Depositary Shares,NASDAQ
 JGLO,JPMorgan Global Select Equity ETF,NASDAQ
 JHAI,Janus Henderson Global Artificial Intelligence ETF,NASDAQ
+JINT,Janus Henderson International Core Alpha ETF,NASDAQ
 JIVE,JPMorgan International Value ETF,NASDAQ
 JJSF,J & J Snack Foods Corp. - Common Stock,NASDAQ
 JKHY,"Jack Henry & Associates, Inc. - Common Stock",NASDAQ
@@ -2768,9 +2771,9 @@ KEYY,Keystone Acquisition Corp. - Class A Ordinary Shares,NASDAQ
 KEYYU,Keystone Acquisition Corp. - Unit,NASDAQ
 KEYYW,Keystone Acquisition Corp. - Warrants,NASDAQ
 KFFB,Kentucky First Federal Bancorp - Common Stock,NASDAQ
-KFII,K&F Growth Acquisition Corp. II - Class A Ordinary shares,NASDAQ
-KFIIR,K&F Growth Acquisition Corp. II - Rights,NASDAQ
-KFIIU,K&F Growth Acquisition Corp. II - Unit,NASDAQ
+KFII,K - Class A Ordinary shares,NASDAQ
+KFIIR,K - Rights,NASDAQ
+KFIIU,K - Unit,NASDAQ
 KG,"Kestrel Group, Ltd. - Common Stock",NASDAQ
 KGEI,Kolibri Global Energy Inc. - Common stock,NASDAQ
 KIDS,OrthoPediatrics Corp. - Common Stock,NASDAQ
@@ -4623,7 +4626,6 @@ SNTI,"Senti Biosciences Holdings, Inc. - Common Stock",NASDAQ
 SNWV,"SANUWAVE Health, Inc. - Common Stock",NASDAQ
 SNY,Sanofi - American Depositary Shares,NASDAQ
 SNYR,Synergy CHC Corp. - Common Stock,NASDAQ
-SOBR,"SOBR Safe, Inc. - Common Stock",NASDAQ
 SOCA,Solarius Capital Acquisition Corp. - Class A Ordinary Share,NASDAQ
 SOCAU,Solarius Capital Acquisition Corp. - Units,NASDAQ
 SOCAW,Solarius Capital Acquisition Corp. - Warrant,NASDAQ
@@ -4996,6 +4998,7 @@ TROW,"T. Rowe Price Group, Inc. - Common Stock",NASDAQ
 TRS,TriMas Corporation - Common Stock,NASDAQ
 TRSG,Tungray Technologies Inc - Class A Ordinary Shares,NASDAQ
 TRST,TrustCo Bank Corp NY - Common Stock,NASDAQ
+TRT,Trio-Tech International - Common Stock,NASDAQ
 TRUC,VanEck Communication Services TruSector ETF,NASDAQ
 TRUD,VanEck Consumer Discretionary TruSector ETF,NASDAQ
 TRUF,VanEck Financials TruSector ETF,NASDAQ
@@ -5349,6 +5352,7 @@ WBD,"Warner Bros. Discovery, Inc. - Series A Common Stock",NASDAQ
 WBTN,WEBTOON Entertainment Inc. - Common stock,NASDAQ
 WBUY,WEBUY GLOBAL LTD. - Class A Ordinary Shares,NASDAQ
 WCBR,WisdomTree Cybersecurity Fund,NASDAQ
+WCCB,West Coast Community Bancorp - Common Stock,NASDAQ
 WCLD,WisdomTree Cloud Computing Fund,NASDAQ
 WCT,Wellchange Holdings Company Limited - Class A Ordinary shares,NASDAQ
 WDAF,WisdomTree Asia Defense Fund,NASDAQ
@@ -6019,6 +6023,7 @@ ASB,Associated Banc-Corp Common Stock,OTHER
 ASB$E,"Associated Banc-Corp Depositary Shares, each representing a 1/40th interest in a share of 5.875% Non-Cumulative Perpetual Preferred Stock, Series E",OTHER
 ASB$F,"Associated Banc-Corp Depositary Shares, each representing a 1/40th interest in a share of Associated Banc-Corp 5.625% Non-Cumulative Perpetual Preferred Stock, Series F",OTHER
 ASBA,Associated Banc-Corp 6.625% Fixed-Rate Reset Subordinated Notes due 2033,OTHER
+ASBH,"American Savings Bank, N.A. Common Stock",OTHER
 ASC,Ardmore Shipping Corporation Common Stock,OTHER
 ASCE,Allspring SMID Core ETF,OTHER
 ASEA,Global X FTSE Southeast Asia ETF,OTHER
@@ -6604,6 +6609,7 @@ BUFX,FT Vest Laddered Enhance & Moderate Buffer ETF,OTHER
 BUFY,FT Vest Laddered International Moderate Buffer ETF,OTHER
 BUFZ,FT Vest Laddered Moderate Buffer ETF,OTHER
 BUI,"BlackRock Utility, Infrastructure & Power Opportunities Trust",OTHER
+BUIL,Rebuild America ETF,OTHER
 BUL,Pacer US Cash Cows Growth ETF,OTHER
 BULZ,MicroSectors FANG & Innovation 3x Leveraged ETN,OTHER
 BUR,Burford Capital Limited Ordinary Shares,OTHER
@@ -12329,7 +12335,6 @@ TROX,Tronox Holdings plc Ordinary Shares (UK),OTHER
 TRP,TC Energy Corporation Common Stock,OTHER
 TRPA,Hartford AAA CLO ETF,OTHER
 TRSY,Xtrackers US 0-1 Year Treasury ETF,OTHER
-TRT,Trio-Tech International Common Stock,OTHER
 TRTN$A,Triton International Limited 8.50% Series A Cumulative Redeemable Perpetual  Preference Shares,OTHER
 TRTN$B,Triton International Limited 8.00% Series B Cumulative Redeemable Perpetual Preference Shares,OTHER
 TRTN$C,Triton International Limited 7.375% Series C Cumulative Redeemable Perpetual Preference Shares,OTHER
@@ -13233,6 +13238,5 @@ ZWS,Zurn Elkay Water Solutions Corporation Common Stock,OTHER
 ZXIET,IEX Test Company Test Symbol Three for IEX,OTHER
 ZZZTA,TXSE Test Stk 1 Common Stock,OTHER
 ZZZTE,TXSE Test Stk 2 ETF,OTHER
-ZZZTS,TXSE Test Stk 3 Common Stock,OTHER
 ZZZTT,ETF,OTHER
 ZZZTX,TXSE Test Stk 5 Common Stock,OTHER
