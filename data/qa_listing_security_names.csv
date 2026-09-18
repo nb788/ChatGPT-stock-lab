@@ -1663,6 +1663,7 @@ ETHA,iShares Ethereum Trust ETF,NASDAQ
 ETHB,iShares Staked Ethereum Trust ETF,NASDAQ
 ETON,"Eton Pharmaceuticals, Inc. - Common Stock",NASDAQ
 ETOR,eToro Group Ltd. - Class A Common Shares,NASDAQ
+ETRA,"Electra Therapeutics, Inc. - Common stock",NASDAQ
 ETS,Elite Express Holding Inc. - Class A Common Stock,NASDAQ
 EU,enCore Energy Corp. - Common Stock,NASDAQ
 EUDA,Euda Health Holdings Limited - Ordinary Shares,NASDAQ
@@ -1993,8 +1994,8 @@ FWACR,Futurewave Acquisition Corporation - Rights,NASDAQ
 FWACU,Futurewave Acquisition Corporation - Units,NASDAQ
 FWACW,Futurewave Acquisition Corporation - Warrants,NASDAQ
 FWDI,"Forward Industries, Inc. - Common Stock",NASDAQ
-FWONA,Liberty Media Corporation - Series A Liberty Formula One Common Stock,NASDAQ
-FWONK,Liberty Media Corporation - Series C Liberty Formula One Common Stock,NASDAQ
+FWONA,Liberty Media Corporation - Series A Common Stock,NASDAQ
+FWONK,Liberty Media Corporation - Series C Common Stock,NASDAQ
 FWRD,Forward Air Corporation - Common Stock,NASDAQ
 FWRG,"First Watch Restaurant Group, Inc. - Common Stock",NASDAQ
 FXAC,FortuneX Acquisition Corporation - Ordinary shares,NASDAQ
@@ -2885,6 +2886,7 @@ LDRX,SGI Enhanced Market Leaders ETF,NASDAQ
 LDSF,First Trust Low Duration Strategic Focus ETF,NASDAQ
 LE,"Lands' End, Inc. - Common Stock",NASDAQ
 LECO,"Lincoln Electric Holdings, Inc. - Common Shares",NASDAQ
+LEDRU,Leader's Advantage Acquisition Corp. - Units,NASDAQ
 LEDS,SemiLEDS Corporation - Common Stock,NASDAQ
 LEE,"Lee Enterprises, Incorporated - Common Stock",NASDAQ
 LEGH,Legacy Housing Corporation - Common Stock,NASDAQ
@@ -3632,6 +3634,7 @@ OGI,Organigram Global Inc. - Common Shares,NASDAQ
 OHAC,Oceanhawk Acquisition Corp. - Class A Ordinary Shares,NASDAQ
 OHACR,Oceanhawk Acquisition Corp. - Rights,NASDAQ
 OHACU,Oceanhawk Acquisition Corp. - Units,NASDAQ
+OIG,Orion180 Insurance Group Inc. - Class A Common Stock,NASDAQ
 OIM,OneIM Acquisition Corp. - Class A Ordinary Shares,NASDAQ
 OIMAU,OneIM Acquisition Corp. - Units,NASDAQ
 OIMAW,OneIM Acquisition Corp. - Warrant,NASDAQ
@@ -4627,7 +4630,6 @@ SNTG,Sentage Holdings Inc. - Class A Ordinary Shares,NASDAQ
 SNTI,"Senti Biosciences Holdings, Inc. - Common Stock",NASDAQ
 SNWV,"SANUWAVE Health, Inc. - Common Stock",NASDAQ
 SNY,Sanofi - American Depositary Shares,NASDAQ
-SNYR,Synergy CHC Corp. - Common Stock,NASDAQ
 SOCA,Solarius Capital Acquisition Corp. - Class A Ordinary Share,NASDAQ
 SOCAU,Solarius Capital Acquisition Corp. - Units,NASDAQ
 SOCAW,Solarius Capital Acquisition Corp. - Warrant,NASDAQ
@@ -5486,7 +5488,9 @@ XFOR,"X4 Pharmaceuticals, Inc. - Common Stock",NASDAQ
 XGN,Exagen Inc. - Common Stock,NASDAQ
 XHG,XChange TEC.INC - American Depositary Shares,NASDAQ
 XHLD,"TEN Holdings, Inc. - Common Stock",NASDAQ
+XIII,Churchill Capital Corp XIII - Class A Ordinary Shares,NASDAQ
 XIIIU,Churchill Capital Corp XIII - Units,NASDAQ
+XIIIW,Churchill Capital Corp XIII - Warrants,NASDAQ
 XLAB,Exascale Labs Holdings Inc. - Class A Common Stock,NASDAQ
 XLABW,Exascale Labs Holdings Inc. - Warrant,NASDAQ
 XLO,"Xilio Therapeutics, Inc. - Common Stock",NASDAQ
@@ -6036,6 +6040,7 @@ ASCE,Allspring SMID Core ETF,OTHER
 ASEA,Global X FTSE Southeast Asia ETF,OTHER
 ASG,"Liberty All-Star Growth Fund, Inc.",OTHER
 ASGI,abrdn Global Infrastructure Income Fund Common Shares of Beneficial Interest,OTHER
+ASGI.V,"abrdn Global Infrastructure Income Fund Rights (expiring October 15, 2026) Rights when issued",OTHER
 ASGM,Virtus AlphaSimplex Global Macro ETF,OTHER
 ASH,Ashland Inc. Common Stock,OTHER
 ASHR,Xtrackers Harvest CSI 300 China A-Shares ETF,OTHER
@@ -6050,6 +6055,7 @@ ASMH,ASML Holding NV ADRhedged,OTHER
 ASMZ,Corgi ASML 2x Daily ETF,OTHER
 ASPN,"Aspen Aerogels, Inc. Common Stock",OTHER
 ASR,"Grupo Aeroportuario del Sureste, S.A. de C.V. Common Stock",OTHER
+ASSX,T-REX 2X Long ASST Daily Target ETF,OTHER
 ASTG,Leverage Shares 2X Long ASTS Daily ETF,OTHER
 ASTN,Defiance Daily Target 2X Short ASTS ETF,OTHER
 ASTT,Corgi ASTS 2x Daily ETF,OTHER
@@ -8695,7 +8701,6 @@ HCC,"Warrior Met Coal, Inc. Common Stock",OTHER
 HCI,"HCI Group, Inc. Common Stock",OTHER
 HCMT,Direxion HCM Tactical Enhanced US ETF,OTHER
 HCRB,Hartford Core Bond ETF,OTHER
-HCWC,Healthy Choice Wellness Corp. Class A Common Stock,OTHER
 HCXY,"Hercules Capital, Inc. 6.25% Notes due 2033",OTHER
 HD,"Home Depot, Inc. (The) Common Stock",OTHER
 HDB,HDFC Bank Limited Common Stock,OTHER
@@ -8790,6 +8795,7 @@ HOOC,Corgi HOOD 2x Daily ETF,OTHER
 HOOW,Roundhill HOOD WeeklyPay ETF,OTHER
 HOOY,YieldMax HOOD Option Income Strategy ETF,OTHER
 HOS,"Hornbeck Offshore Services, Inc. Common Stock",OTHER
+HOST,Host Digital Inc. Class A Common Stock,OTHER
 HOV,"Hovnanian Enterprises, Inc. Class A Common Stock",OTHER
 HP,"Helmerich & Payne, Inc. Common Stock",OTHER
 HPE,Hewlett Packard Enterprise Company Common Stock,OTHER
@@ -11470,7 +11476,6 @@ SAPH,SAP SE ADRhedged,OTHER
 SAR,Saratoga Investment Corp New,OTHER
 SARO,"StandardAero, Inc. Common Stock",OTHER
 SASS,M.D. Sass Concentrated Value ETF,OTHER
-SAT,Saratoga Investment Corp 6.00% Notes due 2027,OTHER
 SATO,Invesco Alerian Galaxy Crypto Economy ETF,OTHER
 SAUG,FT Vest U.S. Small Cap Moderate Buffer ETF - August,OTHER
 SAV,Saratoga Investment Corp 7.50% Notes due 2031,OTHER
