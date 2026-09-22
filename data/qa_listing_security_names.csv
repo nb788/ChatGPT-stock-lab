@@ -789,9 +789,7 @@ BRLSW,Borealis Foods Inc. - Warrant,NASDAQ
 BRLT,"Brilliant Earth Group, Inc. - Class A Common Stock",NASDAQ
 BRNX,BrenX Ltd. - Ordinary Shares,NASDAQ
 BRNY,Burney U.S. Factor Rotation ETF,NASDAQ
-BRR,"ProCap Financial, Inc. - Common Stock",NASDAQ
 BRRR,Coinshares Bitcoin ETF,NASDAQ
-BRRWW,"ProCap Financial, Inc. - Warrant.",NASDAQ
 BRTM,B&R Technology Merger Corp. - Class A Ordinary Shares,NASDAQ
 BRTMU,B&R Technology Merger Corp. - Units,NASDAQ
 BRTMW,B&R Technology Merger Corp. - Warrants,NASDAQ
@@ -1658,6 +1656,7 @@ ESOA,Energy Services of America Corporation - Common Stock,NASDAQ
 ESPO,VanEck Video Gaming and eSports ETF,NASDAQ
 ESQ,"Esquire Financial Holdings, Inc. - Common Stock",NASDAQ
 ESTA,Establishment Labs Holdings Inc. - Common Shares,NASDAQ
+ESYN,EnerSyn Global Inc. - Common Stock,NASDAQ
 ETEC,iShares Breakthrough Environmental Solutions ETF,NASDAQ
 ETHA,iShares Ethereum Trust ETF,NASDAQ
 ETHB,iShares Staked Ethereum Trust ETF,NASDAQ
@@ -2398,7 +2397,6 @@ HWBK,"Hawthorn Bancshares, Inc. - Common Stock",NASDAQ
 HWC,Hancock Whitney Corporation - Common Stock,NASDAQ
 HWCPZ,Hancock Whitney Corporation - 6.25% Subordinated Notes due 2060,NASDAQ
 HWGV,Hotchkis & Wiley Global Value Fund,NASDAQ
-HWH,HWH International Inc. - Common Stock,NASDAQ
 HWIV,Hotchkis & Wiley International Value Fund,NASDAQ
 HWKN,"Hawkins, Inc. - Common Stock",NASDAQ
 HWO,Hotchkis & Wiley Opportunities Fund,NASDAQ
@@ -2910,7 +2908,6 @@ LFTO,"Liftoff Mobile, Inc. - Common Stock",NASDAQ
 LFUS,"Littelfuse, Inc. - Common Stock",NASDAQ
 LFVN,Lifevantage Corporation - Common Stock,NASDAQ
 LFWD,Lifeward Ltd. - Ordinary Shares,NASDAQ
-LGCF,Themes US Cash Flow Champions ETF,NASDAQ
 LGCL,Lucas GC Limited - Class A Ordinary Shares,NASDAQ
 LGDS,JPMorgan Fundamental Data Science Large Growth ETF,NASDAQ
 LGHL,Lion Group Holding Ltd. - American Depositary Share,NASDAQ
@@ -3431,9 +3428,6 @@ NFXS,Direxion Daily NFLX Bear 1X ETF,NASDAQ
 NGEN,NervGen Pharma Corp. - Common stock,NASDAQ
 NGHT,Nicholas Bitcoin and Treasuries AfterDark ETF,NASDAQ
 NGNE,Neurogene Inc. - Common Stock,NASDAQ
-NHIC,NewHold Investment Corp III - Class A Ordinary shares,NASDAQ
-NHICU,NewHold Investment Corp III - Units,NASDAQ
-NHICW,NewHold Investment Corp III - Warrants,NASDAQ
 NHIV,NewHold Investment Corp IV - Class A Ordinary Shares,NASDAQ
 NHIVU,NewHold Investment Corp IV - Units,NASDAQ
 NHIVW,NewHold Investment Corp IV - Warrants,NASDAQ
@@ -3560,6 +3554,8 @@ NVTS,Navitas Semiconductor Corporation - Common Stock,NASDAQ
 NVX,NOVONIX Limited - American Depository Shares,NASDAQ
 NVYY,GraniteShares YieldBOOST NVDA ETF,NASDAQ
 NWBI,"Northwest Bancshares, Inc. - Common Stock",NASDAQ
+NWCL,newcleo plc - Ordinary Shares,NASDAQ
+NWCLW,newcleo plc - Warrants,NASDAQ
 NWE,"NorthWestern Energy Group, Inc.  - Common Stock",NASDAQ
 NWFL,Norwood Financial Corp. - Common Stock,NASDAQ
 NWGL,CL Workshop Group Limited - American Depositary Shares,NASDAQ
@@ -4128,6 +4124,7 @@ QQLV,Invesco QQQ Low Volatility ETF,NASDAQ
 QQMG,Invesco ESG NASDAQ 100 ETF,NASDAQ
 QQQ,"Invesco QQQ Trust, Series 1",NASDAQ
 QQQA,ProShares Nasdaq-100 Dorsey Wright Momentum ETF,NASDAQ
+QQQB,VistaShares Shield Nasdaq 100 Enhanced Protection ETF,NASDAQ
 QQQE,Direxion NASDAQ-100 Equal Weighted Index ETF,NASDAQ
 QQQG,Pacer Nasdaq 100 Top 50 Cash Cows Growth Leaders ETF,NASDAQ
 QQQH,NEOS Nasdaq-100 Hedged Equity Income ETF,NASDAQ
@@ -4588,7 +4585,6 @@ SLVR,Sprott Silver Miners & Physical Silver ETF,NASDAQ
 SLXN,Silexion Therapeutics Corp - Ordinary Shares,NASDAQ
 SLXNW,Silexion Therapeutics Corp - Warrant,NASDAQ
 SMBC,"Southern Missouri Bancorp, Inc. - Common Stock",NASDAQ
-SMCF,Themes US Small Cap Cash Flow Champions ETF,NASDAQ
 SMCI,"Super Micro Computer, Inc. - Common Stock",NASDAQ
 SMCIP,"Super Micro Computer, Inc. - Depositary Shares Each Representing a 1/20th Interest in a Share of 7% Series A Mandatory Convertible Preferred Stock",NASDAQ
 SMCL,GraniteShares 2x Long SMCI Daily ETF,NASDAQ
@@ -4778,6 +4774,8 @@ SVCC,Stellar V Capital Corp. - Class A Ordinary Shares,NASDAQ
 SVCCU,Stellar V Capital Corp. - Unit,NASDAQ
 SVCCW,Stellar V Capital Corp. - Warrant,NASDAQ
 SVCO,"Silvaco Group, Inc. - Common Stock",NASDAQ
+SVIA,"Silvia, Inc. - Common Stock",NASDAQ
+SVIAW,"Silvia, Inc. - Warrant.",NASDAQ
 SVIV,Spring Valley Acquisition Corp. IV - Class A Ordinary Shares,NASDAQ
 SVIVU,Spring Valley Acquisition Corp. IV - Units,NASDAQ
 SVIVW,Spring Valley Acquisition Corp. IV - Warrants,NASDAQ
@@ -5291,6 +5289,7 @@ VOLT,Tema Electrification ETF,NASDAQ
 VONE,Vanguard Russell 1000 ETF,NASDAQ
 VONG,Vanguard Russell 1000 Growth ETF,NASDAQ
 VONV,Vanguard Russell 1000 Value ETF,NASDAQ
+VOOB,VistaShares Shield S&P 500 Enhanced Protection ETF,NASDAQ
 VOR,Vor Biopharma Inc. - Common Stock,NASDAQ
 VOTE,TCW Transform 500 ETF,NASDAQ
 VOXR,Vox Royalty Corp. - common stock,NASDAQ
@@ -7092,7 +7091,6 @@ CRWC,Corgi CRWD 2x Daily ETF,OTHER
 CRWU,T-REX 2X Long CRWV Daily Target ETF,OTHER
 CRWX,Corgi CRWV 2x Daily ETF,OTHER
 CRXP,Columbia Core Plus Bond ETF,OTHER
-CSAN,Cosan S.A. ADS,OTHER
 CSD,Invesco S&P Spin-Off ETF,OTHER
 CSEP,Corgi U.S. Equities 15% Structured Buffer ETF - September Series,OTHER
 CSEX,Tradr 2X Long CLS Daily ETF,OTHER
@@ -7116,6 +7114,7 @@ CSW,"CSW Industrials, Inc. Common Stock",OTHER
 CTA,Simplify Managed Futures Strategy ETF,OTHER
 CTA$A,"EIDP, Inc. Preferred Stock $3.50 Series",OTHER
 CTA$B,"EIDP, Inc. Preferred Stock $4.50 Series",OTHER
+CTAG,Calamos Timpani Active SMID Growth ETF,OTHER
 CTAP,Simplify US Equity PLUS Managed Futures Strategy ETF,OTHER
 CTAU,Corgi U.S. Equities 30% Structured Buffer ETF - August Series,OTHER
 CTEF,Castellan Targeted Equity ETF,OTHER
@@ -7464,6 +7463,7 @@ DPRE,Virtus Duff & Phelps Real Estate Income ETF,OTHER
 DPST,Direxion Daily Regional Banks Bull 3X ETF,OTHER
 DQ,"DAQO New Energy Corp. American Depositary Shares, each representing five ordinary shares",OTHER
 DQJN,FT Vest Nasdaq-100 Dual Directional Buffer ETF - June,OTHER
+DQSE,FT Vest Nasdaq-100 Dual Directional Buffer ETF - September,OTHER
 DRAI,Draco Evolution AI ETF,OTHER
 DRAL,Defiance Daily Target 2X Long DRAM ETF,OTHER
 DRAM,Roundhill Memory ETF,OTHER
@@ -7733,6 +7733,7 @@ ENO,"Entergy New Orleans, LLC First Mortgage Bonds, 5.50% Series due April 1, 20
 ENOR,iShares MSCI Norway ETF,OTHER
 ENOV,Enovis Corporation Common Stock,OTHER
 ENR,"Energizer Holdings, Inc. Common Stock",OTHER
+ENRG,Ninepoint North American Energy Independence ETF,OTHER
 ENS,EnerSys Common Stock,OTHER
 ENTL,Leverage Shares 2X Long ENTG Daily ETF,OTHER
 ENVA,"Enova International, Inc. Common Stock",OTHER
@@ -8372,6 +8373,7 @@ GCO,Genesco Inc. Common Stock,OTHER
 GCOR,Goldman Sachs Access U.S. Aggregate Bond ETF,OTHER
 GCOW,Pacer Global Cash Cows Dividend ETF,OTHER
 GCPB,Goldman Sachs Core Plus Bond ETF,OTHER
+GCPU,Grayscale AI Compute ETF,OTHER
 GCSH,Guggenheim Ultra Short Income ETF,OTHER
 GCTS,"GCT Semiconductor Holding, Inc. Common Stock",OTHER
 GCTS.W,"GCT Semiconductor Holding, Inc. Warrants, each whole warrant exercisable for one share of Common Stock at an exercise price of $11.50",OTHER
@@ -9675,7 +9677,6 @@ LIAU,LifeX 2060 Inflation-Protected Longevity Income ETF,OTHER
 LIBD,LifeX 2065 Inflation-Protected Longevity Income ETF,OTHER
 LIFT,LifeX 2028 Income Bucket ETF,OTHER
 LII,"Lennox International, Inc. Common Stock",OTHER
-LIMI,Themes Lithium & Battery Metal Miners ETF,OTHER
 LION,Lionsgate Studios Corp Common Shares,OTHER
 LIT,Global X Lithium & Battery Tech ETF,OTHER
 LITB,"LightInTheBox Holding Co., Ltd. American Depositary Shares, each representing twelve ordinary shares",OTHER
@@ -10014,10 +10015,10 @@ MMTM,State Street SPDR S&P 1500 Momentum Tilt ETF,OTHER
 MMU,"Western Asset Managed Municipals Fund, Inc. Common Stock",OTHER
 MNA,NYLIM Merger Arbitrage ETF,OTHER
 MNBD,ALPS BBH Intermediate Municipal Bond ETF,OTHER
+MNGB,Yorkville America 2X Inverse MANGOS Plus Daily Target ETF,OTHER
 MNGU,MicroSectors 3x Long MANGOS+ ex Private Companies ETNs,OTHER
 MNGZ,Yorkville America 2X Long MANGOS Plus Daily Target ETF,OTHER
 MNR,Mach Natural Resources LP Common Units representing Limited Partner Interests,OTHER
-MNRS,Grayscale Bitcoin Miners ETF,OTHER
 MNSO,"MINISO Group Holding Limited American Depositary Shares, each representing four Ordinary Shares",OTHER
 MNSX,Corgi MNST 2x Daily ETF,OTHER
 MNTN,"MNTN, Inc. Class A Common Stock",OTHER
@@ -11127,6 +11128,7 @@ QNC,Quantum eMotion Corp. Common Shares,OTHER
 QNTU,Tradr 2X Long QNT Daily ETF,OTHER
 QPX,AdvisorShares Q Dynamic Growth ETF,OTHER
 QQAU,Corgi Growth & Technology 15% Structured Buffer ETF - August Series,OTHER
+QQBF,FT Vest Nasdaq-100 Quarterly 15 Buffer ETF,OTHER
 QQH,HCM Defender 100 Index ETF,OTHER
 QQJL,Corgi Growth & Technology 15% Structured Buffer ETF - July Series,OTHER
 QQJN,Corgi Growth & Technology 15% Structured Buffer ETF - June Series,OTHER
@@ -11591,6 +11593,7 @@ SEA,U.S. Global Sea to Sky Cargo ETF,OTHER
 SEAL$A,Seapeak LLC 9.00% Series A Cumulative Redeemable Perpetual Preferred Units,OTHER
 SEAL$B,Seapeak LLC 8.50% Series B Fixed-to-Floating Rate Cumulative Redeemable Perpetual Preferred Units,OTHER
 SEB,Seaboard Corporation Common Stock,OTHER
+SECA,Main Active Rotation ETF,OTHER
 SECR,NYLIM MacKay Securitized Income ETF,OTHER
 SECT,Main Sector Rotation ETF,OTHER
 SECU,iShares Securitized Income Active ETF,OTHER
