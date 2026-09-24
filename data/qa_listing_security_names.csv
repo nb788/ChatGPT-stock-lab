@@ -1065,6 +1065,7 @@ CHEF,"The Chefs' Warehouse, Inc. - Common Stock",NASDAQ
 CHGA,Change Agents Corporation  - Common Stock,NASDAQ
 CHGX,Stance Sustainable Beta ETF,NASDAQ
 CHI,Calamos Convertible Opportunities and Income Fund - Closed End Fund,NASDAQ
+CHIP,REX AI Chipmaking ETF,NASDAQ
 CHKP,Check Point Software Technologies Ltd. - Ordinary Shares,NASDAQ
 CHMG,Chemung Financial Corp  - Common Stock,NASDAQ
 CHNR,"China Natural Resources, Inc. - Common Shares",NASDAQ
@@ -1439,7 +1440,6 @@ DNUT,"Krispy Kreme, Inc. - Common Stock",NASDAQ
 DOCU,"DocuSign, Inc. - Common Stock",NASDAQ
 DOGZ,Dogness (International) Corporation - Class A Common Stock,NASDAQ
 DOMH,Dominari Holdings Inc. - Common Stock,NASDAQ
-DOMO,"Domo, Inc. - Class B Common Stock",NASDAQ
 DOO,BRP Inc. - Common Subordinate Voting Shares,NASDAQ
 DORM,"Dorman Products, Inc. - Common Stock",NASDAQ
 DOX,Amdocs Limited - Ordinary Shares,NASDAQ
@@ -1839,7 +1839,10 @@ FIVN,"Five9, Inc. - Common Stock",NASDAQ
 FIXD,First Trust Smith Opportunistic Fixed Income ETF,NASDAQ
 FIYY,GraniteShares YieldBOOST 20Y Treasuries ETF,NASDAQ
 FIZZ,National Beverage Corp. - Common Stock,NASDAQ
+FJDI,ARC Group Securities Acquisition I - Class A Ordinary Shares,NASDAQ
+FJDIR,ARC Group Securities Acquisition I - Rights,NASDAQ
 FJDIU,ARC Group Securities Acquisition I - Units,NASDAQ
+FJDIW,ARC Group Securities Acquisition I - Warrants,NASDAQ
 FJP,First Trust Japan AlphaDEX Fund,NASDAQ
 FKU,First Trust United Kingdom AlphaDEX Fund,NASDAQ
 FKWL,Franklin Wireless Corp. - common stock,NASDAQ
@@ -2378,6 +2381,7 @@ HUBC,Hub Cyber Security Ltd. - Ordinary Shares,NASDAQ
 HUBCW,Hub Cyber Security Ltd. - Warrant expiring 2/27/28,NASDAQ
 HUBCZ,Hub Cyber Security Ltd. - Warrant,NASDAQ
 HUBG,"Hub Group, Inc. - Class A Common Stock",NASDAQ
+HUCK,"Huckleberry.ai, Inc. - Class B Common Stock",NASDAQ
 HUDI,"Huadi International Group Co., Ltd. - Ordinary Shares",NASDAQ
 HUHU,HUHUTECH International Group Inc. - Ordinary Shares,NASDAQ
 HUIZ,Huize Holding Limited - American Depositary Shares,NASDAQ
@@ -2387,9 +2391,6 @@ HURC,"Hurco Companies, Inc. - Common Stock",NASDAQ
 HURN,Huron Consulting Group Inc. - Common Stock,NASDAQ
 HUT,Hut 8 Corp. - Common Stock,NASDAQ
 HUTG,Leverage Shares 2X Long HUT Daily ETF,NASDAQ
-HVII,Hennessy Capital Investment Corp. VII - Ordinary Shares,NASDAQ
-HVIIR,Hennessy Capital Investment Corp. VII - Rights,NASDAQ
-HVIIU,Hennessy Capital Investment Corp. VII - Unit,NASDAQ
 HVMC,Highview Merger Corp. - Class A Ordinary Share,NASDAQ
 HVMCU,Highview Merger Corp. - Units,NASDAQ
 HVMCW,Highview Merger Corp. - Warrants,NASDAQ
@@ -2399,6 +2400,7 @@ HWCPZ,Hancock Whitney Corporation - 6.25% Subordinated Notes due 2060,NASDAQ
 HWGV,Hotchkis & Wiley Global Value Fund,NASDAQ
 HWIV,Hotchkis & Wiley International Value Fund,NASDAQ
 HWKN,"Hawkins, Inc. - Common Stock",NASDAQ
+HWMV,Hotchkis & Wiley Mid-Cap Value Fund,NASDAQ
 HWO,Hotchkis & Wiley Opportunities Fund,NASDAQ
 HWSM,Hotchkis & Wiley SMID Cap Diversified Value Fund,NASDAQ
 HXHX,Haoxin Holdings Limited - Class A Ordinary Shares,NASDAQ
@@ -2582,7 +2584,7 @@ INTW,GraniteShares 2x Long INTC Daily ETF,NASDAQ
 INTZ,Intrusion Inc. - Common Stock,NASDAQ
 INV,"Innventure, Inc. - Common Stock",NASDAQ
 INVA,"Innoviva, Inc. - Common Stock",NASDAQ
-INVE,"Identiv, Inc. - Common Stock",NASDAQ
+INVE,"INVE Technologies, Inc. - Common Stock",NASDAQ
 INVZ,Innoviz Technologies Ltd. - Ordinary shares,NASDAQ
 IOND,Ionic Digital Inc. - Class A Common Stock,NASDAQ
 IONL,GraniteShares 2x Long IONQ Daily ETF,NASDAQ
@@ -2976,6 +2978,7 @@ LOT,Lotus Technology Inc. - American Depositary Shares,NASDAQ
 LOTI,Liberty One Tactical Income ETF,NASDAQ
 LOTWW,Lotus Technology Inc. - Warrants,NASDAQ
 LOVE,The Lovesac Company - Common Stock,NASDAQ
+LOVIU,Live Oak Acquisition Corp. VI - Units,NASDAQ
 LPAA,Launch One Acquisition Corp. - Class A Ordinary Shares,NASDAQ
 LPAAU,Launch One Acquisition Corp. - Unit,NASDAQ
 LPAAW,Launch One Acquisition Corp. - Warrant,NASDAQ
@@ -3319,6 +3322,7 @@ MYCL,State Street My2032 Corporate Bond ETF,NASDAQ
 MYCM,State Street My2033 Corporate Bond ETF,NASDAQ
 MYCN,State Street My2034 Corporate Bond ETF,NASDAQ
 MYCO,State Street My2035 Corporate Bond ETF,NASDAQ
+MYCP,State Street My2036 Corporate Bond ETF,NASDAQ
 MYFW,"First Western Financial, Inc. - Common Stock",NASDAQ
 MYGN,"Myriad Genetics, Inc. - Common Stock",NASDAQ
 MYHA,State Street My2027 High Yield Corporate Bond ETF,NASDAQ
@@ -3326,12 +3330,14 @@ MYHB,State Street My2028 High Yield Corporate Bond ETF,NASDAQ
 MYHC,State Street My2029 High Yield Corporate Bond ETF,NASDAQ
 MYHD,State Street My2030 High Yield Corporate Bond ETF,NASDAQ
 MYHE,State Street My2031 High Yield Corporate Bond ETF,NASDAQ
+MYHF,State Street My2032 High Yield Corporate Bond ETF,NASDAQ
 MYMF,State Street My2026 Municipal Bond ETF,NASDAQ
 MYMG,State Street My2027 Municipal Bond ETF,NASDAQ
 MYMH,State Street My2028 Municipal Bond ETF,NASDAQ
 MYMI,State Street My2029 Municipal Bond ETF,NASDAQ
 MYMJ,State Street My2030 Municipal Bond ETF,NASDAQ
 MYMK,State Street My2031 Municipal Bond ETF,NASDAQ
+MYML,State Street My2032 Municipal Bond ETF,NASDAQ
 MYPS,"PLAYSTUDIOS, Inc.  - Class A Common Stock",NASDAQ
 MYRG,"MYR Group, Inc. - Common Stock",NASDAQ
 MYSE,"Myseum.AI, Inc. - Common Stock",NASDAQ
@@ -3667,6 +3673,7 @@ ONCY,Oncolytics Biotech Inc. - Common Stock,NASDAQ
 ONDG,Leverage Shares 2X Long ONDS Daily ETF,NASDAQ
 ONDS,Ondas Inc - Common Stock,NASDAQ
 ONEG,OneConstruction Group Limited - Ordinary Shares,NASDAQ
+ONEN,ONE Nuclear Energy Inc. - Common Stock,NASDAQ
 ONEQ,Fidelity Nasdaq Composite Index ETF,NASDAQ
 ONEW,OneWater Marine Inc. - Class A Common Stock,NASDAQ
 ONFO,Onfolio Holdings Inc. - Common Stock,NASDAQ
@@ -3915,7 +3922,6 @@ PLTD,Direxion Daily PLTR Bear 1X ETF,NASDAQ
 PLTG,Leverage Shares 2X Long PLTR Daily ETF,NASDAQ
 PLTK,Playtika Holding Corp. - Common Stock,NASDAQ
 PLTR,Palantir Technologies Inc. - Class A Common Stock,NASDAQ
-PLTS,Platinum Analytics Cayman Limited - Class A Ordinary Shares,NASDAQ
 PLTU,Direxion Daily PLTR Bull 2X ETF,NASDAQ
 PLTZ,Defiance Daily Target 2x Short PLTR ETF,NASDAQ
 PLUG,"Plug Power, Inc. - Common Stock",NASDAQ
@@ -4120,6 +4126,7 @@ QQA,Invesco QQQ Income Advantage ETF,NASDAQ
 QQDN,ProShares UltraShort QQQ Mega,NASDAQ
 QQEW,First Trust Nasdaq-100 Select Equal Weight ETF,NASDAQ
 QQHG,Invesco QQQ Hedged Advantage ETF,NASDAQ
+QQI,Invesco Nasdaq International Innovators 100 ETF,NASDAQ
 QQLV,Invesco QQQ Low Volatility ETF,NASDAQ
 QQMG,Invesco ESG NASDAQ 100 ETF,NASDAQ
 QQQ,"Invesco QQQ Trust, Series 1",NASDAQ
@@ -4838,7 +4845,6 @@ TBCVU,"Thunder Bridge Capital Partners V, Ltd. - Units",NASDAQ
 TBIL,F/m US Treasury 3 Month Bill Fund,NASDAQ
 TBLA,Taboola.com Ltd. - Ordinary Shares,NASDAQ
 TBLD,Thornburg Income Builder Opportunities Trust - Closed End Fund,NASDAQ
-TBPH,"Theravance Biopharma, Inc. - Ordinary Shares",NASDAQ
 TC,Token Cat Limited - American Depositary Shares,NASDAQ
 TCAN,21Shares Canton Network ETF,NASDAQ
 TCBI,"Texas Capital Bancshares, Inc. - Common Stock",NASDAQ
@@ -4969,6 +4975,7 @@ TNYA,"Tenaya Therapeutics, Inc. - Common Stock",NASDAQ
 TOMZ,"TOMI Environmental Solutions, Inc. - Common Stock",NASDAQ
 TONX,TON Strategy Company - Common Stock,NASDAQ
 TOP,TOP Financial Group Limited - Class A Ordinary Shares,NASDAQ
+TORK,KraneShares Actuator ETF,NASDAQ
 TORO,Toro Corp. - Common stock,NASDAQ
 TOUR,Tuniu Corporation - American Depositary Shares,NASDAQ
 TOWN,Towne Bank - Common Stock,NASDAQ
@@ -5082,9 +5089,11 @@ TWLV,Twelve Seas Investment Company III - Class A Ordinary Shares,NASDAQ
 TWLVR,Twelve Seas Investment Company III - Rights,NASDAQ
 TWLVU,Twelve Seas Investment Company III - Units,NASDAQ
 TWST,Twist Bioscience Corporation - Common Stock,NASDAQ
+TXCA,Northern Trust California Intermediate Tax-Exempt Bond ETF,NASDAQ
 TXG,"10x Genomics, Inc. - Common Stock",NASDAQ
 TXMD,"TherapeuticsMD, Inc. - Common Stock",NASDAQ
 TXN,Texas Instruments Incorporated - Common Stock,NASDAQ
+TXNY,Northern Trust New York Intermediate Tax-Exempt Bond ETF,NASDAQ
 TXRH,"Texas Roadhouse, Inc. - Common Stock",NASDAQ
 TXUE,Thornburg International Equity ETF,NASDAQ
 TXUG,Thornburg International Growth Fund ETF,NASDAQ
@@ -5275,6 +5284,8 @@ VMAR,Vision Marine Technologies Inc. - Common Shares,NASDAQ
 VMBS,Vanguard Mortgage-Backed Securities ETF,NASDAQ
 VMD,"Viemed Healthcare, Inc. - Common Shares",NASDAQ
 VMET,Versamet Royalties Corporation - Common Stock,NASDAQ
+VMHY,VictoryShares Municipal High Yield ETF,NASDAQ
+VMSD,VictoryShares Short-Duration Municipal ETF,NASDAQ
 VNCE,Vince Holding Corp. - Common Stock,NASDAQ
 VNDA,Vanda Pharmaceuticals Inc. - Common Stock,NASDAQ
 VNET,"VNET Group, Inc. - American Depositary Shares",NASDAQ
@@ -5809,6 +5820,7 @@ AHYB,American Century Select High Yield ETF,OTHER
 AI,"C3.ai, Inc. Class A Common Stock",OTHER
 AIB,AIB Data Centers Inc. Common Stock,OTHER
 AIBD,Direxion Daily AI and Big Data Bear 2X ETF,OTHER
+AIBF,iShares Future AI Beneficiaries ETF,OTHER
 AIBU,Direxion Daily AI and Big Data Bull 2X ETF,OTHER
 AIEQ,Amplify AI Powered Equity ETF,OTHER
 AIG,"American International Group, Inc. New Common Stock",OTHER
@@ -6039,7 +6051,7 @@ ASCE,Allspring SMID Core ETF,OTHER
 ASEA,Global X FTSE Southeast Asia ETF,OTHER
 ASG,"Liberty All-Star Growth Fund, Inc.",OTHER
 ASGI,abrdn Global Infrastructure Income Fund Common Shares of Beneficial Interest,OTHER
-ASGI.V,"abrdn Global Infrastructure Income Fund Rights (expiring October 15, 2026) Rights when issued",OTHER
+ASGI.R,"abrdn Global Infrastructure Income Fund Rights (expiring October 15, 2026) Rights",OTHER
 ASGM,Virtus AlphaSimplex Global Macro ETF,OTHER
 ASH,Ashland Inc. Common Stock,OTHER
 ASHR,Xtrackers Harvest CSI 300 China A-Shares ETF,OTHER
@@ -6261,6 +6273,7 @@ BBY,"Best Buy Co., Inc. Common Stock",OTHER
 BC,Brunswick Corporation Common Stock,OTHER
 BC$C,Brunswick Corporation 6.375% Notes due 2049,OTHER
 BCAT,BlackRock Capital Allocation Term Trust Common Shares of Beneficial Interest,OTHER
+BCAT.V,"BlackRock Capital Allocation Term Trust Rights (expiring October 21, 2026) Rights when issued",OTHER
 BCC,"Boise Cascade, L.L.C. Common Stock",OTHER
 BCCC,Global X Bitcoin Covered Call ETF,OTHER
 BCD,abrdn Bloomberg All Commodity Longer Dated Strategy K-1 Free ETF,OTHER
@@ -6597,7 +6610,6 @@ BTGO,"BitGo Holdings, Inc. Class A Common Stock",OTHER
 BTI,"British American Tobacco  Industries, p.l.c. Common Stock ADR",OTHER
 BTO,John Hancock Financial Opportunities Fund Common Stock,OTHER
 BTOT,iShares Total USD Fixed Income Market ETF,OTHER
-BTR,Beacon Tactical Risk ETF,OTHER
 BTRN,Global X Bitcoin Trend Strategy ETF,OTHER
 BTT,BlackRock Municipal 2030 Target Term Trust,OTHER
 BTU,Peabody Energy Corporation Common Stock ,OTHER
@@ -7231,6 +7243,7 @@ DBRG$H,"DigitalBridge Group, Inc. 7.125% Series H ",OTHER
 DBRG$I,"DigitalBridge Group, Inc. 7.15% Series I ",OTHER
 DBRG$J,"DigitalBridge Group, Inc. 7.125% Series J ",OTHER
 DC,Dakota Gold Corp. Common Stock,OTHER
+DCAP,T-Strive Digital Credit Preferred Income ETF,OTHER
 DCBG,"Dime Commercial Bancshares, Inc. 9.000% Junior Subordinated Notes",OTHER
 DCH,Dauch Corporation Common Stock,OTHER
 DCI,"Donaldson Company, Inc. Common Stock",OTHER
@@ -9919,6 +9932,7 @@ MG,Mistras Group Inc Common Stock,OTHER
 MGA,"Magna International, Inc. Common Stock",OTHER
 MGC,Vanguard Morningstar Mega Cap ETF,OTHER
 MGF,Aberdeen Government Markets Income Fund Common Shares of Beneficial Interest,OTHER
+MGIN,Man Active Global Infrastructure ETF,OTHER
 MGK,Vanguard Morningstar Mega Cap Growth ETF,OTHER
 MGLD,"The Marygold Companies, Inc. Common Stock",OTHER
 MGM,MGM Resorts International Common Stock,OTHER
@@ -10251,6 +10265,7 @@ NE.W,Noble Corporation plc Tranche 1 Warrants,OTHER
 NEA,Nuveen AMT-Free Quality Municipal Income Fund Common Shares of Beneficial Interest Par Value $.01,OTHER
 NEAR,iShares Short Duration Bond Active ETF,OTHER
 NEBX,Tradr 2X Long NBIS Daily ETF,OTHER
+NECK,xETFs AI Bottlenecks ETF,OTHER
 NEE,"NextEra Energy, Inc. Common Stock",OTHER
 NEE$N,"NextEra Energy Capital Holdings Inc. Series N Junior Subordinated Debentures due March 1, 2079",OTHER
 NEE$S,"NextEra Energy, Inc. 7.299% Corporate Units",OTHER
@@ -11298,7 +11313,6 @@ RITM$E,Rithm Capital Corp. 8.75% Series E Fixed-Rate Cumulative Redeemable Prefe
 RITM$F,Rithm Capital Corp. 8.750% Series F Fixed-Rate Reset Cumulative Redeemable Preferred Stock,OTHER
 RIV,"RiverNorth Opportunities Fund, Inc. Common Stock",OTHER
 RIV$A,"RiverNorth Opportunities Fund, Inc. 6.00% Series A Perpetual Preferred Stock",OTHER
-RIV.R,"RiverNorth Opportunities Fund, Inc. Rights (expiring September 23, 2026) Rights",OTHER
 RIVC,Corgi RIVN 2x Daily ETF,OTHER
 RIZE,Principal Inflation Protection ETF,OTHER
 RJCA,RJ ClariVest Capital Appreciation ETF,OTHER
@@ -12246,6 +12260,7 @@ TKR,Timken Company (The) Common Stock,OTHER
 TLCI,Touchstone International Equity ETF,OTHER
 TLDR,The Laddered T-Bill ETF,OTHER
 TLH,iShares 10-20 Year Treasury Bond ETF,OTHER
+TLIE,American Beacon The London Company Income Equity ETF,OTHER
 TLK,"PT Telekomunikasi Indonesia, Tbk",OTHER
 TLTD,Northern Trust Morningstar Developed Markets ex-US Factor Tilt ETF,OTHER
 TLTE,Northern Trust Morningstar Emerging Markets Factor Tilt ETF,OTHER
@@ -12637,6 +12652,7 @@ VAC,Marriott Vacations Worldwide Corporation Common Stock,OTHER
 VACI,Viking Acquisition Corp. I Class A Ordinary Shares,OTHER
 VACI.U,"Viking Acquisition Corp. I Units, each consisting of one Class A ordinary share and one-third of one Warrant",OTHER
 VACI.W,Viking Acquisition Corp. I Warrants to purchase one Class A Ordinary Share,OTHER
+VAIC,VegaShares US Equity Autocallable Conservative Income ETF,OTHER
 VAIE,VegaShares US Equity Autocallable Income ETF,OTHER
 VAL,Valaris Limited Common Shares,OTHER
 VAL.W,Valaris Limited Warrants,OTHER
@@ -13142,8 +13158,14 @@ XTWY,BondBloxx Bloomberg Twenty Year Target Duration US Treasury ETF,OTHER
 XUDV,Franklin U.S. Dividend Booster Index ETF,OTHER
 XUSP,Innovator Uncapped Accelerated U.S. Equity ETF,OTHER
 XV,Simplify Target 15 Distribution ETF,OTHER
+XVAD,FT Vest AMD & Target Income ETF,OTHER
 XVAP,FT Vest AAPL & Target Income ETF,OTHER
+XVAZ,FT Vest AMZN & Target Income ETF,OTHER
+XVGL,FT Vest GOOG & Target Income ETF,OTHER
+XVMS,FT Vest MSFT & Target Income ETF,OTHER
+XVMT,FT Vest META & Target Income ETF,OTHER
 XVNV,FT Vest NVDA & Target Income ETF,OTHER
+XVPT,FT Vest PLTR & Target Income ETF,OTHER
 XVSP,FT Vest SPCX & Target Income ETF,OTHER
 XVTS,FT Vest TSLA & Target Income ETF,OTHER
 XVV,iShares ESG Select Screened S&P 500 ETF,OTHER
