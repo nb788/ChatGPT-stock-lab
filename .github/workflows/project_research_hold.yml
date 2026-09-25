@@ -1,0 +1,64 @@
+name: Enforce project-wide Stock Strategy research hold
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: chatgpt-stock-lab-project-research-hold-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  research-hold:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12.14"
+      - name: Compile repository gate
+        run: python -m compileall -q research_gate
+      - name: Run cross-repository gate tests
+        run: python -m unittest discover -s research_gate/tests -v
+      - name: Resolve changed paths
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          if test "$EVENT_NAME" = "pull_request"; then
+            test -n "$BASE_SHA"
+            test -n "$HEAD_SHA"
+            git diff --name-only "$BASE_SHA" "$HEAD_SHA" | sed '/^[[:space:]]*$/d' | sort -u > /tmp/changed-files.txt
+          else
+            printf '%s\n' \
+              'PROJECT_RESEARCH_HOLD.md' \
+              'research_gate/status_v1.json' \
+              'research_gate/check_repo_research_hold.py' \
+              '.github/workflows/project_research_hold.yml' \
+              > /tmp/changed-files.txt
+          fi
+          cat /tmp/changed-files.txt
+      - name: Enforce project hold on this repository
+        shell: bash
+        run: |
+          set -euo pipefail
+          args=(
+            --status research_gate/status_v1.json
+            --changed-files /tmp/changed-files.txt
+            --output /tmp/repository-gate-report.json
+          )
+          if test -f research_gate/current_authorization.json; then
+            args+=(--authorization research_gate/current_authorization.json)
+          fi
+          python research_gate/check_repo_research_hold.py "${args[@]}"
+      - name: Preserve report digest
+        run: sha256sum /tmp/repository-gate-report.json
