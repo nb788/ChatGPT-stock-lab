@@ -1,28 +1,28 @@
 {
-  "audited_at_utc": "2026-09-24T15:24:13.949438+00:00",
-  "raw_rows": 96596,
+  "audited_at_utc": "2026-09-25T15:26:51.104172+00:00",
+  "raw_rows": 96600,
   "unique_ciks_in_raw": 823,
   "first_fact_end": "2006-12-31",
   "last_fact_end": "2027-07-17",
-  "acceptance_mapped_rows": 96590,
+  "acceptance_mapped_rows": 96594,
   "acceptance_unmapped_rows": 6,
   "exact_duplicate_rows": 0,
   "dei_conflict_groups": 0,
   "dei_conflict_ciks": 0,
-  "dei_gaap_disagreement_groups": 1130,
+  "dei_gaap_disagreement_groups": 1131,
   "dei_gaap_disagreement_ciks": 118,
   "dei_form_top20": {
     "10-Q": {
-      "rows": 31146,
+      "rows": 31147,
       "unique_ciks": 809,
       "first_fact": "2008-12-31",
       "last_fact": "2027-07-17"
     },
     "10-K": {
-      "rows": 10222,
+      "rows": 10223,
       "unique_ciks": 796,
       "first_fact": "2009-01-29",
-      "last_fact": "2026-08-31"
+      "last_fact": "2026-09-16"
     },
     "10-Q/A": {
       "rows": 362,
