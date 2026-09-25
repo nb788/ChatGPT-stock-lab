@@ -1,0 +1,75 @@
+name: Project-wide stock prework gate mirror CI
+
+on:
+  pull_request:
+    paths:
+      - "PROJECT_WIDE_PREWORK_ENFORCEMENT.md"
+      - "data/project_prework_gate_v2_7.json"
+      - ".github/workflows/project_prework_gate_v2_ci.yml"
+  push:
+    branches: [main]
+    paths:
+      - "PROJECT_WIDE_PREWORK_ENFORCEMENT.md"
+      - "data/project_prework_gate_v2_7.json"
+      - ".github/workflows/project_prework_gate_v2_ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12.14"
+      - name: Validate conservative mirror
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path=Path('data/project_prework_gate_v2_7.json')
+          gate=json.loads(path.read_text())
+          assert gate['architecture_id']=='STOCK-STRATEGY-LAB-OVERARCHING-v2.7'
+          assert gate['authoritative_private_gate_id']=='STOCK-PROJECT-PREWORK-GATE-v1'
+          assert gate['classification']=='PUBLIC_CONSERVATIVE_MIRROR'
+          assert gate['production_impact']=='NONE'
+          assert gate['may_authorize_orders'] is False
+          assert gate['automatic_method_adoption'] is False
+          assert gate['opens_holdouts'] is False
+          assert gate['status']=='BLOCKED_PREWORK'
+          assert gate['no_manual_bypass'] is True
+          assert gate['scheduled_components']==[
+              'OPENING_RUN','CLOSING_RUN','WEEKLY_ENGINEERING_REVIEW'
+          ]
+          required_prohibited={
+              'HISTORICAL_RESEARCH','RESEARCH_DATA_ACQUISITION',
+              'NEW_BACKTEST','BACKTEST_EXTENSION','INDICATOR_SEARCH',
+              'PARAMETER_SWEEP','CHALLENGER_FITTING','CHALLENGER_TUNING',
+              'CHALLENGER_SELECTION','PROSPECTIVE_CHALLENGER',
+              'HOLDOUT_ACCESS','MODEL_PROMOTION'
+          }
+          assert required_prohibited <= set(gate['prohibited_while_blocked'])
+          assert 'necessary but not sufficient' in gate['work_capacity_rule']
+          assert 'never report a more permissive state' in gate['mirror_rule']
+          summary=gate['known_prerequisite_summary']
+          assert 'PRE-03-BROKER-STATE-RECONCILED' in summary['PASS']
+          assert 'PRE-12-WORK-DATA-QUOTAS-RECORDED' in summary['NOT_PASS']
+          assert set(summary['PASS']).isdisjoint(summary['NOT_PASS'])
+          broker=gate['latest_broker_reconciliation']
+          assert broker['status']=='PASS'
+          assert broker['managed_entry_count']==0
+          assert broker['managed_exit_count']==0
+          assert broker['open_order_count']==0
+          assert broker['position_count']==0
+          assert len(broker['report_file_sha256'])==64
+          assert len(broker['report_payload_sha256'])==64
+          text=Path('PROJECT_WIDE_PREWORK_ENFORCEMENT.md').read_text()
+          assert 'every chat, backup chat, Work session' in text
+          assert 'missing, stale, contradictory, unreadable, or non-`OPEN`' in text
+          assert 'Restored capacity is only one prerequisite' in text
+          PY
