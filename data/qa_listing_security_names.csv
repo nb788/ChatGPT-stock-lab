@@ -1807,6 +1807,8 @@ FFIV,"F5, Inc. - Common Stock",NASDAQ
 FFUT,Fidelity Managed Futures ETF,NASDAQ
 FGBI,"First Guaranty Bancshares, Inc. - Common Stock",NASDAQ
 FGBIP,"First Guaranty Bancshares, Inc. - 6.75% Series A Fixed-Rate Non-Cumulative Perpetual Preferred Stock",NASDAQ
+FGC,FG Communities Holdings Inc. - Common Stock,NASDAQ
+FGCPP,FG Communities Holdings Inc. - 8.00% Cumulative Series A Preferred Stock,NASDAQ
 FGI,FGI Industries Ltd. - Ordinary Shares,NASDAQ
 FGII,FG Imperii Acquisition Corp. - Class A Ordinary Shares,NASDAQ
 FGIIU,FG Imperii Acquisition Corp. - Units,NASDAQ
@@ -1814,8 +1816,6 @@ FGIIW,FG Imperii Acquisition Corp. - Warrants,NASDAQ
 FGIWW,FGI Industries Ltd. - warrant,NASDAQ
 FGL,Founder Group Limited - Class A Ordinary Shares,NASDAQ
 FGM,First Trust Germany AlphaDEX Fund,NASDAQ
-FGNX,FG Nexus Inc. - Common Stock,NASDAQ
-FGNXP,FG Nexus Inc. - 8.00% Cumulative Series A Preferred Stock,NASDAQ
 FGSI,FT Vest Growth Strength & Target Income ETF,NASDAQ
 FHB,"First Hawaiian, Inc. - Common Stock",NASDAQ
 FHTX,Foghorn Therapeutics Inc. - Common Stock,NASDAQ
@@ -2152,6 +2152,7 @@ GOSS,"Gossamer Bio, Inc. - Common Stock",NASDAQ
 GOU,GraniteShares 2x Long GOOGL Daily ETF,NASDAQ
 GOVI,Invesco Equal Weight 0-30 Year Treasury ETF,NASDAQ
 GOVX,"GeoVax Labs, Inc. - Common Stock",NASDAQ
+GOW,GOWell Energy Technology - Ordinary shares,NASDAQ
 GP,GreenPower Motor Company Inc. - Common Shares,NASDAQ
 GPAC,General Purpose Acquisition Corp. - Class A Ordinary Shares,NASDAQ
 GPACU,General Purpose Acquisition Corp. - Units,NASDAQ
@@ -2600,9 +2601,6 @@ IOVA,"Iovance Biotherapeutics, Inc. - Common Stock",NASDAQ
 IOYY,GraniteShares YieldBOOST IONQ ETF,NASDAQ
 IPAR,"Interparfums, Inc. - Common Stock",NASDAQ
 IPDN,"Professional Diversity Network, Inc. - Common Stock",NASDAQ
-IPEX,Inflection Point Acquisition Corp. - Class A Ordinary Shares,NASDAQ
-IPEXR,Inflection Point Acquisition Corp. - Right,NASDAQ
-IPEXU,Inflection Point Acquisition Corp. - Unit,NASDAQ
 IPFX,Inflection Point Acquisition Corp. VI - Class A Ordinary Shares,NASDAQ
 IPFXU,Inflection Point Acquisition Corp. VI - Units,NASDAQ
 IPFXW,Inflection Point Acquisition Corp. VI - Warrant,NASDAQ
@@ -3842,7 +3840,6 @@ PDLB,"Ponce Financial Group, Inc. - Common Stock",NASDAQ
 PDP,Invesco Dorsey Wright Momentum ETF,NASDAQ
 PDSB,PDS Biotechnology Corporation - Common Stock,NASDAQ
 PDYN,Palladyne AI Corp. - Common stock,NASDAQ
-PDYNW,Palladyne AI Corp. - Warrant,NASDAQ
 PEBK,"Peoples Bancorp of North Carolina, Inc. - Common Stock",NASDAQ
 PEBO,Peoples Bancorp Inc. - Common Stock,NASDAQ
 PECE,Peace Acquisition Corp - Ordinary Shares,NASDAQ
@@ -4911,6 +4908,7 @@ THFF,First Financial Corporation  - Common Stock,NASDAQ
 THH,TryHard Holdings Limited - Ordinary Shares,NASDAQ
 THMZ,Lazard Equity Megatrends ETF,NASDAQ
 THRM,Gentherm Inc - Common Stock,NASDAQ
+THRMV,Gentherm Inc - Gentherm Inc Common Stock When-Issued,NASDAQ
 THRV,Prospera Income ETF,NASDAQ
 THRY,"Thryv Holdings, Inc. - Common Stock",NASDAQ
 THYM,T. Rowe Price High Income Municipal ETF,NASDAQ
@@ -7254,7 +7252,7 @@ DCMT,DoubleLine Commodity Strategy ETF,OTHER
 DCO,Ducommun Incorporated Common Stock,OTHER
 DCOM,"Dime Commercial Bancshares, Inc. Common Stock",OTHER
 DCOM$,"Dime Commercial Bancshares, Inc. Preferred Stock, Series A",OTHER
-DCOR,Dimensional US Core Equity 1 ETF,OTHER
+DCOR,US Core Equity 1 Portfolio ETF Class Shares,OTHER
 DCRE,DoubleLine Commercial Real Estate Debt ETF,OTHER
 DD,"DuPont de Nemours, Inc. Common Stock",OTHER
 DDC,DDC Enterprise Limited Class A Ordinary Shares,OTHER
@@ -7325,7 +7323,7 @@ DFAC,Dimensional U.S. Core Equity 2 ETF,OTHER
 DFAE,Dimensional Emerging Core Equity Market ETF,OTHER
 DFAI,Dimensional International Core Equity Market ETF,OTHER
 DFAL,Dimensional US Large Cap Core Equity Market ETF,OTHER
-DFAR,Dimensional US Real Estate ETF,OTHER
+DFAR,DFA Real Estate Securities Portfolio ETF Class Shares,OTHER
 DFAS,Dimensional U.S. Small Cap ETF,OTHER
 DFAT,Dimensional U.S. Targeted Value ETF,OTHER
 DFAU,Dimensional US Core Equity Market ETF,OTHER
@@ -7357,7 +7355,7 @@ DFSD,Dimensional Short-Duration Fixed Income ETF,OTHER
 DFSE,Dimensional Emerging Markets Sustainability Core 1 ETF,OTHER
 DFSI,Dimensional International Sustainability Core 1 ETF,OTHER
 DFSU,Dimensional US Sustainability Core 1 ETF,OTHER
-DFSV,Dimensional US Small Cap Value ETF,OTHER
+DFSV,US Small Cap Value Portfolio ETF Class Shares,OTHER
 DFTT,DF Tactical 30 ETF,OTHER
 DFUS,Dimensional U.S. Equity Market ETF,OTHER
 DFUV,Dimensional US Marketwide Value ETF,OTHER
@@ -7528,7 +7526,7 @@ DTRE,First Trust Alerian Disruptive Technology Real Estate ETF,OTHER
 DTW,DTE Energy Company 2017 Series E 5.25% Junior Subordinated Debentures due 2077,OTHER
 DUBS,Aptus Large Cap Enhanced Yield ETF,OTHER
 DUG,ProShares UltraShort Energy,OTHER
-DUHP,Dimensional US High Profitability ETF,OTHER
+DUHP,US High Relative Profitability Portfolio ETF Class Shares,OTHER
 DUK,Duke Energy Corporation (Holding Company) Common Stock,OTHER
 DUK$A,"Duke Energy Corporation Depositary Shares, each representing a 1/1,000th interest in a share of 5.75% Series A Cumulative Redeemable Perpetual Preferred Stock",OTHER
 DUKB,Duke Energy Corporation 5.625% Junior Subordinated Debentures due 2078,OTHER
@@ -7563,7 +7561,7 @@ DXD,ProShares UltraShort Dow30,OTHER
 DXF,"Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60,000) Ordinary Shares)",OTHER
 DXIV,Dimensional International Vector Equity ETF,OTHER
 DXJ,WisdomTree Japan Hedged Equity Fund,OTHER
-DXUV,Dimensional US Vector Equity ETF,OTHER
+DXUV,US Vector Equity Portfolio ETF Class Shares,OTHER
 DXYZ,Destiny Tech100 Inc. Common Stock,OTHER
 DY,"Dycom Industries, Inc. Common Stock",OTHER
 DYLD,LeaderShares Dynamic Yield ETF,OTHER
@@ -9637,6 +9635,7 @@ LBRT,Liberty Energy Inc. Class A common stock,OTHER
 LCAP,Principal Capital Appreciation Select ETF,OTHER
 LCF,Touchstone US Large Cap Focused ETF,OTHER
 LCII,LCI Industries,OTHER
+LCIV,Logan Capital International ETF,OTHER
 LCLG,Logan Capital Large Cap Growth ETF,OTHER
 LCLN,"Lincoln International, Inc. Class A Common Stock",OTHER
 LCO,LOGIQ Contrarian Opportunities ETF,OTHER
@@ -10804,6 +10803,7 @@ PFLT,PennantPark Floating Rate Capital Ltd. Common Stock,OTHER
 PFN,PIMCO Income Strategy Fund II,OTHER
 PFO,Flaherty & Crumrine Preferred and Income Opportunity Fund Incorporated,OTHER
 PFRL,PGIM Floating Rate Income ETF,OTHER
+PFRX,Putnam Focused U.S. Research ETF,OTHER
 PFS,"Provident Financial Services, Inc Common Stock",OTHER
 PFSI,"PennyMac Financial Services, Inc. Common Stock",OTHER
 PFXF,VanEck Preferred Securities ex Financials ETF,OTHER
@@ -11522,9 +11522,6 @@ SBS,Companhia de saneamento Basico Do Estado De Sao Paulo - Sabesp American Depo
 SBSI,"Southside Bancshares, Inc. Common Stock",OTHER
 SBSW,D/B/A Sibanye-Stillwater Limited ADS,OTHER
 SBTU,T-REX 2X Long SBET Daily Target ETF,OTHER
-SBXD,SilverBox Corp IV Class A Ordinary Shares,OTHER
-SBXD.U,"SilverBox Corp IV Units, each consisting of one Class A ordinary share and one-third of one redeemable warrant",OTHER
-SBXD.W,"SilverBox Corp IV Redeemable warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50",OTHER
 SBXE,SilverBox Corp V Class A Ordinary Shares,OTHER
 SBXE.U,"SilverBox Corp V Units, each consisting of one Class A Ordinary Share and one-third of one redeemable warrant",OTHER
 SBXE.W,"SilverBox Corp V Redeemable warrants, each whole warrant exercisable for one Class A Ordinary Share at an exercise price of $11.50",OTHER
@@ -12446,9 +12443,6 @@ TWI,"Titan International, Inc. (DE) Common Stock",OTHER
 TWLO,Twilio Inc. Class A Common Stock,OTHER
 TWM,ProShares UltraShort Russell2000,OTHER
 TWN,"Taiwan Fund, Inc. (The) Common Stock",OTHER
-TWO$A,Two Harbors Investments Corp 8.125% Series A Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock ($25.00 liquidation preference per share),OTHER
-TWO$B,Two Harbors Investments Corp 7.625% Series B Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock,OTHER
-TWO$C,Two Harbors Investments Corp 7.25% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock,OTHER
 TWOD,Two Harbors Investments Corp 9.375% Senior Notes due 2030,OTHER
 TWOX,iShares Large Cap Accelerated Outcome ETF,OTHER
 TWSC,Corgi TSM 2x Daily ETF,OTHER
