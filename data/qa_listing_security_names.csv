@@ -2468,6 +2468,7 @@ ICHR,Ichor Holdings - Ordinary Shares,NASDAQ
 ICLN,iShares Global Clean Energy ETF,NASDAQ
 ICLR,ICON plc - Ordinary Shares,NASDAQ
 ICMB,"Investcorp Credit Management BDC, Inc. - Common Stock",NASDAQ
+ICMO,Symmetry Panoramic International Country Momentum ETF,NASDAQ
 ICON,Icon Energy Corp. - Common stock,NASDAQ
 ICOP,iShares Copper and Metals Mining ETF,NASDAQ
 ICU,SeaStar Medical Holding Corporation - Common Stock,NASDAQ
@@ -3297,6 +3298,7 @@ MUD,Direxion Daily MU Bear 1X ETF,NASDAQ
 MULL,GraniteShares 2x Long MU Daily ETF,NASDAQ
 MULT,Franklin Multisector Income ETF,NASDAQ
 MUU,Direxion Daily MU Bull 2X ETF,NASDAQ
+MUY,YieldMax MU Option Income Strategy ETF,NASDAQ
 MUYY,GraniteShares YieldBOOST MU ETF,NASDAQ
 MUZE,Muzero Acquisition Corp - Class A Ordinary Shares,NASDAQ
 MUZEU,Muzero Acquisition Corp - Unit,NASDAQ
@@ -4285,7 +4287,6 @@ RIGL,"Rigel Pharmaceuticals, Inc. - Common Stock",NASDAQ
 RILY,"BRC Group Holdings, Inc. - Common Stock",NASDAQ
 RILYG,"BRC Group Holdings, Inc. - 5.00% Senior Notes due 2026",NASDAQ
 RILYL,"BRC Group Holdings, Inc. - Depositary Shares, each representing a 1/1000th fractional interest in a share of Series B Cumulative Perpetual Preferred Stock",NASDAQ
-RILYN,"BRC Group Holdings, Inc. - 6.50% Senior Notes Due 2026",NASDAQ
 RILYP,"BRC Group Holdings, Inc. - Depositary Shares, each representing a 1/1000th fractional interest in a share of Series A Cumulative Perpetual Preferred Stock",NASDAQ
 RILYT,"BRC Group Holdings, Inc. - 6.00% Senior Notes Due 2028",NASDAQ
 RILYZ,"BRC Group Holdings, Inc. - 5.25% Senior Notes due 2028",NASDAQ
@@ -4391,6 +4392,7 @@ RYET,Ruanyun Edai Technology Inc. - Ordinary shares,NASDAQ
 RYM,"RYTHM, Inc. - Common Stock",NASDAQ
 RYOJ,"rYojbaba Co., Ltd. - Common Shares",NASDAQ
 RYTM,"Rhythm Pharmaceuticals, Inc. - Common Stock",NASDAQ
+RZAI,Roze AI Inc. - Common Shares,NASDAQ
 RZLT,"Rezolute, Inc. - Common Stock (NV)",NASDAQ
 RZLV,Rezolve AI PLC - Ordinary Shares,NASDAQ
 RZLVW,Rezolve AI PLC - Warrants,NASDAQ
@@ -4977,7 +4979,7 @@ TOMZ,"TOMI Environmental Solutions, Inc. - Common Stock",NASDAQ
 TONX,TON Strategy Company - Common Stock,NASDAQ
 TOP,TOP Financial Group Limited - Class A Ordinary Shares,NASDAQ
 TORK,KraneShares Actuator ETF,NASDAQ
-TORO,Toro Corp. - Common stock,NASDAQ
+TORO,Toro Corp. - Common Shares,NASDAQ
 TOUR,Tuniu Corporation - American Depositary Shares,NASDAQ
 TOWN,Towne Bank - Common Stock,NASDAQ
 TOYO,"TOYO Co., Ltd - Ordinary Shares",NASDAQ
@@ -8376,7 +8378,6 @@ GBIL,Goldman Sachs Access Treasury 0-1 Year ETF,OTHER
 GBND,Goldman Sachs Core Bond ETF,OTHER
 GBR,"New Concept Energy, Inc Common Stock",OTHER
 GBTC,Grayscale Bitcoin Trust (BTC),OTHER
-GBTG,"Global Business Travel Group, Inc. Class A Common Stock",OTHER
 GBX,"Greenbrier Companies, Inc. (The) Common Stock",OTHER
 GCAD,Gabelli Commercial Aerospace and Defense ETF,OTHER
 GCAL,Goldman Sachs Dynamic California Municipal Income ETF,OTHER
@@ -9134,7 +9135,6 @@ IOCT,Innovator International Developed Power Buffer ETF - October,OTHER
 ION,ProShares S&P Global Core Battery Metals ETF,OTHER
 IONC,Corgi IONQ 2x Daily ETF,OTHER
 IONQ,"IonQ, Inc. Common Stock",OTHER
-IONQ.W,"IonQ, Inc. Redeemable warrants, each whole warrant exercisable for one share of Common Stock, each at an exercise price of $11.50 per share",OTHER
 IOO,iShares Global 100 ETF,OTHER
 IOPP,Simplify Tara India Opportunities ETF,OTHER
 IOR,"Income Opportunity Realty Investors, Inc. Common Stock",OTHER
@@ -9635,7 +9635,6 @@ LBRT,Liberty Energy Inc. Class A common stock,OTHER
 LCAP,Principal Capital Appreciation Select ETF,OTHER
 LCF,Touchstone US Large Cap Focused ETF,OTHER
 LCII,LCI Industries,OTHER
-LCIV,Logan Capital International ETF,OTHER
 LCLG,Logan Capital Large Cap Growth ETF,OTHER
 LCLN,"Lincoln International, Inc. Class A Common Stock",OTHER
 LCO,LOGIQ Contrarian Opportunities ETF,OTHER
@@ -9781,6 +9780,7 @@ LUCK,Lucky Strike Entertainment Corporation Class A Common Stock,OTHER
 LUD,Luda Technology Group Limited Ordinary Shares,OTHER
 LUMA,KraneShares Photonic and Optical ETF,OTHER
 LUMN,"Lumen Technologies, Inc. Common Stock",OTHER
+LUNC,Longnook Uncommon Compounders ETF,OTHER
 LUNL,Defiance Daily Target 2X Long LUNR ETF,OTHER
 LUV,Southwest Airlines Company Common Stock,OTHER
 LUXE,"LuxExperience B.V. American Depositary Shares, each representing one Ordinary Share",OTHER
@@ -10399,6 +10399,7 @@ NRGV,"Energy Vault Holdings, Inc. Common Stock",OTHER
 NRK,Nuveen New York AMT-Free Quality Municipal Income Fund ,OTHER
 NRO,Neuberger Real Estate Securities Income Fund Inc. Common Stock,OTHER
 NRP,Natural Resource Partners LP Limited Partnership,OTHER
+NRR,Common Shares of Beneficial Interest of Bitwise NEAR ETF,OTHER
 NRSH,Aztlan North America Nearshoring Stock Selection ETF,OTHER
 NRT,North European Oil Royality Trust Common Stock,OTHER
 NRUC,National Rural Utilities Cooperative Finance Corporation 5.500% Subordinated Notes due 2064 (Subordinated Deferrable Interest Notes),OTHER
