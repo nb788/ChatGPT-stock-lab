@@ -1091,6 +1091,7 @@ CHSN,Chanson International Holding - Class A Ordinary Shares,NASDAQ
 CHTR,"Charter Communications, Inc. - Class A Common Stock",NASDAQ
 CHTRP,"Charter Communications, Inc. - Series A Cumulative Redeemable Preferred Stock",NASDAQ
 CHW,Calamos Global Dynamic Income Fund - Closed End Fund,NASDAQ
+CHWM,Chilwa Minerals Limited - American Depository Shares,NASDAQ
 CHY,Calamos Convertible and High Income Fund - Closed End Fund,NASDAQ
 CHYM,"Chime Financial, Inc. - Class A Common Stock",NASDAQ
 CIBR,First Trust NASDAQ Cybersecurity ETF,NASDAQ
@@ -2293,7 +2294,7 @@ HDSN,"Hudson Technologies, Inc. - Common Stock",NASDAQ
 HEAL,Global X HealthTech ETF,NASDAQ
 HECO,State Street Galaxy Hedged Digital Asset Ecosystem ETF,NASDAQ
 HELE,Helen of Troy Limited - Common Stock,NASDAQ
-HELP,Cybin Inc. - Common Stock,NASDAQ
+HELP,Helus Pharma Inc.  - Common Stock,NASDAQ
 HEPS,D-Market Electronic Services & Trading - American Depositary Shares,NASDAQ
 HEQQ,JPMorgan Nasdaq Hedged Equity Laddered Overlay ETF,NASDAQ
 HERD,Pacer Cash Cows Fund of Funds ETF,NASDAQ
@@ -3200,6 +3201,7 @@ MLKN,"MillerKnoll, Inc. - Common Stock",NASDAQ
 MLTX,MoonLake Immunotherapeutics - Class A Ordinary Shares,NASDAQ
 MLYS,"Mineralys Therapeutics, Inc. - Common Stock",NASDAQ
 MMED,"MiniMed Group, Inc. - Common Stock",NASDAQ
+MMEDV,"MiniMed Group, Inc. - Common Stock When Issued",NASDAQ
 MMLP,Martin Midstream Partners L.P. - Common Units Representing Limited Partnership Interests,NASDAQ
 MMSI,"Merit Medical Systems, Inc. - Common Stock",NASDAQ
 MMTX,Miluna Acquisition Corp - Class A Ordinary Shares,NASDAQ
@@ -3521,7 +3523,6 @@ NTLA,"Intellia Therapeutics, Inc. - Common Stock",NASDAQ
 NTNX,"Nutanix, Inc. - Class A Common Stock",NASDAQ
 NTRA,"Natera, Inc. - Common Stock",NASDAQ
 NTRB,Nutriband Inc. - Common Stock,NASDAQ
-NTRBW,Nutriband Inc. - Warrant,NASDAQ
 NTRP,"NextTrip, Inc. - Common Stock",NASDAQ
 NTRS,Northern Trust Corporation - Common Stock,NASDAQ
 NTRSO,"Northern Trust Corporation - Depositary Shares Each Representing a 1/1,000th Interest in a Share of Series E Non-Cumulative Perpetual Preferred Stock",NASDAQ
@@ -3693,6 +3694,7 @@ OPENW,"Opendoor Technologies Inc  - Series K Warrants, each whole warrant exerci
 OPENZ,"Opendoor Technologies Inc  - Series Z Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $17.00 per warrant",NASDAQ
 OPI,Office Properties Income Trust - Common shares of beneficial interest,NASDAQ
 OPK,"Opko Health, Inc. - Common Stock",NASDAQ
+OPNW,"OpenWorld, Inc. - Common Stock",NASDAQ
 OPPJ,WisdomTree Japan Opportunities Fund,NASDAQ
 OPRA,Opera Limited - American Depositary Shares,NASDAQ
 OPRT,Oportun Financial Corporation - common stock,NASDAQ
@@ -4867,6 +4869,7 @@ TDAC,Translational Development Acquisition Corp. - Ordinary Shares,NASDAQ
 TDACU,Translational Development Acquisition Corp. - Units,NASDAQ
 TDACW,Translational Development Acquisition Corp. - Warrants,NASDAQ
 TDCL,GraniteShares 2x Long TDC Daily ETF,NASDAQ
+TDEM,T. Rowe Price Dynamic Emerging Markets Bond ETF,NASDAQ
 TDI,Touchstone Dynamic International ETF,NASDAQ
 TDIC,Dreamland Limited - Class A Ordinary Shares,NASDAQ
 TDIV,First Trust NASDAQ Technology Dividend Index Fund,NASDAQ
@@ -5317,7 +5320,6 @@ VRDN,"Viridian Therapeutics, Inc.  - Common Stock",NASDAQ
 VREX,Varex Imaging Corporation - Common Stock,NASDAQ
 VRIG,Invesco Variable Rate Investment Grade ETF,NASDAQ
 VRM,"Vroom, Inc. - Common Stock",NASDAQ
-VRME,"VerifyMe, Inc. - Common Stock",NASDAQ
 VRNS,"Varonis Systems, Inc. - Common Stock",NASDAQ
 VRRM,Verra Mobility Corporation - Class A Common Stock,NASDAQ
 VRSK,"Verisk Analytics, Inc. - Common Stock",NASDAQ
@@ -5536,7 +5538,7 @@ XRXDW,Xerox Holdings Corporation - Warrants,NASDAQ
 XSLL,Xsolla SPAC 1 - Class A Ordinary Shares,NASDAQ
 XSLLU,Xsolla SPAC 1 - Units,NASDAQ
 XSLLW,Xsolla SPAC 1 - Warrants,NASDAQ
-XSPC,VegaShares SpaceX & Beyond Earth ETF,NASDAQ
+XSPC,VegaShares Space & AI ETF,NASDAQ
 XSPI,NEOS Boosted S&P 500 High Income ETF,NASDAQ
 XT,iShares Future Exponential Technologies ETF,NASDAQ
 XTER,Karman Line Acquisition Corp. - Class A Ordinary Shares,NASDAQ
@@ -7578,6 +7580,7 @@ E,ENI S.p.A. Common Stock,OTHER
 EAD,Allspring Income Opportunities Fund Common Shares,OTHER
 EAF,GrafTech International Ltd. Common Stock,OTHER
 EAFG,Pacer Developed Markets Cash Cows Growth Leaders ETF,OTHER
+EAFH,Xtrackers MSCI EAFE 50% Hedged Equity ETF,OTHER
 EAGG,iShares ESG Aware U.S. Aggregate Bond ETF,OTHER
 EAGL,Eagle Capital Select Equity ETF,OTHER
 EAI,"Entergy Arkansas, LLC First Mortgage Bonds, 4.875% Series Due September 1, 2066",OTHER
@@ -9710,6 +9713,7 @@ LJAN,Innovator Premium Income 15 Buffer ETF - January,OTHER
 LJUL,Innovator Premium Income 15 Buffer ETF - July,OTHER
 LKOR,Northern Trust Credit-Scored US Long Corporate Bond ETF,OTHER
 LLDR,Global X Long-Term Treasury Ladder ETF,OTHER
+LLMA,Global X LLM ETF,OTHER
 LLY,Eli Lilly and Company Common Stock,OTHER
 LLYX,Defiance Daily Target 2X Long LLY ETF,OTHER
 LMND,"Lemonade, Inc. Common Stock",OTHER
@@ -9813,7 +9817,6 @@ LZM.W,Lifezone Metals Limited Warrants,OTHER
 M,Macy's Inc Common Stock,OTHER
 MA,Mastercard Incorporated Common Stock,OTHER
 MAA,"Mid-America Apartment Communities, Inc. Common Stock",OTHER
-MAA$I,"Mid-America Apartment Communities, Inc. 8.50% Series I Cumulative Redeemable Preferred Stock",OTHER
 MAC,Macerich Company (The) Common Stock,OTHER
 MADE,iShares U.S. Manufacturing ETF,OTHER
 MAGA,Truth Social America First ETF,OTHER
@@ -9912,7 +9915,7 @@ MET$E,"MetLife, Inc. Depositary Shares ",OTHER
 MET$F,"MetLife, Inc. Depositary Shares, each representing a 1/1,000th interest in a share of 4.75% Non-Cumulative Preferred Stock, Series F",OTHER
 METG,Leverage Shares 2X Long META Daily ETF,OTHER
 METQ,Tradr 2X Short META Daily ETF,OTHER
-METV,Roundhill Ball Metaverse ETF,OTHER
+METV,Roundhill Metaverse ETF,OTHER
 METW,Roundhill META WeeklyPay ETF,OTHER
 MEXX,Direxion Daily MSCI Mexico Bull 3X ETF,OTHER
 MFA,"MFA Financial, Inc.",OTHER
@@ -10021,6 +10024,7 @@ MMAX,iShares Large Cap Max Buffer Mar ETF,OTHER
 MMAY,Pacer Swan SOS Moderate (May) ETF,OTHER
 MMCA,NYLIM MacKay California Muni Intermediate ETF,OTHER
 MMD,NYLIM MacKay DefinedTerm Muni Opportunities Fund Common Shares,OTHER
+MMHI,NYLIM MacKay Muni High Income ETF,OTHER
 MMI,"Marcus & Millichap, Inc. Common Stock",OTHER
 MMID,MFS Active Mid Cap ETF,OTHER
 MMIN,NYLIM MacKay Muni Insured ETF,OTHER
@@ -10342,7 +10346,6 @@ NLSI,NEOS Long/Short Equity Income ETF,OTHER
 NLY,Annaly Capital Management Inc. Common Stock,OTHER
 NLY$F,Annaly Capital Management Inc 6.95% Series F,OTHER
 NLY$G,Annaly Capital Management Inc 6.50% Series G Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock,OTHER
-NLY$I,Annaly Capital Management Inc 6.750% Series I Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock,OTHER
 NLY$J,Annaly Capital Management Inc. 8.875% Series J Fixed-Rate Cumulative Redeemable Preferred Stock,OTHER
 NMAI,Nuveen Multi-Asset Income Fund Common Shares of Beneficial Interest,OTHER
 NMAR,Innovator Growth-100 Power Buffer ETF - March,OTHER
@@ -10537,8 +10540,10 @@ OCAC.W,"Ocean Capital Acquisition Corporation Warrants, each exercisable for one
 OCDB,Aptus October Deep Buffer ETF,OTHER
 OCIO,ClearShares OCIO ETF,OTHER
 OCNL,T-REX 2X Long DOCN Daily Target ETF,OTHER
+OCT,VanEck U.S. Equity Buffer ETF - October,OTHER
 OCTB,Aptus October Buffer ETF,OTHER
 OCTH,Innovator Premium Income 20 Barrier ETF - October,OTHER
+OCTI,AllianzIM International Equity Buffer15 Uncapped Oct ETF,OTHER
 OCTJ,Innovator Premium Income 30 Barrier ETF - October,OTHER
 OCTM,FT Vest U.S. Equity Max Buffer ETF - October,OTHER
 OCTP,PGIM S&P 500 Buffer 12 ETF - October,OTHER
@@ -10935,6 +10940,7 @@ POCT,Innovator U.S. Equity Power Buffer ETF - October,OTHER
 POEL,Defiance Daily Target 2X Long POET ETF,OTHER
 PONX,Tradr 2X Long PONY Daily ETF,OTHER
 POR,Portland General Electric Co Common Stock,OTHER
+PORT.U,"Southport Acquisition Corp. II Units, each consisting of one Class A ordinary share and one-third of one redeemable warrant",OTHER
 POST,"Post Holdings, Inc. Common Stock",OTHER
 POW,VistaShares Electrification Supercycle ETF,OTHER
 POWA,Invesco Bloomberg Pricing Power ETF,OTHER
@@ -11303,7 +11309,7 @@ RH,RH Common Stock,OTHER
 RHI,Robert Half Inc. Common Stock,OTHER
 RHLD,Resolute Holdings Management Common Stock ,OTHER
 RHP,"Ryman Hospitality Properties, Inc. (REIT)",OTHER
-RHRX,RH Tactical Rotation ETF,OTHER
+RHRX,Adaptive Tactical Rotation ETF,OTHER
 RHTX,RH Tactical Outlook ETF,OTHER
 RIET,Hoya Capital High Dividend Yield ETF,OTHER
 RIG,Transocean Ltd (Switzerland) Common Stock,OTHER
@@ -12366,6 +12372,7 @@ TREX,"Trex Company, Inc. Common Stock",OTHER
 TRFK,Pacer Data and Digital Revolution ETF,OTHER
 TRFM,AAM Transformers ETF,OTHER
 TRGP,"Targa Resources, Inc. Common Stock",OTHER
+TRIL,VegaShares Trillions ETF,OTHER
 TRIN,Trinity Capital Inc. Common Stock,OTHER
 TRIO,MC Trio Equity Buffered ETF,OTHER
 TRLV,Trulieve Cannabis Corp. Subordinate Voting Shares,OTHER
@@ -12640,6 +12647,7 @@ UVV,Universal Corporation Common Stock,OTHER
 UVXY,ProShares Ultra VIX Short Term Futures ETF,OTHER
 UWM,ProShares Ultra Russell2000,OTHER
 UWMC,UWM Holdings Corporation Class A Common Stock,OTHER
+UWMC.V,"UWM Holdings Corporation Rights (November 12, 2026) Rights when issued",OTHER
 UX,Roundhill Uranium ETF,OTHER
 UXAP,FT Vest U.S. Equity Uncapped Accelerator ETF - April,OTHER
 UXI,ProShares Ultra Industrials,OTHER
@@ -12842,6 +12850,7 @@ VXF,Vanguard Extended Market ETF,OTHER
 VXX,iPath Series B S&P 500 VIX Short-Term Futures ETN,OTHER
 VXZ,iPath Series B S&P 500 VIX Mid-Term Futures ETN,OTHER
 VYLD,"Inverse VIX Short-Term Futures ETNs due March 22, 2045",OTHER
+VYLR,Vylor Inc. Common Stock,OTHER
 VYM,Vanguard High Dividend Yield ETF,OTHER
 VYX,NCR Voyix Corporation Common Stock,OTHER
 VZ,Verizon Communications Inc. Common Stock,OTHER
@@ -13177,6 +13186,7 @@ XVTS,FT Vest TSLA & Target Income ETF,OTHER
 XVV,iShares ESG Select Screened S&P 500 ETF,OTHER
 XW,Corgi Ex-U.S. Equities 2x Daily ETF,OTHER
 XWNG,Amplify Top 10 Space ETF,OTHER
+XX,"Roundhill S&P 500 Target 10,000 2030 ETF",OTHER
 XXI,"Twenty One Capital, Inc. Class A Common Stock",OTHER
 XXRP,Teucrium 2x Long Daily XRP ETF,OTHER
 XXV,Simplify Ancorato Target 25 Distribution ETF,OTHER
