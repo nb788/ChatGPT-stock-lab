@@ -1180,9 +1180,6 @@ COHU,"Cohu, Inc. - Common Stock",NASDAQ
 COIG,Leverage Shares 2X Long COIN Daily ETF,NASDAQ
 COIN,"Coinbase Global, Inc. - Class A Common Stock",NASDAQ
 COKE,"Coca-Cola Consolidated, Inc. - Common Stock",NASDAQ
-COLA,Columbus Acquisition Corp - Ordinary Shares,NASDAQ
-COLAR,Columbus Acquisition Corp - Rights,NASDAQ
-COLAU,Columbus Acquisition Corp - Unit,NASDAQ
 COLB,"Columbia Banking System, Inc. - Common Stock",NASDAQ
 COLL,"Collegium Pharmaceutical, Inc. - Common Stock",NASDAQ
 COLM,Columbia Sportswear Company - Common Stock,NASDAQ
@@ -1932,7 +1929,6 @@ FRWD,Nomura Transformational Technologies ETF,NASDAQ
 FSBC,Five Star Bancorp - Common Stock,NASDAQ
 FSBW,"FS Bancorp, Inc. - Common Stock",NASDAQ
 FSCS,First Trust SMID Capital Strength ETF,NASDAQ
-FSEA,"First Seacoast Bancorp, Inc. - Common Stock",NASDAQ
 FSGS,First Trust SMID Growth Strength ETF,NASDAQ
 FSHP,Flag Ship Acquisition Corp. - Ordinary Shares,NASDAQ
 FSHPR,Flag Ship Acquisition Corp. - Right,NASDAQ
@@ -2070,7 +2066,6 @@ GEVG,Leverage Shares 2X Long GEV Daily ETF,NASDAQ
 GEVO,"Gevo, Inc. - Common Stock",NASDAQ
 GEW,Cambria Global EW ETF,NASDAQ
 GFAI,"Guardforce AI Co., Limited - Ordinary Shares",NASDAQ
-GFAIW,"Guardforce AI Co., Limited - Warrant",NASDAQ
 GFGF,Guru Favorite Stocks ETF,NASDAQ
 GFLW,VictoryShares Free Cash Flow Growth ETF,NASDAQ
 GFS,GlobalFoundries Inc. - Ordinary Share,NASDAQ
@@ -3509,7 +3504,6 @@ NSLR,Neostellar Capital Corp. - Closed End Fund,NASDAQ
 NSLRL,Neostellar Capital Corp. - 6.00% Notes due 2026,NASDAQ
 NSPR,InspireMD Inc. - Common Stock,NASDAQ
 NSSC,"NAPCO Security Technologies, Inc. - Common Stock",NASDAQ
-NSTS,"NSTS Bancorp, Inc. - Common Stock",NASDAQ
 NSYS,Nortech Systems Incorporated - Common Stock,NASDAQ
 NTAL,GraniteShares 2x Long NTAP Daily ETF,NASDAQ
 NTAP,"NetApp, Inc. - Common Stock",NASDAQ
@@ -4065,7 +4059,7 @@ PUL,GraniteShares 2x Long P Daily ETF,NASDAQ
 PULM,"Pulmatrix, Inc. - Common Stock",NASDAQ
 PUR,Defiance Daily Target 2X Long PURR ETF,NASDAQ
 PURR,Hyperliquid Strategies Inc - Common Stock,NASDAQ
-PUSA,Aureus Greenway Holdings Inc. - Common Stock,NASDAQ
+PUSA,Powerus Corporation - Common Stock,NASDAQ
 PVLA,"Palvella Therapeutics, Inc. - Common Stock",NASDAQ
 PWCM,"PowerCompute, Inc. - Common Stock",NASDAQ
 PWP,Perella Weinberg Partners - Class A Common Stock,NASDAQ
@@ -4414,6 +4408,7 @@ SAIC,Science Applications International Corporation - Common Stock,NASDAQ
 SAIH,SAIHEAT Limited - Class A Ordinary Shares,NASDAQ
 SAIHW,SAIHEAT Limited - Warrant,NASDAQ
 SAIL,"SailPoint, Inc. - Common Stock",NASDAQ
+SAIQ,WISeSat.Space Holdings Corp. - Ordinary Shares,NASDAQ
 SAMG,Silvercrest Asset Management Group Inc. - Common Stock,NASDAQ
 SANA,"Sana Biotechnology, Inc. - Common Stock",NASDAQ
 SANG,Sangoma Technologies Corporation - Common Shares,NASDAQ
@@ -4915,7 +4910,6 @@ THFF,First Financial Corporation  - Common Stock,NASDAQ
 THH,TryHard Holdings Limited - Ordinary Shares,NASDAQ
 THMZ,Lazard Equity Megatrends ETF,NASDAQ
 THRM,Gentherm Inc - Common Stock,NASDAQ
-THRMV,Gentherm Inc - Gentherm Inc Common Stock When-Issued,NASDAQ
 THRV,Prospera Income ETF,NASDAQ
 THRY,"Thryv Holdings, Inc. - Common Stock",NASDAQ
 THYM,T. Rowe Price High Income Municipal ETF,NASDAQ
@@ -6298,6 +6292,7 @@ BCI,abrdn Bloomberg All Commodity Strategy K-1 Free ETF,OTHER
 BCIL,Bancreek International Large Cap ETF,OTHER
 BCKT,LifeX 2030 Income Bucket ETF,OTHER
 BCO,Brinks Company (The) Common Stock,OTHER
+BCOM,Rareview Bloomberg Commodity Index ETF,OTHER
 BCOR,Grayscale Bitcoin Adopters ETF,OTHER
 BCPL,BNY Mellon Core Plus ETF,OTHER
 BCS,Barclays PLC Common Stock,OTHER
@@ -7564,6 +7559,7 @@ DWWN,Principal Long Duration ETF,OTHER
 DWX,State Street SPDR S&P International Dividend ETF,OTHER
 DX,"Dynex Capital, Inc. Common Stock",OTHER
 DX$C,"Dynex Capital, Inc. 6.900% Series C Fixed-to-Floating Rate Cumulative Redeemable Preferred Stock",OTHER
+DX$D,"Dynex Capital, Inc. 9.375% Series D Fixed-Rate Cumulative Redeemable Preferred Stock",OTHER
 DXC,DXC Technology Company Common Stock ,OTHER
 DXD,ProShares UltraShort Dow30,OTHER
 DXF,"Eason Technology Limited American Depositary Shares (each representing sixty-thousand (60,000) Ordinary Shares)",OTHER
@@ -10039,6 +10035,7 @@ MMSD,NYLIM MacKay Muni Short Duration ETF,OTHER
 MMT,Aberdeen Multi-Market Income Fund Common Shares of Beneficial Interest,OTHER
 MMTM,State Street SPDR S&P 1500 Momentum Tilt ETF,OTHER
 MMU,"Western Asset Managed Municipals Fund, Inc. Common Stock",OTHER
+MN,Corgi MANGOS ETF,OTHER
 MNA,NYLIM Merger Arbitrage ETF,OTHER
 MNBD,ALPS BBH Intermediate Municipal Bond ETF,OTHER
 MNGB,Yorkville America 2X Inverse MANGOS Plus Daily Target ETF,OTHER
@@ -10420,6 +10417,8 @@ NSIG,North Square Growth Opportunities ETF,OTHER
 NSIV,North Square Disciplined Value ETF,OTHER
 NSP,"Insperity, Inc. Common Stock",OTHER
 NSRX,Nasus Pharma Ltd. Ordinary Shares,OTHER
+NSTR,"NorthStar Earth & Space Enterprises, Inc. Common Shares",OTHER
+NSTR.W,"NorthStar Earth & Space Enterprises, Inc. Warrants",OTHER
 NTB,Bank of N.T. Butterfield & Son Limited (The) Voting Ordinary Shares,OTHER
 NTEST,NYSE Tick Pilot Test Sym-Control,OTHER
 NTEST.A,NYSE Tick Pilot Test Sym-G1,OTHER
@@ -12663,9 +12662,6 @@ UZF,"Array Digital Infrastructure, Inc. 5.500% Senior Notes due 2070",OTHER
 V,Visa Inc.,OTHER
 VABS,Virtus Newfleet ABS/MBS ETF,OTHER
 VAC,Marriott Vacations Worldwide Corporation Common Stock,OTHER
-VACI,Viking Acquisition Corp. I Class A Ordinary Shares,OTHER
-VACI.U,"Viking Acquisition Corp. I Units, each consisting of one Class A ordinary share and one-third of one Warrant",OTHER
-VACI.W,Viking Acquisition Corp. I Warrants to purchase one Class A Ordinary Share,OTHER
 VAIC,VegaShares US Equity Autocallable Conservative Income ETF,OTHER
 VAIE,VegaShares US Equity Autocallable Income ETF,OTHER
 VAL,Valaris Limited Common Shares,OTHER
