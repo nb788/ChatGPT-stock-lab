@@ -1,0 +1,70 @@
+{
+  "schema_version": "2.0",
+  "architecture_id": "STOCK-STRATEGY-LAB-OVERARCHING-v2.7",
+  "gate_id": "STOCK-PROJECT-PREWORK-GATE-v1",
+  "authoritative_source": "nb788/stock-lab-runtime/research_only/project_resume_gate_v1.json",
+  "mirror_status": "BLOCKED_PREWORK",
+  "no_manual_bypass": true,
+  "applies_to_all_stock_project_chats_and_work_sessions": true,
+  "scheduled_components": [
+    "OPENING_RUN",
+    "CLOSING_RUN",
+    "WEEKLY_ENGINEERING_REVIEW"
+  ],
+  "allowed_while_blocked": [
+    "REMEDIATION",
+    "TESTING",
+    "CANONICAL_IMPORT",
+    "BROKER_RECONCILIATION",
+    "ORCHESTRATION_RECONCILIATION",
+    "DOCUMENTATION",
+    "GATE_MAINTENANCE"
+  ],
+  "prohibited_while_blocked": [
+    "HISTORICAL_RESEARCH",
+    "RESEARCH_DATA_ACQUISITION",
+    "NEW_BACKTEST",
+    "INDICATOR_SEARCH",
+    "CHALLENGER_TUNING",
+    "PROSPECTIVE_CHALLENGER",
+    "HOLDOUT_ACCESS",
+    "MODEL_PROMOTION"
+  ],
+  "broker_reconciliation": {
+    "status": "PASS",
+    "as_of_utc": "2026-09-02T23:02:30.768086Z",
+    "workflow_run_id": "33693193940",
+    "managed_entry_count": 0,
+    "managed_exit_count": 0,
+    "open_order_count": 0,
+    "position_count": 0,
+    "automatic_actions_taken": [],
+    "may_authorize_orders": false,
+    "report_payload_sha256": "d7b7599723933a74ce3c6608a5a87eb36468ae171237a77e3df124df00af98d3",
+    "report_file_sha256": "30b41d50fbc8f4e70fdca079892dd7656cb18b15b5e49b1aacc5de5bd4230c20",
+    "activates_execution_contract": false,
+    "opens_research_gate": false
+  },
+  "passed_prerequisites": [
+    "PRE-01-RUNTIME-FAIL-CLOSED-TRANSITION-INSTALLED",
+    "PRE-02-RESEARCH-CONTROLS-MERGED",
+    "PRE-03-BROKER-STATE-RECONCILED",
+    "PRE-11-WORK-PACKETS-FROZEN",
+    "PRE-13-PUBLIC-BRIDGE-DIRECTIVE-PUBLISHED"
+  ],
+  "remaining_prerequisites": [
+    "PRE-04-CANONICAL-STATE-IMPORTED",
+    "PRE-05-REAL-DEPENDENCY-GRAPH-POPULATED",
+    "PRE-06-EXTERNAL-LEDGER-ANCHOR-CONFIGURED",
+    "PRE-07-ORCHESTRATION-IDENTITIES-PINNED",
+    "PRE-08-WEEKLY-REVIEW-BINDING-VERIFIED",
+    "PRE-09-COMBINED-REGRESSION-AND-FAULTS-PASS",
+    "PRE-10-SEED-REGISTRIES-IMPORTED",
+    "PRE-12-WORK-DATA-QUOTAS-RECORDED"
+  ],
+  "first_action_when_work_data_returns": "Record Work allowance, source coverage, provider quotas, and recovery reserve; then rerun the authoritative project gate before WD-01 or any other analysis.",
+  "holdout_opened": false,
+  "production_change_authorized": false,
+  "order_authority_granted": false,
+  "last_updated_utc": "2026-09-02T23:02:30.768086Z"
+}
