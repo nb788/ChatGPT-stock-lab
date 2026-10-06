@@ -1,14 +1,14 @@
 {
-  "audited_at_utc": "2026-10-03T14:49:54.504908+00:00",
-  "audit_asof_utc": "2026-10-03T14:48:40.093205+00:00",
+  "audited_at_utc": "2026-10-06T16:55:10.138178+00:00",
+  "audit_asof_utc": "2026-10-06T16:54:08.271653+00:00",
   "exception_symbols": 68,
   "exception_ciks": 65,
   "latest_filings_found": 65,
   "filing_fetch_failures": 0,
   "filing_dei_fact_rows": 144,
   "future_or_post_acceptance_facts_quarantined": 0,
-  "listing_name_matches_found": 68,
-  "resolved_exception_symbols": 54,
-  "unresolved_exception_symbols": 14,
+  "listing_name_matches_found": 67,
+  "resolved_exception_symbols": 53,
+  "unresolved_exception_symbols": 15,
   "rule": "Official exchange listing identity precedes derivative index labels; filing-level DEI hard timing cutoff; inline/native XML supported; one-value fallback requires non-dimensional fact. No guessing."
 }
