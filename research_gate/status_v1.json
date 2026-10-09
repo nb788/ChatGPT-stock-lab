@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "gate_id": "STOCK-PROJECT-RESEARCH-RESUMPTION-v1",
+  "source_repository": "nb788/stock-lab-runtime",
+  "source_branch": "research-learning-control-plane-v1",
+  "classification": "PROJECT_WIDE_RESEARCH_GOVERNANCE",
+  "production_impact": "NONE",
+  "status": "REMEDIATION_ONLY",
+  "research_resumption_allowed": false,
+  "new_holdout_access_allowed": false,
+  "new_model_fitting_allowed": false,
+  "new_historical_backtest_allowed": false,
+  "remediation_allowed": true,
+  "frozen_production_data_refresh_allowed_only_with_manifest": true,
+  "waivers_permitted": false,
+  "required_controls": [
+    "RG-01",
+    "RG-02",
+    "RG-03",
+    "RG-04",
+    "RG-05",
+    "RG-06",
+    "RG-07",
+    "RG-08",
+    "RG-09",
+    "RG-10"
+  ],
+  "next_permitted_packet": "WP-00-CURRENT-POSITION-POLICY-RECONCILIATION",
+  "first_action_when_work_returns": "Run project-wide remediation assurance; do not begin analysis."
+}
