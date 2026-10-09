@@ -198,6 +198,7 @@ AIMDW,"Ainos, Inc. - warrants",NASDAQ
 AIMG,Defiance AI Magnificent 10 ETF,NASDAQ
 AIMS,Acuitas Small Cap Active ETF,NASDAQ
 AINF,Defiance Inference AI Chip ETF,NASDAQ
+AIOK,AI OKTO CORP. - Common Stock,NASDAQ
 AIOS,AIOS Tech Inc. - Class A Common Shares,NASDAQ
 AIOT,"PowerFleet, Inc. - Common Stock",NASDAQ
 AIP,"Arteris, Inc.  - Common Stock",NASDAQ
@@ -592,6 +593,7 @@ BCTX,BriaCell Therapeutics Corp. - Common Shares,NASDAQ
 BCTXL,BriaCell Therapeutics Corp. - Warrants,NASDAQ
 BCTXZ,BriaCell Therapeutics Corp. - Warrant,NASDAQ
 BCYC,Bicycle Therapeutics plc - American Depositary Shares,NASDAQ
+BDAI,"Biddance AI Systems, Inc. - Class A Ordinary Share",NASDAQ
 BDCI,BTC Development Corp. - Class A Ordinary Shares,NASDAQ
 BDCIU,BTC Development Corp. - Unit,NASDAQ
 BDCIW,BTC Development Corp. - Warrant,NASDAQ
@@ -1446,7 +1448,7 @@ DORM,"Dorman Products, Inc. - Common Stock",NASDAQ
 DOX,Amdocs Limited - Ordinary Shares,NASDAQ
 DOYU,DouYu International Holdings Limited - American Depositary Shares,NASDAQ
 DPRO,Draganfly Inc. - Common Shares,NASDAQ
-DPU,Top KingWin Ltd - Class A Ordinary Shares,NASDAQ
+DPU,Nexpu Ltd. - Class A Ordinary Shares,NASDAQ
 DPZ,Domino's Pizza Inc - Common Stock,NASDAQ
 DRDB,Roman DBDR Acquisition Corp. II - Ordinary shares,NASDAQ
 DRDBU,Roman DBDR Acquisition Corp. II - Unit,NASDAQ
@@ -2313,7 +2315,6 @@ HISF,First Trust High Income Strategic Focus ETF,NASDAQ
 HIT,"Health In Tech, Inc. - Class A Common Stock",NASDAQ
 HITI,High Tide Inc. - Common Shares,NASDAQ
 HIVE,HIVE Digital Technologies Ltd - Common Shares,NASDAQ
-HKIT,Hitek Global Inc. - Class A Ordinary Share,NASDAQ
 HKPD,"Cellyan Biotechnology Co., Ltd  - Class A Ordinary Shares",NASDAQ
 HLAL,Wahed FTSE USA Shariah ETF,NASDAQ
 HLIT,Harmonic Inc. - Common Stock,NASDAQ
@@ -3046,7 +3047,6 @@ MACIW,Melar Acquisition Corp. I - Warrant,NASDAQ
 MAGH,Magnitude International Ltd - Ordinary Shares,NASDAQ
 MAKO,Mako Mining Corp - Common Stock,NASDAQ
 MAMA,"Mama's Creations, Inc. - Common Stock",NASDAQ
-MAMK,MaxsMaking Inc. - Class A Ordinary Shares,NASDAQ
 MAMO,Massimo Group - Common Stock,NASDAQ
 MANH,"Manhattan Associates, Inc. - Common Stock",NASDAQ
 MAR,Marriott International - Class A Common Stock,NASDAQ
@@ -3548,8 +3548,6 @@ NVDS,Tradr 1.5X Short NVDA Daily ETF,NASDAQ
 NVDU,Direxion Daily NVDA Bull 2X ETF,NASDAQ
 NVEC,NVE Corporation - Common Stock,NASDAQ
 NVMI,Nova Ltd. - Ordinary Shares,NASDAQ
-NVNI,Nvni Group Limited - Ordinary Shares,NASDAQ
-NVNIW,Nvni Group Limited - Warrants,NASDAQ
 NVNO,enVVeno Medical Corporation - Common Stock,NASDAQ
 NVPS,PurePlay Nvidia Ecosystem Picks & Shovels Index ETF,NASDAQ
 NVTS,Navitas Semiconductor Corporation - Common Stock,NASDAQ
@@ -4360,6 +4358,7 @@ RTACU,Renatus Tactical Acquisition Corp I - Unit,NASDAQ
 RTACW,Renatus Tactical Acquisition Corp I - Warrant,NASDAQ
 RTB,"RTB Digital, Inc. - Common Stock",NASDAQ
 RTH,VanEck Retail ETF,NASDAQ
+RTSN,"Retension Pharmaceuticals, Inc. - Common Stock",NASDAQ
 RTXG,Leverage Shares 2X Long RTX Daily ETF,NASDAQ
 RTYY,GraniteShares YieldBoost RIOT ETF,NASDAQ
 RUBI,Rubico Inc. - Common Stock,NASDAQ
@@ -4431,7 +4430,10 @@ SBUX,Starbucks Corporation - Common Stock,NASDAQ
 SCA,GraniteShares Autocallable SMCI ETF,NASDAQ
 SCAG,Scage Future - American Depositary Shares,NASDAQ
 SCAGW,Scage Future - Warrants,NASDAQ
+SCAT,Southern Cross Acquisition II Corp. - Ordinary Shares,NASDAQ
+SCATR,Southern Cross Acquisition II Corp. - Rights,NASDAQ
 SCATU,Southern Cross Acquisition II Corp. - Units,NASDAQ
+SCATW,Southern Cross Acquisition II Corp. - Warrants,NASDAQ
 SCDS,JPMorgan Fundamental Data Science Small Core ETF,NASDAQ
 SCHL,Scholastic Corporation - Common Stock,NASDAQ
 SCII,SC II Acquisition Corp. - Class A ordinary share,NASDAQ
@@ -4845,8 +4847,6 @@ TBLA,Taboola.com Ltd. - Ordinary Shares,NASDAQ
 TBLD,Thornburg Income Builder Opportunities Trust - Closed End Fund,NASDAQ
 TC,Token Cat Limited - American Depositary Shares,NASDAQ
 TCAN,21Shares Canton Network ETF,NASDAQ
-TCBI,"Texas Capital Bancshares, Inc. - Common Stock",NASDAQ
-TCBIO,"Texas Capital Bancshares, Inc. - Depositary Shares 5.75% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series B",NASDAQ
 TCBK,TriCo Bancshares - Common Stock,NASDAQ
 TCBS,"Texas Community Bancshares, Inc. - Common Stock",NASDAQ
 TCGX,TCGX Acquisition Corp. - Class A Ordinary Shares,NASDAQ
@@ -5026,6 +5026,7 @@ TRUT,VanEck Technology TruSector ETF,NASDAQ
 TRUU,VanEck Utilities TruSector ETF,NASDAQ
 TRVG,trivago N.V. - American Depositary Shares,NASDAQ
 TRVI,"Trevi Therapeutics, Inc. - Common Stock",NASDAQ
+TRXB,"TRex Bio, Inc. - Common stock",NASDAQ
 TSAT,Telesat Corporation - Class A Common Shares and Class B Variable Voting Shares,NASDAQ
 TSBK,"Timberland Bancorp, Inc. - Common Stock",NASDAQ
 TSCM,TimesSquare Quality Mid Cap Growth ETF,NASDAQ
@@ -9957,7 +9958,7 @@ MI,NFT Limited Class A Ordinary Share,OTHER
 MIAX,"Miami International Holdings, Inc. Common Stock",OTHER
 MIC,Corgi MU 2x Daily ETF,OTHER
 MICC,The Magnum Ice Cream Company N.V. Ordinary Shares,OTHER
-MID,American Century Mid Cap Growth Impact ETF,OTHER
+MID,American Century Mid Cap Growth Insights ETF,OTHER
 MIDE,Xtrackers S&P MidCap 400 Scored & Screened ETF,OTHER
 MIDU,Direxion Mid Cap Bull 3X ETF,OTHER
 MIG,VanEck Moody's Analytics IG Corporate Bond ETF,OTHER
@@ -10611,6 +10612,7 @@ OPP$B,"RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. 4.75% Series B Cum
 OPP$C,"RiverNorth/DoubleLine Strategic Opportunity Fund, Inc. 6.00% Series C Term Preferred Stock (Liquidation Preference $10.00 per share)",OTHER
 OPPE,WisdomTree European Opportunities Fund,OTHER
 OPPG,WisdomTree GeoAlpha Opportunities Fund,OTHER
+OPTO,Tuttle Capital Photonics Income Blast ETF,OTHER
 OPTT,"Ocean Power Technologies, Inc. Common Stock",OTHER
 OPTU,"Optimum Communications, Inc. Class A common stock",OTHER
 OPY,"Oppenheimer Holdings, Inc. Class A Common Stock (DE)",OTHER
@@ -12131,6 +12133,8 @@ TBXU,Direxion Daily Biotech Top 5 Bull 2X ETF,OTHER
 TCAF,T. Rowe Price Capital Appreciation Equity ETF,OTHER
 TCAI,Tortoise AI Infrastructure ETF,OTHER
 TCAL,T. Rowe Price Capital Appreciation Premium Income ETF,OTHER
+TCBI,"Texas Capital Bancshares, Inc. Common Stock",OTHER
+TCBI$B,"Texas Capital Bancshares, Inc. Depositary Shares 5.75% Fixed Rate Non-Cumulative Perpetual Preferred Stock Series B",OTHER
 TCBX,"Third Coast Bancshares, Inc. Common Stock",OTHER
 TCHP,T. Rowe Price Blue Chip Growth ETF,OTHER
 TCI,"Transcontinental Realty Investors, Inc. Common Stock",OTHER
@@ -12720,6 +12724,7 @@ VGMS,Vanguard Multi-Sector Income Bond ETF,OTHER
 VGNT,Versigent PLC Ordinary Shares,OTHER
 VGRO,Virtus Silvant Growth Opportunities ETF,OTHER
 VGT,Vanguard Information Tech ETF,OTHER
+VGTX,XFUNDS Technology Income ETF,OTHER
 VGVT,Vanguard Government Securities Active ETF,OTHER
 VGZ,Vista Gold Corp Common Stock,OTHER
 VHI,"Valhi, Inc. Common Stock",OTHER
@@ -12960,6 +12965,7 @@ WRBY,Warby Parker Inc. Class A Common Stock,OTHER
 WRN,Western Copper and Gold Corporation Common Stock,OTHER
 WS,"Worthington Steel, Inc. Common Shares",OTHER
 WSDB,Weitz Short Duration Bond ETF,OTHER
+WSLS,WisdomTree Efficient Long/Short U.S. SmallCap Equity Fund,OTHER
 WSM,"Williams-Sonoma, Inc. Common Stock (DE)",OTHER
 WSMD,Wasatch Small/Mid Cap ETF,OTHER
 WSO,"Watsco, Inc. Common Stock",OTHER
@@ -12967,6 +12973,7 @@ WSO.B,"Watsco, Inc. Class B Common Stock",OTHER
 WST,"West Pharmaceutical Services, Inc. Common Stock",OTHER
 WT,"WisdomTree, Inc. Common Stock",OTHER
 WTAI,WisdomTree Artificial Intelligence and Innovation Fund,OTHER
+WTAL,WisdomTree Global Alpha Fund,OTHER
 WTI,"W&T Offshore, Inc. Common Stock",OTHER
 WTIB,USCF Oil Plus Bitcoin Strategy Fund,OTHER
 WTID,MicroSectors Energy 3X Inverse Leveraged ETNs,OTHER
@@ -13178,7 +13185,9 @@ XW,Corgi Ex-U.S. Equities 2x Daily ETF,OTHER
 XWNG,Amplify Top 10 Space ETF,OTHER
 XX,"Roundhill S&P 500 Target 10,000 2030 ETF",OTHER
 XXI,"Twenty One Capital, Inc. Class A Common Stock",OTHER
+XXQQ,Subversive Growth 100 Redacted ETF,OTHER
 XXRP,Teucrium 2x Long Daily XRP ETF,OTHER
+XXSP,Subversive S&P 500 Redacted ETF,OTHER
 XXV,Simplify Ancorato Target 25 Distribution ETF,OTHER
 XYF,"X Financial American Depositary Shares, each representing six Class A Ordinary Shares",OTHER
 XYL,Xylem Inc. Common Stock New,OTHER
