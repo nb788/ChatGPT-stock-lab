@@ -526,6 +526,7 @@ AXGN,"Axogen, Inc. - Common Stock",NASDAQ
 AXIN,Axiom Intelligence Acquisition Corp 1 - Class A Ordinary Shares,NASDAQ
 AXINR,Axiom Intelligence Acquisition Corp 1 - Right,NASDAQ
 AXINU,Axiom Intelligence Acquisition Corp 1 - Units,NASDAQ
+AXNX,Axonex AI Group Limited - Class A Ordinary Shares,NASDAQ
 AXON,"Axon Enterprise, Inc. - Common Stock",NASDAQ
 AXSM,"Axsome Therapeutics, Inc. - Common Stock",NASDAQ
 AXTI,AXT Inc - Common Stock,NASDAQ
@@ -567,7 +568,6 @@ BBGI,"Beasley Broadcast Group, Inc. - Class A Common Stock",NASDAQ
 BBH,VanEck Biotech ETF,NASDAQ
 BBIO,"BridgeBio Pharma, Inc. - Common Stock",NASDAQ
 BBLG,Bone Biologics Corp - Common Stock,NASDAQ
-BBLGW,Bone Biologics Corp - warrants,NASDAQ
 BBNX,"Beta Bionics, Inc. - Common Stock",NASDAQ
 BBOT,"BridgeBio Oncology Therapeutics, Inc. - Common Stock",NASDAQ
 BBSI,"Barrett Business Services, Inc. - Common Stock",NASDAQ
@@ -2175,7 +2175,6 @@ GRAL,"GRAIL, Inc. - Common Stock",NASDAQ
 GRAN,Grande Group Limited - Class A Ordinary Shares,NASDAQ
 GRCE,"Grace Therapeutics, Inc. - Common Stock",NASDAQ
 GRDX,GridAI Technologies Corp.  - Common Stock,NASDAQ
-GREEL,Vulcan Infrastructure and Power Inc. - 8.50% Senior Notes due 2026,NASDAQ
 GRFS,"Grifols, S.A. - American Depositary Shares",NASDAQ
 GRI,"GRI Bio, Inc. - Common Stock",NASDAQ
 GRID,First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index Fund,NASDAQ
@@ -3167,7 +3166,6 @@ MIACU,Meridian3 Industrials Acquisition Corp - Units,NASDAQ
 MIACW,Meridian3 Industrials Acquisition Corp - Warrant,NASDAQ
 MIDD,The Middleby Corporation - Common Stock,NASDAQ
 MILN,Global X Millennial Consumer ETF,NASDAQ
-MIMI,Mint Incorporation Limited - Class A Ordinary Shares,NASDAQ
 MIND,"MIND Technology, Inc. - Common Stock",NASDAQ
 MIRA,"MIRA Pharmaceuticals, Inc. - Common Stock",NASDAQ
 MIRM,"Mirum Pharmaceuticals, Inc. - common stock",NASDAQ
@@ -4324,6 +4322,7 @@ RNGTW,Range Capital Acquisition Corp II - Warrants,NASDAQ
 RNIN,Bushido Capital US SMID Cap Equity ETF,NASDAQ
 RNRG,Global X Renewable Energy Producers ETF,NASDAQ
 RNTX,"Rein Therapeutics, Inc. - Common Stock",NASDAQ
+RNTZ,Rantizo - Class A Ordinary Shares,NASDAQ
 RNW,ReNew Energy Global plc - Class A Shares,NASDAQ
 RNXT,"RenovoRx, Inc. - Common Stock",NASDAQ
 ROAD,"Construction Partners, Inc. - Common Stock",NASDAQ
@@ -4555,7 +4554,6 @@ SJLD,SanJac Alpha Low Duration ETF,NASDAQ
 SKDD,GraniteShares 2x Short SK Hynix Daily ETF,NASDAQ
 SKHY,SK hynix Inc. - American Depositary Shares,NASDAQ
 SKIN,SkinHealth Systems Inc. - Class A Common Stock,NASDAQ
-SKK,SKK Holdings Limited - Class A Ordinary Shares,NASDAQ
 SKOR,Northern Trust Credit-Scored US Corporate Bond ETF,NASDAQ
 SKRE,Tuttle Capital Daily 2X Inverse Regional Banks ETF,NASDAQ
 SKUU,GraniteShares 2x Long SK Hynix Daily ETF,NASDAQ
@@ -5115,7 +5113,6 @@ UCFIW,CN Healthy Food Tech Group Corp. - Warrant,NASDAQ
 UCL,uCloudlink Group Inc. - American Depositary Shares,NASDAQ
 UCRD,VictoryShares Corporate Bond ETF,NASDAQ
 UCTT,"Ultra Clean Holdings, Inc. - Common Stock",NASDAQ
-UCYB,ProShares Ultra Nasdaq Cybersecurity,NASDAQ
 UECG,Leverage Shares 2x Long UEC Daily ETF,NASDAQ
 UEIC,Universal Electronics Inc. - Common Stock,NASDAQ
 UEVM,VictoryShares Emerging Markets Value Momentum ETF,NASDAQ
@@ -5935,7 +5932,6 @@ AMZY,YieldMax AMZN Option Income Strategy ETF,OTHER
 AN,"AutoNation, Inc. Common Stock",OTHER
 ANDG,Andersen Group Inc. Class A Common Stock,OTHER
 ANET,"Arista Networks, Inc. Common Stock",OTHER
-ANEW,ProShares MSCI Transformational Changes ETF,OTHER
 ANF,Abercrombie & Fitch Company Common Stock,OTHER
 ANG$D,"American National Group Inc. Depositary Shares, each representing a 1/1000th interest in a share of 7.375% Fixed-Rate Non-Cumulative Preferred Stock, Series D",OTHER
 ANGX,"Angel Studios, Inc. Class A Common Stock",OTHER
@@ -6907,7 +6903,6 @@ CLF,Cleveland-Cliffs Inc. Common Stock,OTHER
 CLH,"Clean Harbors, Inc. Common Stock",OTHER
 CLIM,Climate Global - Climate Resilient REIT Index ETF,OTHER
 CLIP,Global X 1-3 Month T-Bill ETF,OTHER
-CLIX,ProShares Long Online/Short Stores ETF,OTHER
 CLM,"Cornerstone Strategic Investment Fund, Inc. Common Shares",OTHER
 CLNK,Common Shares of Beneficial Interest of Bitwise Chainlink ETF,OTHER
 CLOB,VanEck AA-BB CLO ETF,OTHER
@@ -7139,7 +7134,6 @@ CTEST.O,NYSE Test One Common Stock,OTHER
 CTEST.S,NYSE Test Six Common Stock,OTHER
 CTEST.V,NYSE Test One Common Stock,OTHER
 CTEV,Claritev Corporation Class A Common Stock,OTHER
-CTEX,ProShares S&P Kensho Cleantech ETF,OTHER
 CTGO,Contango Silver & Gold Inc. Common Stock,OTHER
 CTIF,Castellan Targeted Income ETF,OTHER
 CTJL,Corgi U.S. Equities 30% Structured Buffer ETF - July Series,OTHER
@@ -7216,7 +7210,6 @@ DAO,"Youdao, Inc. American Depositary Shares, each representing one Class A Ordi
 DAPR,FT Vest U.S. Equity Deep Buffer ETF - April,OTHER
 DAR,Darling Ingredients Inc. Common Stock,OTHER
 DARP,Grizzle Growth ETF,OTHER
-DAT,ProShares Big Data Refiners ETF,OTHER
 DAUG,FT Vest U.S. Equity Deep Buffer ETF - August,OTHER
 DAVA,Endava plc American Depositary Shares (each representing one Class A Ordinary Share),OTHER
 DB,Deutsche Bank AG Common Stock,OTHER
@@ -9815,7 +9808,6 @@ MAGY,Roundhill Magnificent Seven Covered Call ETF,OTHER
 MAIA,"MAIA Biotechnology, Inc. Common Stock",OTHER
 MAIN,Main Street Capital Corporation Common Stock,OTHER
 MAIR,Madison Air Solutions Corporation Class A Common Stock,OTHER
-MAKX,ProShares S&P Kensho Smart Factories ETF,OTHER
 MAMB,Monarch Ambassador Income Index ETF,OTHER
 MAN,ManpowerGroup Common Stock,OTHER
 MANE,"Veradermics, Incorporated Common Stock",OTHER
@@ -10579,7 +10571,6 @@ OMC,Omnicom Group Inc. Common Stock,OTHER
 OMF,"OneMain Holdings, Inc. Common Stock",OTHER
 OMFL,Invesco Russell 1000 Dynamic Multifactor ETF,OTHER
 OMFS,Invesco Russell 2000 Dynamic Multifactor ETF,OTHER
-OND,ProShares On-Demand ETF,OTHER
 ONDC,Corgi ONDS 2x Daily ETF,OTHER
 ONDL,Defiance Daily Target 2X Long ONDS ETF,OTHER
 ONDU,Tradr 2X Long ONDS Daily ETF,OTHER
@@ -11742,6 +11733,7 @@ SKM,"SK Telecom Co., Ltd. Common Stock",OTHER
 SKT,Tanger Inc. Common Stock,OTHER
 SKY,"Champion Homes, Inc. Common Stock",OTHER
 SKYD,Skydance Corporation Class B Common Stock,OTHER
+SKYD.V,Skydance Corporation Warrants to Purchase Class B Common Stock When-Issued,OTHER
 SKYH,Sky Harbour Group Corporation Class A Common Stock,OTHER
 SKYH.W,"Sky Harbour Group Corporation Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share",OTHER
 SLB,SLB Limited Common Shares,OTHER
@@ -12056,7 +12048,6 @@ SUIL,2x Sui ETF,OTHER
 SUN,Sunoco LP Common Units representing limited partner interests,OTHER
 SUNB,"Sunbelt Rentals Holdings, Inc. Common Stock",OTHER
 SUNC,"SunocoCorp LLC Common Units, representing limited liability company interests",OTHER
-SUPL,ProShares Supply Chain Logistics ETF,OTHER
 SUPV,Grupo Supervielle S.A. American Depositary Shares each Representing five Class B shares,OTHER
 SURE,AdvisorShares Insider Advantage ETF,OTHER
 SURI,Simplify Propel Opportunities ETF,OTHER
@@ -12245,7 +12236,6 @@ TILT,Northern Trust Morningstar US Market Factor Tilt ETF,OTHER
 TIMB,TIM S.A. American Depositary Shares (Each representing 5 Common Shares) ,OTHER
 TIME,Clockwise U.S. Core Equity ETF,OTHER
 TINS,Templeton International Insights ETF,OTHER
-TINT,ProShares Smart Materials ETF,OTHER
 TINY,ProShares Nanotechnology ETF,OTHER
 TIP,iShares TIPS Bond ETF,OTHER
 TIPA,Northern Trust 2030 Inflation-Linked Distributing Ladder ETF,OTHER
@@ -12702,7 +12692,6 @@ VELL,Defiance Daily Target 2X Long VELO ETF,OTHER
 VEM,Virtus Emerging Markets Dividend ETF,OTHER
 VEMY,Virtus Stone Harbor Emerging Markets High Yield Bond ETF,OTHER
 VENU,Venu Holding Corporation Common Stock,OTHER
-VERS,ProShares Metaverse ETF,OTHER
 VET,Vermilion Energy Inc. Common (Canada),OTHER
 VETZ,Academy Veteran Bond ETF,OTHER
 VEU,Vanguard FTSE All World Ex US ETF,OTHER
