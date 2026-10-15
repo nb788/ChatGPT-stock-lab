@@ -64,6 +64,7 @@ ACGL,Arch Capital Group Ltd. - Common Stock,NASDAQ
 ACGLN,"Arch Capital Group Ltd. - Depositary Shares, each Representing a 1/1,000th Interest in a 4.550% Non-Cumulative Preferred Share, Series G",NASDAQ
 ACGLO,"Arch Capital Group Ltd. - Depositary Shares Each Representing 1/1,000th Interest in a Share of5.45% Non-Cumulative Preferred Shares, Series F",NASDAQ
 ACHC,"Acadia Healthcare Company, Inc. - Common Stock",NASDAQ
+ACHP,Global X Asia Semiconductor ETF,NASDAQ
 ACHV,"Achieve Life Sciences, Inc.  - Common Shares",NASDAQ
 ACIC,American Coastal Insurance Corporation - Common Stock,NASDAQ
 ACIU,AC Immune SA - Common Stock,NASDAQ
@@ -724,6 +725,7 @@ BMEA,"Biomea Fusion, Inc. - Common Stock",NASDAQ
 BMGL,Basel Medical Group Ltd - ordinary shares,NASDAQ
 BMHL,Bluemount Holdings Limited - Class B Ordinary Shares,NASDAQ
 BMM,Blue Moon Metals Inc. - Common Shares,NASDAQ
+BMMX,Black Mammoth Metals Corporation - Common Shares,NASDAQ
 BMNG,Leverage Shares 2X Long BMNR Daily ETF,NASDAQ
 BMOP,BNY Mellon Municipal Opportunities ETF,NASDAQ
 BMR,Beamr Imaging Ltd. - Ordinary Share,NASDAQ
@@ -1383,6 +1385,7 @@ DETX,"Liberty Defense Holdings, Ltd. - Common Shares",NASDAQ
 DFDV,DeFi Development Corp. - Common Stock,NASDAQ
 DFDVW,DeFi Development Corp. - Warrant,NASDAQ
 DFGP,Dimensional Global Core Plus Fixed Income ETF,NASDAQ
+DFGV,DFA Intermediate Government Fixed Income Portfolio: ETF Class Shares,NASDAQ
 DFGX,Dimensional International Core Fixed Income ETF,NASDAQ
 DFLI,Dragonfly Energy Holdings Corp - Common Stock,NASDAQ
 DFLIW,Dragonfly Energy Holdings Corp - Warrant,NASDAQ
@@ -1602,7 +1605,6 @@ EMIS,Emmis Acquisition Corp. - Class A Ordinary Share,NASDAQ
 EMISR,Emmis Acquisition Corp. - Rights,NASDAQ
 EML,Eastern Company (The) - Common Stock,NASDAQ
 EMPD,Empery Digital Inc. - Common stock,NASDAQ
-EMSC,Sophus Capital Emerging Market Small Cap ETF,NASDAQ
 EMXC,iShares MSCI Emerging Markets ex China ETF,NASDAQ
 EMXF,iShares ESG Advanced MSCI EM ETF,NASDAQ
 ENDW,Cambria Endowment Style ETF,NASDAQ
@@ -1860,6 +1862,7 @@ FLN,First Trust Latin America AlphaDEX Fund,NASDAQ
 FLNA,"Filana Therapeutics, Inc. - Common Stock",NASDAQ
 FLNC,"Fluence Energy, Inc. - Class A Common Stock",NASDAQ
 FLNT,"Fluent, Inc. - Common Stock",NASDAQ
+FLSC,Frazier Life Sciences Acquisition Corp. II - Class A Ordinary Shares,NASDAQ
 FLUX,"Flux Power Holdings, Inc. - Common Stock",NASDAQ
 FLWS,"1-800-FLOWERS.COM, Inc. - Class A Common Stock",NASDAQ
 FLX,BingEx Limited - American Depositary Shares,NASDAQ
@@ -2426,6 +2429,7 @@ IACQ,Irenic Acquisition Corp. - Class A Ordinary Shares,NASDAQ
 IACQU,Irenic Acquisition Corp. - Unit,NASDAQ
 IACQW,Irenic Acquisition Corp. - Warrants,NASDAQ
 IALT,iShares Systematic Alternatives Active ETF,NASDAQ
+IAM,"Iambic Therapeutics, Inc. - Common Stock",NASDAQ
 IART,Integra LifeSciences Holdings Corporation - Common Stock,NASDAQ
 IBAC,IB Acquisition Corp. - Common Stock,NASDAQ
 IBACR,IB Acquisition Corp. - Right,NASDAQ
@@ -3154,6 +3158,7 @@ MGIH,Millennium Group International Holdings Limited - Ordinary Shares,NASDAQ
 MGN,Megan Holdings Limited - Class A Ordinary Shares,NASDAQ
 MGNI,"Magnite, Inc. - Common Stock",NASDAQ
 MGNX,"MacroGenics, Inc. - Common Stock",NASDAQ
+MGOL,Leverage Shares MANGOS ETF,NASDAQ
 MGPI,"MGP Ingredients, Inc. - Common Stock",NASDAQ
 MGRC,McGrath RentCorp - Common Stock,NASDAQ
 MGRT,Mega Fortune Company Limited - Ordinary Shares,NASDAQ
@@ -3565,6 +3570,7 @@ NWSA,News Corporation - Class A Common Stock,NASDAQ
 NWTG,"Newton Golf Company, Inc. - Common Stock",NASDAQ
 NXAT,Nexus Advanced Technologies Inc. - Ordinary Shares,NASDAQ
 NXATW,Nexus Advanced Technologies Inc. - Warrant,NASDAQ
+NXDR,"Nextdoor Holdings, Inc. - Common Stock",NASDAQ
 NXGL,"NexGel, Inc - Common Stock",NASDAQ
 NXGLW,"NexGel, Inc - Warrant",NASDAQ
 NXH,"Neighborhood Intelligence, Inc.  - Common Stock",NASDAQ
@@ -3850,6 +3856,7 @@ PENN,"PENN Entertainment, Inc. - Common Stock",NASDAQ
 PEP,"PepsiCo, Inc. - Common Stock",NASDAQ
 PEPG,PepGen Inc. - Common Stock,NASDAQ
 PEPS,Parametric Equity Plus ETF,NASDAQ
+PEPT,REX Peptide ETF,NASDAQ
 PERI,Perion Network Ltd - Ordinary Shares,NASDAQ
 PESI,"Perma-Fix Environmental Services, Inc. - Common Stock",NASDAQ
 PETS,"PetMed Express, Inc. - Common Stock",NASDAQ
@@ -4093,9 +4100,6 @@ QCOM,QUALCOMM Incorporated - Common Stock,NASDAQ
 QCRH,"QCR Holdings, Inc. - Common Stock",NASDAQ
 QDEL,QuidelOrtho Corporation - Common Stock,NASDAQ
 QDTY,YieldMax Nasdaq 100 0DTE Covered Call Strategy ETF,NASDAQ
-QETA,Quetta Acquisition Corporation - Common Stock,NASDAQ
-QETAR,Quetta Acquisition Corporation - Right,NASDAQ
-QETAU,Quetta Acquisition Corporation - Unit,NASDAQ
 QEW,Invesco QQQ Equal Weight ETF,NASDAQ
 QFF,Qualivian Focus Fund ETF,NASDAQ
 QFIN,"Qfin Holdings, Inc.  - American Depositary Shares",NASDAQ
@@ -4357,6 +4361,7 @@ RTACU,Renatus Tactical Acquisition Corp I - Unit,NASDAQ
 RTACW,Renatus Tactical Acquisition Corp I - Warrant,NASDAQ
 RTB,"RTB Digital, Inc. - Common Stock",NASDAQ
 RTH,VanEck Retail ETF,NASDAQ
+RTHY,F/m Long-Term Treasury Inflation-Protected Security (TIPS) ETF,NASDAQ
 RTSN,"Retension Pharmaceuticals, Inc. - Common Stock",NASDAQ
 RTXG,Leverage Shares 2X Long RTX Daily ETF,NASDAQ
 RTYY,GraniteShares YieldBoost RIOT ETF,NASDAQ
@@ -6045,7 +6050,6 @@ ASCE,Allspring SMID Core ETF,OTHER
 ASEA,Global X FTSE Southeast Asia ETF,OTHER
 ASG,"Liberty All-Star Growth Fund, Inc.",OTHER
 ASGI,abrdn Global Infrastructure Income Fund Common Shares of Beneficial Interest,OTHER
-ASGI.R,"abrdn Global Infrastructure Income Fund Rights (expiring October 15, 2026) Rights",OTHER
 ASGM,Virtus AlphaSimplex Global Macro ETF,OTHER
 ASH,Ashland Inc. Common Stock,OTHER
 ASHR,Xtrackers Harvest CSI 300 China A-Shares ETF,OTHER
@@ -6148,6 +6152,7 @@ AVSF,Avantis Short-Term Fixed Income ETF,OTHER
 AVSU,Avantis Responsible U.S. Equity ETF,OTHER
 AVTM,Avantis Total Equity Markets ETF,OTHER
 AVTR,"Avantor, Inc. Common Stock",OTHER
+AVUC,Avantis U.S. Core Equity ETF,OTHER
 AVUS,Avantis U.S. Equity ETF,OTHER
 AVUV,Avantis U.S. Small Cap Value ETF,OTHER
 AVY,Avery Dennison Corporation Common Stock,OTHER
@@ -6442,7 +6447,6 @@ BKH,Black Hills Corporation Common Stock,OTHER
 BKHY,BNY Mellon High Yield ETF,OTHER
 BKIE,BNY Mellon International Equity ETF,OTHER
 BKKT,"Bakkt, Inc. Class A Common Stock",OTHER
-BKKT.W,"Bakkt, Inc. Warrants to purchase Class A Common Stock, each Warrant entitles a holder to purchase 1/25th of a share of Class A common stock at an exercise price of $287.50 for one share",OTHER
 BKLC,BNY Mellon US Large Cap Core Equity ETF,OTHER
 BKLG,BNY Mellon US Large Cap Equity Growth ETF,OTHER
 BKLN,Invesco Senior Loan ETF,OTHER
@@ -6584,6 +6588,7 @@ BSM,"Black Stone Minerals, L.P. Common units representing limited partner intere
 BSMC,Brandes U.S. Small-Mid Cap Value ETF,OTHER
 BSOL,Bitwise Solana Staking ETF,OTHER
 BSR,Beacon Unified Catalyst ETF,OTHER
+BSRT,BSR Real Estate Investment Trust Units,OTHER
 BST,BlackRock Science and Technology Trust Common Shares of Beneficial Interest,OTHER
 BSTP,Innovator Buffer Step-Up Strategy ETF,OTHER
 BSTZ,BlackRock Science and Technology Term Trust Common Shares of Beneficial Interest,OTHER
@@ -6656,7 +6661,6 @@ BWIV.U,"Blue Water Acquisition Corp. IV Units, each consisting of one Class A or
 BWIV.W,Blue Water Acquisition Corp. IV Warrants entitling the holder to purchase one Class A ordinary share at a price of $11.50 per share,OTHER
 BWLP,BW LPG Limited Common Shares,OTHER
 BWMX,"Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",OTHER
-BWOW,Bitwise Dogecoin ETF,OTHER
 BWQG,BWM Quality Growth ETF,OTHER
 BWTG,Brendan Wood TopGun Index ETF,OTHER
 BWX,State Street SPDR Bloomberg International Treasury Bond ETF,OTHER
@@ -6763,7 +6767,6 @@ CCJ,Cameco Corporation Common Stock,OTHER
 CCK,"Crown Holdings, Inc.",OTHER
 CCL,Carnival Corporation Ltd. Common Shares,OTHER
 CCM,Concord Medical Services Holdings Limited American Depositary Shares (Each represents thirty (30) Class A ordinary shares),OTHER
-CCO,"Clear Channel Outdoor Holdings, Inc. Common Stock",OTHER
 CCOM,Simplify Chinese Commodities Strategy No K-1 ETF,OTHER
 CCOR,Core Alternative ETF,OTHER
 CCPX,Corgi China 2x Daily ETF,OTHER
@@ -8351,6 +8354,7 @@ GALX,VistaShares Space Supercycle ETF,OTHER
 GAM,"General American Investors, Inc. Common Stock",OTHER
 GAM$B,"General American Investors Company, Inc. Cumulative Preferred Stock",OTHER
 GAMR,Amplify Video Game Leaders ETF,OTHER
+GANZ,Tuttle Capital Thematic ETF,OTHER
 GAP,"Gap, Inc. (The) Common Stock",OTHER
 GAPR,FT Vest U.S. Equity Moderate Buffer ETF - April,OTHER
 GARA,Guinness Atkinson Real Assets Income ETF,OTHER
@@ -8873,7 +8877,7 @@ HYGH,iShares Interest Rate Hedged High Yield Bond ETF,OTHER
 HYGM,Amplify HYG High Yield 10% Target Income ETF,OTHER
 HYGU,MicroSectors 3x Long High Yield Corporate Bond (HYG) ETNs,OTHER
 HYGV,Northern Trust High Yield Value-Scored Bond ETF,OTHER
-HYGW,iShares High Yield Corporate Bond BuyWrite Strategy ETF,OTHER
+HYGW,iShares HYG Premium Income+ ETF,OTHER
 HYHG,ProShares High Yield Interest Rate Hedged,OTHER
 HYI,Western Asset High Yield Opportunity Fund Inc. Common Stock,OTHER
 HYIN,WisdomTree Private Credit and Alternative Income Fund,OTHER
@@ -8890,7 +8894,6 @@ HYTR,Counterpoint High Yield Trend ETF,OTHER
 HYUP,Xtrackers High Beta High Yield Bond ETF,OTHER
 HZO,"MarineMax, Inc.  (FL) Common Stock",OTHER
 IACL,GraniteShares US 100 Autocallable Income ETF,OTHER
-IAE,Voya Asia Pacific High Dividend Equity Income Fund ING Asia Pacific High Dividend Equity Income Fund Common Shares of Beneficial Interest,OTHER
 IAF,"abrdn Australia Equity Fund, Inc. Common Stock",OTHER
 IAG,Iamgold Corporation Ordinary Shares,OTHER
 IAGG,iShares International Aggregate Bond Fund,OTHER
@@ -9032,7 +9035,6 @@ IGV,iShares Expanded Tech-Software Sector ETF,OTHER
 IGZ,IGZ (Listing Market NYSE Arca Network B F) Common Stock,OTHER
 IH,"iHuman Inc. American depositary shares, each representing five Class A ordinary shares",OTHER
 IHAK,iShares Cybersecurity and Tech ETF,OTHER
-IHD,Voya Emerging Markets High Income Dividend Equity Fund Common Shares,OTHER
 IHDG,WisdomTree International Hedged Quality Dividend Growth Fund,OTHER
 IHE,iShares U.S. Pharmaceutical ETF,OTHER
 IHF,iShares U.S. Health Care Providers ETF,OTHER
@@ -9214,7 +9216,7 @@ IVT,InvenTrust Properties Corp. Common Stock,OTHER
 IVV,iShares Core S&P 500 ETF,OTHER
 IVVB,iShares Large Cap Deep Quarterly Laddered ETF,OTHER
 IVVM,iShares Large Cap Moderate Quarterly Laddered ETF,OTHER
-IVVW,iShares S&P 500 BuyWrite ETF,OTHER
+IVVW,iShares IVV Premium Income+ ETF,OTHER
 IVW,iShares S&P 500 Growth ETF,OTHER
 IVZ,Invesco Ltd Common Stock,OTHER
 IWB,iShares Russell 1000 ETF,OTHER
@@ -9226,7 +9228,7 @@ IWL,iShares Russell Top 200 ETF,OTHER
 IWLG,NYLIM Winslow Large Cap Growth ETF,OTHER
 IWM,iShares Russell 2000 Index Fund,OTHER
 IWMI,NEOS Russell 2000 High Income ETF,OTHER
-IWMW,iShares Russell 2000 BuyWrite ETF,OTHER
+IWMW,iShares IWM Premium Income+ ETF,OTHER
 IWMY,Defiance R2000 Weekly Distribution ETF,OTHER
 IWN,iShares Russell 2000 Value ETF,OTHER
 IWO,iShares Russell 2000 Growth Fund,OTHER
@@ -9615,7 +9617,7 @@ LATR,Corgi Buy Now Pay Later ETF,OTHER
 LAW,"CS Disco, Inc. Common Stock",OTHER
 LAZ,"Lazard, Inc. Common Stock",OTHER
 LAZR,Tema Photonics & Optical ETF,OTHER
-LB,LandBridge Company LLC Class A Shares Representing Limited Liability Company Interests,OTHER
+LB,LandBridge Corporation Class A Common Stock,OTHER
 LBAY,Leatherback Long/Short Alternative Yield ETF,OTHER
 LBO,WHITEWOLF Publicly Listed Private Equity ETF,OTHER
 LBOX,GraniteShares Short Term Box ETF,OTHER
@@ -9737,7 +9739,7 @@ LQDH,iShares Interest Rate Hedged Corporate Bond ETF,OTHER
 LQDI,iShares Inflation Hedged Corporate Bond ETF,OTHER
 LQDM,Amplify LQD Investment Grade 12% Target Income ETF,OTHER
 LQDU,MicroSectors 3x Long Investment Grade Corporate Bond (LQD) ETNs,OTHER
-LQDW,iShares Investment Grade Corporate Bond BuyWrite Strategy ETF,OTHER
+LQDW,iShares LQD Premium Income+ ETF,OTHER
 LQID,Kurv Enhanced Short Maturity ETF,OTHER
 LQTI,FT Vest Investment Grade & Target Income ETF,OTHER
 LRCC,Corgi LRCX 2x Daily ETF,OTHER
@@ -10475,7 +10477,6 @@ NWG,"NatWest Group plc American Depositary Shares, (each representing two (2) Or
 NWN,Northwest Natural Holding Company Common Stock,OTHER
 NX,Quanex Building Products Corporation Common Stock,OTHER
 NXB,NextBoat Inc. Common Stcok,OTHER
-NXDR,"Nextdoor Holdings, Inc. Class A Common Stock",OTHER
 NXDT,NexPoint Diversified Real Estate Trust Common Stock,OTHER
 NXDT$A,NexPoint Diversified Real Estate Trust 5.50% Series A Cumulative Preferred Shares ($25.00 liquidation preference per share),OTHER
 NXE,Nexgen Energy Ltd. Common Shares,OTHER
@@ -10956,7 +10957,6 @@ PRH,"Prudential Financial, Inc. 5.950% Junior Subordinated Notes due 2062",OTHER
 PRI,"Primerica, Inc. Common Stock",OTHER
 PRIF$D,"Priority Income Fund, Inc. 7.00% Series D Term Preferred Stock due 2029",OTHER
 PRIF$K,"Priority Income Fund, Inc. 7.000% Series K Cumulative Preferred Stock",OTHER
-PRIF$L,"Priority Income Fund, Inc. 6.375% Series L Term Preferred Stock Due 2029",OTHER
 PRIM,Primoris Services Corporation Common Stock,OTHER
 PRIV,State Street IG Public & Private Credit ETF,OTHER
 PRIZ,Zacks Preferred Income ETF,OTHER
@@ -11733,7 +11733,7 @@ SKM,"SK Telecom Co., Ltd. Common Stock",OTHER
 SKT,Tanger Inc. Common Stock,OTHER
 SKY,"Champion Homes, Inc. Common Stock",OTHER
 SKYD,Skydance Corporation Class B Common Stock,OTHER
-SKYD.V,Skydance Corporation Warrants to Purchase Class B Common Stock When-Issued,OTHER
+SKYD.W,Skydance Corporation Warrants to Purchase Class B Common Stock,OTHER
 SKYH,Sky Harbour Group Corporation Class A Common Stock,OTHER
 SKYH.W,"Sky Harbour Group Corporation Warrants, each whole warrant exercisable for one share of Class A common stock at an exercise price of $11.50 per share",OTHER
 SLB,SLB Limited Common Shares,OTHER
@@ -11800,6 +11800,7 @@ SMR,NuScale Power Corporation Class A Common Stock,OTHER
 SMRF,"ALPS Nautilus SMR, Nuclear & Technology ETF",OTHER
 SMRT,"SmartRent, Inc. Class A Common Stock",OTHER
 SMRX,Corgi SMR 2x Daily ETF,OTHER
+SMRZ,Global X Small Modular Reactor ETF,OTHER
 SMTG,Leverage Shares 2X Long SMTC Daily ETF,OTHER
 SMTH,ALPS Smith Core Plus Bond ETF,OTHER
 SMTJ,Synera Funds Takumi+ ETF,OTHER
@@ -11830,7 +11831,6 @@ SNSC,SunScout Holding Limited Class A Ordinary Shares,OTHER
 SNTH,MRP SynthEquity ETF,OTHER
 SNTQ,MRP SynthEquity Nasdaq 100 ETF,OTHER
 SNUS$H,"Santander Holdings USA, Inc. Depositary Shares, Each Representing a 1/1,000th Interest in a Share of Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series H",OTHER
-SNUS$I,"Santander Holdings USA, Inc. Depositary Shares, Each Representing a 1/40th Interest in a Share of Fixed-Rate Reset Non-Cumulative Perpetual Preferred Stock, Series I",OTHER
 SNX,TD SYNNEX Corporation Common Stock,OTHER
 SNXX,Tradr 2X Long SNDK Daily ETF,OTHER
 SO,Southern Company (The) Common Stock,OTHER
@@ -12269,7 +12269,7 @@ TLTD,Northern Trust Morningstar Developed Markets ex-US Factor Tilt ETF,OTHER
 TLTE,Northern Trust Morningstar Emerging Markets Factor Tilt ETF,OTHER
 TLTI,NEOS Enhanced Income 20+ Year Treasury Bond ETF,OTHER
 TLTP,Amplify TLT U.S. Treasury 12% Option Income ETF,OTHER
-TLTW,iShares 20+ Year Treasury Bond BuyWrite Strategy ETF,OTHER
+TLTW,iShares TLT Premium Income+ ETF,OTHER
 TLTX,Global X Treasury Bond Enhanced Income ETF,OTHER
 TLYS,"Tilly's, Inc. Common Stock",OTHER
 TM,Toyota Motor Corporation Common Stock,OTHER
@@ -12848,7 +12848,9 @@ WANT,Direxion Daily Consumer Discretionary Bull 3X ETF,OTHER
 WAR,U.S. Global Technology and Aerospace & Defense ETF,OTHER
 WAT,Waters Corporation Common Stock,OTHER
 WATS,Corgi Battery Energy Storage Systems ETF,OTHER
+WBEM,William Blair Emerging Markets Equity ETF,OTHER
 WBI,WaterBridge Infrastructure LLC Class A Shares Representing Limited Liability Company Interests,OTHER
+WBIE,William Blair International Equity ETF,OTHER
 WBIF,WBI BullBear Value 3000 ETF,OTHER
 WBIG,WBI BullBear Yield 3000 ETF,OTHER
 WBIL,WBI BullBear Quality 3000 ETF,OTHER
@@ -13058,6 +13060,7 @@ XLCI,State Street Communication Services Select Sector SPDR Premium Income ETF,O
 XLCU,MicroSectors 3x Long Communication Services (XLC) ETNs,OTHER
 XLE,State Street Energy Select Sector SPDR ETF,OTHER
 XLEI,State Street Energy Select Sector SPDR Premium Income ETF,OTHER
+XLEM,State Street S&P 500 Energy Market Sector SPDR ETF,OTHER
 XLEX,Corgi U.S. Energy 2x Daily ETF,OTHER
 XLF,State Street Financial Select Sector SPDR ETF,OTHER
 XLFI,State Street Financial Select Sector SPDR Premium Income ETF,OTHER
@@ -13068,9 +13071,11 @@ XLII,State Street Industrial Select Sector SPDR Premium Income ETF,OTHER
 XLIX,Corgi U.S. Industrials 2x Daily ETF,OTHER
 XLK,State Street Technology Select Sector SPDR ETF,OTHER
 XLKI,State Street Technology Select Sector SPDR Premium Income ETF,OTHER
+XLKM,State Street S&P 500 Technology Market Sector SPDR ETF,OTHER
 XLKX,Corgi U.S. Technology 2x Daily ETF,OTHER
 XLP,State Street Consumer Staples Select Sector SPDR ETF,OTHER
 XLPD,MicroSectors -3x Short Consumer Staples (XLP) ETNs,OTHER
+XLPM,State Street S&P 500 Consumer Staples Market Sector SPDR ETF,OTHER
 XLPU,MicroSectors 3x Long Consumer Staples (XLP) ETNs,OTHER
 XLPX,Corgi U.S. Consumer Staples 2x Daily ETF,OTHER
 XLRE,State Street Real Estate Select Sector SPDR ETF,OTHER
@@ -13085,6 +13090,7 @@ XLVI,State Street Health Care Select Sector SPDR Premium Income ETF,OTHER
 XLVX,Corgi U.S. Healthcare 2x Daily ETF,OTHER
 XLY,State Street Consumer Discretionary Select Sector SPDR ETF,OTHER
 XLYI,State Street Consumer Discretionary Select Sector SPDR Premium Income ETF,OTHER
+XLYM,State Street S&P 500 Consumer Discretionary Market Sector SPDR ETF,OTHER
 XLYX,Corgi U.S. Consumer Discretionary 2x Daily ETF,OTHER
 XMAR,FT Vest U.S. Equity Enhance & Moderate Buffer ETF - March,OTHER
 XMAY,FT Vest U.S. Equity Enhance & Moderate Buffer ETF - May,OTHER
