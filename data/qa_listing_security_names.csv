@@ -307,6 +307,7 @@ AMPGZ,"Amplitech Group, Inc. - Series B Right",NASDAQ
 AMPH,"Amphastar Pharmaceuticals, Inc. - Common Stock",NASDAQ
 AMPL,"Amplitude, Inc. - Class A Common Stock",NASDAQ
 AMRN,Amarin Corporation plc - American Depositary Shares,NASDAQ
+AMRO,Amaero Inc. - Common Stock,NASDAQ
 AMRX,"Amneal Pharmaceuticals, Inc. - Class A Common Stock",NASDAQ
 AMSC,American Superconductor Corporation - Common Stock,NASDAQ
 AMSF,"AMERISAFE, Inc. - Common Stock",NASDAQ
@@ -1306,6 +1307,7 @@ CTSH,Cognizant Technology Solutions Corporation - Class A Common Stock,NASDAQ
 CTSO,Cytosorbents Corporation - Common Stock,NASDAQ
 CTW,CTW - Class A Ordinary Shares,NASDAQ
 CTXR,"Citius Pharmaceuticals, Inc. - Common Stock",NASDAQ
+CTY,"City Therapeutics, Inc. - Common Stock",NASDAQ
 CUB,Lionheart Holdings - Class A Ordinary Shares,NASDAQ
 CUBWU,Lionheart Holdings - Unit,NASDAQ
 CUBWW,Lionheart Holdings - Warrant,NASDAQ
@@ -4860,6 +4862,7 @@ TCPC,BlackRock TCP Capital Corp. - Closed End Fund,NASDAQ
 TCRT,"Alaunos Therapeutics, Inc. - Common Stock",NASDAQ
 TCRX,"TScan Therapeutics, Inc. - Common Stock",NASDAQ
 TCX,Tucows Inc. - Common Stock,NASDAQ
+TCXB,TCGX Acquisition Corp. II - Class A Ordinary Shares,NASDAQ
 TDAC,Translational Development Acquisition Corp. - Ordinary Shares,NASDAQ
 TDACU,Translational Development Acquisition Corp. - Units,NASDAQ
 TDACW,Translational Development Acquisition Corp. - Warrants,NASDAQ
@@ -5634,6 +5637,7 @@ A,"Agilent Technologies, Inc. Common Stock",OTHER
 AA,Alcoa Corporation Common Stock ,OTHER
 AAA,Alternative Access First Priority CLO Bond ETF,OTHER
 AAAA,Amplius Aggressive Asset Allocation ETF,OTHER
+AAAB,Corgi FTSE Aaa-A Intermediate Corporate Bond ETF,OTHER
 AAAC,Columbia AAA CLO ETF,OTHER
 AAAD,PGIM AAA CLO Aggregate Duration ETF,OTHER
 AAAU,Goldman Sachs Physical Gold ETF Shares,OTHER
@@ -5743,7 +5747,6 @@ AEF,"abrdn Emerging Markets ex-China Fund, Inc. Common Stock",OTHER
 AEFC,Aegon Funding Company LLC 5.10% Subordinated Notes due 2049,OTHER
 AEG,Aegon Ltd. New York Registry Shares,OTHER
 AEHG,Leverage Shares 2X Long AEHR Daily ETF,OTHER
-AELV,Harbor AlphaEdge Large Cap Value ETF,OTHER
 AEM,Agnico Eagle Mines Limited Common Stock,OTHER
 AEMC,Harbor AlphaEdge Mid Cap Core ETF,OTHER
 AEMG,Harbor AlphaEdge Mid Cap Growth ETF,OTHER
@@ -5779,6 +5782,7 @@ AGBK,AGI Inc Class A Common Shares,OTHER
 AGCO,AGCO Corporation Common Stock,OTHER
 AGD,abrdn Global Dynamic Dividend Fund Common Shares of Beneficial Interest,OTHER
 AGG,iShares Core U.S. Aggregate Bond ETF,OTHER
+AGGB,Corgi FTSE U.S. Aggregate Bond ETF,OTHER
 AGGH,Simplify Aggregate Bond ETF,OTHER
 AGGM,iShares 1-10 Year U.S. Aggregate Bond ETF,OTHER
 AGGS,Harbor Disciplined Bond ETF,OTHER
@@ -5938,6 +5942,7 @@ AN,"AutoNation, Inc. Common Stock",OTHER
 ANDG,Andersen Group Inc. Class A Common Stock,OTHER
 ANET,"Arista Networks, Inc. Common Stock",OTHER
 ANF,Abercrombie & Fitch Company Common Stock,OTHER
+ANG,Corgi FTSE Fallen Angels Bond ETF,OTHER
 ANG$D,"American National Group Inc. Depositary Shares, each representing a 1/1000th interest in a share of 7.375% Fixed-Rate Non-Cumulative Preferred Stock, Series D",OTHER
 ANGX,"Angel Studios, Inc. Class A Common Stock",OTHER
 ANRO,"Alto Neuroscience, Inc. Common Stock",OTHER
@@ -6237,6 +6242,7 @@ BBAI,"BigBear.ai, Inc. Common Stock",OTHER
 BBAI.W,"BigBear.ai, Inc. Redeemable Warrants, each exercisable for one share of Common Stock at an exercise price of $11.50 per share",OTHER
 BBAR,Banco BBVA Argentina S.A. ADS,OTHER
 BBAX,JPMorgan BetaBuilders Developed Asia Pacific-ex Japan ETF,OTHER
+BBBB,Corgi FTSE BBB Rated Corporate Bond ETF,OTHER
 BBBI,BondBloxx BBB Rated 5-10 Year Corporate Bond ETF,OTHER
 BBBL,BondBloxx BBB Rated 10+ Year Corporate Bond ETF,OTHER
 BBBS,BondBloxx BBB Rated 1-5 Year Corporate Bond ETF,OTHER
@@ -8293,6 +8299,7 @@ FTMH,Franklin Municipal High Yield ETF,OTHER
 FTMN,Franklin Minnesota Municipal Income ETF,OTHER
 FTMS,Franklin Short-Term Municipal Income ETF,OTHER
 FTMU,Franklin Municipal Income ETF,OTHER
+FTN,Corgi FTSE 5-10 Year IG Corporate Bond ETF,OTHER
 FTNJ,Franklin New Jersey Municipal Income ETF,OTHER
 FTNY,Franklin New York Municipal Income ETF,OTHER
 FTOH,Franklin Ohio Municipal Income ETF,OTHER
@@ -8373,6 +8380,7 @@ GBTC,Grayscale Bitcoin Trust (BTC),OTHER
 GBX,"Greenbrier Companies, Inc. (The) Common Stock",OTHER
 GCAD,Gabelli Commercial Aerospace and Defense ETF,OTHER
 GCAL,Goldman Sachs Dynamic California Municipal Income ETF,OTHER
+GCB,Corgi FTSE Intermediate Government/Credit Bond ETF,OTHER
 GCC,WisdomTree EnhancedContinuous Commodity Index Fund,OTHER
 GCDT,Green Circle Decarbonize Technology Limited Class A Ordinary Shares,OTHER
 GCLO,Guggenheim Investment Grade CLO ETF,OTHER
@@ -8756,6 +8764,7 @@ HGLB,Highland Global Allocation Fund Common Stock,OTHER
 HGRO,Hedgeye Quality Growth ETF,OTHER
 HGTY,"Hagerty, Inc. Class A Common Stock",OTHER
 HGV,Hilton Grand Vacations Inc. Common Stock ,OTHER
+HH,Corgi FTSE High Yield Corporate Bond ETF,OTHER
 HHH,Howard Hughes Holdings Inc. Common Stock,OTHER
 HIAI,Ai Funds High Conviction US Equity AI-Managed ETF,OTHER
 HIBL,Direxion Daily S&P 500 High Beta Bull 3X ETF,OTHER
@@ -8795,6 +8804,7 @@ HNGE,"Hinge Health, Inc. Class A Common Stock",OTHER
 HNI,HNI Corporation Common Stock,OTHER
 HODL,VanEck Bitcoin Trust ,OTHER
 HOG,"Harley-Davidson, Inc. Common Stock",OTHER
+HOID,Tuttle - Rareview Humanoid Robotics ETF,OTHER
 HOLA,JPMorgan International Hedged Equity Laddered Overlay ETF,OTHER
 HOLD,Harbor Alpha Layering ETF,OTHER
 HOMB,"Home BancShares, Inc. Common Stock",OTHER
@@ -8928,7 +8938,6 @@ IBHJ,iShares iBonds 2030 Term High Yield and Income ETF,OTHER
 IBHK,iShares iBonds 2031 Term High Yield and Income ETF,OTHER
 IBHL,iShares iBonds 2032 Term High Yield and Income ETF,OTHER
 IBHM,iShares iBonds 2033 Term High Yield and Income ETF,OTHER
-IBIC,iShares iBonds Oct 2026 Term TIPS ETF,OTHER
 IBID,iShares iBonds Oct 2027 Term TIPS ETF,OTHER
 IBIE,iShares iBonds Oct 2028 Term TIPS ETF,OTHER
 IBIF,iShares iBonds Oct 2029 Term TIPS ETF,OTHER
@@ -9016,6 +9025,7 @@ IFRA,iShares U.S. Infrastructure ETF,OTHER
 IFS,Intercorp Financial Services Inc. Common Shares,OTHER
 IG,Principal Investment Grade Corporate Active ETF,OTHER
 IGA,Voya Global Advantage and Premium Opportunity Fund Common Shares of Beneficial Interest,OTHER
+IGB,Corgi FTSE U.S. IG Corporate Bond ETF,OTHER
 IGBH,iShares Interest Rate Hedged Long-Term Corporate Bond ETF,OTHER
 IGC,"IGC Pharma, Inc. Common Stock",OTHER
 IGCB,TCW Corporate Bond ETF,OTHER
@@ -9681,6 +9691,7 @@ LIAM,LifeX 2055 Inflation-Protected Longevity Income ETF,OTHER
 LIAU,LifeX 2060 Inflation-Protected Longevity Income ETF,OTHER
 LIBD,LifeX 2065 Inflation-Protected Longevity Income ETF,OTHER
 LIFT,LifeX 2028 Income Bucket ETF,OTHER
+LIGB,Corgi FTSE 10 Year IG Corporate Bond ETF,OTHER
 LII,"Lennox International, Inc. Common Stock",OTHER
 LION,Lionsgate Studios Corp Common Shares,OTHER
 LIT,Global X Lithium & Battery Tech ETF,OTHER
@@ -9761,6 +9772,7 @@ LST,Leuthold Select Industries ETF,OTHER
 LSTB,Natixis Loomis Sayles Total Return Bond ETF,OTHER
 LSVD,LSV Disciplined Value ETF,OTHER
 LTAX,Nomura Tax-Free USA ETF,OTHER
+LTB,Corgi FTSE 20 Year U.S. Treasury Bond ETF,OTHER
 LTC,"LTC Properties, Inc. Common Stock",OTHER
 LTH,"Life Time Group Holdings, Inc. Common Stock",OTHER
 LTL,ProShares Ultra Communication Services,OTHER
@@ -10004,6 +10016,7 @@ MMAX,iShares Large Cap Max Buffer Mar ETF,OTHER
 MMAY,Pacer Swan SOS Moderate (May) ETF,OTHER
 MMCA,NYLIM MacKay California Muni Intermediate ETF,OTHER
 MMD,NYLIM MacKay DefinedTerm Muni Opportunities Fund Common Shares,OTHER
+MMF,Corgi Money Market ETF,OTHER
 MMHI,NYLIM MacKay Muni High Income ETF,OTHER
 MMI,"Marcus & Millichap, Inc. Common Stock",OTHER
 MMID,MFS Active Mid Cap ETF,OTHER
@@ -12057,6 +12070,7 @@ SVAL,iShares US Small Cap Value Factor ETF,OTHER
 SVIX,-1x Short VIX Futures ETF,OTHER
 SVM,Silvercorp Metals Inc. Common Shares,OTHER
 SVOL,Simplify Volatility Premium ETF,OTHER
+SVTN,Corgi FTSE 7-10 Year U.S. Treasury Bond ETF,OTHER
 SVV,"Savers Value Village, Inc. Common Stock",OTHER
 SVXY,ProShares Short VIX Short Term Futures ETF,OTHER
 SW,Smurfit WestRock plc Ordinary Shares,OTHER
@@ -12300,6 +12314,7 @@ TNET,"TriNet Group, Inc. Common Stock",OTHER
 TNGY,Tortoise Energy ETF,OTHER
 TNK,Teekay Tankers Ltd.,OTHER
 TNL,Travel   Leisure Co. Common  Stock,OTHER
+TNTW,Corgi FTSE 10-20 Year U.S. Treasury Bond ETF,OTHER
 TNUK,Tortoise Nuclear Renaissance ETF,OTHER
 TOAK,Manager Directed Portfolios Twin Oak Short Horizon Absolute Return ETF,OTHER
 TOAO,Twin Oak Active Opportunities III ETF,OTHER
@@ -12430,6 +12445,7 @@ TTI,"Tetra Technologies, Inc. Common Stock",OTHER
 TTMX,Tradr 2X Long TTMI Daily ETF,OTHER
 TTOP,21Shares FTSE Crypto 10 Index ETF,OTHER
 TTT,ProShares UltraPro Short 20 Year Treasury,OTHER
+TTTT,Corgi FTSE U.S. TIPS Bond ETF,OTHER
 TTXD,Direxion Daily Technology Top 5 Bear 2X ETF,OTHER
 TTXU,Direxion Daily Technology Top 5 Bull 2X ETF,OTHER
 TU,Telus Corporation Ordinary Shares,OTHER
@@ -12477,6 +12493,7 @@ UAN,"CVR Partners, LP Common Units representing Limited Partner Interests",OTHER
 UAPR,Innovator U.S. Equity Ultra Buffer ETF - April,OTHER
 UAUG,Innovator U.S. Equity Ultra Buffer ETF - August,OTHER
 UAVS,"AgEagle Aerial Systems, Inc. Common Stock",OTHER
+UB,Corgi FTSE U.S. Treasury Bond ETF,OTHER
 UBER,"Uber Technologies, Inc. Common Stock",OTHER
 UBEW,Roundhill UBER WeeklyPay ETF,OTHER
 UBIQ,AAM Ubiquitous ETF,OTHER
