@@ -1,7 +1,7 @@
 {
-  "built_at_utc": "2026-10-17T13:51:13.210833+00:00",
-  "generator_git_sha": "4eef00d4d9f548bf74bcf5dbdef4f6953c0b87d7",
-  "generator_run_id": "39038189679",
+  "built_at_utc": "2026-10-19T17:05:23.158643+00:00",
+  "generator_git_sha": "93147af0324093f8ddd3cbed4abef8172c2539d4",
+  "generator_run_id": "39290905514",
   "generator_run_attempt": "1",
   "source_companyfacts": "https://www.sec.gov/Archives/edgar/daily-index/xbrl/companyfacts.zip",
   "source_companyfacts_sha256": "12bad36af7417185db1bc318b1a16c13170d4fc45f337c89192705dff5d36702",

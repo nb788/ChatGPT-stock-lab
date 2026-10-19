@@ -1012,7 +1012,6 @@ CDW,CDW Corporation - Common Stock,NASDAQ
 CDXS,"Codexis, Inc. - Common Stock",NASDAQ
 CDZI,"Cadiz, Inc. - Common Stock",NASDAQ
 CDZIP,"Cadiz, Inc. - Depositary Shares",NASDAQ
-CECO,CECO Environmental Corp. - Common Stock,NASDAQ
 CEFA,Global X S&P Catholic Values Developed ex-U.S. ETF,NASDAQ
 CEG,Constellation Energy Corporation - Common Stock When-Issued,NASDAQ
 CELC,Celcuity Inc. - Common Stock,NASDAQ
@@ -1562,7 +1561,7 @@ EFRA,iShares Environmental Infrastructure and Industrials ETF,NASDAQ
 EFSC,Enterprise Financial Services Corporation - Common Stock,NASDAQ
 EFSCP,"Enterprise Financial Services Corporation - Depositary Shares Each Representing a 1/40th Interest in a Share of 5% Fixed Rate Non-Cumulative Perpetual Preferred Stock, Series A",NASDAQ
 EFSI,Eagle Financial Services Inc - Common Stock,NASDAQ
-EFTY,"Etoiles Capital Group Co., Ltd. - Class A Ordinary Shares",NASDAQ
+EFTY,"Etoiles Capital Group Co., Ltd. - Common Stock",NASDAQ
 EGAN,eGain Corporation - Common Stock,NASDAQ
 EGBN,"Eagle Bancorp, Inc. - Common Stock",NASDAQ
 EGGQ,NestYield Visionary ETF,NASDAQ
@@ -2313,6 +2312,7 @@ HIFS,Hingham Institution for Savings - Common Stock,NASDAQ
 HIHO,Highway Holdings Limited - Common Stock,NASDAQ
 HIMX,"Himax Technologies, Inc. - American depositary shares, each of which represents two ordinary shares.",NASDAQ
 HIMZ,Defiance Daily Target 2X Long HIMS ETF,NASDAQ
+HINC,Hartford High Yield ETF,NASDAQ
 HIND,"Vyome Holdings, Inc. - Common Stock",NASDAQ
 HIS,Humilis US Focused Opportunities ETF,NASDAQ
 HISF,First Trust High Income Strategic Focus ETF,NASDAQ
@@ -2450,7 +2450,6 @@ IBGM,iShares iBonds Dec 2056 Term Treasury ETF,NASDAQ
 IBIO,"iBio, Inc. - Common Stock",NASDAQ
 IBIT,iShares Bitcoin Trust ETF,NASDAQ
 IBKR,"Interactive Brokers Group, Inc. - Class A Common Stock",NASDAQ
-IBOC,International Bancshares Corporation - Common Stock,NASDAQ
 IBOT,VanEck Robotics ETF,NASDAQ
 IBRX,"ImmunityBio, Inc. - Common Stock",NASDAQ
 IBTG,iShares iBonds Dec 2026 Term Treasury ETF,NASDAQ
@@ -2884,6 +2883,7 @@ LCFY,Locafy Limited - Ordinary Share,NASDAQ
 LCFYW,Locafy Limited - Warrant,NASDAQ
 LCID,"Lucid Group, Inc. - Common Stock",NASDAQ
 LCNB,LCNB Corporation - Common Stock,NASDAQ
+LCU,Lion Copper Corp. - Common Shares,NASDAQ
 LCUT,"Lifetime Brands, Inc. - Common Stock",NASDAQ
 LDEM,iShares ESG MSCI EM Leaders ETF,NASDAQ
 LDRX,SGI Enhanced Market Leaders ETF,NASDAQ
@@ -3000,7 +3000,6 @@ LQDT,"Liquidity Services, Inc. - Common Stock",NASDAQ
 LRCX,Lam Research Corporation - Common Stock,NASDAQ
 LRE,"Lead Real Estate Co., Ltd - American Depositary Shares",NASDAQ
 LRGE,ClearBridge Large Cap Growth Select ETF,NASDAQ
-LRHC,La Rosa Holdings Corp. - Common Stock,NASDAQ
 LRMR,"Larimar Therapeutics, Inc. - Common Stock",NASDAQ
 LRND,NYLIM U.S. Large Cap R&D Leaders ETF,NASDAQ
 LSAK,"Lesaka Technologies, Inc. - Common Stock",NASDAQ
@@ -3202,7 +3201,6 @@ MLKN,"MillerKnoll, Inc. - Common Stock",NASDAQ
 MLTX,MoonLake Immunotherapeutics - Class A Ordinary Shares,NASDAQ
 MLYS,"Mineralys Therapeutics, Inc. - Common Stock",NASDAQ
 MMED,"MiniMed Group, Inc. - Common Stock",NASDAQ
-MMEDV,"MiniMed Group, Inc. - Common Stock When Issued",NASDAQ
 MMLP,Martin Midstream Partners L.P. - Common Units Representing Limited Partnership Interests,NASDAQ
 MMSI,"Merit Medical Systems, Inc. - Common Stock",NASDAQ
 MMTX,Miluna Acquisition Corp - Class A Ordinary Shares,NASDAQ
@@ -3442,7 +3440,7 @@ NGNE,Neurogene Inc. - Common Stock,NASDAQ
 NHIV,NewHold Investment Corp IV - Class A Ordinary Shares,NASDAQ
 NHIVU,NewHold Investment Corp IV - Units,NASDAQ
 NHIVW,NewHold Investment Corp IV - Warrants,NASDAQ
-NHP,"National Healthcare Properties, Inc. - Class A Common Stock",NASDAQ
+NHP,"National Healthcare Properties, Inc. - Common Stock",NASDAQ
 NHTC,Natural Health Trends Corp. - Common Stock,NASDAQ
 NICE,NICE Ltd - American Depositary Shares each representing one Ordinary Share,NASDAQ
 NICM,Nicola Mining Inc. - American Depositary Shares,NASDAQ
@@ -4093,7 +4091,6 @@ QBTZ,Defiance Daily Target 2x Short QBTS ETF,NASDAQ
 QBUF,Innovator Nasdaq-100 10 Buffer ETF Quarterly,NASDAQ
 QBY,GraniteShares YieldBoost QBTS ETF,NASDAQ
 QCLN,First Trust NASDAQ Clean Edge Green Energy Index Fund,NASDAQ
-QCLR,Global X NASDAQ 100 Collar 95-110 ETF,NASDAQ
 QCLS,"Q/C Technologies, Inc. - Common Stock",NASDAQ
 QCMD,Direxion Daily QCOM Bear 1X ETF,NASDAQ
 QCML,GraniteShares 2x Long QCOM Daily ETF,NASDAQ
@@ -4474,7 +4471,6 @@ SDSTW,Stardust Power Inc. - Warrant,NASDAQ
 SDTY,YieldMax S&P 500 0DTE Covered Call Strategy ETF,NASDAQ
 SDVY,First Trust SMID Cap Rising Dividend Achievers ETF,NASDAQ
 SEAT,Vivid Seats Inc. - Class A common stock,NASDAQ
-SEATW,Vivid Seats Inc. - Warrant,NASDAQ
 SEDG,"SolarEdge Technologies, Inc. - Common Stock",NASDAQ
 SEED,Origin Agritech Limited - Ordinary Shares,NASDAQ
 SEEM,SEI Select Emerging Markets Equity ETF,NASDAQ
@@ -4709,6 +4705,7 @@ SRET,Global X SuperDividend REIT ETF,NASDAQ
 SRPT,"Sarepta Therapeutics, Inc. - Common Stock",NASDAQ
 SRRK,Scholar Rock Holding Corporation - Common Stock,NASDAQ
 SRTA,"Strata Critical Medical, Inc. - Class A Common Stock",NASDAQ
+SRTM,Stratum Holdings Corp. - Common Stock,NASDAQ
 SRTS,"Sensus Healthcare, Inc. - Common Stock",NASDAQ
 SRZN,"Surrozen, Inc. - Common Stock",NASDAQ
 SSAC,SPACSphere Acquisition Corp. - Class A Ordinary Shares,NASDAQ
@@ -5695,6 +5692,7 @@ ACI,"Albertsons Companies, Inc. Class A Common Stock",OTHER
 ACIG,Hartford Alpha Capture International Growth ETF,OTHER
 ACII,Innovator Index Autocallable Income Strategy ETF,OTHER
 ACIO,Aptus Collared Investment Opportunity ETF,OTHER
+ACIV,Hartford Alpha Capture International Value ETF,OTHER
 ACKY,VistaShares Target 15 ACKtivist Distribution ETF,OTHER
 ACLC,American Century Large Cap Equity ETF,OTHER
 ACLO,TCW AAA CLO ETF,OTHER
@@ -5717,7 +5715,6 @@ ACSV,American Century Small Cap Value Insights ETF,OTHER
 ACTS,FIS Tactical Equity ETF,OTHER
 ACU,Acme United Corporation. Common Stock,OTHER
 ACV,Virtus Diversified Income & Convertible Fund Common Shares of Beneficial Interest,OTHER
-ACVA,ACV Auctions Inc. Class A Common Stock,OTHER
 ACVF,American Conservative Values ETF,OTHER
 ACVT,Advent Convertible Bond ETF,OTHER
 ACVU,Hartford Alpha Capture Value ETF,OTHER
@@ -5827,6 +5824,7 @@ AIB,AIB Data Centers Inc. Common Stock,OTHER
 AIBD,Direxion Daily AI and Big Data Bear 2X ETF,OTHER
 AIBF,iShares Future AI Beneficiaries ETF,OTHER
 AIBU,Direxion Daily AI and Big Data Bull 2X ETF,OTHER
+AIED,Defiance LLM Catalyst Momentum ETF,OTHER
 AIEQ,Amplify AI Powered Equity ETF,OTHER
 AIG,"American International Group, Inc. New Common Stock",OTHER
 AIHY,Defiance AI Hyperscale Leaders ETF,OTHER
@@ -5915,7 +5913,6 @@ AMKX,Corgi AMKR 2x Daily ETF,OTHER
 AMLP,Alerian MLP ETF,OTHER
 AMMO,VistaShares Defense Supercycle ETF,OTHER
 AMN,AMN Healthcare Services Inc,OTHER
-AMOM,QRAFT AI-Enhanced U.S. Large Cap Momentum ETF,OTHER
 AMP,"Ameriprise Financial, Inc. Common Stock",OTHER
 AMPU,Defiance Daily Target 2X Long AMPX ETF,OTHER
 AMPX,"Amprius Technologies, Inc. Common Stock",OTHER
@@ -5927,7 +5924,7 @@ AMRZ,Amrize Ltd Ordinary Shares,OTHER
 AMS,American Shared Hospital Services Common Stock,OTHER
 AMT,American Tower Corporation (REIT) Common Stock,OTHER
 AMTB,Amerant Bancorp Inc. Class A Common Stock,OTHER
-AMTD,"AMTD IDEA Group American Depositary Shares, each representing six (6) Class A Ordinary Shares",OTHER
+AMTD,"AMTD IDEA Group American Depositary Shares, each representing three hundred sixty (360) Class A Ordinary Shares",OTHER
 AMTM,"Amentum Holdings, Inc. Common Stock",OTHER
 AMUB,"ETRACS Alerian MLP Index ETN Series B due July 18, 2042",OTHER
 AMWL,American Well Corporation Class A Common Stock,OTHER
@@ -6093,7 +6090,6 @@ ATH$E,"Athene Holding Ltd. Depositary Shares, Each Representing a 1/1,000th Inte
 ATHM,"Autohome Inc. American Depositary Shares, each representing four class A ordinary shares.",OTHER
 ATHS,Athene Holding Ltd. 7.250% Fixed-Rate Reset Junior Subordinated Debentures due 2064,OTHER
 ATI,ATI Inc. Common Stock,OTHER
-ATKR,Atkore Inc. Common Stock,OTHER
 ATMP,iPath Select MLP ETN,OTHER
 ATMU,Atmus Filtration Technologies Inc. Common Stock,OTHER
 ATNM,"Actinium Pharmaceuticals, Inc. (Delaware) Common Stock",OTHER
@@ -6617,7 +6613,6 @@ BTGO,"BitGo Holdings, Inc. Class A Common Stock",OTHER
 BTI,"British American Tobacco  Industries, p.l.c. Common Stock ADR",OTHER
 BTO,John Hancock Financial Opportunities Fund Common Stock,OTHER
 BTOT,iShares Total USD Fixed Income Market ETF,OTHER
-BTRN,Global X Bitcoin Trend Strategy ETF,OTHER
 BTT,BlackRock Municipal 2030 Target Term Trust,OTHER
 BTU,Peabody Energy Corporation Common Stock ,OTHER
 BTX,BlackRock Technology and Private Equity Term Trust Common Shares of Beneficial Interest,OTHER
@@ -6792,6 +6787,7 @@ CDR$C,"Cedar Realty Trust, Inc. 6.50% Series C Cumulative Redeemable Preferred S
 CDRE,"Cadre Holdings, Inc. Common Stock",OTHER
 CDX,Simplify High Yield ETF,OTHER
 CE,Celanese Corporation Common Stock,OTHER
+CECO,CECO Environmental Corp. Common Stock,OTHER
 CEE,"The Central and Eastern Europe Fund, Inc. (The) Common Stock",OTHER
 CEF,Sprott Physical Gold and Silver Trust Units,OTHER
 CEFD,ETRACS Monthly Pay 1.5X Leveraged Closed-End Fund Index ETN,OTHER
@@ -7245,6 +7241,7 @@ DCAP,T-Strive Digital Credit Preferred Income ETF,OTHER
 DCBG,"Dime Commercial Bancshares, Inc. 9.000% Junior Subordinated Notes",OTHER
 DCH,Dauch Corporation Common Stock,OTHER
 DCI,"Donaldson Company, Inc. Common Stock",OTHER
+DCM,"DeFi Capital Markets, Inc. Common Stock",OTHER
 DCMT,DoubleLine Commodity Strategy ETF,OTHER
 DCO,Ducommun Incorporated Common Stock,OTHER
 DCOM,"Dime Commercial Bancshares, Inc. Common Stock",OTHER
@@ -8963,6 +8960,7 @@ IBMX,iShares iBonds Dec 2035 Term Muni Bond ETF,OTHER
 IBN,ICICI Bank Limited Common Stock,OTHER
 IBND,State Street SPDR Bloomberg International Corporate Bond ETF,OTHER
 IBO,"Impact BioMedical, Inc. Common Stock",OTHER
+IBOC,International Bancshares Corporation Common Stock,OTHER
 IBP,"Installed Building Products, Inc. Common Stock",OTHER
 IBRN,iShares Neuroscience and Healthcare ETF,OTHER
 IBTA,"Ibotta, Inc. Class A Common Stock",OTHER
@@ -9173,7 +9171,6 @@ IROC,Invesco Rochester High Yield Municipal ETF,OTHER
 IRS,IRSA Inversiones Y Representaciones S.A. Global Depositary Shares (Each representing ten shares of Common Stock),OTHER
 IRT,"Independence Realty Trust, Inc. Common Stock",OTHER
 IRTR,iShares LifePath Retirement ETF,OTHER
-IRVH,Global X Interest Rate Volatility & Inflation Hedge ETF,OTHER
 ISBG,IncomeSTKd 1x Bitcoin & 1x Gold Premium ETF,OTHER
 ISCF,iShares International Small-Cap Equity Factor ETF,OTHER
 ISCG,iShares Morningstar Small-Cap Growth ETF,OTHER
@@ -11641,6 +11638,7 @@ SEPT,AllianzIM U.S. Large Cap Buffer10 Sep ETF,OTHER
 SEPU,AllianzIM U.S. Equity Buffer15 Uncapped Sep ETF,OTHER
 SEPW,AllianzIM U.S. Large Cap Buffer20 Sep ETF,OTHER
 SEPZ,TrueShares Structured Outcome (September) ETF,OTHER
+SEQ,Sequoia ETF,OTHER
 SER,"Serina Therapeutics, Inc. Common Stock",OTHER
 SES,SES AI Corporation Class A Common Stock,OTHER
 SETH,ProShares Short Ether ETF,OTHER
@@ -11968,6 +11966,7 @@ SPYU,"MAX S&P 500 4X Leveraged ETNs due October 30, 2043",OTHER
 SPYV,State Street SPDR Portfolio S&P 500 Value ETF,OTHER
 SPYX,State Street SPDR S&P 500 Fossil Fuel Reserves Free ETF,OTHER
 SQBA,FT Vest U.S. Equity Quarterly 15 Buffer ETF,OTHER
+SQBR,FT Vest U.S. Equity Quarterly 20 Barrier ETF,OTHER
 SQLT,iShares MSCI USA Small-Cap Quality Factor ETF,OTHER
 SQM,Sociedad Quimica y Minera S.A. Common Stock,OTHER
 SQMX,FT Vest U.S. Equity Quarterly Max Buffer ETF,OTHER
@@ -12643,7 +12642,6 @@ UTSL,Direxion Daily Utilities Bull 3X ETF,OTHER
 UTZ,Utz Brands Inc Class A Common Stock ,OTHER
 UUP,Invesco DB USD Index Bullish Fund ETF,OTHER
 UUPP,Principal CLO ETF,OTHER
-UUU,"Universal Safety Products, Inc. Common Stock",OTHER
 UUUC,Corgi UUUU 2x Daily ETF,OTHER
 UUUU,Energy Fuels Inc Ordinary Shares (Canada),OTHER
 UVE,UNIVERSAL INSURANCE HOLDINGS INC Common Stock,OTHER
@@ -12930,6 +12928,7 @@ WHK,WhiteHawk Minerals Corp Class A Common Stock,OTHER
 WHR,Whirlpool Corporation Common Stock,OTHER
 WHR$A,"Whirlpool Corporation Depositary Shares, each representing a 1/20th interest in a share of 8.50% Series A Mandatory Convertible Preferred Stock",OTHER
 WIA,Western Asset Inflation-Linked Income Fund,OTHER
+WINC,William Blair Emerging Income ETF,OTHER
 WINN,Harbor Long-Term Growers ETF,OTHER
 WIP,State Street SPDR FTSE International Government Inflation-Protected Bond ETF,OTHER
 WIT,Wipro Limited Common Stock,OTHER
@@ -13027,7 +13026,6 @@ XC,WisdomTree True Emerging Markets Fund,OTHER
 XCCC,BondBloxx CCC-Rated USD High Yield Corporate Bond ETF,OTHER
 XCEM,Columbia EM Core ex-China ETF,OTHER
 XCHG,AB US Equity ETF,OTHER
-XCLR,Global X S&P 500 Collar 95-110 ETF,OTHER
 XCOM,Corgi All Commodities 2x Daily ETF,OTHER
 XCOR,FundX ETF,OTHER
 XDAT,Franklin Exponential Data ETF,OTHER
