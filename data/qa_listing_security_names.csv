@@ -179,7 +179,9 @@ AGZD,WisdomTree Interest Rate Hedged U.S. Aggregate Bond Fund,NASDAQ
 AHCO,AdaptHealth Corp.  - Common Stock,NASDAQ
 AHD,GraniteShares Autocallable HOOD ETF,NASDAQ
 AHG,Akso Health Group - American Depositary Shares,NASDAQ
+AHIC,Allspring Short-Term High Income Fund ETF,NASDAQ
 AHMA,Ambitions Enterprise Management Co. L.L.C - Class A Ordinary Shares,NASDAQ
+AHYM,Allspring High Yield Municipal Bond Fund ETF,NASDAQ
 AIA,iShares Asia 50 ETF,NASDAQ
 AIAI,AIAI Holdings Corporation - Class A common stock,NASDAQ
 AIBZ,Bitzero Holdings Inc. - Common Shares,NASDAQ
@@ -445,6 +447,7 @@ ASTE,"Astec Industries, Inc. - Common Stock",NASDAQ
 ASTH,Astrana Health Inc. - Common Stock,NASDAQ
 ASTI,"Ascent Solar Technologies, Inc - Common Stock",NASDAQ
 ASTL,Algoma Steel Group Inc. - Common Shares,NASDAQ
+ASTM,Allspring Strategic Municipal Bond Fund ETF,NASDAQ
 ASTS,"AST SpaceMobile, Inc. - Class A Common Stock",NASDAQ
 ASUR,Asure Software Inc - Common Stock,NASDAQ
 ASYS,"Amtech Systems, Inc. - Common Stock",NASDAQ
@@ -856,7 +859,6 @@ BTCS,BTCS Inc. - Common Stock,NASDAQ
 BTCT,BTC Digital Ltd. - Ordinary Shares,NASDAQ
 BTDL,GraniteShares 2x Long BTDR Daily ETF,NASDAQ
 BTDR,Bitdeer Technologies Group - Ordinary Shares,NASDAQ
-BTF,CoinShares Bitcoin and Ether ETF,NASDAQ
 BTGD,STKd 100% Bitcoin & 100% Gold ETF,NASDAQ
 BTLN,"Brightline Interactive, Inc. - Common Stock",NASDAQ
 BTMD,Biote Corp. - Class A common stock,NASDAQ
@@ -1406,7 +1408,6 @@ DHC,Diversified Healthcare Trust  - Common Shares of Beneficial Interest,NASDAQ
 DHCNI,Diversified Healthcare Trust  - 5.625% Senior Notes due 2042,NASDAQ
 DHCNL,Diversified Healthcare Trust  - 6.25% Senior Notes Due 2046,NASDAQ
 DIBS,"1stdibs.com, Inc. - Common Stock",NASDAQ
-DIME,CoinShares Altcoins ETF,NASDAQ
 DINE,Simplify Tax Aware Diversified Income Strategy ETF,NASDAQ
 DIOD,Diodes Incorporated - Common Stock,NASDAQ
 DIVD,Altrius Global Dividend ETF,NASDAQ
@@ -3950,7 +3951,7 @@ POLA,"Polar Power, Inc. - Common Stock",NASDAQ
 POLE,Andretti Acquisition Corp. II - Class A Ordinary Shares,NASDAQ
 POLEU,Andretti Acquisition Corp. II - Unit,NASDAQ
 POLEW,Andretti Acquisition Corp. II - Warrant,NASDAQ
-POM,POMDOCTOR LIMITED - American Depositary Shares,NASDAQ
+POM,POMDOCTOR LIMITED - Class A Ordinary Shares,NASDAQ
 PONO,"Pono Capital Four, Inc. - Class A Ordinary Shares",NASDAQ
 PONOR,"Pono Capital Four, Inc. - Rights",NASDAQ
 PONOU,"Pono Capital Four, Inc. - Units",NASDAQ
@@ -4921,6 +4922,7 @@ TLA,GraniteShares Autocallable TSLA ETF,NASDAQ
 TLAC,Three Lions Acquisition Corp. - Ordinary Shares,NASDAQ
 TLACU,Three Lions Acquisition Corp. - Units,NASDAQ
 TLACW,Three Lions Acquisition Corp. - Warrants,NASDAQ
+TLCE,Thrivent Large Cap Stock ETF,NASDAQ
 TLF,"Tandy Leather Factory, Inc. - common stock",NASDAQ
 TLG,Touchstone Large Company Growth ETF,NASDAQ
 TLIH,Ten-League International Holdings Limited - Ordinary Shares,NASDAQ
@@ -5029,6 +5031,7 @@ TSEE,T. Rowe Price Small Cap ETF,NASDAQ
 TSEL,Touchstone Sands Capital US Select Growth ETF,NASDAQ
 TSEM,Tower Semiconductor Ltd. - Ordinary Shares,NASDAQ
 TSHA,"Taysha Gene Therapies, Inc. - Common Stock",NASDAQ
+TSIE,Thrivent Securitized Income ETF,NASDAQ
 TSL,GraniteShares 1.25x Long TSLA Daily ETF,NASDAQ
 TSLA,"Tesla, Inc.  - Common Stock",NASDAQ
 TSLG,Leverage Shares 2X Long TSLA Daily ETF,NASDAQ
@@ -5716,7 +5719,6 @@ ADBU,Direxion Daily ADBE Bull 2X ETF,OTHER
 ADC,Agree Realty Corporation Common Stock,OTHER
 ADC$A,"Agree Realty Corporation Depositary Shares, each representing 1/1,000th of a 4.250% Series A Cumulative Redeemable Preferred Stock",OTHER
 ADCT,ADC Therapeutics SA Common Shares,OTHER
-ADDS,Hedgeye Index Adds ETF,OTHER
 ADIG,ADI Global Distribution Inc. Common Stock,OTHER
 ADIU,Leverage Shares 2X Long ADI Daily ETF,OTHER
 ADIV,Guinness Atkinson Asia Pacific Dividend Builder ETF,OTHER
@@ -6264,7 +6266,6 @@ BBY,"Best Buy Co., Inc. Common Stock",OTHER
 BC,Brunswick Corporation Common Stock,OTHER
 BC$C,Brunswick Corporation 6.375% Notes due 2049,OTHER
 BCAT,BlackRock Capital Allocation Term Trust Common Shares of Beneficial Interest,OTHER
-BCAT.R,"BlackRock Capital Allocation Term Trust Rights (expiring October 21, 2026) Rights",OTHER
 BCC,"Boise Cascade, L.L.C. Common Stock",OTHER
 BCCC,Global X Bitcoin Covered Call ETF,OTHER
 BCD,abrdn Bloomberg All Commodity Longer Dated Strategy K-1 Free ETF,OTHER
@@ -7029,7 +7030,6 @@ CPNJ,Calamos Nasdaq - 100 Structured Alt Protection ETF -June,OTHER
 CPNM,Calamos Nasdaq-100 Structured Alt Protection ETF - March,OTHER
 CPNQ,Calamos Nasdaq-100 Structured Alt Protection ETF December,OTHER
 CPNS,Calamos Nasdaq-100 Structured Alt Protection ETF  September,OTHER
-CPNX,Tradr 2X Long CPNG Daily ETF,OTHER
 CPRA,Calamos Russell 2000 Structured Alt Protection ETF - April,OTHER
 CPRI,Capri Holdings Limited Ordinary Shares,OTHER
 CPRJ,Calamos Russell 2000 Structured Alt Protection ETF  July,OTHER
@@ -8514,6 +8514,7 @@ GMED,"Globus Medical, Inc. Class A Common Stock",OTHER
 GMEU,T-REX 2X Long GME Daily Target ETF,OTHER
 GMEY,YieldMax GME Option Income Strategy ETF,OTHER
 GMF,State Street SPDR S&P Emerging Asia Pacific ETF,OTHER
+GMIE,"GMO International Equity Fund, ETF Class",OTHER
 GMMA,GammaRoad Market Navigation ETF,OTHER
 GMMF,iShares Government Money Market ETF,OTHER
 GMNY,Goldman Sachs Dynamic New York Municipal Income ETF,OTHER
@@ -8723,7 +8724,6 @@ HEGD,Swan Hedged Equity US Large Cap ETF,OTHER
 HEI,Heico Corporation Common Stock,OTHER
 HEI.A,Heico Corporation Common Stock,OTHER
 HELO,JPMorgan Hedged Equity Laddered Overlay ETF,OTHER
-HELS,Hedgeye 130/30 Equity ETF,OTHER
 HELX,Franklin Genomic Advancements ETF,OTHER
 HEMI,Hartford Equity Premium Income ETF,OTHER
 HEQ,John Hancock Diversified Income Fund Common Shares of Beneficial Interest,OTHER
@@ -8794,7 +8794,6 @@ HOLA,JPMorgan International Hedged Equity Laddered Overlay ETF,OTHER
 HOLD,Harbor Alpha Layering ETF,OTHER
 HOMB,"Home BancShares, Inc. Common Stock",OTHER
 HOMZ,Hoya Capital Housing ETF,OTHER
-HONG,Leverage Shares 2X Long HON Daily ETF,OTHER
 HOOC,Corgi HOOD 2x Daily ETF,OTHER
 HOOW,Roundhill HOOD WeeklyPay ETF,OTHER
 HOOY,YieldMax HOOD Option Income Strategy ETF,OTHER
@@ -9046,6 +9045,7 @@ IIM,Invesco Value Municipal Income Trust Common Stock,OTHER
 IINC,Alki Consolidated Income ETF,OTHER
 IIPR,"Innovative Industrial Properties, Inc. Common Stock",OTHER
 IIPR$A,"Innovative Industrial Properties, Inc. 9.00% Series A Cumulative Redeemable Preferred Stock",OTHER
+IIPR$B,"Innovative Industrial Properties, Inc. 9.25% Series B Cumulative Redeemable Preferred Stock",OTHER
 IJAN,Innovator International Developed Power Buffer ETF January,OTHER
 IJH,iShares Core S&P Mid-Cap ETF,OTHER
 IJJ,iShares S&P Mid-Cap 400 Value ETF,OTHER
@@ -10093,6 +10093,8 @@ MSFW,Roundhill MSFT WeeklyPay ETF,OTHER
 MSFX,T-Rex 2X Long Microsoft Daily Target ETF,OTHER
 MSFY,Kurv Yield Premium Strategy Microsoft (MSFT) ETF,OTHER
 MSGE,Madison Square Garden Entertainment Corp. Class A Common Stock,OTHER
+MSGK.V,Madison Square Garden Sports Corp. Class A Common Stock When-Issued,OTHER
+MSGR.V,MSG Rangers Corp. Class A Common Stock When-Issued,OTHER
 MSGS,Madison Square Garden Sports Corp. Class A Common Stock (New),OTHER
 MSI,"Motorola Solutions, Inc. Common Stock",OTHER
 MSIF,"MSC Income Fund, Inc. Common Stock",OTHER
@@ -10170,7 +10172,6 @@ MUNY,Vanguard New York Tax-Exempt Bond ETF,OTHER
 MUR,Murphy Oil Corporation Common Stock,OTHER
 MUSA,Murphy USA Inc. Common Stock,OTHER
 MUSE,TCW Multisector Credit Income ETF,OTHER
-MUSQ,MUSQ Global Music Industry Index ETF,OTHER
 MUST,Columbia Multi-Sector Municipal Income ETF,OTHER
 MUX,McEwen Inc. Common Stock,OTHER
 MUZ,Defiance Daily Target 2X Short MU ETF,OTHER
@@ -10481,7 +10482,6 @@ NXE,Nexgen Energy Ltd. Common Shares,OTHER
 NXG,NXG NextGen Infrastructure Income Fund Common Shares of Beneficial Interest,OTHER
 NXP,Nuveen Select Tax Free Income Portfolio Common Stock,OTHER
 NXPG,Leverage Shares 2X Long NXPI Daily ETF,OTHER
-NXPX,Tradr 2X Long NXPI Daily ETF,OTHER
 NXRT,"NexPoint Residential Trust, Inc. Common Stock",OTHER
 NXTE,AXS Green Alpha ETF,OTHER
 NXTI,Simplify Next Intangible Core Index ETF,OTHER
@@ -10919,7 +10919,7 @@ PNW,Pinnacle West Capital Corporation Common Stock,OTHER
 POAS,Phaos Technology Holdings (Cayman) Limited Class A Ordinary Shares,OTHER
 POCT,Innovator U.S. Equity Power Buffer ETF - October,OTHER
 POEL,Defiance Daily Target 2X Long POET ETF,OTHER
-PONX,Tradr 2X Long PONY Daily ETF,OTHER
+POMG,PRIMECAP Odyssey Discovery ETF,OTHER
 POR,Portland General Electric Co Common Stock,OTHER
 PORT.U,"Southport Acquisition Corp. II Units, each consisting of one Class A ordinary share and one-third of one redeemable warrant",OTHER
 POST,"Post Holdings, Inc. Common Stock",OTHER
@@ -11208,6 +11208,7 @@ RBLU,T-REX 2X Long RBLX Daily Target ETF,OTHER
 RBLX,Roblox Corporation Class A Common Stock,OTHER
 RBLY,YieldMax RBLX Option Income Strategy ETF,OTHER
 RBRK,"Rubrik, Inc. Class A Common Stock",OTHER
+RBTX,iShares Future Robotics and Related Technologies Active ETF,OTHER
 RBUF,Innovator U.S. Small Cap 10 Buffer ETF - Quarterly,OTHER
 RC,Ready Capital Corporation Common Stock,OTHER
 RC$C,Ready Capital Corporation 6.25% Series C Cumulative Convertible Preferred Stock,OTHER
@@ -11560,6 +11561,7 @@ SCHX,Schwab U.S. Large-Cap ETF,OTHER
 SCHY,Schwab International Dividend Equity ETF,OTHER
 SCHZ,Schwab US Aggregate Bond ETF,OTHER
 SCI,Service Corporation International Common Stock,OTHER
+SCIN,Schwab International Bond ETF,OTHER
 SCIO,First Trust Structured Credit Income Opportunities ETF,OTHER
 SCJ,iShares MSCI Japan Sm Cap,OTHER
 SCJL,Corgi U.S. Small-Cap 15% Structured Buffer ETF - July Series,OTHER
@@ -11806,7 +11808,6 @@ SMTJ,Synera Funds Takumi+ ETF,OTHER
 SMU,Tradr 2X Long SMR Daily ETF,OTHER
 SMUP,T-REX 2X Long SMR Daily Target ETF,OTHER
 SMWB,Similarweb Ltd. Ordinary Shares,OTHER
-SMZ,Tradr 2X Short SMR Daily ETF,OTHER
 SN,"SharkNinja, Inc. Ordinary Shares",OTHER
 SNA,Snap-On Incorporated Common Stock,OTHER
 SNAP,Snap Inc. Class A Common Stock,OTHER
@@ -12276,7 +12277,7 @@ TLYS,"Tilly's, Inc. Common Stock",OTHER
 TM,Toyota Motor Corporation Common Stock,OTHER
 TMAR,FT Vest Emerging Markets Buffer ETF - March,OTHER
 TMAT,Main Thematic Innovation ETF,OTHER
-TMDE,TMD Energy Limited Ordinary Shares,OTHER
+TMDE,TMD Energy Limited Class A Ordinary Shares,OTHER
 TMDV,ProShares Russell US Dividend Growers ETF,OTHER
 TME,"Tencent Music Entertainment Group American Depositary Shares, each representing two Class A Ordinary Shares",OTHER
 TMF,Direxion Daily 20-Yr Treasury Bull 3x Shrs,OTHER
@@ -12397,7 +12398,6 @@ TSEC,Touchstone Securitized Income ETF,OTHER
 TSEG,Leverage Shares 2X Long TSEM Daily ETF,OTHER
 TSEP,FT Vest Emerging Market Buffer ETF - September,OTHER
 TSES,Truth Social American Energy Security ETF,OTHER
-TSEU,Tradr 2X Long TSEM Daily ETF,OTHER
 TSI,"TCW Strategic Income Fund, Inc. Common Stock",OTHER
 TSIB,Direxion TSLA Defined Income Boost ETF,OTHER
 TSIC,Truth Social American Icons ETF,OTHER
