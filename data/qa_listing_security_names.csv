@@ -371,6 +371,7 @@ APUR,Aperture AC - Class A Ordinary Shares,NASDAQ
 APURR,Aperture AC - Rights,NASDAQ
 APVO,Aptevo Therapeutics Inc. - Common Stock,NASDAQ
 APWC,"Asia Pacific Wire & Cable Corporation Limited  - Common shares, Par value .01 per share",NASDAQ
+APXC,Apex Critical Metals Corp. - American Depositary Shares,NASDAQ
 APXT,Apex Treasury Corporation - Class A Ordinary Share,NASDAQ
 APXTU,Apex Treasury Corporation - Units,NASDAQ
 APXTW,Apex Treasury Corporation - Warrants,NASDAQ
@@ -460,9 +461,6 @@ ATEX,Anterix Inc. - Common Stock,NASDAQ
 ATGL,Alpha Technology Group Limited - Class A Ordinary Shares,NASDAQ
 ATHE,Alterity Therapeutics Limited - American Depositary Shares,NASDAQ
 ATHR,"Aether Holdings, Inc. - Common Stock",NASDAQ
-ATII,Archimedes Tech SPAC Partners II Co. - Ordinary Shares,NASDAQ
-ATIIU,Archimedes Tech SPAC Partners II Co. - Unit,NASDAQ
-ATIIW,Archimedes Tech SPAC Partners II Co. - Warrant,NASDAQ
 ATLC,Atlanticus Holdings Corporation - Common Stock,NASDAQ
 ATLCL,Atlanticus Holdings Corporation - 6.125% Senior Notes due 2026,NASDAQ
 ATLCP,"Atlanticus Holdings Corporation - 7.625% Series B Cumulative Perpetual Preferred Stock, no par value per share",NASDAQ
@@ -1361,6 +1359,7 @@ DARE,"Dare Bioscience, Inc. - Common Stock",NASDAQ
 DASH,"DoorDash, Inc. - Common Stock",NASDAQ
 DAVE,Dave Inc.  - Class A Common Stock,NASDAQ
 DAVEW,Dave Inc.  - Warrants,NASDAQ
+DAVI,Davion Healthcare Plc - Ordinary Shares,NASDAQ
 DAX,Global X DAX Germany ETF,NASDAQ
 DBCA,D. Boral Acquisition I Corp. - Class A Ordinary Shares,NASDAQ
 DBCAU,D. Boral Acquisition I Corp. - Unit,NASDAQ
@@ -1592,6 +1591,7 @@ ELVA,Electrovaya Inc. - Common Shares,NASDAQ
 ELVN,"Enliven Therapeutics, Inc.  - Common Stock",NASDAQ
 ELVR,Elevra Lithium Limited - American Depository Shares,NASDAQ
 ELWT,"Elauwit Connection, Inc. - Common Stock",NASDAQ
+EMAG,Emerging Markets AI Mag 3 ETF,NASDAQ
 EMAT,Evolution Metals & Technologies Corp. - Common Stock,NASDAQ
 EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF,NASDAQ
 EMBC,Embecta Corp. - Common Stock,NASDAQ
@@ -3033,6 +3033,7 @@ LX,LexinFintech Holdings Ltd. - American Depositary Shares,NASDAQ
 LXEH,"Lixiang Education Holding Co., Ltd. - American Depositary Shares",NASDAQ
 LXEO,"Lexeo Therapeutics, Inc. - Common Stock",NASDAQ
 LXRX,"Lexicon Pharmaceuticals, Inc. - Common Stock",NASDAQ
+LYCA,"Lycia Therapeutics, Inc. - Common Stock",NASDAQ
 LYEL,"Lyell Immunopharma, Inc. - Common Stock",NASDAQ
 LYFT,"Lyft, Inc. - Class A Common Stock",NASDAQ
 LYTS,LSI Industries Inc. - Common Stock,NASDAQ
@@ -3355,6 +3356,8 @@ NAMM,Namib Minerals - Ordinary Shares,NASDAQ
 NAMMW,Namib Minerals - Warrants,NASDAQ
 NAMS,NewAmsterdam Pharma Company N.V. - Ordinary Shares,NASDAQ
 NAMSW,NewAmsterdam Pharma Company N.V. - Warrant,NASDAQ
+NANO,Forge Nano Holdings Inc. - Common stock,NASDAQ
+NANOW,Forge Nano Holdings Inc. - Warrants,NASDAQ
 NATH,"Nathan's Famous, Inc. - Common Stock",NASDAQ
 NATO,Themes Transatlantic Defense ETF,NASDAQ
 NATR,"Nature's Sunshine Products, Inc. - Common Stock",NASDAQ
@@ -3785,6 +3788,8 @@ PATN,Pacer Nasdaq International Patent Leaders ETF,NASDAQ
 PAVM,PAVmed Inc. - Common Stock,NASDAQ
 PAVS,Paranovus Entertainment Technology Ltd. - Class A Ordinary Shares,NASDAQ
 PAX,Patria Investments Limited - Class A Common Shares,NASDAQ
+PAXG,Pine Tree Acquisition Corp. - Class A Ordinary Shares,NASDAQ
+PAXGR,Pine Tree Acquisition Corp. - Rights,NASDAQ
 PAXGU,Pine Tree Acquisition Corp. - Units,NASDAQ
 PAYO,Payoneer Global Inc. - Common Stock,NASDAQ
 PAYP,PayPay Corporation - American Depository Shares,NASDAQ
@@ -4390,7 +4395,6 @@ SAAQU,Space Asset Acquisition Corp. - Units,NASDAQ
 SAAQW,Space Asset Acquisition Corp. - Warrants,NASDAQ
 SABR,Sabre Corporation - Common Stock,NASDAQ
 SABS,"SAB Biotherapeutics, Inc. - Common Stock",NASDAQ
-SABSW,"SAB Biotherapeutics, Inc. - Warrant",NASDAQ
 SAFT,"Safety Insurance Group, Inc. - Common Stock",NASDAQ
 SAFX,"XCF Global, Inc. - Class A Common Stock",NASDAQ
 SAGT,SAGTEC GLOBAL LIMITED - Class A Ordinary shares,NASDAQ
@@ -4457,8 +4461,6 @@ SDHIR,Siddhi Acquisition Corp - Right,NASDAQ
 SDHIU,Siddhi Acquisition Corp - Unit,NASDAQ
 SDOT,Sadot Group Inc. - Common Stock,NASDAQ
 SDSI,American Century Short Duration Strategic Income ETF,NASDAQ
-SDST,Stardust Power Inc. - Common Stock,NASDAQ
-SDSTW,Stardust Power Inc. - Warrant,NASDAQ
 SDTY,YieldMax S&P 500 0DTE Covered Call Strategy ETF,NASDAQ
 SDVY,First Trust SMID Cap Rising Dividend Achievers ETF,NASDAQ
 SEAT,Vivid Seats Inc. - Class A common stock,NASDAQ
@@ -4596,6 +4598,7 @@ SMHC,VanEck China Semiconductor ETF,NASDAQ
 SMHX,VanEck Fabless Semiconductor ETF,NASDAQ
 SMID,Smith-Midland Corporation - Common Stock,NASDAQ
 SMMT,Summit Therapeutics Inc.  - Common Stock,NASDAQ
+SMNG,xETFs Samsung Group ETF,NASDAQ
 SMOM,Symmetry Panoramic Sector Momentum ETF,NASDAQ
 SMPL,The Simply Good Foods Company - Common Stock,NASDAQ
 SMRI,Bushido Capital US Equity ETF,NASDAQ
@@ -7862,7 +7865,6 @@ EVAC.U,"EQV Ventures Acquisition Corp. II Units, each unit consists of one Class
 EVAC.W,"EQV Ventures Acquisition Corp. II Redeemable Warrants, each whole warrant exercisable for one Class A ordinary share at an exercise price of $11.50 per share",OTHER
 EVC,Entravision Communications Corporation Common Stock,OTHER
 EVEX,"Eve Holding, Inc. Common Stock",OTHER
-EVEX.W,"Eve Holding, Inc. Warrants, each exercisable for one share of Common Stock at an exercise price of $11.50 per share",OTHER
 EVF,Eaton Vance Senior Income Trust Common Stock,OTHER
 EVG,Eaton Vance Short Diversified Income Fund Eaton Vance Short Duration Diversified Income Fund Common Shares of Beneficial Interest,OTHER
 EVH,"Evolent Health, Inc Class A Common Stock",OTHER
@@ -8069,6 +8071,7 @@ FIAX,Nicholas Fixed Income Alternative ETF,OTHER
 FICO,Fair Isaac Corporation Common Stock,OTHER
 FIDI,Fidelity International High Dividend ETF,OTHER
 FIDU,Fidelity MSCI Industrials Index ETF,OTHER
+FIFT,HCM Select 50 ETF,OTHER
 FIG,"Figma, Inc. Class A Common Stock",OTHER
 FIGB,Fidelity Investment Grade Bond ETF,OTHER
 FIGS,"FIGS, Inc. Class A Common Stock",OTHER
@@ -8959,6 +8962,7 @@ ICE,Intercontinental Exchange Inc. Common Stock,OTHER
 ICF,iShares Select U.S. REIT ETF,OTHER
 ICL,ICL Group Ltd. Ordinary Shares,OTHER
 ICLO,Invesco AAA CLO Floating Rate Note ETF,OTHER
+ICOM,Tema Commodity Income ETF,OTHER
 ICOW,Pacer Developed Markets International Cash Cows 100 ETF,OTHER
 ICPI,iShares 0-1 Year TIPS Bond ETF,OTHER
 ICPY,"Tweedy, Browne International Insider + Value ETF",OTHER
@@ -9341,7 +9345,7 @@ JIG,JPMorgan International Growth ETF,OTHER
 JIII,Janus Henderson Income ETF,OTHER
 JILL,"J. Jill, Inc. Common Stock",OTHER
 JIRE,JPMorgan International Research Enhanced Equity ETF,OTHER
-JKS,JinkoSolar Holding Company Limited American Depositary Shares (each representing 4 Common Shares),OTHER
+JKS,Jinko Holdings Limited American Depositary Shares (each representing 4 Ordinary Shares),OTHER
 JLCO,John Hancock Large Cap Opportunities ETF,OTHER
 JLL,Jones Lang LaSalle Incorporated Common Stock,OTHER
 JLQD,Janus Henderson Corporate Bond ETF,OTHER
@@ -9764,7 +9768,7 @@ LTL,ProShares Ultra Communication Services,OTHER
 LTM,"LATAM Airlines Group S.A. American Depositary Shares (each representing two thousand (2,000) shares of Common Stock)",OTHER
 LTPZ,Pimco 15  Year U.S. TIPS Index Exchange-Traded Fund,OTHER
 LTTI,FT Vest 20+ Year Treasury & Target Income ETF,OTHER
-LU,"Lufax Holding Ltd American Depositary Shares, each representing two (2) Ordinary Shares",OTHER
+LU,Lufax Holding Ltd American Depositary Shares (each representing twenty (20) Ordinary Shares),OTHER
 LUCK,Lucky Strike Entertainment Corporation Class A Common Stock,OTHER
 LUD,Luda Technology Group Limited Ordinary Shares,OTHER
 LUMA,KraneShares Photonic and Optical ETF,OTHER
@@ -10638,6 +10642,7 @@ OVF,Overlay Shares Foreign Equity ETF,OTHER
 OVL,Overlay Shares Large Cap Equity ETF,OTHER
 OVLH,Overlay Shares Hedged Large Cap Equity ETF,OTHER
 OVM,Overlay Shares Municipal Bond ETF,OTHER
+OVQ,Overlay Shares Nasdaq 100 Income ETF,OTHER
 OVS,Overlay Shares Small Cap Equity ETF,OTHER
 OVT,Overlay Shares Short Term Bond ETF,OTHER
 OVV,Ovintiv Inc. (DE),OTHER
@@ -10771,7 +10776,6 @@ PEMX,Putnam Emerging Markets ex-China ETF,OTHER
 PEN,"Penumbra, Inc. Common Stock",OTHER
 PENU,T-REX 2X Long PENG Daily Target ETF,OTHER
 PEO,"Adams Natural Resources Fund, Inc. Common Stock",OTHER
-PERF,Perfect Corp. Class A Ordinary Share,OTHER
 PEVC,Pacer PE/VC ETF,OTHER
 PEW,GrabAGun Digital Holdings Inc. Common Stock,OTHER
 PEW.W,"GrabAGun Digital Holdings Inc. Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $11.50 per share",OTHER
@@ -11142,6 +11146,7 @@ QNTU,Tradr 2X Long QNT Daily ETF,OTHER
 QPX,AdvisorShares Q Dynamic Growth ETF,OTHER
 QQAU,Corgi Growth & Technology 15% Structured Buffer ETF - August Series,OTHER
 QQBF,FT Vest Nasdaq-100 Quarterly 15 Buffer ETF,OTHER
+QQDH,Tuttle Capital Innovation 100 Income & Hedge ETF,OTHER
 QQH,HCM Defender 100 Index ETF,OTHER
 QQJL,Corgi Growth & Technology 15% Structured Buffer ETF - July Series,OTHER
 QQJN,Corgi Growth & Technology 15% Structured Buffer ETF - June Series,OTHER
@@ -12225,6 +12230,7 @@ THO,"Thor Industries, Inc. Common Stock",OTHER
 THOR,Thornburg Premium Income Builder ETF,OTHER
 THQ,abrdn Healthcare Opportunities Fund Shares of Beneficial Interest,OTHER
 THRO,iShares U.S. Thematic Rotation Active ETF,OTHER
+THRU,Tema Commodity Infrastructure ETF,OTHER
 THTA,SoFi Enhanced Yield ETF,OTHER
 THW,abrdn World Healthcare Fund Shares of Beneficial Interest,OTHER
 THY,Toews Agility Shares Dynamic Tactical Income ETF,OTHER
