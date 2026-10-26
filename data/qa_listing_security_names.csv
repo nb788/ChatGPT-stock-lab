@@ -140,6 +140,7 @@ AESP,Aeon Acquisition I Corp. - Class A Ordinary Shares,NASDAQ
 AESPR,Aeon Acquisition I Corp. - Rights,NASDAQ
 AESPU,Aeon Acquisition I Corp. - Units,NASDAQ
 AESPW,Aeon Acquisition I Corp. - Warrants,NASDAQ
+AETR,Aetherion Technologies Inc. - Common Shares,NASDAQ
 AEVA,"Aeva Technologies, Inc. - Common Stock",NASDAQ
 AEYE,"AudioEye, Inc. - Common Stock",NASDAQ
 AFCG,Advanced Flower Capital Inc. - Common Stock,NASDAQ
@@ -1752,6 +1753,7 @@ FCAL,First Trust California Municipal High income ETF,NASDAQ
 FCAP,"First Capital, Inc. - Common Stock",NASDAQ
 FCBC,"First Community Bankshares, Inc. - Common Stock",NASDAQ
 FCCO,First Community Corporation - Common Stock,NASDAQ
+FCDH,Forcendra Holding Limited - Class A Ordinary Shares,NASDAQ
 FCEF,First Trust Income Opportunities ETF,NASDAQ
 FCEL,"FuelCell Energy, Inc. - Common Stock",NASDAQ
 FCFS,"FirstCash Holdings, Inc. - Common Stock",NASDAQ
@@ -2067,7 +2069,6 @@ GEVG,Leverage Shares 2X Long GEV Daily ETF,NASDAQ
 GEVO,"Gevo, Inc. - Common Stock",NASDAQ
 GEW,Cambria Global EW ETF,NASDAQ
 GFAI,"Guardforce AI Co., Limited - Ordinary Shares",NASDAQ
-GFGF,Guru Favorite Stocks ETF,NASDAQ
 GFLW,VictoryShares Free Cash Flow Growth ETF,NASDAQ
 GFS,GlobalFoundries Inc. - Ordinary Share,NASDAQ
 GFUZ,General Fusion Group Ltd. - Common Shares,NASDAQ
@@ -4174,6 +4175,7 @@ QYLG,Global X Nasdaq 100 Covered Call & Growth ETF,NASDAQ
 RAA,SMI 3Fourteen REAL Asset Allocation ETF,NASDAQ
 RACC,Research Alliance Corporation III - Class A Ordinary Shares,NASDAQ
 RACD,Research Alliance Corporation IV - Class A Ordinary Shares,NASDAQ
+RADD,AB US Research Advanced ETF,NASDAQ
 RADX,Radiopharm Theranostics Limited - American Depositary Shares,NASDAQ
 RAIL,"Freightcar America, Inc. - Common Stock",NASDAQ
 RAIN,"Rain Enhancement Technologies Holdco, Inc. - Class A Common Stock",NASDAQ
@@ -5322,7 +5324,6 @@ VSAT,"ViaSat, Inc. - Common Stock",NASDAQ
 VSDA,VictoryShares Dividend Accelerator ETF,NASDAQ
 VSEC,VSE Corporation - Common Stock,NASDAQ
 VSECU,VSE Corporation - Tangible Equity Units,NASDAQ
-VSME,VS Media Holdings Limited - Class A Ordinary Shares,NASDAQ
 VSMV,VictoryShares US Multi-Factor Minimum Volatility ETF,NASDAQ
 VSNT,"Versant Media Group, Inc. - Class A Common Stock",NASDAQ
 VSOL,VanEck Solana ETF,NASDAQ
@@ -5420,7 +5421,6 @@ WOK,WORK Medical Technology Group LTD - Class A Ordinary Shares,NASDAQ
 WOOD,iShares Global Timber & Forestry ETF,NASDAQ
 WOOF,"Petco Health and Wellness Company, Inc. - Class A Common Stock",NASDAQ
 WORX,SCWorx Corp. - Common Stock,NASDAQ
-WPRT,Westport Fuel Systems Inc - Common Shares,NASDAQ
 WQEY,WISeQey Corp - Ordinary Shares,NASDAQ
 WRAP,"Wrap Technologies, Inc. - Common Stock",NASDAQ
 WRD,WeRide Inc. - American Depositary Shares,NASDAQ
@@ -5671,7 +5671,6 @@ ABUF,Aptus Laddered Buffer ETF,OTHER
 ABX,"Abacus Global Management, Inc. Class A Common Stock",OTHER
 ABXB,Abacus Flexible Bond Leaders ETF,OTHER
 ABXL,"Abacus Global Management, Inc. 9.875% Fixed Rate Senior Notes due 2028",OTHER
-ACA,"Arcosa, Inc. Common Stock ",OTHER
 ACCO,Acco Brands Corporation Common Stock,OTHER
 ACCS,ACCESS Newswire Inc. Common Stock,OTHER
 ACEI,Innovator Equity Autocallable Income Strategy ETF,OTHER
@@ -5685,6 +5684,7 @@ ACHX,Corgi ACHR 2x Daily ETF,OTHER
 ACI,"Albertsons Companies, Inc. Class A Common Stock",OTHER
 ACIG,Hartford Alpha Capture International Growth ETF,OTHER
 ACII,Innovator Index Autocallable Income Strategy ETF,OTHER
+ACIN,Hartford Alpha Capture International Equity ETF,OTHER
 ACIO,Aptus Collared Investment Opportunity ETF,OTHER
 ACIV,Hartford Alpha Capture International Value ETF,OTHER
 ACKY,VistaShares Target 15 ACKtivist Distribution ETF,OTHER
@@ -6715,6 +6715,7 @@ CATO,Cato Corporation (The) Class A Common Stock,OTHER
 CATX,"Perspective Therapeutics, Inc. Common Stock",OTHER
 CAUG,Corgi U.S. Equities 15% Structured Buffer ETF - August Series,OTHER
 CAVA,"CAVA Group, Inc. Common Stock",OTHER
+CAYN,Calamos Least-Of Autocallable Income ETF,OTHER
 CB,Chubb Limited  Common Stock,OTHER
 CBAN,"Colony Bankcorp, Inc. Common Stock",OTHER
 CBIL,Corgi 3-12 Month T-Bill ETF,OTHER
@@ -6769,7 +6770,6 @@ CCU,"Compania Cervecerias Unidas, S.A. Common Stock",OTHER
 CCUP,T-REX 2X Long CRCL Daily Target ETF,OTHER
 CCZ,Comcast Holdings ZONES,OTHER
 CDE,"Coeur Mining, Inc. Common Stock",OTHER
-CDEI,"Calvert US Large-Cap Diversity, Equity and Inclusion Index ETF",OTHER
 CDLR,Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares),OTHER
 CDNG,Leverage Shares 2X Long CDNS Daily ETF,OTHER
 CDP,COPT Defense Properties Common Shares of Beneficial Interest,OTHER
@@ -7681,7 +7681,6 @@ ELLA,Ellington Credit Company 8.50% Notes due 2031,OTHER
 ELLO,Ellomay Capital Ltd Ordinary Shares (Israel),OTHER
 ELM,Elm Market Navigator ETF,OTHER
 ELMD,"Electromed, Inc. Common Stock",OTHER
-ELME,Elme Communities Common Stock,OTHER
 ELPC,Companhia Paranaense de Energia (COPEL) American Depositary Shares (each representing four (4) Common Shares),OTHER
 ELS,"Equity Lifestyle Properties, Inc. Common Stock",OTHER
 ELV,"Elevance Health, Inc. Common Stock",OTHER
@@ -8646,6 +8645,7 @@ GTOS,Invesco Short Duration Total Return Bond ETF,OTHER
 GTY,Getty Realty Corporation Common Stock,OTHER
 GUG,Guggenheim Active Allocation Fund Common Shares of Beneficial Interest,OTHER
 GUMI,Goldman Sachs Ultra Short Municipal Income ETF,OTHER
+GUNN,Gunnison Copper Corp. American Depositary Shares (each representing thirty (30) Common Shares),OTHER
 GUNR,Northern Trust Morningstar Global Upstream Natural Resources ETF,OTHER
 GURU,Global X Guru Index ETF,OTHER
 GUSA,Goldman Sachs MarketBeta U.S. 1000 Equity ETF,OTHER
@@ -10674,7 +10674,6 @@ PALL,abrdn Physical Palladium Shares ETF,OTHER
 PAM,Pampa Energia S.A.,OTHER
 PAMC,Pacer Lunt MidCap Multi-Factor Alternator ETF,OTHER
 PAPI,Parametric Equity Premium Income ETF,OTHER
-PAPL,Pineapple Financial Inc. Common Stock,OTHER
 PAPR,Innovator U.S. Equity Power Buffer ETF - April,OTHER
 PAR,PAR Technology Corporation Common Stock,OTHER
 PARR,"Par Pacific Holdings, Inc.  Common Stock",OTHER
@@ -11041,6 +11040,7 @@ PTBD,Pacer Trendpilot US Bond ETF,OTHER
 PTEU,Pacer TrendpilotTM European Index ETF,OTHER
 PTHS,Pelthos Therapeutics Inc. Common Stock,OTHER
 PTIN,Pacer Trendpilot International ETF,OTHER
+PTIV,Pineapple Financial Inc. Common Stock,OTHER
 PTL,Inspire 500 ETF,OTHER
 PTLC,Pacer Trendpilot US Large Cap ETF,OTHER
 PTMC,Pacer Trendpilot US Mid Cap ETF,OTHER
@@ -12889,7 +12889,6 @@ WDS,"Woodside Energy Group Limited American Depositary Shares, each representing
 WDTE,Defiance S&P 500 Weekly Distribution ETF,OTHER
 WEA,Western Asset Bond Fund Share of Beneficial Interest,OTHER
 WEAT,Teucrium Wheat Fund ETV,OTHER
-WEAV,"Weave Communications, Inc. Common Stock",OTHER
 WEBL,Direxion Daily Dow Jones Internet Bull 3X ETF,OTHER
 WEBS,Direxion Daily Dow Jones Internet Bear 3X ETF,OTHER
 WEBX,Corgi Chinese Internet 2x Daily ETF,OTHER

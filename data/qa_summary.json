@@ -1,5 +1,5 @@
 {
-  "audited_at_utc": "2026-10-24T14:05:36.970388+00:00",
+  "audited_at_utc": "2026-10-26T16:53:27.650558+00:00",
   "raw_rows": 96807,
   "unique_ciks_in_raw": 824,
   "first_fact_end": "2006-12-31",
@@ -75,13 +75,13 @@
   },
   "nonperiodic_dei_rows": 809,
   "nonperiodic_dei_unique_ciks": 392,
-  "recent_550d_nonperiodic_dei_rows": 28,
-  "recent_550d_nonperiodic_dei_unique_ciks": 26,
+  "recent_550d_nonperiodic_dei_rows": 27,
+  "recent_550d_nonperiodic_dei_unique_ciks": 25,
   "current_constituent_rows": 503,
   "current_unambiguous_dei_coverage_count": 473,
   "current_unambiguous_dei_coverage_pct": 94.0358,
   "current_multi_value_ambiguity_count": 0,
-  "current_stale_gt_180d_count": 58,
+  "current_stale_gt_180d_count": 67,
   "latest_current_share_value_quantiles": {
     "0.0": 1.0,
     "0.001": 1.0,
