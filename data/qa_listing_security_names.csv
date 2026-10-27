@@ -2746,8 +2746,6 @@ KARD,"Kardigan, Inc. - Common Stock",NASDAQ
 KARO,Karooooo Ltd. - Ordinary shares,NASDAQ
 KAT,Scharf ETF,NASDAQ
 KAZR,Skyline Builders Group Holding Limited - Class A Ordinary Shares,NASDAQ
-KBAB,KraneShares 2x Long BABA Daily ETF,NASDAQ
-KBDU,KraneShares 2x Long BIDU Daily ETF,NASDAQ
 KBON,Karbon Capital Partners Corp. - Class A Ordinary Shares,NASDAQ
 KBONU,Karbon Capital Partners Corp. - Units,NASDAQ
 KBONW,Karbon Capital Partners Corp. - Warrant,NASDAQ
@@ -2785,7 +2783,6 @@ KINS,"Kingstone Companies, Inc - Common Stock",NASDAQ
 KIQQ,KraneShares InspereX Nasdaq Dynamic Buffered High Income Index ETF,NASDAQ
 KITT,"Nauticus Robotics, Inc. - Common stock",NASDAQ
 KITTW,"Nauticus Robotics, Inc. - Warrant",NASDAQ
-KJD,KraneShares 2x Long JD Daily ETF,NASDAQ
 KLAC,KLA Corporation  - Common Stock,NASDAQ
 KLAG,Leverage Shares 2x Long KLAC Daily ETF,NASDAQ
 KLIC,"Kulicke and Soffa Industries, Inc. - Common Stock",NASDAQ
@@ -2795,7 +2792,6 @@ KLTR,"Kaltura, Inc. - Common Stock",NASDAQ
 KLXE,"KLX Energy Services Holdings, Inc.  - Common Stock",NASDAQ
 KMB,Kimberly-Clark Corporation - Common Stock,NASDAQ
 KMDA,Kamada Ltd. - Ordinary Shares,NASDAQ
-KMLI,KraneShares 2x Long MELI Daily ETF,NASDAQ
 KMRK,K-Tech Solutions Company Limited - Class A Ordinary Shares,NASDAQ
 KMTS,"Kestra Medical Technologies, Ltd. - Common Stock",NASDAQ
 KNDI,"Kandi Technologies Group, Inc. - Ordinary Shares",NASDAQ
@@ -2808,7 +2804,6 @@ KOSS,Koss Corporation - Common Stock,NASDAQ
 KOYN,CSLM Digital Asset Acquisition Corp III - Class A Ordinary Shares,NASDAQ
 KOYNU,CSLM Digital Asset Acquisition Corp III - Units,NASDAQ
 KOYNW,CSLM Digital Asset Acquisition Corp III - Warrants,NASDAQ
-KPDD,KraneShares 2x Long PDD Daily ETF,NASDAQ
 KPLT,"Katapult Holdings, Inc. - Common Stock",NASDAQ
 KPRX,"Kiora Pharmaceuticals, Inc.  - Common Stock",NASDAQ
 KPTI,Karyopharm Therapeutics Inc. - Common Stock,NASDAQ
@@ -3359,7 +3354,6 @@ NAMS,NewAmsterdam Pharma Company N.V. - Ordinary Shares,NASDAQ
 NAMSW,NewAmsterdam Pharma Company N.V. - Warrant,NASDAQ
 NANO,Forge Nano Holdings Inc. - Common stock,NASDAQ
 NANOW,Forge Nano Holdings Inc. - Warrants,NASDAQ
-NATH,"Nathan's Famous, Inc. - Common Stock",NASDAQ
 NATO,Themes Transatlantic Defense ETF,NASDAQ
 NATR,"Nature's Sunshine Products, Inc. - Common Stock",NASDAQ
 NAUT,"Nautilus Biotechnology, Inc. - Common Stock",NASDAQ
@@ -3779,8 +3773,8 @@ PAMT,PAMT CORP - Common Stock,NASDAQ
 PANG,Leverage Shares 2X Long PANW Daily ETF,NASDAQ
 PANL,Pangaea Logistics Solutions Ltd. - Common Stock,NASDAQ
 PANW,"Palo Alto Networks, Inc. - Common Stock",NASDAQ
-PARA,"Banzai International, Inc. - Class A Common Stock",NASDAQ
-PARAW,"Banzai International, Inc. - Warrant",NASDAQ
+PARA,"Parabolic Technologies, Inc. - Class A Common Stock",NASDAQ
+PARAW,"Parabolic Technologies, Inc. - Warrant",NASDAQ
 PARK,"Park Dental Partners, Inc. - Common Stock",NASDAQ
 PASG,"Passage Bio, Inc. - Common Stock",NASDAQ
 PASW,"Ping An Biomedical Co., Ltd. - Class A Ordinary Shares",NASDAQ
@@ -4448,6 +4442,7 @@ SCOR,"comScore, Inc. - Common Stock",NASDAQ
 SCPQ,Social Commerce Partners Corporation - Class A Ordinary Shares,NASDAQ
 SCPQU,Social Commerce Partners Corporation - Unit,NASDAQ
 SCPQW,Social Commerce Partners Corporation - Warrant,NASDAQ
+SCQCU,SPACCircle Acquisition Corp. - Units,NASDAQ
 SCSC,"ScanSource, Inc. - Common Stock",NASDAQ
 SCTX,Scribe Therapeutics Inc. - Common Stock,NASDAQ
 SCWO,374Water Inc. - common stock,NASDAQ
@@ -5569,6 +5564,7 @@ YQQQ,YieldMax Short N100 Option Income Strategy ETF,NASDAQ
 YRAM,YieldMax Memory and Storage Portfolio Option Income ETF,NASDAQ
 YSAG,Y'all Street Physical Silver ETF,NASDAQ
 YSAU,Y'all Street Physical Gold ETF,NASDAQ
+YSKH,YieldMax SKHY Option Income Strategy ETF,NASDAQ
 YSPY,GraniteShares YieldBOOST SPY ETF,NASDAQ
 YSWY,"Yesway, Inc. - Class A Common Stock",NASDAQ
 YSXT,"YSX Tech. Co., Ltd  - Class A Ordinary Shares",NASDAQ
@@ -9458,7 +9454,6 @@ KBUF,KraneShares 90% KWEB Defined Outcome January 2027 ETF,OTHER
 KCA.U,"Kensington Capital Acquisition Corp. VI New Units, each consisting of one Class A Ordinary Share and three-quarters of one Class 2 Redeemable Warrant",OTHER
 KCAC.U,"Kensington Capital Acquisition Corp. VI Units, each consisting of one Class A ordinary share, one-quarter of one Class 1 redeemable warrant and three-quarters of one Class 2 redeemable warrant",OTHER
 KCAC.W,"Kensington Capital Acquisition Corp. VI Class 1 redeemable warrants, each exercisable for one Class A ordinary share at an exercise price of $11.50",OTHER
-KCAI,KraneShares China Alpha Index ETF,OTHER
 KCCA,KraneShares California Carbon Allowance Strategy ETF,OTHER
 KCE,State Street SPDR S&P Capital Markets ETF,OTHER
 KCHP,KICK Korea Semiconductor Index ETF,OTHER
@@ -9494,7 +9489,6 @@ KGRN,KraneShares MSCI China Clean Technology Index ETF,OTHER
 KGS,"Kodiak Gas Services, Inc. Common Stock",OTHER
 KHC,The Kraft Heinz Company Common Stock,OTHER
 KHPI,Kensington Hedged Premium Income ETF,OTHER
-KHYB,KraneShares Asia Pacific High Income USD Bond ETF,OTHER
 KIE,State Street SPDR S&P Insurance ETF,OTHER
 KIM,Kimco Realty Corporation (HC) Common Stock,OTHER
 KIM$L,"Kimco Realty Corporation Class L Depositary Shares, each of which represents a one-one thousandth fractional interest in a share of 5.125% Class L Cumulative Redeemable Preferred Stock, liquidation preference $25,000.00 per share",OTHER
@@ -10097,9 +10091,8 @@ MSFW,Roundhill MSFT WeeklyPay ETF,OTHER
 MSFX,T-Rex 2X Long Microsoft Daily Target ETF,OTHER
 MSFY,Kurv Yield Premium Strategy Microsoft (MSFT) ETF,OTHER
 MSGE,Madison Square Garden Entertainment Corp. Class A Common Stock,OTHER
-MSGK.V,Madison Square Garden Sports Corp. Class A Common Stock When-Issued,OTHER
-MSGR.V,MSG Rangers Corp. Class A Common Stock When-Issued,OTHER
-MSGS,Madison Square Garden Sports Corp. Class A Common Stock (New),OTHER
+MSGK,MSG Knickerbockers Corp. Class A Common Stock,OTHER
+MSGR,MSG Rangers Corp. Class A Common Stock,OTHER
 MSI,"Motorola Solutions, Inc. Common Stock",OTHER
 MSIF,"MSC Income Fund, Inc. Common Stock",OTHER
 MSIX,Corgi MSI 2x Daily ETF,OTHER
@@ -12329,7 +12322,6 @@ TOPT,iShares Top 20 U.S. Stocks ETF,OTHER
 TOPW,Roundhill Top WeeklyPay ETF,OTHER
 TOS,Twin Oak Strategic Solutions ETF,OTHER
 TOST,"Toast, Inc. Class A Common Stock",OTHER
-TOT,LionShares U.S. Equity Total Return ETF,OTHER
 TOTL,State Street DoubleLine Total Return Tactical ETF,OTHER
 TOTR,T. Rowe Price Total Return ETF,OTHER
 TOUS,T. Rowe Price International Equity ETF,OTHER
@@ -12864,6 +12856,7 @@ WBIF,WBI BullBear Value 3000 ETF,OTHER
 WBIG,WBI BullBear Yield 3000 ETF,OTHER
 WBIL,WBI BullBear Quality 3000 ETF,OTHER
 WBIY,WBI Power Factor High Dividend ETF,OTHER
+WBMO,VanEck Wealth Builder ETF,OTHER
 WBX,Wallbox N.V. Class A Ordinary Shares,OTHER
 WCAP,WarCap Unconstrained Equity ETF,OTHER
 WCC,"WESCO International, Inc. Common Stock",OTHER
