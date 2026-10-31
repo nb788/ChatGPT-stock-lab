@@ -107,7 +107,6 @@ ADBT,"Advasa Holdings, Inc. - Common stock",NASDAQ
 ADEA,Adeia Inc.  - Common Stock,NASDAQ
 ADGM,"Adagio Medical Holdings, Inc - Common Stock",NASDAQ
 ADI,"Analog Devices, Inc. - Common Stock",NASDAQ
-ADIL,"Adial Pharmaceuticals, Inc - Common Stock",NASDAQ
 ADMA,ADMA Biologics Inc - Common Stock,NASDAQ
 ADP,"Automatic Data Processing, Inc. - Common Stock",NASDAQ
 ADPT,Adaptive Biotechnologies Corporation - Common Stock,NASDAQ
@@ -438,6 +437,7 @@ ASO,"Academy Sports and Outdoors, Inc. - Common Stock",NASDAQ
 ASPC,A SPAC III Acquisition Corp. - Class A Ordinary Shares,NASDAQ
 ASPCR,A SPAC III Acquisition Corp. - Right,NASDAQ
 ASPCU,A SPAC III Acquisition Corp. - Unit,NASDAQ
+ASPE,"Aspen Neuroscience, Inc. - Common Stock",NASDAQ
 ASPI,ASP Isotopes Inc. - Common Stock,NASDAQ
 ASPS,Altisource Portfolio Solutions S.A. - Common Stock,NASDAQ
 ASPSW,Altisource Portfolio Solutions S.A. - Net Settle Stakeholder Warrants,NASDAQ
@@ -537,6 +537,7 @@ AYTU,"Aytu BioPharma, Inc.  - Common Stock",NASDAQ
 AZ,A2Z Cust2Mate Solutions Corp. - Common Shares,NASDAQ
 AZI,Autozi Internet Technology (Global) Ltd. - Class A Ordinary Shares,NASDAQ
 AZIO,"Azio AI Holdings, Inc. - Common stock",NASDAQ
+AZR,"Azora Therapeutics, Inc. - Common Stock",NASDAQ
 AZTA,"Azenta, Inc. - Common Stock",NASDAQ
 AZYY,GraniteShares YieldBoost AMZN ETF,NASDAQ
 BABU,Direxion Daily BABA Bull 2X ETF,NASDAQ
@@ -573,6 +574,7 @@ BBLG,Bone Biologics Corp - Common Stock,NASDAQ
 BBNX,"Beta Bionics, Inc. - Common Stock",NASDAQ
 BBOT,"BridgeBio Oncology Therapeutics, Inc. - Common Stock",NASDAQ
 BBSI,"Barrett Business Services, Inc. - Common Stock",NASDAQ
+BBTX,"Bambusa Therapeutics, Inc. - Common stock",NASDAQ
 BBUL,GraniteShares 2x Long BB Daily ETF,NASDAQ
 BBYY,GraniteShares YieldBOOST BABA ETF,NASDAQ
 BCAL,California BanCorp - Common Stock,NASDAQ
@@ -648,6 +650,7 @@ BGMS,"Bio Green Med Solution, Inc. - Common Stock",NASDAQ
 BGRN,iShares USD Green Bond ETF,NASDAQ
 BGRO,iShares Large Cap Growth Active ETF,NASDAQ
 BGUS,Baillie Gifford U.S. Equity Growth ETF,NASDAQ
+BHAIU,BHAV Acquisition Corp II - Units,NASDAQ
 BHAV,BHAV Acquisition Corp - Class A Ordinary Shares,NASDAQ
 BHAVR,BHAV Acquisition Corp - Rights,NASDAQ
 BHAVU,BHAV Acquisition Corp - Units,NASDAQ
@@ -1494,7 +1497,6 @@ DUOG,Leverage Shares 2X Long DUOL Daily ETF,NASDAQ
 DUOL,"Duolingo, Inc. - Class A Common Stock",NASDAQ
 DUOT,"Duos Technologies Group, Inc. - Common Stock",NASDAQ
 DUSG,U.S. Small Cap Growth Portfolio: ETF Class Shares,NASDAQ
-DVAL,BrandywineGLOBAL-Dynamic US Large Cap Value ETF,NASDAQ
 DVGR,DAC 3D Dividend Growth ETF,NASDAQ
 DVLT,Datavault AI Inc. - Common Stock,NASDAQ
 DVLU,First Trust Dorsey Wright Momentum & Value ETF,NASDAQ
@@ -1517,9 +1519,6 @@ DYAI,"Dyadic International, Inc. - Common Stock",NASDAQ
 DYFI,IDX Dynamic Fixed Income ETF,NASDAQ
 DYN,"Dyne Therapeutics, Inc. - Common Stock",NASDAQ
 DYNB,Hartford Dynamic Bond ETF,NASDAQ
-DYNC,Dynamix Corporation - Class A Ordinary Share,NASDAQ
-DYNCU,Dynamix Corporation - Unit,NASDAQ
-DYNCW,Dynamix Corporation - Warrant,NASDAQ
 DYOR,Insight Digital Partners II - Class A Ordinary Shares,NASDAQ
 DYORU,Insight Digital Partners II - Units,NASDAQ
 DYORW,Insight Digital Partners II - Warrants,NASDAQ
@@ -1597,7 +1596,6 @@ EMAT,Evolution Metals & Technologies Corp. - Common Stock,NASDAQ
 EMB,iShares J.P. Morgan USD Emerging Markets Bond ETF,NASDAQ
 EMBC,Embecta Corp. - Common Stock,NASDAQ
 EMCB,WisdomTree Emerging Markets Corporate Bond Fund,NASDAQ
-EMEM,Sophus Capital Emerging Market ETF,NASDAQ
 EMEQ,Nomura Focused Emerging Markets Equity ETF,NASDAQ
 EMIF,iShares Emerging Markets Infrastructure ETF,NASDAQ
 EMIS,Emmis Acquisition Corp. - Class A Ordinary Share,NASDAQ
@@ -1735,6 +1733,7 @@ FAST,Fastenal Company - Common Stock,NASDAQ
 FATE,"Fate Therapeutics, Inc. - Common Stock",NASDAQ
 FATN,"FatPipe, Inc. - common stock",NASDAQ
 FBDT,First Breach Inc. - Common Stock,NASDAQ
+FBEQ,Franklin US Equity Bitcoin Drip Index ETF,NASDAQ
 FBGL,FBS Global Limited - Ordinary Shares,NASDAQ
 FBIO,"Fortress Biotech, Inc. - Common Stock",NASDAQ
 FBIOP,"Fortress Biotech, Inc. - 9.375% Series A Cumulative Redeemable Perpetual Preferred Stock",NASDAQ
@@ -1807,6 +1806,7 @@ FFBC,First Financial Bancorp. - Common Stock,NASDAQ
 FFIN,"First Financial Bankshares, Inc. - Common Stock",NASDAQ
 FFIV,"F5, Inc. - Common Stock",NASDAQ
 FFR,FF EAI Robotics Ecosystem Inc. - Common Stock,NASDAQ
+FFTT,Masonglory Limited - Class A Ordinary Shares,NASDAQ
 FFUT,Fidelity Managed Futures ETF,NASDAQ
 FGBI,"First Guaranty Bancshares, Inc. - Common Stock",NASDAQ
 FGBIP,"First Guaranty Bancshares, Inc. - 6.75% Series A Fixed-Rate Non-Cumulative Perpetual Preferred Stock",NASDAQ
@@ -1823,6 +1823,7 @@ FGSI,FT Vest Growth Strength & Target Income ETF,NASDAQ
 FHB,"First Hawaiian, Inc. - Common Stock",NASDAQ
 FHTX,Foghorn Therapeutics Inc. - Common Stock,NASDAQ
 FIBK,"First Interstate BancSystem, Inc. - Common Stock",NASDAQ
+FIBT,Franklin US Innovation Bitcoin DRIP Index ETF,NASDAQ
 FICS,First Trust International Developed Capital Strength ETF,NASDAQ
 FID,First Trust S&P International Dividend Aristocrats ETF,NASDAQ
 FIEE,"FiEE, Inc - Common Stock",NASDAQ
@@ -2026,6 +2027,7 @@ GARY,Mango Growth ETF,NASDAQ
 GASS,"StealthGas, Inc. - common stock",NASDAQ
 GAUZ,Gauzy Ltd. - Ordinary Shares,NASDAQ
 GAVA,Grayscale Avalanche Staking ETF,NASDAQ
+GBC,"Georgia Banking Company, Inc. - Common Stock",NASDAQ
 GBDC,"Golub Capital BDC, Inc. - Closed End Fund",NASDAQ
 GBFH,GBank Financial Holdings Inc. - Common Stock,NASDAQ
 GBLI,"Global Indemnity Group, LLC - Class A Common Shares",NASDAQ
@@ -2038,7 +2040,6 @@ GCL,GCL Global Holdings Ltd - Ordinary Shares,NASDAQ
 GCLWW,GCL Global Holdings Ltd - Warrants,NASDAQ
 GCMG,GCM Grosvenor Inc. - Class A Common Stock,NASDAQ
 GCT,GigaCloud Technology Inc - Class A Ordinary Shares,NASDAQ
-GCTK,"GlucoTrack, Inc. - Common Stock",NASDAQ
 GDC,GD Culture Group Limited - Common Stock,NASDAQ
 GDEV,GDEV Inc. - Ordinary Shares,NASDAQ
 GDHG,Golden Heaven Group Holdings Ltd.  - Class A Ordinary Shares,NASDAQ
@@ -2725,7 +2726,7 @@ JPFP,JPMorgan Managed Futures Plus ETF,NASDAQ
 JPY,Lazard Japanese Equity ETF,NASDAQ
 JRSH,"Jerash Holdings (US), Inc. - Common Stock",NASDAQ
 JRVR,"James River Group Holdings, Inc. - Common Stock",NASDAQ
-JSM,"Navient Corporation - 6% Senior Notes due December 15, 2043",NASDAQ
+JSM,"Navient LLC - 6% Senior Notes due December 15, 2043",NASDAQ
 JSMD,Janus Henderson Small/Mid Cap Growth Alpha ETF,NASDAQ
 JSML,Janus Henderson Small Cap Growth Alpha ETF,NASDAQ
 JSPR,"Jasper Therapeutics, Inc. - Class A Common Stock",NASDAQ
@@ -2952,7 +2953,6 @@ LMBS,First Trust Low Duration Opportunities ETF,NASDAQ
 LMNR,Limoneira Co - Common Stock,NASDAQ
 LMRI,"Lumexa Imaging Holdings, Inc. - Common Stock",NASDAQ
 LMTL,Direxion Daily LMT Bull 2X ETF,NASDAQ
-LNAI,Lunai Bioworks Inc. - Common Stock,NASDAQ
 LNKS,Linkers Industries Limited - Class A Ordinary Shares,NASDAQ
 LNSR,"LENSAR, Inc. - Common Stock",NASDAQ
 LNT,Alliant Energy Corporation - Common Stock,NASDAQ
@@ -3006,7 +3006,6 @@ LTGRU,Long Table Growth Corp. - Units,NASDAQ
 LTGRW,Long Table Growth Corp. - Warrants,NASDAQ
 LTRN,Lantern Pharma Inc. - Common Stock,NASDAQ
 LTRX,"Lantronix, Inc. - Common Stock",NASDAQ
-LTRYW,Sports Entertainment Gaming Global Corporation  - Warrant,NASDAQ
 LUCD,Lucid Diagnostics Inc. - Common Stock,NASDAQ
 LUCY,"Innovative Eyewear, Inc. - Common Stock",NASDAQ
 LUCYW,"Innovative Eyewear, Inc. - Warrants",NASDAQ
@@ -3125,6 +3124,7 @@ MESHU,Meshflow Acquisition Corp. - Units,NASDAQ
 MESHW,Meshflow Acquisition Corp. - Warrants,NASDAQ
 MESO,Mesoblast Limited - American Depositary Shares,NASDAQ
 META,"Meta Platforms, Inc. - Class A Common Stock",NASDAQ
+METAM,"Meta Platforms, Inc. - Depositary Shares representing a 1/20th Interest in a Share of Series A Mandatory Convertible Preferred Stock",NASDAQ
 METC,"Ramaco Resources, Inc. - Class A Common Stock",NASDAQ
 METCB,"Ramaco Resources, Inc. - Class B Common Stock",NASDAQ
 METCI,"Ramaco Resources, Inc. - 8.250% Senior Notes due 2030",NASDAQ
@@ -3265,7 +3265,6 @@ MSFL,GraniteShares 2x Long MSFT Daily ETF,NASDAQ
 MSFT,Microsoft Corporation - Common Stock,NASDAQ
 MSFU,Direxion Daily MSFT Bull 2X ETF,NASDAQ
 MSGM,Motorsport Games Inc. - Class A Common Stock,NASDAQ
-MSGY,Masonglory Limited - Class A Ordinary Shares,NASDAQ
 MSLE,Satellos Bioscience Inc. - Common Stock,NASDAQ
 MSR,GraniteShares Autocallable MSTR ETF,NASDAQ
 MSS,Maison Solutions Inc. - Class A Common Stock,NASDAQ
@@ -3291,7 +3290,6 @@ MTYY,GraniteShares YieldBOOST MSTR ETF,NASDAQ
 MU,"Micron Technology, Inc. - Common Stock",NASDAQ
 MUD,Direxion Daily MU Bear 1X ETF,NASDAQ
 MULL,GraniteShares 2x Long MU Daily ETF,NASDAQ
-MULT,Franklin Multisector Income ETF,NASDAQ
 MUU,Direxion Daily MU Bull 2X ETF,NASDAQ
 MUY,YieldMax MU Option Income Strategy ETF,NASDAQ
 MUYY,GraniteShares YieldBOOST MU ETF,NASDAQ
@@ -3357,7 +3355,7 @@ NANOW,Forge Nano Holdings Inc. - Warrants,NASDAQ
 NATO,Themes Transatlantic Defense ETF,NASDAQ
 NATR,"Nature's Sunshine Products, Inc. - Common Stock",NASDAQ
 NAUT,"Nautilus Biotechnology, Inc. - Common Stock",NASDAQ
-NAVI,Navient Corporation - Common Stock,NASDAQ
+NAVI,"Navient Holdings, Inc. - Common Stock",NASDAQ
 NAVN,"Navan, Inc. - Class A Common Stock",NASDAQ
 NB,NioCorp Developments Ltd. - Common Stock,NASDAQ
 NBBK,"NB Bancorp, Inc. - Common Stock",NASDAQ
@@ -3472,6 +3470,7 @@ NOEMR,CO2 Energy Transition Corp. - Right,NASDAQ
 NOEMU,CO2 Energy Transition Corp. - Unit,NASDAQ
 NOEMW,CO2 Energy Transition Corp. - Warrant,NASDAQ
 NOMA,NOMADAR Corp. - Class A Common Stock,NASDAQ
+NORD,Nordicus Partners Corporation - Common Stock,NASDAQ
 NOVT,Novanta Inc. - Common Shares,NASDAQ
 NOVTU,Novanta Inc. - Tangible Equity Units,NASDAQ
 NOWL,GraniteShares 2x Long NOW Daily ETF,NASDAQ
@@ -4570,7 +4569,7 @@ SLGB,Smart Logistics Global Limited - Class A Ordinary Shares,NASDAQ
 SLGL,Sol-Gel Technologies Ltd. - Ordinary Shares,NASDAQ
 SLM,SLM Corporation - Common Stock,NASDAQ
 SLMBP,"SLM Corporation - Floating Rate Non-Cumulative Preferred Stock, Series B",NASDAQ
-SLMT,Brera Holdings PLC - Class B Ordinary Shares,NASDAQ
+SLMT,Solmate Infrastructure Public Limited Company - Class B Ordinary Shares,NASDAQ
 SLN,Silence Therapeutics Plc - American Depository Share,NASDAQ
 SLNG,"Stabilis Solutions, Inc. - Common Stock",NASDAQ
 SLNH,"Soluna Holdings, Inc. - Common Stock",NASDAQ
@@ -5162,7 +5161,6 @@ USDE,StablecoinX Inc. - Class A Common Stock,NASDAQ
 USDEW,StablecoinX Inc. - Warrants,NASDAQ
 USDX,SGI Enhanced Core ETF,NASDAQ
 USEA,United Maritime Corporation - Common Stock,NASDAQ
-USFI,BrandywineGLOBAL - U.S. Fixed Income ETF,NASDAQ
 USGG,Leverage Shares 2X Long USAR Daily ETF,NASDAQ
 USGO,U.S. GoldMining Inc. - Common stock,NASDAQ
 USIG,iShares Broad USD Investment Grade Corporate Bond ETF,NASDAQ
@@ -5543,9 +5541,6 @@ YDKG,Yueda Digital Holding - Class A Ordinary Share,NASDAQ
 YFOR,YYForce Inc. - Class A Ordinary Shares,NASDAQ
 YHC,LQR House Inc. - Common Stock,NASDAQ
 YHGJ,Yunhong Green CTI Ltd. - Common Stock,NASDAQ
-YHNA,YHN Acquisition I Limited - Ordinary Shares,NASDAQ
-YHNAR,YHN Acquisition I Limited - Right,NASDAQ
-YHNAU,YHN Acquisition I Limited - Unit,NASDAQ
 YI,"111, Inc. - American Depositary Shares",NASDAQ
 YIBO,Planet Image International Limited - Class A Ordinary Shares,NASDAQ
 YICC,Yorkville International Capital Corp. - Class A Ordinary Shares,NASDAQ
@@ -6922,7 +6917,7 @@ CMCI,VanEck CMCI Commodity Strategy ETF,OTHER
 CMCL,Caledonia Mining Corporation Plc Common Shares,OTHER
 CMCM,"Cheetah Mobile Inc. American Depositary Shares, each representing fifty (50) Class A Ordinary Shares",OTHER
 CMDB,Costamare Bulkers Holdings Limited Common Stock,OTHER
-CMDT,PIMCO Commodity Strategy Active Exchange-Traded Fund,OTHER
+CMDT,PIMCO Commodity and Bond Strategy Active Exchange-Traded Fund,OTHER
 CMDY,iShares Bloomberg Roll Select Commodity Strategy ETF,OTHER
 CMF,iShares California Muni Bond ETF,OTHER
 CMG,"Chipotle Mexican Grill, Inc. Common Stock",OTHER
@@ -7006,7 +7001,7 @@ COR,"Cencora, Inc. Common Stock",OTHER
 CORB,AB Core Bond ETF,OTHER
 CORD,T-REX 2X Inverse CRWV Daily Target ETF,OTHER
 CORN,Teucrium Corn Fund ETV,OTHER
-CORP,PIMCO Investment Grade Corporate Bond Index Exchange-Traded Fund,OTHER
+CORP,PIMCO Investment Grade Corporate Bond Exchange-Traded Fund,OTHER
 COSO,"CoastalSouth Bancshares, Inc. Common Stock",OTHER
 COSW,Roundhill COST WeeklyPay ETF,OTHER
 COTY,Coty Inc. Class A Common Stock,OTHER
@@ -7653,7 +7648,6 @@ EHCC,Global X Ethereum Covered Call ETF,OTHER
 EHI,Western Asset Global High Income Fund Inc Common Stock,OTHER
 EHY,Amplify Ethereum Max Income Covered Call ETF,OTHER
 EIC,Eagle Point Income Company Common Shares of Beneficial Interest,OTHER
-EICA,Eagle Point Income Company 5.00% Series A Term Preferred Shares due 2026,OTHER
 EIDO,iShares MSCI Indonesia ETF,OTHER
 EIG,Employers Holdings Inc Common Stock,OTHER
 EIIA,Eagle Point Institutional Income Fund 8.125% Series A Term Preferred Shares Due 2029,OTHER
@@ -7670,6 +7664,7 @@ EL,"Estee Lauder Companies, Inc. (The) Common Stock",OTHER
 ELA,Envela Corporation Common Stock,OTHER
 ELAN,Elanco Animal Health Incorporated Common Stock,OTHER
 ELC,"Entergy Louisiana, Inc. Collateral Trust Mortgage Bonds, 4.875 % Series due September 1, 2066",OTHER
+ELCF,Eventide Large Cap Focus ETF,OTHER
 ELCV,Strategy Shares Eventide High Dividend ETF,OTHER
 ELD,WisdomTree Emerging Markets Local Debt Fund,OTHER
 ELF,"e.l.f. Beauty, Inc. Common Stock",OTHER
@@ -7708,7 +7703,7 @@ EMM,Global X Emerging Markets ex-China ETF,OTHER
 EMMF,WisdomTree Emerging Markets Multifactor Fund,OTHER
 EMMY,Corgi Emerging Markets Equities 15% Structured Buffer ETF - May Series,OTHER
 EMN,Eastman Chemical Company Common Stock,OTHER
-EMNT,PIMCO Enhanced Short Maturity Active ESG Exchange-Traded Fund,OTHER
+EMNT,PIMCO Enhanced Short Maturity Active ESG and Bond Exchange-Traded Fund,OTHER
 EMO,ClearBridge Energy Midstream Opportunity Fund Inc. Common Stock,OTHER
 EMOP,AB Emerging Markets Opportunities ETF,OTHER
 EMOT,First Trust S&P 500 Economic Moat ETF,OTHER
@@ -7817,6 +7812,7 @@ ET$I,Energy Transfer L.P. Series I Fixed Rate Perpetual Preferred Units,OTHER
 ETB,Eaton Vance Tax-Managed Buy-Write Income Fund Eaton Vance Tax-Managed Buy-Write Income Fund Common Shares of Beneficial Interest,OTHER
 ETCO,Grayscale Ethereum High Income ETF,OTHER
 ETD,Ethan Allen Interiors Inc. Common Stock,OTHER
+ETDG,Eventide Dividend Growth ETF,OTHER
 ETFT,Fundsmith Equity ETF,OTHER
 ETG,Eaton Vance Tax-Advantaged Global Dividend Income Fund Common Shares of Beneficial Interest,OTHER
 ETH,Grayscale Ethereum Staking Mini ETF Shares,OTHER
@@ -8506,7 +8502,6 @@ GMAC,Simplify Brookwood Global Macro ETF,OTHER
 GMAR,FT Vest U.S. Equity Moderate Buffer ETF - March,OTHER
 GMAY,FT Vest U.S. Equity Moderate Buffer ETF - May,OTHER
 GME,GameStop Corporation Common Stock,OTHER
-GME.W,GameStop Corporation Warrants to Purchase Common Stock,OTHER
 GMEC,Corgi GME 2x Daily ETF,OTHER
 GMED,"Globus Medical, Inc. Class A Common Stock",OTHER
 GMEU,T-REX 2X Long GME Daily Target ETF,OTHER
@@ -8878,7 +8873,7 @@ HYLB,Xtrackers USD High Yield Corporate Bond ETF,OTHER
 HYLN,Hyliion Holdings Corp. Class A Common Stock,OTHER
 HYMB,State Street SPDR Nuveen ICE High Yield Municipal Bond ETF,OTHER
 HYNX,T-REX 2X Long SKHY Daily Target ETF,OTHER
-HYS,PIMCO 0-5 Year High Yield Corporat Bond Index Exchange-Traded Fund,OTHER
+HYS,PIMCO 0-5 Year High Yield Corporate Bond Exchange-Traded Fund,OTHER
 HYSA,BondBloxx High Yield Income ETF,OTHER
 HYSD,Columbia Short Duration High Yield ETF,OTHER
 HYT,"Blackrock Corporate High Yield Fund, Inc. Common Stock",OTHER
@@ -9714,7 +9709,7 @@ LOFD,Direxion Daily SpaceX Bear 2X ETF,OTHER
 LOFF,Direxion Daily SpaceX Bull 2X ETF,OTHER
 LOHA,Roundhill HALO ETF,OTHER
 LOMA,Loma Negra Compania Industrial Argentina Sociedad Anonima ADS,OTHER
-LONZ,PIMCO Senior Loan Active Exchange-Traded Fund,OTHER
+LONZ,PIMCO Senior Loan and Short-Term Active ETF,OTHER
 LOPP,Gabelli Love Our Planet & People ETF Gabelli Love Our Planet & People ETF,OTHER
 LOUP,Innovator Deepwater Frontier Tech ETF,OTHER
 LOW,"Lowe's Companies, Inc. Common Stock",OTHER
