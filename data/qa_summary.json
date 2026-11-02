@@ -1,5 +1,5 @@
 {
-  "audited_at_utc": "2026-10-31T15:50:35.208176+00:00",
+  "audited_at_utc": "2026-11-02T20:28:43.235820+00:00",
   "raw_rows": 97281,
   "unique_ciks_in_raw": 824,
   "first_fact_end": "2006-12-31",
@@ -81,7 +81,7 @@
   "current_unambiguous_dei_coverage_count": 473,
   "current_unambiguous_dei_coverage_pct": 94.0358,
   "current_multi_value_ambiguity_count": 0,
-  "current_stale_gt_180d_count": 46,
+  "current_stale_gt_180d_count": 48,
   "latest_current_share_value_quantiles": {
     "0.0": 1.0,
     "0.001": 1.0,
