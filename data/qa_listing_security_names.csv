@@ -493,7 +493,6 @@ AUPH,Aurinia Pharmaceuticals Inc - Common Shares,NASDAQ
 AUR,"Aurora Innovation, Inc.  - Class A Common Stock",NASDAQ
 AURA,"Aura Biosciences, Inc. - Common Stock",NASDAQ
 AURE,Aurelion Inc.  - Class A Ordinary Shares,NASDAQ
-AUROW,"Aurora Innovation, Inc.  - Warrant",NASDAQ
 AUTL,Autolus Therapeutics plc - American Depositary Shares,NASDAQ
 AUUD,Auddia Inc. - Common Stock,NASDAQ
 AVAH,Aveanna Healthcare Holdings Inc. - Common Stock,NASDAQ
@@ -2330,7 +2329,6 @@ HNNA,"Hennessy Advisors, Inc. - Common Stock",NASDAQ
 HNRG,Hallador Energy Company - Common Stock,NASDAQ
 HNST,"The Honest Company, Inc. - Common Stock",NASDAQ
 HNVR,"Hanover Bancorp, Inc. - Common Stock",NASDAQ
-HODO,House of Doge Inc. - Common Stock,NASDAQ
 HODU,Direxion Daily HOOD Bull 2X ETF,NASDAQ
 HOFT,Hooker Furnishings Corporation - Common Stock,NASDAQ
 HOLO,MicroCloud Hologram Inc. - Ordinary Shares,NASDAQ
@@ -2555,7 +2553,6 @@ INDH,WisdomTree India Hedged Equity Fund,NASDAQ
 INDI,"indie Semiconductor, Inc. - Class A Common Stock",NASDAQ
 INDP,"Indaptus Therapeutics, Inc. - Common Stock",NASDAQ
 INDQ,Pacer ActiveAlpha India Quality ETF,NASDAQ
-INDV,"Indivior Pharmaceuticals, Inc.  - Common Stock",NASDAQ
 INDY,iShares India 50 ETF,NASDAQ
 INEO,INNEOVA Holdings Limited - Class A Ordinary Shares,NASDAQ
 INGN,"Inogen, Inc - Common Stock",NASDAQ
@@ -3182,8 +3179,6 @@ MLAB,"Mesa Laboratories, Inc. - Common Stock",NASDAQ
 MLCI,Mount Logan Capital Inc. - Common Stock,NASDAQ
 MLCIL,Mount Logan Capital Inc. - 8.00% Notes Due 2031,NASDAQ
 MLCO,Melco Resorts & Entertainment Limited - American Depositary Shares ,NASDAQ
-MLEC,Moolec Science SA - Ordinary Shares,NASDAQ
-MLECW,Moolec Science SA - Warrant,NASDAQ
 MLGO,"MicroAlgo, Inc. - Ordinary Shares",NASDAQ
 MLKN,"MillerKnoll, Inc. - Common Stock",NASDAQ
 MLTX,MoonLake Immunotherapeutics - Class A Ordinary Shares,NASDAQ
@@ -4753,7 +4748,7 @@ SUMAR,SUMA Acquisition Corporation - Rights,NASDAQ
 SUMAU,SUMA Acquisition Corporation - Units,NASDAQ
 SUNE,"SUNation Energy, Inc. - Common Stock",NASDAQ
 SUNS,"Sunrise Realty Trust, Inc. - Common Stock",NASDAQ
-SUPN,"Supernus Pharmaceuticals, Inc. - Common Stock",NASDAQ
+SUPN,"Supernus, Inc. - Common Stock",NASDAQ
 SUPP,TCW Transform Supply Chain ETF,NASDAQ
 SUPX,SuperX AI Technology Limited - Ordinary Shares,NASDAQ
 SURG,"SurgePays, Inc. - Common Stock",NASDAQ
@@ -4782,7 +4777,6 @@ SWAG,"Stran & Company, Inc. - Common Stock",NASDAQ
 SWAGW,"Stran & Company, Inc. - Warrant",NASDAQ
 SWBI,"Smith & Wesson Brands, Inc. - Common Stock",NASDAQ
 SWIM,"Latham Group, Inc. - Common Stock",NASDAQ
-SWKHL,SWK Holdings Corporation - 9.00% Senior Notes due 2027,NASDAQ
 SWKS,"Skyworks Solutions, Inc. - Common Stock",NASDAQ
 SWMR,"Swarmer, Inc - common stock",NASDAQ
 SWP,SWP Growth & Income ETF,NASDAQ
@@ -7693,6 +7687,7 @@ EMFI,Pictet Emerging Markets Debt ETF,OTHER
 EMGF,iShares Emerging Markets Equity Factor ETF,OTHER
 EMHC,State Street SPDR Bloomberg Emerging Markets USD Bond ETF,OTHER
 EMHY,iShares J.P. Morgan EM High Yield Bond ETF,OTHER
+EMIL,VanEck EM Focus Inflation Bond ETF,OTHER
 EMJL,Corgi Emerging Markets Equities 15% Structured Buffer ETF - July Series,OTHER
 EMJN,Corgi Emerging Markets Equities 15% Structured Buffer ETF - June Series,OTHER
 EMKT,Lazard Emerging Markets Opportunities ETF,OTHER
@@ -12198,6 +12193,7 @@ TGRW,T. Rowe Price Growth Stock ETF,OTHER
 TGS,Transportadora de Gas del Sur SA TGS Common Stock,OTHER
 TGT,Target Corporation Common Stock,OTHER
 THC,Tenet Healthcare Corporation Common Stock,OTHER
+THCR,THOR Conservative Risk Dynamic ETF,OTHER
 THD,iShares MSCI Thailand ETF,OTHER
 THEQ,T. Rowe Price Hedged Equity ETF,OTHER
 THG,Hanover Insurance Group Inc,OTHER
@@ -12807,6 +12803,7 @@ VTP,Vanguard Total Inflation-Protected Securities ETF,OTHER
 VTR,"Ventas, Inc. Common Stock",OTHER
 VTS,"Vitesse Energy, Inc. Common Stock",OTHER
 VTV,Vanguard Morningstar Value ETF,OTHER
+VTVX,XFUNDS Value Income ETF,OTHER
 VUG,Vanguard Morningstar Growth ETF,OTHER
 VUS,Virtus US Dividend ETF,OTHER
 VUSB,Vanguard Ultra-Short Bond ETF,OTHER
