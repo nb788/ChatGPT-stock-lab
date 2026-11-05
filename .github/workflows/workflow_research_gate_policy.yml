@@ -1,0 +1,39 @@
+# stock-project-activity: REMEDIATION
+name: Stock data workflow research-gate policy
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/**"
+      - "scripts/audit_changed_research_workflows.py"
+      - "tests/test_changed_research_workflows.py"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: stock-data-workflow-gate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12.14"
+      - name: Compile workflow research-gate guard
+        run: python -m compileall -q scripts/audit_changed_research_workflows.py tests/test_changed_research_workflows.py
+      - name: Run workflow research-gate tests
+        run: python -m unittest discover -s tests -p 'test_changed_research_workflows.py' -v
+      - name: Audit new and modified workflows
+        if: github.event_name == 'pull_request'
+        run: |
+          python scripts/audit_changed_research_workflows.py \
+            --base "${{ github.event.pull_request.base.sha }}" \
+            --head "${{ github.event.pull_request.head.sha }}"
