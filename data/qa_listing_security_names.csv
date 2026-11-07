@@ -54,6 +54,7 @@ ACBH,Pacer Metaurus High Income Autocallable ETF,NASDAQ
 ACCL,Acco Group Holdings Limited - Class A Ordinary Shares,NASDAQ
 ACCV,Accelevation Holdings Corp. - Class A ordinary shares,NASDAQ
 ACDC,ProFrac Holding Corp. - Class A Common Stock,NASDAQ
+ACEM,American Century Emerging Markets Insights ETF,NASDAQ
 ACEP,ARS Core Equity Portfolio ETF,NASDAQ
 ACET,"Adicet Bio, Inc. - Common Stock",NASDAQ
 ACFN,"Acorn Energy, Inc. - Common Stock",NASDAQ
@@ -160,6 +161,8 @@ AGEN,Agenus Inc. - Common Stock,NASDAQ
 AGGA,EA Astoria Beacon Dynamic Core US Fixed Income ETF,NASDAQ
 AGIO,"Agios Pharmaceuticals, Inc. - Common Stock",NASDAQ
 AGIX,KraneShares Public-Private AI & Technology ETF,NASDAQ
+AGLT,"Agility Robotics, Inc. - Ordinary Shares",NASDAQ
+AGLTW,"Agility Robotics, Inc. - Warrants",NASDAQ
 AGMB,AgomAb Therapeutics NV - ADRs representing one common share.,NASDAQ
 AGMH,AGM Group Holdings Inc. - Class A Ordinary Shares,NASDAQ
 AGMI,Themes Silver Miners ETF,NASDAQ
@@ -229,9 +232,6 @@ AKTX,Akari Therapeutics Plc - American Depositary Shares,NASDAQ
 ALAB,"Astera Labs, Inc. - Common Stock",NASDAQ
 ALAR,Alarum Technologies Ltd. - American Depositary Shares,NASDAQ
 ALCO,"Alico, Inc. - Common Stock",NASDAQ
-ALDF,Aldel Financial II Inc. - Class A Ordinary Shares,NASDAQ
-ALDFU,Aldel Financial II Inc. - Units,NASDAQ
-ALDFW,Aldel Financial II Inc. - Warrants,NASDAQ
 ALDX,"Aldeyra Therapeutics, Inc. - Common Stock",NASDAQ
 ALEC,"Alector, Inc. - Common Stock",NASDAQ
 ALF,Centurion Acquisition Corp. - Class A Ordinary Shares,NASDAQ
@@ -990,9 +990,6 @@ CCSB,Carbon Collective Short Duration Green Bond ETF,NASDAQ
 CCSI,"Consensus Cloud Solutions, Inc. - Common Stock",NASDAQ
 CCSO,Carbon Collective Climate Solutions U.S. Equity ETF,NASDAQ
 CCTG,CCSC Technology International Holdings Limited - Class A Ordinary Shares,NASDAQ
-CCXI,Churchill Capital Corp XI - Class A Ordinary Shares,NASDAQ
-CCXIU,Churchill Capital Corp XI - Units,NASDAQ
-CCXIW,Churchill Capital Corp XI - Warrants,NASDAQ
 CD,Chaince Digital Holdings Inc. - American Ordinary Shares,NASDAQ
 CDC,VictoryShares US EQ Income Enhanced Volatility Wtd ETF,NASDAQ
 CDIG,City Different Investments Global Equity ETF,NASDAQ
@@ -1665,7 +1662,7 @@ ETOR,eToro Group Ltd. - Class A Common Shares,NASDAQ
 ETRA,"Electra Therapeutics, Inc. - Common stock",NASDAQ
 ETS,Elite Express Holding Inc. - Class A Common Stock,NASDAQ
 EU,enCore Energy Corp. - Common Stock,NASDAQ
-EUDA,Euda Health Holdings Limited - Ordinary Shares,NASDAQ
+EUDA,Euda Health Holdings Limited - Class A Ordinary Shares,NASDAQ
 EUDAW,Euda Health Holdings Limited - Warrant,NASDAQ
 EUFN,iShares MSCI Europe Financials ETF,NASDAQ
 EURK,Eureka Acquisition Corp - Class A Ordinary Share,NASDAQ
@@ -2318,6 +2315,7 @@ HLIT,Harmonic Inc. - Common Stock,NASDAQ
 HLMN,Hillman Solutions Corp. - Common Stock,NASDAQ
 HLNE,Hamilton Lane Incorporated - Class A Common Stock,NASDAQ
 HLP,Hongli Group Inc. - Class A Ordinary Shares,NASDAQ
+HLT,Hilton Worldwide Holdings Inc. - Common Stock,NASDAQ
 HLTH,Tema Healthcare AI ETF,NASDAQ
 HLXC,Helix Acquisition Corp. III - Class A Ordinary Shares,NASDAQ
 HMH,HMH Holding Inc. - Common Stock,NASDAQ
@@ -2557,6 +2555,7 @@ INEO,INNEOVA Holdings Limited - Class A Ordinary Shares,NASDAQ
 INGN,"Inogen, Inc - Common Stock",NASDAQ
 INHD,Inno Holdings Inc. - Common Stock,NASDAQ
 INIO,INNIO N.V. - Ordinary Shares,NASDAQ
+INJC,Canary Staked INJ ETF,NASDAQ
 INK,AB Equity Premium Income ETF,NASDAQ
 INKT,"MiNK Therapeutics, Inc. - Common Stock",NASDAQ
 INLF,INLIF LIMITED - Class A Ordinary shares,NASDAQ
@@ -2877,7 +2876,9 @@ LDRX,SGI Enhanced Market Leaders ETF,NASDAQ
 LDSF,First Trust Low Duration Strategic Focus ETF,NASDAQ
 LE,"Lands' End, Inc. - Common Stock",NASDAQ
 LECO,"Lincoln Electric Holdings, Inc. - Common Shares",NASDAQ
+LEDR,Leader's Advantage Acquisition Corp. - Class A Ordinary Shares,NASDAQ
 LEDRU,Leader's Advantage Acquisition Corp. - Units,NASDAQ
+LEDRW,Leader's Advantage Acquisition Corp. - Warrants,NASDAQ
 LEDS,SemiLEDS Corporation - Common Stock,NASDAQ
 LEE,"Lee Enterprises, Incorporated - Common Stock",NASDAQ
 LEGH,Legacy Housing Corporation - Common Stock,NASDAQ
@@ -5512,9 +5513,9 @@ XSLLW,Xsolla SPAC 1 - Warrants,NASDAQ
 XSPC,VegaShares Space & AI ETF,NASDAQ
 XSPI,NEOS Boosted S&P 500 High Income ETF,NASDAQ
 XT,iShares Future Exponential Technologies ETF,NASDAQ
-XTER,Karman Line Acquisition Corp. - Class A Ordinary Shares,NASDAQ
-XTERU,Karman Line Acquisition Corp. - Units,NASDAQ
-XTERW,Karman Line Acquisition Corp. - Warrants,NASDAQ
+XTER,Xterax Corporation II - Class A Ordinary Shares,NASDAQ
+XTERU,Xterax Corporation II - Units,NASDAQ
+XTERW,Xterax Corporation II - Warrants,NASDAQ
 XTIA,"XTI Aerospace, Inc. Common Stock  - Common Stock",NASDAQ
 XTLB,XTL Biopharmaceuticals Ltd. - American Depositary Shares,NASDAQ
 XUSM,MarketDesk International Momentum ETF,NASDAQ
@@ -5603,7 +5604,7 @@ ZUMZ,Zumiez Inc. - Common Stock,NASDAQ
 ZURA,Zura Bio Limited - Class A Ordinary shares,NASDAQ
 ZVRA,"Zevra Therapeutics, Inc.  - Common Stock",NASDAQ
 ZVZZT,NASDAQ TEST STOCK,NASDAQ
-ZWZZT,NASDAQ TEST STOCK,NASDAQ
+ZWZZT,NASDAQ TEST STOCK NC,NASDAQ
 ZXYZ.A,Nasdaq Symbology Test Common Stock,NASDAQ
 ZXZZT,NASDAQ TEST STOCK,NASDAQ
 ZYBT,Zhengye Biotechnology Holding Limited - Class A Ordinary Shares,NASDAQ
@@ -6237,6 +6238,7 @@ BBJP,JPMorgan BetaBuilders Japan ETF,OTHER
 BBLB,JPMorgan BetaBuilders U.S. Treasury Bond 20+ Year ETF,OTHER
 BBLS,Munificent Seven ETF,OTHER
 BBLU,EA Bridgeway Blue Chip ETF,OTHER
+BBLX,BondBloxx Core Plus ETF,OTHER
 BBMC,JPMorgan BetaBuilders U.S. Mid Cap Equity ETF,OTHER
 BBN,BlackRock Taxable Municipal Bond Trust Common Shares of Beneficial Interest,OTHER
 BBP,Virtus Biotech ETF,OTHER
@@ -6330,6 +6332,7 @@ BFEW,FT Vest Laddered U.S. Equity Equal Weight Buffer ETF,OTHER
 BFH,"Bread Financial Holdings, Inc. Common Stock",OTHER
 BFH$A,"Bread Financial Holdings, Inc. Depositary Shares, each representing a 1/40th interest in a share of 8.625% Non-Cumulative Perpetual Preferred Stock, Series A",OTHER
 BFH$B,"Bread Financial Holdings, Inc. Depositary Shares, each representing a 1/40th interest in a share of 8.875% Fixed Rate Reset Non-Cumulative Perpetual Preferred Stock, Series B",OTHER
+BFH$C,"Bread Financial Holdings, Inc. Depositary Shares, each representing a 1/40th interest in a share of its 9.375% Fixed Rate Reset Non-Cumulative Perpetual Preferred Stock, Series C",OTHER
 BFIX,Build Bond Innovation ETF,OTHER
 BFJA,FT Vest Bitcoin Strategy Floor15 ETF - January,OTHER
 BFJL,FT Vest Bitcoin Strategy Floor15 ETF July,OTHER
@@ -6753,7 +6756,7 @@ CCU,"Compania Cervecerias Unidas, S.A. Common Stock",OTHER
 CCUP,T-REX 2X Long CRCL Daily Target ETF,OTHER
 CCZ,Comcast Holdings ZONES,OTHER
 CDE,"Coeur Mining, Inc. Common Stock",OTHER
-CDLR,Cadeler A/S American Depositary Share (each representing four (4) Ordinary Shares),OTHER
+CDLR,Cadeler plc Ordinary Shares,OTHER
 CDNG,Leverage Shares 2X Long CDNS Daily ETF,OTHER
 CDP,COPT Defense Properties Common Shares of Beneficial Interest,OTHER
 CDPI,Columbia High Dividend Premium Income ETF,OTHER
@@ -7311,6 +7314,7 @@ DFII,FT Vest Bitcoin Strategy & Target Income ETF,OTHER
 DFIN,"Donnelley Financial Solutions, Inc. Common Stock ",OTHER
 DFIP,Dimensional Inflation-Protected Securities ETF,OTHER
 DFIS,Dimensional International Small Cap ETF,OTHER
+DFIT,Davidson Intermediate Taxable ETF,OTHER
 DFIV,Dimensional International Value ETF,OTHER
 DFJ,WisdomTree Japan SmallCap Fund,OTHER
 DFLV,Dimensional US Large Cap Value ETF,OTHER
@@ -7394,6 +7398,7 @@ DK,"Delek US Holdings, Inc. Common Stock",OTHER
 DKL,"Delek Logistics Partners, L.P. Common Units representing Limited Partner Interests",OTHER
 DKS,Dick's Sporting Goods Inc Common Stock,OTHER
 DLAG,FT Vest U.S. Equity Dual Directional Buffer ETF - August,OTHER
+DLAY,Tuttle Capital AI Bottleneck ETF,OTHER
 DLB,Dolby Laboratories Common Stock,OTHER
 DLFE,FT Vest U.S. Equity Dual Directional Buffer ETF - February,OTHER
 DLMY,FT Vest U.S. Equity Dual Directional Buffer ETF - May,OTHER
@@ -8162,6 +8167,7 @@ FMCE,FM Compounders Equity ETF,OTHER
 FMCX,FM Focus Equity ETF,OTHER
 FMDE,Fidelity Enhanced Mid Cap Core ETF,OTHER
 FMF,First Trust Managed Futures Strategy Fund,OTHER
+FMIG,FMI Global Equity ETF,OTHER
 FMKT,The Free Markets ETF,OTHER
 FMN,Federated Hermes Premier Municipal Income Fund,OTHER
 FMNY,First Trust New York Municipal High Income ETF,OTHER
@@ -8765,7 +8771,6 @@ HLIO,"Helios Technologies, Inc. Common Stock",OTHER
 HLLY,Holley Inc. Common Stock,OTHER
 HLN,Haleon plc American Depositary Shares (Each representing two Ordinary Shares),OTHER
 HLSQ,Tessera Defense and Homeland Security Inc. Common Stock,OTHER
-HLT,Hilton Worldwide Holdings Inc. Common Stock ,OTHER
 HMAY,Corgi U.S. Equities 100% Structured Buffer ETF - May Series,OTHER
 HMC,"Honda Motor Company, Ltd. Common Stock",OTHER
 HMN,Horace Mann Educators Corporation Common Stock,OTHER
@@ -11704,9 +11709,7 @@ SJT,San Juan Basin Royalty Trust Common Stock,OTHER
 SK,Corgi SK hynix 2x Daily ETF,OTHER
 SKE,Skeena Resources Limited Common Shares,OTHER
 SKF,ProShares UltraShort Financials,OTHER
-SKHA,Tradr 2X Long SK hynix Daily ETF,OTHER
 SKHL,Direxion Daily SK Hynix Bull 2X ETF,OTHER
-SKHN,Tradr 2X Short SK hynix Daily ETF,OTHER
 SKHQ,Leverage Shares 2X Short Sk Hynix Daily ETF,OTHER
 SKHU,ProShares Ultra SK hynix,OTHER
 SKHX,Leverage Shares 2X Long SK Hynix Daily ETF,OTHER
@@ -12573,7 +12576,6 @@ USCA,Xtrackers MSCI USA Climate Action Equity ETF,OTHER
 USCI,United States Commodity Index Fund ETV,OTHER
 USD,ProShares Ultra Semiconductors,OTHER
 USDU,WisdomTree Bloomberg U.S. Dollar Bullish Fund,OTHER
-USE,USCF Energy Commodity Strategy Absolute Return Fund,OTHER
 USEP,Innovator U.S. Equity Ultra Buffer ETF - September,OTHER
 USEW,Cambria US EW ETF,OTHER
 USFD,US Foods Holding Corp. Common Stock,OTHER
@@ -12951,7 +12953,6 @@ WT,"WisdomTree, Inc. Common Stock",OTHER
 WTAI,WisdomTree Artificial Intelligence and Innovation Fund,OTHER
 WTAL,WisdomTree Global Alpha Fund,OTHER
 WTI,"W&T Offshore, Inc. Common Stock",OTHER
-WTIB,USCF Oil Plus Bitcoin Strategy Fund,OTHER
 WTID,MicroSectors Energy 3X Inverse Leveraged ETNs,OTHER
 WTIU,MicroSectors Energy 3X Leveraged ETNs,OTHER
 WTLS,WisdomTree Efficient Long/Short U.S. Equity Fund,OTHER
