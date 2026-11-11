@@ -1,10 +1,10 @@
 {
-  "audited_at_utc": "2026-11-10T18:04:56.411634+00:00",
-  "raw_rows": 97779,
+  "audited_at_utc": "2026-11-11T17:59:53.773474+00:00",
+  "raw_rows": 97791,
   "unique_ciks_in_raw": 824,
   "first_fact_end": "2006-12-31",
   "last_fact_end": "2027-07-17",
-  "acceptance_mapped_rows": 97773,
+  "acceptance_mapped_rows": 97785,
   "acceptance_unmapped_rows": 6,
   "exact_duplicate_rows": 0,
   "dei_conflict_groups": 0,
@@ -13,13 +13,13 @@
   "dei_gaap_disagreement_ciks": 119,
   "dei_form_top20": {
     "10-Q": {
-      "rows": 31635,
+      "rows": 31639,
       "unique_ciks": 811,
       "first_fact": "2008-12-31",
       "last_fact": "2027-07-17"
     },
     "10-K": {
-      "rows": 10238,
+      "rows": 10240,
       "unique_ciks": 797,
       "first_fact": "2009-01-29",
       "last_fact": "2026-11-05"

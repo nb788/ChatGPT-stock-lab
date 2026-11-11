@@ -2798,7 +2798,6 @@ KOYNU,CSLM Digital Asset Acquisition Corp III - Units,NASDAQ
 KOYNW,CSLM Digital Asset Acquisition Corp III - Warrants,NASDAQ
 KPLT,"Katapult Holdings, Inc. - Common Stock",NASDAQ
 KPRX,"Kiora Pharmaceuticals, Inc.  - Common Stock",NASDAQ
-KPTI,Karyopharm Therapeutics Inc. - Common Stock,NASDAQ
 KQQQ,Kurv Technology Titans Select ETF,NASDAQ
 KRAQ,KRAKacquisition Corp - Class A Ordinary Shares,NASDAQ
 KRAQU,KRAKacquisition Corp - Unit,NASDAQ
@@ -6050,7 +6049,6 @@ ASTX,Tradr 2X Long ASTS Daily ETF,OTHER
 ASTY,Defiance Daily Target 2X Long ASTS ETF,OTHER
 ASX,"ASE Technology Holding Co., Ltd. American Depositary Shares (each representing Two Common Shares) ",OTHER
 AT,Defiance Robotics Actuators ETF,OTHER
-ATCH,"AtlasClear Holdings, Inc. Common Stock",OTHER
 ATCL,REX Autocallable Income ETF,OTHER
 ATEN,"A10 Networks, Inc. Common Stock",OTHER
 ATEST,Tick Pilot Test Control Common Stock,OTHER
@@ -8767,7 +8765,6 @@ HLI,"Houlihan Lokey, Inc. Class A Common Stock",OTHER
 HLIO,"Helios Technologies, Inc. Common Stock",OTHER
 HLLY,Holley Inc. Common Stock,OTHER
 HLN,Haleon plc American Depositary Shares (Each representing two Ordinary Shares),OTHER
-HLSQ,Tessera Defense and Homeland Security Inc. Common Stock,OTHER
 HMAY,Corgi U.S. Equities 100% Structured Buffer ETF - May Series,OTHER
 HMC,"Honda Motor Company, Ltd. Common Stock",OTHER
 HMN,Horace Mann Educators Corporation Common Stock,OTHER
@@ -8925,6 +8922,7 @@ IBIK,iShares iBonds Oct 2034 Term TIPS ETF,OTHER
 IBIL,iShares iBonds Oct 2035 Term TIPS ETF,OTHER
 IBIM,iShares iBonds Oct 2036 Term TIPS ETF,OTHER
 IBLC,iShares Blockchain and Tech ETF,OTHER
+IBLY,FT Vest Equity Target Income Plus 0-3 Month Treasury ETF,OTHER
 IBM,International Business Machines Corporation Common Stock,OTHER
 IBMO,iShares iBonds Dec 2026 Term Muni Bond ETF,OTHER
 IBMP,iShares iBonds Dec 2027 Term Muni Bond ETF,OTHER
@@ -9129,6 +9127,10 @@ IPOS,Renaissance Capital Greenwich Fund,OTHER
 IQDF,Northern Trust International Quality Dividend ETF,OTHER
 IQDG,WisdomTree International Quality Dividend Growth Fund,OTHER
 IQDY,Northern Trust International Quality Dividend Dynamic ETF,OTHER
+IQEE,Invesco Emerging Markets Enhanced ETF,OTHER
+IQEI,Invesco International Developed Enhanced ETF,OTHER
+IQEL,Invesco U.S. Large Cap Enhanced ETF,OTHER
+IQES,Invesco U.S. Small Cap Enhanced ETF,OTHER
 IQHI,NYLIM MacKay High Income ETF,OTHER
 IQI,Invesco Quality Municipal Income Trust Common Stock,OTHER
 IQLT,iShares MSCI Intl Quality Factor ETF,OTHER
@@ -9874,7 +9876,6 @@ MEIB,Direxion META Defined Income Boost ETF,OTHER
 MEM,Matthews Emerging Markets Equity Active ETF,OTHER
 MEME,Roundhill Meme Stock ETF,OTHER
 MEMX,Matthews Emerging Markets ex China Active ETF,OTHER
-MEMY,Tuttle Capital Meme Stock Income Blast ETF,OTHER
 MER$K,"Bank of America Corporation Income Capital Obligation Notes initially due December 15, 2066",OTHER
 MET,"MetLife, Inc. Common Stock",OTHER
 MET$A,"MetLife, Inc. Preferred Series A Floating Rate",OTHER
