@@ -1,15 +1,15 @@
 {
-  "built_at_utc": "2026-11-11T18:26:47.510752+00:00",
-  "asof_utc": "2026-11-11T18:09:58.517068+00:00",
+  "built_at_utc": "2026-11-13T18:22:52.443994+00:00",
+  "asof_utc": "2026-11-13T18:07:43.653398+00:00",
   "current_rows": 503,
-  "periodic_filings_parsed": 998,
+  "periodic_filings_parsed": 999,
   "filings_per_cik_target": 2,
   "quarantined_filing_rows": 0,
   "fetch_failures": 0,
-  "raw_dei_facts_valid": 1212,
+  "raw_dei_facts_valid": 1213,
   "quarantined_fact_rows": 0,
-  "mapped_share_events": 976,
-  "symbols_with_any_event": 488,
+  "mapped_share_events": 977,
+  "symbols_with_any_event": 489,
   "symbols_with_anchor_before_45d": 488,
   "rule": "Official listing identity has precedence over derivative index labels. Events preserve acceptance time; one-value fallback only non-dimensional; daily turnover as-of joins latest known same-class event then applies intervening splits. No backfill."
 }

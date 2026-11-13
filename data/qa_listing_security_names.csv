@@ -1111,7 +1111,6 @@ CLBK,"Columbia Financial, Inc. - Common Stock",NASDAQ
 CLBT,Cellebrite DI Ltd. - Ordinary Shares,NASDAQ
 CLDX,"Celldex Therapeutics, Inc. - Common Stock",NASDAQ
 CLFD,"Clearfield, Inc. - Common Stock",NASDAQ
-CLGN,CollPlant Biotechnologies Ltd. - Ordinary Shares,NASDAQ
 CLIK,Click Holdings Limited - Ordinary Share,NASDAQ
 CLIR,ClearSign Technologies Corporation - Common Stock,NASDAQ
 CLLS,Cellectis S.A. - American Depositary Shares,NASDAQ
@@ -1245,6 +1244,7 @@ CRMD,CorMedix Inc. - Common Stock,NASDAQ
 CRMG,Leverage Shares 2X Long CRM Daily ETF,NASDAQ
 CRML,Critical Metals Corp. - Ordinary Shares,NASDAQ
 CRMLW,Critical Metals Corp. - Warrants,NASDAQ
+CRMN,Skyline Builders Group Holding Limited - Class A Ordinary Shares,NASDAQ
 CRMT,"America's Car-Mart, Inc. - Common Stock",NASDAQ
 CRNC,Cerence Inc. - Common Stock,NASDAQ
 CRNT,Ceragon Networks Ltd. - Ordinary Shares,NASDAQ
@@ -1759,8 +1759,6 @@ FCUV,Focus Universal Inc. - Common Stock,NASDAQ
 FCVT,First Trust SSI Strategic Convertible Securities ETF,NASDAQ
 FDBC,"Fidelity D & D Bancorp, Inc. - Common Stock",NASDAQ
 FDCF,Fidelity Disruptive Communications ETF,NASDAQ
-FDFF,Fidelity Disruptive Finance ETF,NASDAQ
-FDIF,Fidelity Disruptors ETF,NASDAQ
 FDIG,Fidelity Crypto Industry and Digital Payments ETF,NASDAQ
 FDIQ,Invesco Bloomberg Financial Data Providers ETF,NASDAQ
 FDIV,MarketDesk Focused U.S. Dividend ETF,NASDAQ
@@ -1868,8 +1866,6 @@ FMACU,Future Money Acquisition Corporation - Units,NASDAQ
 FMAO,"Farmers & Merchants Bancorp, Inc. - Common Stock",NASDAQ
 FMB,First Trust Managed Municipal ETF,NASDAQ
 FMBH,"First Mid Bancshares, Inc. - Common Stock",NASDAQ
-FMED,Fidelity Disruptive Medicine ETF,NASDAQ
-FMET,Fidelity Metaverse ETF,NASDAQ
 FMFC,Kandal M Venture Limited - Class A ordinary Shares,NASDAQ
 FMHI,First Trust Municipal High Income ETF,NASDAQ
 FMNB,Farmers National Banc Corp. - Common Stock,NASDAQ
@@ -2737,7 +2733,6 @@ KALU,Kaiser Aluminum Corporation - Common Stock,NASDAQ
 KARD,"Kardigan, Inc. - Common Stock",NASDAQ
 KARO,Karooooo Ltd. - Ordinary shares,NASDAQ
 KAT,Scharf ETF,NASDAQ
-KAZR,Skyline Builders Group Holding Limited - Class A Ordinary Shares,NASDAQ
 KBON,Karbon Capital Partners Corp. - Class A Ordinary Shares,NASDAQ
 KBONU,Karbon Capital Partners Corp. - Units,NASDAQ
 KBONW,Karbon Capital Partners Corp. - Warrant,NASDAQ
@@ -2963,7 +2958,9 @@ LOT,Lotus Technology Inc. - American Depositary Shares,NASDAQ
 LOTI,Liberty One Tactical Income ETF,NASDAQ
 LOTWW,Lotus Technology Inc. - Warrants,NASDAQ
 LOVE,The Lovesac Company - Common Stock,NASDAQ
+LOVI,Live Oak Acquisition Corp. VI - Class A Ordinary Shares,NASDAQ
 LOVIU,Live Oak Acquisition Corp. VI - Units,NASDAQ
+LOVIW,Live Oak Acquisition Corp. VI - Warrants,NASDAQ
 LPAA,Launch One Acquisition Corp. - Class A Ordinary Shares,NASDAQ
 LPAAU,Launch One Acquisition Corp. - Unit,NASDAQ
 LPAAW,Launch One Acquisition Corp. - Warrant,NASDAQ
@@ -3562,7 +3559,6 @@ NXTC,"NextCure, Inc. - Common Stock",NASDAQ
 NXTG,First Trust Indxx NextG ETF,NASDAQ
 NXTS,Nexentis Technologies Inc. - Common Stock,NASDAQ
 NXTT,Next Technology Holding Inc. - Ordinary Shares,NASDAQ
-NXXT,"NextNRG, Inc. - Common Stock",NASDAQ
 NYAX,Nayax Ltd. - Ordinary Shares,NASDAQ
 NYXH,Nyxoah SA - Ordinary Shares,NASDAQ
 NZAC,State Street SPDR MSCI ACWI Climate Paris Aligned ETF,NASDAQ
@@ -3628,7 +3624,7 @@ OKYO,OKYO Pharma Limited - Ordinary Shares,NASDAQ
 OLB,"The OLB Group, Inc. - Common Stock",NASDAQ
 OLED,Universal Display Corporation - Common Stock,NASDAQ
 OLLI,"Ollie's Bargain Outlet Holdings, Inc. - Common Stock",NASDAQ
-OLMA,"Olema Pharmaceuticals, Inc. - Common Stock",NASDAQ
+OLMA,"Olema Oncology, Inc. - Common Stock",NASDAQ
 OLOX,Olenox Industries Inc. - Common Stock,NASDAQ
 OM,"Outset Medical, Inc. - Common Stock",NASDAQ
 OMAB,Grupo Aeroportuario del Centro Norte S.A.B. de C.V. - American Depositary Shares each representing 8 Series B shares,NASDAQ
@@ -3666,6 +3662,7 @@ OPEN,Opendoor Technologies Inc  - Common Stock,NASDAQ
 OPENL,"Opendoor Technologies Inc  - Series A Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $13.00 per warrant",NASDAQ
 OPENW,"Opendoor Technologies Inc  - Series K Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $9.00 per warrant",NASDAQ
 OPENZ,"Opendoor Technologies Inc  - Series Z Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $17.00 per warrant",NASDAQ
+OPHI,CollPlant Biotechnologies Ltd. - Ordinary Shares,NASDAQ
 OPI,Office Properties Income Trust - Common shares of beneficial interest,NASDAQ
 OPK,"Opko Health, Inc. - Common Stock",NASDAQ
 OPNW,"OpenWorld, Inc. - Common Stock",NASDAQ
@@ -4025,7 +4022,6 @@ PTF,Invesco Dorsey Wright Technology Momentum ETF,NASDAQ
 PTGX,"Protagonist Therapeutics, Inc. - Common Stock",NASDAQ
 PTH,Invesco Dorsey Wright Healthcare Momentum ETF,NASDAQ
 PTIR,GraniteShares 2x Long PLTR Daily ETF,NASDAQ
-PTLE,PTL LTD - Class A Ordinary Shares,NASDAQ
 PTLO,Portillo's Inc. - Class A Common Stock,NASDAQ
 PTN,"Palatin Technologies, Inc. - Common Stock",NASDAQ
 PTNQ,Pacer Trendpilot 100 ETF,NASDAQ
@@ -5366,7 +5362,7 @@ WETO,Wetour Robotics Limited - Ordinary Shares,NASDAQ
 WEYS,"Weyco Group, Inc. - Common Stock",NASDAQ
 WFCF,"Where Food Comes From, Inc. - Common Stock",NASDAQ
 WFF,WF Holding Limited - Ordinary Shares,NASDAQ
-WFRD,Weatherford International plc - Ordinary shares,NASDAQ
+WFRD,Weatherford International Corp - Common Stock,NASDAQ
 WGMI,CoinShares Bitcoin Mining and Digital Power ETF,NASDAQ
 WGS,GeneDx Holdings Corp. - Class A Common Stock,NASDAQ
 WHF,"WhiteHorse Finance, Inc. - Closed End Fund",NASDAQ
@@ -5440,6 +5436,7 @@ WVE,"Wave Life Sciences, Inc. - Common Stock",NASDAQ
 WVVI,"Willamette Valley Vineyards, Inc. - Common Stock",NASDAQ
 WVVIP,"Willamette Valley Vineyards, Inc. - Series A Redeemable Preferred Stock",NASDAQ
 WW,"WW International, Inc.  - Common Stock",NASDAQ
+WWB,Windward Bio Group AG - Common shares,NASDAQ
 WWD,"Woodward, Inc. - Common Stock",NASDAQ
 WXM,WF International Limited - Ordinary Shares,NASDAQ
 WYFI,"WhiteFiber, Inc. - Ordinary Shares",NASDAQ
@@ -5605,6 +5602,7 @@ ZXYZ.A,Nasdaq Symbology Test Common Stock,NASDAQ
 ZXZZT,NASDAQ TEST STOCK,NASDAQ
 ZYBT,Zhengye Biotechnology Holding Limited - Class A Ordinary Shares,NASDAQ
 ZYME,Zymeworks Inc. - Common Stock,NASDAQ
+ZYN,PTL LTD - Class A Ordinary Shares,NASDAQ
 A,"Agilent Technologies, Inc. Common Stock",OTHER
 AA,Alcoa Corporation Common Stock ,OTHER
 AAA,Alternative Access First Priority CLO Bond ETF,OTHER
@@ -6635,6 +6633,7 @@ BWG,BrandywineGLOBAL Global Income Opportunities Fund Inc.,OTHER
 BWIV,Blue Water Acquisition Corp. IV Class A Ordinary Shares,OTHER
 BWIV.U,"Blue Water Acquisition Corp. IV Units, each consisting of one Class A ordinary share and one-half of one redeemable warrant",OTHER
 BWIV.W,Blue Water Acquisition Corp. IV Warrants entitling the holder to purchase one Class A ordinary share at a price of $11.50 per share,OTHER
+BWLB,Brandywine Large Cap ETF,OTHER
 BWLP,BW LPG Limited Common Shares,OTHER
 BWMX,"Betterware de Mexico, S.A.P.I. de C.V. Ordinary Shares",OTHER
 BWQG,BWM Quality Growth ETF,OTHER
@@ -8213,7 +8212,6 @@ FPF,First Trust Intermediate Duration Preferred & Income Fund Common Shares of B
 FPFD,Fidelity Preferred Securities & Income ETF,OTHER
 FPH,"Five Point Holdings, LLC Class A Common Shares",OTHER
 FPI,Farmland Partners Inc. Common Stock,OTHER
-FPRO,Fidelity Real Estate Investment ETF,OTHER
 FPS,"Forgent Power Solutions, Inc. Class A Common Stock",OTHER
 FPSX,Leverage Shares 2X Long FPS Daily ETF,OTHER
 FPWR,First Trust EIP Power Solutions ETF,OTHER
@@ -8473,6 +8471,7 @@ GLED.U,"GalaxyEdge Acquisition Corporation Units, each consisting of one Ordinar
 GLIN,VanEck India Growth Leaders ETF,OTHER
 GLIX,Lazard Listed Infrastructure ETF,OTHER
 GLL,ProShares UltraShort Gold,OTHER
+GLLD,"MicroSectors Gold 3X Leveraged ETNs due January 29, 2043",OTHER
 GLNK,Grayscale Chainlink Trust ETF,OTHER
 GLO,Clough Global Opportunities Fund Common Stock,OTHER
 GLOB,Globant S.A. Common Shares,OTHER
@@ -9445,6 +9444,7 @@ KBE,State Street SPDR S&P Bank ETF,OTHER
 KBFR,Innovator U.S. Small Cap Managed 10 Buffer ETF,OTHER
 KBH,KB Home Common Stock,OTHER
 KBR,"KBR, Inc. Common Stock",OTHER
+KBTY,Guinness Atkinson K-Beauty ETF,OTHER
 KBUF,KraneShares 90% KWEB Defined Outcome January 2027 ETF,OTHER
 KCA.U,"Kensington Capital Acquisition Corp. VI New Units, each consisting of one Class A Ordinary Share and three-quarters of one Class 2 Redeemable Warrant",OTHER
 KCAC.U,"Kensington Capital Acquisition Corp. VI Units, each consisting of one Class A ordinary share, one-quarter of one Class 1 redeemable warrant and three-quarters of one Class 2 redeemable warrant",OTHER
@@ -9522,7 +9522,6 @@ KNOP,KNOT Offshore Partners LP Common Units representing Limited Partner Interes
 KNOV,Innovator U.S. Small Cap Power Buffer ETF - November,OTHER
 KNOW,Fundamentals First ETF,OTHER
 KNRG,Simplify Kayne Anderson Energy and Infrastructure Credit ETF,OTHER
-KNRX,KNOREX LTD. Class A Ordinary Shares,OTHER
 KNSL,"Kinsale Capital Group, Inc. Common Stock",OTHER
 KNTK,Kinetik Holdings Inc. Class A Common Stock,OTHER
 KNX,Knight-Swift Transportation Holdings Inc.,OTHER
@@ -9698,6 +9697,7 @@ LNOK,Defiance Daily Target 2X Long NOK ETF,OTHER
 LOAR,Loar Holdings Inc. Common Stock,OTHER
 LOB,"Live Oak Bancshares, Inc. Common Stock",OTHER
 LOB$A,"Live Oak Bancshares, Inc. Depositary Shares, Each Representing a 1/40th Interest in a Share of 8.375% Fixed Rate Series A Non-Cumulative Perpetual Preferred Stock",OTHER
+LOB$B,"Live Oak Bancshares, Inc. Depositary Shares, Each Representing a 1/40th Interest in a Share of 8.750% Fixed Rate Series B Non-Cumulative Perpetual Preferred Stock",OTHER
 LOCL,Local Bounti Corporation Common Stock,OTHER
 LOCT,Innovator Premium Income 15 Buffer ETF - October,OTHER
 LODE,Comstock Inc. Common Stock,OTHER
@@ -9793,6 +9793,7 @@ MAGA,Truth Social America First ETF,OTHER
 MAGC,Roundhill China Magnificent Seven ETF,OTHER
 MAGG,Madison Aggregate Bond ETF,OTHER
 MAGN,Magnera Corporation Common Stock,OTHER
+MAGP,Roundhill Magnificent Seven Plus ETF,OTHER
 MAGS,Roundhill Magnificent Seven ETF,OTHER
 MAGX,Roundhill Daily 2X Long Magnificent Seven ETF,OTHER
 MAGY,Roundhill Magnificent Seven Covered Call ETF,OTHER
@@ -9859,6 +9860,7 @@ MDCR,Pacer Swan SOS Moderate December ETF,OTHER
 MDEV,First Trust Indxx Medical Devices ETF,OTHER
 MDLV,Morgan Dempsey Large Cap Value ETF,OTHER
 MDPL,Monarch Dividend Plus Index ETF,OTHER
+MDRN,Modern Mining Technology Corp. Common Shares,OTHER
 MDST,Westwood Salient Enhanced Midstream Income ETF,OTHER
 MDT,Medtronic plc. Ordinary Shares,OTHER
 MDU,"MDU Resources Group, Inc. Common Stock (Holding Company)",OTHER
@@ -10306,6 +10308,7 @@ NISM,NYLIM International Small-Mid Cap Equity ETF,OTHER
 NITE,The Nightview Fund NITE,OTHER
 NJAN,Innovator Growth-100 Power Buffer ETF - January,OTHER
 NJNK,Columbia U.S. High Yield ETF,OTHER
+NJPN,Nomura Japan Equity ETF,OTHER
 NJR,NewJersey Resources Corporation Common Stock,OTHER
 NJUL,Innovator Growth-100 Power Buffer ETF - July,OTHER
 NJUN,Innovator Growth-100 Power Buffer ETF - June,OTHER
@@ -11023,6 +11026,7 @@ PSUS,"Pershing Square USA, Ltd. Common Shares",OTHER
 PSX,Phillips 66 Common Stock,OTHER
 PTA,Cohen & Steers Tax-Advantaged Preferred Securities and Income Fund Common Shares of Beneficial Interest,OTHER
 PTBD,Pacer Trendpilot US Bond ETF,OTHER
+PTEST,Nyse Arca Test Symbol,OTHER
 PTEU,Pacer TrendpilotTM European Index ETF,OTHER
 PTHS,Pelthos Therapeutics Inc. Common Stock,OTHER
 PTIN,Pacer Trendpilot International ETF,OTHER
@@ -11660,7 +11664,6 @@ SHEL,Shell PLC American Depositary Shares (each representing two (2) Ordinary Sh
 SHG,Shinhan Financial Group Co Ltd American Depositary Shares,OTHER
 SHLD,Global X Defense Tech ETF,OTHER
 SHM,State Street SPDR Nuveen ICE Short Term Municipal Bond ETF,OTHER
-SHNY,"MicroSectors Gold 3X Leveraged ETNs due January 29, 2043",OTHER
 SHO,"Sunstone Hotel Investors, Inc. Sunstone Hotel Investors, Inc. Common Shares",OTHER
 SHO$H,"Sunstone Hotel Investors, Inc. 6.125% Series H Cumulative Redeemable Preferred Stock",OTHER
 SHO$I,"Sunstone Hotel Investors, Inc. 5.70% Series I Cumulative Redeemable Preferred Stock",OTHER
@@ -12586,7 +12589,6 @@ USEW,Cambria US EW ETF,OTHER
 USFD,US Foods Holding Corp. Common Stock,OTHER
 USFE,First Eagle US Equity ETF,OTHER
 USFR,WisdomTree Floating Rate Treasury Fund,OTHER
-USG,USCF Gold Strategy Plus Income Fund,OTHER
 USGX,Corgi U.S. Growth 2x Daily ETF,OTHER
 USHY,iShares Broad USD High Yield Corporate Bond ETF,OTHER
 USL,United States 12 Month Oil,OTHER
@@ -12681,6 +12683,7 @@ VEGX,International Vegan Climate ETF,OTHER
 VEL,"Velocity Financial, Inc. Common Stock",OTHER
 VELL,Defiance Daily Target 2X Long VELO ETF,OTHER
 VEM,Virtus Emerging Markets Dividend ETF,OTHER
+VEMB,Vanguard Emerging Markets Bond Active ETF,OTHER
 VEMY,Virtus Stone Harbor Emerging Markets High Yield Bond ETF,OTHER
 VENU,Venu Holding Corporation Common Stock,OTHER
 VET,Vermilion Energy Inc. Common (Canada),OTHER
@@ -12820,6 +12823,7 @@ VUSV,Vanguard Wellington U.S. Value Active ETF,OTHER
 VV,Vanguard Morningstar Large-Cap ETF,OTHER
 VVR,Invesco Senior Income Trust Common Stock (DE),OTHER
 VVV,Valvoline Inc. Common Stock,OTHER
+VVVV,vVARDIS Holding AG Class A Ordinary Shares,OTHER
 VVX,"V2X, Inc. Common Stock",OTHER
 VWO,Vanguard FTSE Emerging Markets ETF,OTHER
 VXF,Vanguard Extended Market ETF,OTHER
