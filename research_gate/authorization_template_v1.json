@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "gate_id": "STOCK-PROJECT-RESEARCH-RESUMPTION-v1",
+  "target_repository": "nb788/ChatGPT-stock-lab",
+  "activity_type": "REPLACE_WITH_FROZEN_PRODUCTION_DATA_REFRESH_OR_CONTROLLED_RESEARCH_WORK_PACKET",
+  "status": "REMEDIATION_ONLY",
+  "issued_at_utc": "REPLACE",
+  "expires_at_utc": "REPLACE",
+  "canonical_state_revision": 0,
+  "gate_report_sha256": "REPLACE",
+  "packet_set_sha256": "REPLACE",
+  "packet_sha256": "REPLACE",
+  "packet_id": "REPLACE",
+  "run_id": "REPLACE",
+  "maximum_conclusion": "REPLACE",
+  "allowed_paths": [],
+  "holdout_exposures_created": 0,
+  "changes_signal_or_execution_or_exit_rules": false,
+  "research_output_created": false,
+  "authorization_payload_sha256": "RECOMPUTE_OVER_ALL_OTHER_FIELDS"
+}
