@@ -1,0 +1,71 @@
+name: Guarded historical Stock research entrypoint CI
+
+on:
+  pull_request:
+    paths:
+      - "PROJECT_RESEARCH_RESUME_GATE_POINTER.json"
+      - "scripts/check_stock_research_resume.py"
+      - "scripts/run_guarded_stock_research.py"
+      - "tests/test_stock_research_resume_gate.py"
+      - "tests/test_guarded_stock_research.py"
+      - "docs/GUARDED_STOCK_RESEARCH_ENTRYPOINT.md"
+      - ".github/workflows/guarded_stock_research.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: guarded-stock-research-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12.14"
+      - name: Compile guarded research entrypoint
+        run: python -m compileall -q scripts tests
+      - name: Run gate and guarded-entrypoint tests
+        run: python -m unittest discover -s tests -p 'test_*stock_research*.py' -v
+      - name: Prove historical command never launches without authoritative gate
+        shell: bash
+        run: |
+          rm -f /tmp/research-command-ran
+          set +e
+          python scripts/run_guarded_stock_research.py \
+            --activity HISTORICAL_RESEARCH_OR_BACKTESTING \
+            --receipt /tmp/held-receipt.json \
+            -- python -c "from pathlib import Path; Path('/tmp/research-command-ran').write_text('bad')"
+          rc=$?
+          set -e
+          test "$rc" = 10
+          test ! -e /tmp/research-command-ran
+          python - <<'PY'
+          import json
+          report=json.load(open('/tmp/held-receipt.json'))
+          assert report['status']=='STOCK_RESEARCH_RESUME_HOLD'
+          assert report['allowed'] is False
+          assert report['authoritative_gate_sha256'] is None
+          assert report['may_authorize_orders'] is False
+          assert report['automatic_action_taken'] is False
+          PY
+      - name: Prove remediation can execute under the held project
+        shell: bash
+        run: |
+          python scripts/run_guarded_stock_research.py \
+            --activity REMEDIATION \
+            --receipt /tmp/remediation-receipt.json \
+            -- python -c "print('remediation gate passed')"
+          python - <<'PY'
+          import json
+          report=json.load(open('/tmp/remediation-receipt.json'))
+          assert report['status']=='COMMAND_COMPLETED'
+          assert report['allowed'] is True
+          assert len(report['pointer_sha256'])==64
+          assert len(report['receipt_payload_sha256'])==64
+          PY
