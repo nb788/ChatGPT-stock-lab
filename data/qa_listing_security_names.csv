@@ -975,6 +975,7 @@ CCFE,Concourse Capital Focused Equity ETF,NASDAQ
 CCG,Cheche Group Inc. - Class A Ordinary Shares,NASDAQ
 CCGWW,Cheche Group Inc. - Warrant,NASDAQ
 CCHH,CCH Holdings Ltd - Class A Ordinary Shares,NASDAQ
+CCHP,Global X China Semiconductor ETF,NASDAQ
 CCII,Cohen Circle Acquisition Corp. II - Class A Ordinary Shares,NASDAQ
 CCIIU,Cohen Circle Acquisition Corp. II - Unit,NASDAQ
 CCIIW,Cohen Circle Acquisition Corp. II - Warrant,NASDAQ
@@ -2220,6 +2221,7 @@ GTX,Garrett Motion Inc. - Common Stock,NASDAQ
 GUAC,Berto Acquisition Corp. II - Ordinary Shares,NASDAQ
 GUACU,Berto Acquisition Corp. II - Units,NASDAQ
 GUACW,Berto Acquisition Corp. II - Warrants,NASDAQ
+GUER,"Guerrilla RF, Inc. - Common Stock",NASDAQ
 GURE,"Gulf Resources, Inc. - Common Stock",NASDAQ
 GUSE,Goldman Sachs Enhanced U.S. Equity ETF,NASDAQ
 GUTS,"Fractyl Health, Inc. - Common Stock",NASDAQ
@@ -2617,6 +2619,7 @@ IQGR,Astoria International Quality Growth Kings ETF,NASDAQ
 IQMX,IQM Quantum Computers Oyj - American Depositary Shares,NASDAQ
 IQMXW,IQM Quantum Computers Oyj - Warrants to purchase American Depositary Shares,NASDAQ
 IQQ,iShares Nasdaq 100 ETF,NASDAQ
+IQQI,IncomeQ Nasdaq-100 Premium Income ETF,NASDAQ
 IQQQ,ProShares Nasdaq-100 High Income ETF,NASDAQ
 IQST,iQSTEL Inc. - Common Stock,NASDAQ
 IRD,"Opus Genetics, Inc. - Common Stock",NASDAQ
@@ -3807,7 +3810,6 @@ PCHX,State Street SPDR Nasdaq MyPaycheck ETF,NASDAQ
 PCLA,PicoCELA Inc. - American Depositary Shares,NASDAQ
 PCMM,BondBloxx Private Credit CLO ETF,NASDAQ
 PCPI,PIMCO Inflation PLUS Active Exchange-Traded Fund,NASDAQ
-PCRX,"Pacira BioSciences, Inc. - Common Stock",NASDAQ
 PCSA,"Processa Pharmaceuticals, Inc. - Common Stock",NASDAQ
 PCT,"PureCycle Technologies, Inc. - Common stock",NASDAQ
 PCTTU,"PureCycle Technologies, Inc. - Unit",NASDAQ
@@ -4444,6 +4446,7 @@ SCZ,iShares MSCI EAFE Small-Cap ETF,NASDAQ
 SCZM,Santacruz Silver Mining Ltd. - Common Shares,NASDAQ
 SDA,SunCar Technology Group Inc. - Ordinary Shares,NASDAQ
 SDAWW,SunCar Technology Group Inc. - Warrant,NASDAQ
+SDC,KICK Space Data Center & Infrastructure Index ETF,NASDAQ
 SDG,iShares MSCI Global Sustainable Development Goals ETF,NASDAQ
 SDGR,"Schrodinger, Inc. - Common Stock",NASDAQ
 SDHI,Siddhi Acquisition Corp - Class A Common stock,NASDAQ
@@ -4500,8 +4503,6 @@ SHAZ,"SharonAI Holdings, Inc. - Class A Common Stock",NASDAQ
 SHBI,"Shore Bancshares, Inc. - Common Stock",NASDAQ
 SHC,Sotera Health Company - Common Stock,NASDAQ
 SHEN,Shenandoah Telecommunications Co - Common Stock,NASDAQ
-SHFS,"SHF Holdings, Inc. - Class A Common Stock",NASDAQ
-SHFSW,"SHF Holdings, Inc. - Warrants",NASDAQ
 SHIM,Shimmick Corporation - Common Stock,NASDAQ
 SHIP,Seanergy Maritime Holdings Corp. - Common Stock,NASDAQ
 SHLS,"Shoals Technologies Group, Inc. - Class A Common Stock",NASDAQ
@@ -5940,6 +5941,7 @@ APAM,Artisan Partners Asset Management Inc. Class A Common Stock,OTHER
 APCB,ActivePassive Core Bond ETF,OTHER
 APD,"Air Products and Chemicals, Inc. Common Stock",OTHER
 APDB,Aptus April Deep Buffer ETF,OTHER
+APFS,Artisan Focus Fund: ETF Class Shares,OTHER
 APG,APi Group Corporation Common Stock,OTHER
 APH,Amphenol Corporation Common Stock,OTHER
 APHG,Leverage Shares 2X Long APH Daily ETF,OTHER
@@ -5952,6 +5954,7 @@ APLY,YieldMax AAPL Option Income Strategy ETF,OTHER
 APLZ,Tradr 2X Short APLD Daily ETF,OTHER
 APMI,Corgi AMAT 2x Daily ETF,OTHER
 APMU,ActivePassive Intermediate Municipal Bond ETF,OTHER
+APNX,Artisan Select Equity Fund: ETF Class Shares,OTHER
 APO,"Apollo Global Management, Inc. (New) Common Stock",OTHER
 APOC,Innovator Equity Defined Protection ETF - 6mo Apr/Oct,OTHER
 APOS,"Apollo Global Management, Inc. 7.625% Fixed-Rate Resettable Junior Subordinated Notes due 2053",OTHER
@@ -8502,6 +8505,7 @@ GMEU,T-REX 2X Long GME Daily Target ETF,OTHER
 GMEY,YieldMax GME Option Income Strategy ETF,OTHER
 GMF,State Street SPDR S&P Emerging Asia Pacific ETF,OTHER
 GMIE,"GMO International Equity Fund, ETF Class",OTHER
+GMIX,iShares Macro AlphaBeta Active ETF,OTHER
 GMMA,GammaRoad Market Navigation ETF,OTHER
 GMMF,iShares Government Money Market ETF,OTHER
 GMNY,Goldman Sachs Dynamic New York Municipal Income ETF,OTHER
@@ -8937,7 +8941,6 @@ IBMW,iShares iBonds Dec 2034 Term Muni Bond ETF,OTHER
 IBMX,iShares iBonds Dec 2035 Term Muni Bond ETF,OTHER
 IBN,ICICI Bank Limited Common Stock,OTHER
 IBND,State Street SPDR Bloomberg International Corporate Bond ETF,OTHER
-IBO,"Impact BioMedical, Inc. Common Stock",OTHER
 IBOC,International Bancshares Corporation Common Stock,OTHER
 IBP,"Installed Building Products, Inc. Common Stock",OTHER
 IBRN,iShares Neuroscience and Healthcare ETF,OTHER
@@ -11663,6 +11666,7 @@ SHE,State Street SPDR MSCI USA Gender Diversity ETF,OTHER
 SHEH,Shell plc ADRhedged,OTHER
 SHEL,Shell PLC American Depositary Shares (each representing two (2) Ordinary Shares) ,OTHER
 SHG,Shinhan Financial Group Co Ltd American Depositary Shares,OTHER
+SHLA,Global X Asia Defense Tech ETF,OTHER
 SHLD,Global X Defense Tech ETF,OTHER
 SHM,State Street SPDR Nuveen ICE Short Term Municipal Bond ETF,OTHER
 SHO,"Sunstone Hotel Investors, Inc. Sunstone Hotel Investors, Inc. Common Shares",OTHER
@@ -12357,6 +12361,7 @@ TRGP,"Targa Resources, Inc. Common Stock",OTHER
 TRIL,VegaShares Trillions ETF,OTHER
 TRIN,Trinity Capital Inc. Common Stock,OTHER
 TRIO,MC Trio Equity Buffered ETF,OTHER
+TRLL,Direxion Trillions ETF,OTHER
 TRLV,Trulieve Cannabis Corp. Subordinate Voting Shares,OTHER
 TRN,"Trinity Industries, Inc. Common Stock",OTHER
 TRND,Pacer Trendpilot Fund of Funds ETF,OTHER
@@ -12461,7 +12466,6 @@ TYL,"Tyler Technologies, Inc. Common Stock",OTHER
 TYLD,Cambria Tactical Yield ETF,OTHER
 TYLG,Global X Information Technology Covered Call & Growth ETF,OTHER
 TYO,Direxion Daily 10-Yr Treasury Bear 3x Shrs,OTHER
-TYYY,xETFs TSLA Daily Income ETF,OTHER
 TZA,Direxion Small Cap Bear 3X ETF,OTHER
 U,Unity Software Inc. Common Stock,OTHER
 UA,"Under Armour, Inc. Class C Common Stock",OTHER
@@ -12687,6 +12691,7 @@ VELL,Defiance Daily Target 2X Long VELO ETF,OTHER
 VEM,Virtus Emerging Markets Dividend ETF,OTHER
 VEMB,Vanguard Emerging Markets Bond Active ETF,OTHER
 VEMY,Virtus Stone Harbor Emerging Markets High Yield Bond ETF,OTHER
+VEN,Teucrium Venezuela Future Opportunities ETF,OTHER
 VENU,Venu Holding Corporation Common Stock,OTHER
 VET,Vermilion Energy Inc. Common (Canada),OTHER
 VETZ,Academy Veteran Bond ETF,OTHER
@@ -12823,6 +12828,7 @@ VUSG,Vanguard Wellington U.S. Growth Active ETF,OTHER
 VUSI,Voya Ultra Short Income ETF,OTHER
 VUSV,Vanguard Wellington U.S. Value Active ETF,OTHER
 VV,Vanguard Morningstar Large-Cap ETF,OTHER
+VVPL,Vulcan Value Partners ETF,OTHER
 VVR,Invesco Senior Income Trust Common Stock (DE),OTHER
 VVV,Valvoline Inc. Common Stock,OTHER
 VVVV,vVARDIS Holding AG Class A Ordinary Shares,OTHER
@@ -12986,7 +12992,6 @@ WXET,Teucrium 2x Daily Wheat ETF,OTHER
 WY,Weyerhaeuser Company Common Stock,OTHER
 WYFL,Defiance Daily Target 2X Long WYFI ETF,OTHER
 WYY,WidePoint Corporation Common Stock,OTHER
-WZRD,Opportunistic Trader ETF,OTHER
 XA,Corgi AI Cybersecurity ETF,OTHER
 XAGG,Eaton Vance Income Opportunities ETF,OTHER
 XAGI,Corgi AGIX 2x Daily ETF,OTHER
@@ -13191,6 +13196,7 @@ XZO,"Exzeo Group, Inc. Common Stock",OTHER
 YALA,"Yalla Group Limited American Depositary Shares, each representing one Class A Ordinary Share",OTHER
 YALL,Truth Social God Bless America ETF,OTHER
 YANG,Direxion Daily FTSE China Bear 3X ETF,OTHER
+YASX,Yorkville America Space Index ETF,OTHER
 YBIT,YieldMax Bitcoin Option Income Strategy ETF,OTHER
 YBTC,Roundhill Bitcoin Covered Call Strategy ETF,OTHER
 YCBD,"cbdMD, Inc. Common Stock",OTHER
@@ -13218,6 +13224,7 @@ YMAG,YieldMax Magnificent 7 Fund of Option Income ETFs,OTHER
 YMAR,FT Vest International Equity Moderate Buffer ETF - March,OTHER
 YMAX,YieldMax Universe Fund of Option Income ETFs,OTHER
 YMM,Full Truck Alliance Co. Ltd. American Depositary Shares (each representing 20 Class A Ordinary Shares),OTHER
+YO,Amplify S&P 500 Buffered Autocallable Yield Opportunity ETF,OTHER
 YOLO,AdvisorShares Pure Cannabis ETF,OTHER
 YOU,"Clear Secure, Inc. Class A Common Stock",OTHER
 YPF,YPF Sociedad Anonima American Depositary Shares,OTHER
@@ -13269,6 +13276,7 @@ ZKH,"ZKH Group Limited American Depositary Shares, each representing thirty-five
 ZMAR,Innovator Equity Defined Protection ETF - 1 Yr March,OTHER
 ZMAY,Innovator Equity Defined Protection ETF - 1 Yr May,OTHER
 ZNOV,Innovator Equity Defined Protection ETF - 1 Yr November,OTHER
+ZOAR,Zoar Limited Ordinary Shares,OTHER
 ZOCT,Innovator Equity Defined Protection ETF - 1 Yr October,OTHER
 ZONE,Zone Frontier Inc. Class B Common Stock,OTHER
 ZROZ,PIMCO 25  Year Zero Coupon U.S. Treasury Index Exchange-Traded Fund,OTHER
