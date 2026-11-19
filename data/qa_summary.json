@@ -1,10 +1,10 @@
 {
-  "audited_at_utc": "2026-11-18T18:58:48.446073+00:00",
-  "raw_rows": 97830,
+  "audited_at_utc": "2026-11-19T19:06:41.981191+00:00",
+  "raw_rows": 97833,
   "unique_ciks_in_raw": 825,
   "first_fact_end": "2006-12-31",
   "last_fact_end": "2027-07-17",
-  "acceptance_mapped_rows": 97824,
+  "acceptance_mapped_rows": 97827,
   "acceptance_unmapped_rows": 6,
   "exact_duplicate_rows": 0,
   "dei_conflict_groups": 0,
@@ -19,7 +19,7 @@
       "last_fact": "2027-07-17"
     },
     "10-K": {
-      "rows": 10247,
+      "rows": 10248,
       "unique_ciks": 797,
       "first_fact": "2009-01-29",
       "last_fact": "2026-11-13"
