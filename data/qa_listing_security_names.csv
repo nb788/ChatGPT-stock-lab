@@ -25,6 +25,7 @@ AAPL,Apple Inc. - Common Stock,NASDAQ
 AAPU,Direxion Daily AAPL Bull 2X ETF,NASDAQ
 AARD,"Aardvark Therapeutics, Inc. - Common Stock",NASDAQ
 AAUB,Alpha Architect US Equity 4 ETF,NASDAQ
+AAUD,Alpha Architect US Equity 5 ETF,NASDAQ
 AAUS,Alpha Architect US Equity ETF,NASDAQ
 AAVM,Alpha Architect Global Factor Equity ETF,NASDAQ
 AAXJ,iShares MSCI All Country Asia ex Japan ETF,NASDAQ
@@ -303,7 +304,6 @@ AMLX,"Amylyx Pharmaceuticals, Inc. - Common Stock",NASDAQ
 AMOD,"Alpha Modus Holdings, Inc. - Class A Common Stock",NASDAQ
 AMODW,"Alpha Modus Holdings, Inc. - Warrant",NASDAQ
 AMPG,"Amplitech Group, Inc. - Common Stock",NASDAQ
-AMPGZ,"Amplitech Group, Inc. - Series B Right",NASDAQ
 AMPH,"Amphastar Pharmaceuticals, Inc. - Common Stock",NASDAQ
 AMPL,"Amplitude, Inc. - Class A Common Stock",NASDAQ
 AMRN,Amarin Corporation plc - American Depositary Shares,NASDAQ
@@ -1346,6 +1346,7 @@ CZFS,"Citizens Financial Services, Inc. - Common Stock",NASDAQ
 CZNC,Citizens & Northern Corp - Common Stock,NASDAQ
 CZR,"Caesars Entertainment, Inc. - Common Stock",NASDAQ
 CZWI,"Citizens Community Bancorp, Inc. - Common Stock",NASDAQ
+CZZL,Cizzle Brands Corporation - Common Stock,NASDAQ
 DAAQ,Digital Asset Acquisition Corp. - Class A Ordinary shares,NASDAQ
 DAAQU,Digital Asset Acquisition Corp. - Units,NASDAQ
 DAAQW,Digital Asset Acquisition Corp. - Warrant,NASDAQ
@@ -2643,6 +2644,7 @@ IRWD,"Ironwood Pharmaceuticals, Inc. - Class A Common Stock",NASDAQ
 ISBA,Isabella Bank Corporation - Common stock,NASDAQ
 ISHG,iShares 1-3 Year International Treasury Bond ETF,NASDAQ
 ISHP,First Trust S-Network E-Commerce ETF,NASDAQ
+ISMH,xETFs International Semiconductor ETF,NASDAQ
 ISNR,Snow Rothschild Acquisition Corp. - Class A Ordinary Shares,NASDAQ
 ISNRU,Snow Rothschild Acquisition Corp. - Units,NASDAQ
 ISNRW,Snow Rothschild Acquisition Corp. - Warrants,NASDAQ
@@ -3116,7 +3118,6 @@ MEMA,Man Active Emerging Markets Alternative ETF,NASDAQ
 MEMS,Matthews Emerging Markets Discovery Active ETF,NASDAQ
 MENS,Jyong Biotech Ltd. - Ordinary shares,NASDAQ
 MEOH,Methanex Corporation - Common Stock,NASDAQ
-MERC,Mercer International Inc. - Common Stock,NASDAQ
 MESH,Meshflow Acquisition Corp. - Class A Ordinary Shares,NASDAQ
 MESHU,Meshflow Acquisition Corp. - Units,NASDAQ
 MESHW,Meshflow Acquisition Corp. - Warrants,NASDAQ
@@ -3670,9 +3671,6 @@ OPAL,OPAL Fuels Inc. - Class A Common Stock,NASDAQ
 OPBK,OP Bancorp - Common Stock,NASDAQ
 OPCH,"Option Care Health, Inc. - Common Stock",NASDAQ
 OPEN,Opendoor Technologies Inc  - Common Stock,NASDAQ
-OPENL,"Opendoor Technologies Inc  - Series A Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $13.00 per warrant",NASDAQ
-OPENW,"Opendoor Technologies Inc  - Series K Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $9.00 per warrant",NASDAQ
-OPENZ,"Opendoor Technologies Inc  - Series Z Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $17.00 per warrant",NASDAQ
 OPHI,CollPlant Biotechnologies Ltd. - Ordinary Shares,NASDAQ
 OPI,Office Properties Income Trust - Common shares of beneficial interest,NASDAQ
 OPK,"Opko Health, Inc. - Common Stock",NASDAQ
@@ -9370,7 +9368,7 @@ JOBC,Corgi JOBY 2x Daily ETF,OTHER
 JOBX,Tradr 2X Long JOBY Daily ETF,OTHER
 JOBY,"Joby Aviation, Inc. Common Stock",OTHER
 JOE,St. Joe Company (The) Common Stock,OTHER
-JOET,Virtus Terranova U.S. Quality Momentum ETF,OTHER
+JOET,Virtus NYSE Terranova U.S. Quality Momentum ETF,OTHER
 JOF,Japan Smaller Capitalization Fund Inc Common Stock,OTHER
 JOJO,ATAC Credit Rotation ETF,OTHER
 JOUL,Corgi High Voltage Grid Equipment ETF,OTHER
@@ -10590,7 +10588,6 @@ ONTX,Corgi ONTO 2x Daily ETF,OTHER
 ONX,Tradr 2X Long ON Daily ETF,OTHER
 OOMA,"Ooma, Inc. Common Stock",OTHER
 OOSP,Obra Opportunistic Structured Products ETF,OTHER
-OPAY,"OPay Limited American Depositary Shares, each representing ten Ordinary Shares",OTHER
 OPER,ETF ClearShares Ultra-Short Maturity ETF,OTHER
 OPEX,Tradr 2X Long OPEN Daily ETF,OTHER
 OPFI,OppFi Inc. Class A Common Stock,OTHER
@@ -11852,6 +11849,7 @@ SOLM,Amplify Solana 3% Monthly Option Income ETF,OTHER
 SOLV,Solventum Corporation Common Stock,OTHER
 SOMN,Southern Company (The) 2025 Series A Corporate Units,OTHER
 SON,Sonoco Products Company Common Stock,OTHER
+SONN,Southern Company (The) 2026 Series A Corporate Units,OTHER
 SONY,Sony Group Corporation American Depositary Shares ,OTHER
 SOR,"Source Capital, Inc. Cmn Shs of BI",OTHER
 SOS,SOS Limited Class A Ordinary Shares,OTHER
@@ -12628,7 +12626,6 @@ UTG,Reaves Utility Income Fund Common Shares of Beneficial Interest,OTHER
 UTI,Universal Technical Institute Inc Common Stock,OTHER
 UTL,UNITIL Corporation Common Stock,OTHER
 UTSL,Direxion Daily Utilities Bull 3X ETF,OTHER
-UTZ,Utz Brands Inc Class A Common Stock ,OTHER
 UUP,Invesco DB USD Index Bullish Fund ETF,OTHER
 UUPP,Principal CLO ETF,OTHER
 UUUC,Corgi UUUU 2x Daily ETF,OTHER
@@ -13223,6 +13220,7 @@ YGLD,Simplify Gold Strategy ETF,OTHER
 YINN,Direxion Daily FTSE China Bull 3X ETF,OTHER
 YJUN,FT Vest International Equity Moderate Buffer ETF - June,OTHER
 YLD,Principal Active High Yield ETF,OTHER
+YLDS,Harbor Arena Structured Income ETF,OTHER
 YLDW,Westwood Enhanced Income Opportunity ETF,OTHER
 YLDY,Horizon High Income ETF,OTHER
 YMAG,YieldMax Magnificent 7 Fund of Option Income ETFs,OTHER
